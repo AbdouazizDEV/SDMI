@@ -1,19 +1,21 @@
 #!/usr/bin/env node
 /**
- * Télécharge les visuels produit (gammes vannes opercule pétrole) depuis le catalogue fabricant.
- * Usage: node scripts/sync-petroleum-gate-images.mjs
+ * Visuels gammes — robinets soupape / soufflet pétrole forgé–moulé.
+ * Fusionne le manifeste existant (opercule). Usage: node scripts/sync-petroleum-globe-bellows-images.mjs
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const outDir = path.join(root, "public", "images", "catalog", "petroleum-gate");
+const outDir = path.join(root, "public", "images", "catalog", "petroleum-globe-bellows");
 const manifestPath = path.join(root, "lib", "catalog", "catalog-range-images.generated.json");
 
 const REFERENCES = [
-  "111", "115", "112", "113", "114", "117", "116", "130", "131",
-  "119", "118", "121", "120", "122", "123", "152", "153", "145", "143", "144",
+  "402", "403", "404",
+  "405", "406", "412", "413", "414", "416", "417", "418", "419", "420", "421", "422", "423",
+  "440", "441", "452", "453",
+  "443", "444", "471",
 ];
 
 fs.mkdirSync(outDir, { recursive: true });
@@ -32,16 +34,12 @@ function pickProductUrl(html, reference) {
   const all = [
     ...html.matchAll(
       new RegExp(
-        `href="(https://www\\.sferaco\\.com/fr/${reference}-vanne-a-opercule[^"]*\\.html)"`,
+        `href="(https://www\\.sferaco\\.com/fr/${reference}-robinet-a-soupape[^"]*\\.html)"`,
         "gi",
       ),
     ),
   ].map((m) => m[1]);
-  if (!all.length) {
-    return null;
-  }
-  const preferred = all.find((url) => /forge|moule|class/i.test(url));
-  return preferred ?? all[0];
+  return all[0] ?? null;
 }
 
 function pickImageUrl(html) {
@@ -75,7 +73,7 @@ const manifest = { ...prior };
 
 for (const reference of REFERENCES) {
   try {
-    const searchUrl = `https://www.sferaco.com/fr/catalogsearch/result/?q=${encodeURIComponent(`${reference} vanne opercule`)}`;
+    const searchUrl = `https://www.sferaco.com/fr/catalogsearch/result/?q=${encodeURIComponent(`${reference} robinet soupape`)}`;
     const searchHtml = await fetchText(searchUrl);
     const productUrl = pickProductUrl(searchHtml, reference);
     if (!productUrl) {
@@ -92,7 +90,7 @@ for (const reference of REFERENCES) {
     const fileName = `${reference}${ext}`;
     const dest = path.join(outDir, fileName);
     const bytes = await download(imageUrl, dest);
-    manifest[reference] = `/images/catalog/petroleum-gate/${fileName}`;
+    manifest[reference] = `/images/catalog/petroleum-globe-bellows/${fileName}`;
     console.log("ok", reference, bytes, "bytes", fileName);
   } catch (err) {
     console.warn("fail", reference, err.message);
@@ -100,4 +98,4 @@ for (const reference of REFERENCES) {
 }
 
 fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-console.log("manifest", manifestPath, Object.keys(manifest).length, "entries");
+console.log("manifest", manifestPath, Object.keys(manifest).length, "entries total");

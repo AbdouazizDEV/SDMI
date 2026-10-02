@@ -15,7 +15,7 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "vannes-operucle-petrole-forge-moule":
     "/images/catalog/taxonomy/vannes-operucle-petrole-forge-moule.jpg",
   "robinets-petrole-soufflet-soupapes-forge-moule":
-    "/images/subfamilies/robinets-a-soupape.jpg",
+    "/images/catalog/taxonomy/robinets-petrole-soufflet-soupapes-forge-moule.jpg",
   "robinets-pointeau-petrole-forge-moule":
     "/images/subfamilies/vannes-a-pointeau.jpg",
   "filtres-petrole-forge-moule": "/images/subfamilies/filtres-a-tamis.jpg",
