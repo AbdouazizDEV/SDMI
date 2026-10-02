@@ -29,6 +29,7 @@ export async function CatalogProductPage({
   const imagePath = resolveProductShowcaseImage(
     product.subfamilySlug,
     product.familySlug,
+    { reference: product.reference, productSlug: product.slug },
   );
 
   const isRange = product.listingKind === "range";

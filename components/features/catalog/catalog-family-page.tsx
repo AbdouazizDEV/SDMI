@@ -7,6 +7,7 @@ import { PageMain } from "@/components/layout/page-main";
 import { MediaLinkCard } from "@/components/patterns/media-link-card";
 import { CatalogSubfamilyEmpty } from "@/components/features/catalog/catalog-subfamily-empty";
 import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
+import { isCatalogSubfamilyBrowseable } from "@/lib/catalog/catalog-readiness";
 import type { CatalogNavFamily } from "@/lib/catalog/navigation";
 import { pickLocalized } from "@/lib/home/pick-localized";
 import type { SiteLocale } from "@/lib/site";
@@ -82,14 +83,22 @@ export async function CatalogFamilyPage({ family }: CatalogFamilyPageProps) {
             {family.subfamilies.map((sub) => {
               const title = pickLocalized(sub.name, locale);
               const imagePath = resolveProductShowcaseImage(sub.slug, family.slug);
+              const browseable = isCatalogSubfamilyBrowseable(sub.slug);
+              const soonLabel = t("comingSoon");
 
               return (
                 <li key={sub.slug} className="h-full min-w-0">
                   <MediaLinkCard
-                    href={`/produits/${family.slug}/${sub.slug}`}
+                    href={
+                      browseable
+                        ? `/produits/${family.slug}/${sub.slug}`
+                        : undefined
+                    }
+                    disabled={!browseable}
+                    disabledHint={soonLabel}
                     title={title}
                     titleClassName="text-xs leading-snug md:text-sm"
-                    footerLinkLabel={t("viewProduct")}
+                    footerLinkLabel={browseable ? t("viewProduct") : undefined}
                     media={
                       <CatalogTaxonomyMedia
                         storagePath={imagePath}

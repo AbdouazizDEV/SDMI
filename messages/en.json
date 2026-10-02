@@ -46,6 +46,7 @@
     "megaMenuSubfamilies": "Sub-families",
     "megaMenuSectors": "By sector",
     "megaMenuAllProducts": "View full catalog",
+    "navComingSoon": "Soon",
     "nav": {
       "home": "Home",
       "products": "Our products",
@@ -206,14 +207,16 @@
       "title": "Our industrial product families",
       "description": "Components sourced to DESP, API, DIN and ASME standards.",
       "referenceCount": "{count, plural, =0 {Full catalog} one {# reference} other {# references}}",
-      "explore": "Explore"
+      "explore": "Explore",
+      "comingSoon": "Coming soon"
     },
     "subfamilies": {
       "title": "Our ranges",
       "description": "Browse the SDMI catalog by family and subfamily — Dakar depot availability.",
       "readMore": "Read more",
       "viewFamily": "View family",
-      "familyLabel": "Family {index}"
+      "familyLabel": "Family {index}",
+      "comingSoon": "Coming soon"
     },
     "documentation": {
       "title": "Technical documentation",
@@ -321,6 +324,7 @@
     "dnOnConfiguration": "Per spec",
     "quoteOnConfiguration": "Quote by configuration (DN, class, material)",
     "documentationCta": "Documentation",
+    "comingSoon": "Coming soon",
     "viewProduct": "View",
     "productDetail": {
       "specsTitle": "Technical specifications",

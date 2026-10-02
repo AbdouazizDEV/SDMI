@@ -7,6 +7,10 @@ import { useState } from "react";
 import { NavPendingLink } from "@/components/layout/nav-pending-link";
 import { Link, usePathname } from "@/i18n/navigation";
 import {
+  isCatalogFamilyBrowseable,
+  isCatalogSubfamilyBrowseable,
+} from "@/lib/catalog/catalog-readiness";
+import {
   pickCatalogLabel,
   type CatalogNavigation,
 } from "@/lib/catalog/navigation";
@@ -48,6 +52,7 @@ export function MainNavigation({
     catalog.families[0];
 
   const isVertical = orientation === "vertical";
+  const comingSoonLabel = t("navComingSoon");
 
   function isActive(href: string) {
     if (href === "/") return pathname === "/";
@@ -153,19 +158,35 @@ export function MainNavigation({
                   </p>
                   {activeFamilyData?.subfamilies.length ? (
                     <ul className="space-y-1">
-                      {activeFamilyData.subfamilies.map((sub) => (
-                        <li key={sub.slug}>
-                          <Link
-                            href={`/produits/${activeFamilyData.slug}/${sub.slug}`}
-                            className="hover:bg-muted block rounded-sm px-2 py-1.5 text-sm"
-                            onClick={onNavigate}
-                          >
-                            {pickCatalogLabel(sub.name, locale)}
-                          </Link>
-                        </li>
-                      ))}
+                      {activeFamilyData.subfamilies.map((sub) => {
+                        const open = isCatalogSubfamilyBrowseable(sub.slug);
+                        return (
+                          <li key={sub.slug}>
+                            {open ? (
+                              <Link
+                                href={`/produits/${activeFamilyData.slug}/${sub.slug}`}
+                                className="hover:bg-muted block rounded-sm px-2 py-1.5 text-sm"
+                                onClick={onNavigate}
+                              >
+                                {pickCatalogLabel(sub.name, locale)}
+                              </Link>
+                            ) : (
+                              <span
+                                className="text-muted-foreground block cursor-not-allowed rounded-sm px-2 py-1.5 text-sm"
+                                aria-disabled="true"
+                                title={comingSoonLabel}
+                              >
+                                {pickCatalogLabel(sub.name, locale)}
+                                <span className="ml-1.5 text-[10px] font-bold tracking-wide uppercase">
+                                  ({comingSoonLabel})
+                                </span>
+                              </span>
+                            )}
+                          </li>
+                        );
+                      })}
                     </ul>
-                  ) : (
+                  ) : isCatalogFamilyBrowseable(activeFamilyData?.slug ?? "") ? (
                     <Link
                       href={`/produits/${activeFamilyData?.slug ?? ""}`}
                       className="hover:bg-muted block rounded-sm px-2 py-1.5 text-sm"
@@ -173,6 +194,8 @@ export function MainNavigation({
                     >
                       {pickCatalogLabel(activeFamilyData?.name ?? { fr: "", en: "" }, locale)}
                     </Link>
+                  ) : (
+                    <p className="text-muted-foreground px-2 py-1.5 text-sm">{comingSoonLabel}</p>
                   )}
                 </div>
 

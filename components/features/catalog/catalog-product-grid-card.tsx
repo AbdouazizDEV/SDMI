@@ -5,7 +5,6 @@ import { FileTextIcon } from "lucide-react";
 import { AddToQuoteButton } from "@/components/features/quote/add-to-quote-button";
 import { StorageMedia } from "@/components/features/home/storage-media";
 import { Link } from "@/i18n/navigation";
-import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
 import type { LocalizedText } from "@/types/localized";
 
 export type CatalogBrowseProductDto = {
@@ -30,6 +29,7 @@ export type CatalogBrowseProductDto = {
   trim: string | null;
   connectionLabel: string | null;
   documentCount: number;
+  imagePath: string | null;
 };
 
 type CatalogProductGridCardProps = {
@@ -60,10 +60,7 @@ export function CatalogProductGridCard({
   quoteOnConfigurationLabel,
 }: CatalogProductGridCardProps) {
   const isRange = product.listingKind === "range";
-  const imagePath = resolveProductShowcaseImage(
-    product.subfamilySlug,
-    product.familySlug,
-  );
+  const imagePath = product.imagePath;
 
   return (
     <article className="sdmi-surface-card sdmi-surface-card-accent flex h-full flex-col overflow-hidden bg-card">

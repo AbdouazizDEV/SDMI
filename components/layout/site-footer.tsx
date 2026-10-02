@@ -3,6 +3,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 
 import { SiteLogo } from "@/components/layout/site-logo";
 import { Link } from "@/i18n/navigation";
+import { isCatalogFamilyBrowseable } from "@/lib/catalog/catalog-readiness";
 import {
   pickCatalogLabel,
   type CatalogNavigation,
@@ -31,16 +32,26 @@ export async function SiteFooter({ catalog }: SiteFooterProps) {
             {t("productFamiliesTitle")}
           </h2>
           <ul className="space-y-2 text-sm">
-            {catalog.families.map((family) => (
-              <li key={family.slug}>
-                <Link
-                  href={`/produits/${family.slug}`}
-                  className="hover:text-cta underline-offset-2 hover:underline"
-                >
-                  {pickCatalogLabel(family.name, locale)}
-                </Link>
-              </li>
-            ))}
+            {catalog.families.map((family) => {
+              const label = pickCatalogLabel(family.name, locale);
+              const open = isCatalogFamilyBrowseable(family.slug);
+              return (
+                <li key={family.slug}>
+                  {open ? (
+                    <Link
+                      href={`/produits/${family.slug}`}
+                      className="hover:text-cta underline-offset-2 hover:underline"
+                    >
+                      {label}
+                    </Link>
+                  ) : (
+                    <span className="text-primary-foreground/55 cursor-not-allowed" aria-disabled>
+                      {label}
+                    </span>
+                  )}
+                </li>
+              );
+            })}
           </ul>
         </section>
 

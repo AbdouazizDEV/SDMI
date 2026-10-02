@@ -7,6 +7,10 @@ import { MediaLinkCard } from "@/components/patterns/media-link-card";
 import { SectionShell } from "@/components/patterns/section-shell";
 import { Link } from "@/i18n/navigation";
 import {
+  isCatalogFamilyBrowseable,
+  isCatalogSubfamilyBrowseable,
+} from "@/lib/catalog/catalog-readiness";
+import {
   catalogNavigationForShell,
   pickCatalogLabel,
 } from "@/lib/catalog/navigation";
@@ -31,6 +35,8 @@ export async function HomeSubfamiliesSection() {
           .filter((family) => family.subfamilies.length > 0)
           .map((family, index) => {
           const familyName = pickCatalogLabel(family.name, locale);
+          const familyBrowseable = isCatalogFamilyBrowseable(family.slug);
+          const soonLabel = t("subfamilies.comingSoon");
 
           return (
             <section
@@ -51,35 +57,54 @@ export async function HomeSubfamiliesSection() {
                     id={`home-subfamilies-${family.slug}`}
                     className="font-heading text-primary text-xl font-bold tracking-tight uppercase md:text-2xl"
                   >
-                    <Link
-                      href={`/produits/${family.slug}`}
-                      className="hover:text-cta inline-flex items-center gap-2 transition-colors"
-                    >
-                      {familyName}
-                      <ArrowUpRightIcon aria-hidden className="text-cta size-5" />
-                    </Link>
+                    {familyBrowseable ? (
+                      <Link
+                        href={`/produits/${family.slug}`}
+                        className="hover:text-cta inline-flex items-center gap-2 transition-colors"
+                      >
+                        {familyName}
+                        <ArrowUpRightIcon aria-hidden className="text-cta size-5" />
+                      </Link>
+                    ) : (
+                      <span>{familyName}</span>
+                    )}
                   </h3>
                 </div>
-                <Link
-                  href={`/produits/${family.slug}`}
-                  className="text-primary hover:text-cta text-sm font-semibold tracking-wide uppercase transition-colors"
-                >
-                  {t("subfamilies.viewFamily")}
-                </Link>
+                {familyBrowseable ? (
+                  <Link
+                    href={`/produits/${family.slug}`}
+                    className="text-primary hover:text-cta text-sm font-semibold tracking-wide uppercase transition-colors"
+                  >
+                    {t("subfamilies.viewFamily")}
+                  </Link>
+                ) : (
+                  <span className="text-muted-foreground text-sm font-semibold tracking-wide uppercase">
+                    {soonLabel}
+                  </span>
+                )}
               </div>
 
               <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
                 {family.subfamilies.map((sub) => {
                   const imagePath = resolveProductShowcaseImage(sub.slug, family.slug);
                   const title = pickCatalogLabel(sub.name, locale);
+                  const subBrowseable = isCatalogSubfamilyBrowseable(sub.slug);
 
                   return (
                     <li key={sub.slug} className="h-full">
                       <MediaLinkCard
-                        href={`/produits/${family.slug}/${sub.slug}`}
+                        href={
+                          subBrowseable
+                            ? `/produits/${family.slug}/${sub.slug}`
+                            : undefined
+                        }
+                        disabled={!subBrowseable}
+                        disabledHint={soonLabel}
                         title={title}
                         titleClassName="text-xs leading-snug md:text-sm"
-                        footerLinkLabel={t("subfamilies.readMore")}
+                        footerLinkLabel={
+                          subBrowseable ? t("subfamilies.readMore") : undefined
+                        }
                         media={
                           <div className="relative aspect-4/3 bg-gradient-to-br from-white via-slate-50/80 to-primary/5">
                             {imagePath ? (

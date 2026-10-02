@@ -3,6 +3,7 @@ import {
   formatPn,
   type CatalogProductListItem,
 } from "@/lib/catalog/catalog-product";
+import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
 import type { CatalogProductFacets } from "@/lib/catalog/catalog-facets";
 import {
   findSeedBySlug,
@@ -298,6 +299,10 @@ export function toBrowseProductCard(
     trim: product.technicalSpecs?.trim ?? null,
     connectionLabel,
     documentCount: product.technicalSpecs?.documentCount ?? 0,
+    imagePath: resolveProductShowcaseImage(product.subfamilySlug, product.familySlug, {
+      reference: product.reference,
+      productSlug: product.slug,
+    }),
   };
 }
 

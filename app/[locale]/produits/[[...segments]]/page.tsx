@@ -7,6 +7,10 @@ import { CatalogProductPage } from "@/components/features/catalog/catalog-produc
 import { CatalogSubfamilyPage } from "@/components/features/catalog/catalog-subfamily-page";
 import { getProductBySlug } from "@/lib/catalog/get-catalog-products";
 import { getCatalogNavigation } from "@/lib/catalog/navigation";
+import {
+  isCatalogFamilyBrowseable,
+  isCatalogSubfamilyBrowseable,
+} from "@/lib/catalog/catalog-readiness";
 import { resolveCatalogPath } from "@/lib/catalog/resolve-catalog-path";
 import { pickLocalized } from "@/lib/home/pick-localized";
 import type { SiteLocale } from "@/lib/site";
@@ -32,6 +36,9 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
     if (!resolved || resolved.kind !== "subfamily") {
       notFound();
     }
+    if (!isCatalogSubfamilyBrowseable(resolved.subfamilySlug)) {
+      notFound();
+    }
     const product = await getProductBySlug(productSlug);
     if (
       !product ||
@@ -52,6 +59,9 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
   if (segments.length === 1) {
     const resolved = await resolveCatalogPath(segments);
     if (resolved?.kind === "family") {
+      if (!isCatalogFamilyBrowseable(resolved.family.slug)) {
+        notFound();
+      }
       return <CatalogFamilyPage family={resolved.family} />;
     }
 
@@ -78,6 +88,9 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
   if (segments.length === 2) {
     const resolved = await resolveCatalogPath(segments);
     if (!resolved || resolved.kind !== "subfamily") {
+      notFound();
+    }
+    if (!isCatalogSubfamilyBrowseable(resolved.subfamilySlug)) {
       notFound();
     }
     return (

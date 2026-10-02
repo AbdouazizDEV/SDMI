@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/features/home/section-heading";
 import { StorageMedia } from "@/components/features/home/storage-media";
 import { MediaLinkCard } from "@/components/patterns/media-link-card";
 import { SectionShell } from "@/components/patterns/section-shell";
+import { isCatalogFamilyBrowseable } from "@/lib/catalog/catalog-readiness";
 import type { HomeFamilyCard } from "@/lib/home/get-home-page-data";
 import { pickLocalized } from "@/lib/home/pick-localized";
 import type { SiteLocale } from "@/lib/site";
@@ -31,12 +32,17 @@ export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps
             count: family.productCount,
           });
 
+          const browseable = isCatalogFamilyBrowseable(family.slug);
+          const soonLabel = t("families.comingSoon");
+
           return (
             <li key={family.slug} className="h-full">
               <MediaLinkCard
-                href={`/produits/${family.slug}`}
+                href={browseable ? `/produits/${family.slug}` : undefined}
+                disabled={!browseable}
+                disabledHint={soonLabel}
                 title={title}
-                footerLinkLabel={t("families.explore")}
+                footerLinkLabel={browseable ? t("families.explore") : undefined}
                 media={
                   <StorageMedia
                     storagePath={family.imageStoragePath}

@@ -2,14 +2,33 @@ import {
   getCatalogV1FamilyImage,
   getCatalogV1SubfamilyImage,
 } from "@/lib/catalog/catalog-v1-assets";
+import { getCatalogRangeImage } from "@/lib/catalog/catalog-range-images";
+import { findSeedBySlug } from "@/lib/catalog/catalog-seeds";
 import { getLegacySubfamilyImage } from "@/lib/images/legacy-subfamily-images";
 import { siteAssets } from "@/lib/images/site-assets";
 
-/** Image vitrine : sous-famille v1 / legacy, sinon famille. */
+export type ProductShowcaseImageContext = {
+  reference?: string;
+  productSlug?: string;
+};
+
+/** Image vitrine : série / slug produit, sous-famille v1 / legacy, sinon famille. */
 export function resolveProductShowcaseImage(
   subfamilySlug?: string,
   familySlug?: string,
+  context?: ProductShowcaseImageContext,
 ): string | null {
+  const reference =
+    context?.reference ??
+    (context?.productSlug ? findSeedBySlug(context.productSlug)?.reference : undefined);
+
+  if (reference) {
+    const rangeImage = getCatalogRangeImage(reference);
+    if (rangeImage) {
+      return rangeImage;
+    }
+  }
+
   if (subfamilySlug) {
     const v1Sub = getCatalogV1SubfamilyImage(subfamilySlug);
     if (v1Sub) {

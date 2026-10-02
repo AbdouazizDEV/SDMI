@@ -11,6 +11,7 @@ import { PatternSectionHeading } from "@/components/patterns/section-heading";
 import { Link } from "@/i18n/navigation";
 import { buildCatalogGridCardLabels } from "@/lib/catalog/catalog-grid-labels";
 import { listAllDemoOrMergedProducts, toBrowseProductCard } from "@/lib/catalog/get-catalog-products";
+import { isCatalogFamilyBrowseable } from "@/lib/catalog/catalog-readiness";
 import { getCatalogNavigation } from "@/lib/catalog/navigation";
 import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
 import { pickLocalized } from "@/lib/home/pick-localized";
@@ -131,15 +132,19 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
             {navigation.families.map((family) => {
               const title = pickLocalized(family.name, locale);
               const imagePath = resolveProductShowcaseImage(undefined, family.slug);
+              const browseable = isCatalogFamilyBrowseable(family.slug);
+              const soonLabel = t("comingSoon");
               return (
                 <li key={family.slug}>
                   <MediaLinkCard
-                    href={`/produits/${family.slug}`}
+                    href={browseable ? `/produits/${family.slug}` : undefined}
+                    disabled={!browseable}
+                    disabledHint={soonLabel}
                     title={title}
                     description={t("familyCardHint", {
                       count: family.subfamilies.length,
                     })}
-                    footerLinkLabel={t("viewProduct")}
+                    footerLinkLabel={browseable ? t("viewProduct") : undefined}
                     media={
                       <CatalogTaxonomyMedia
                         storagePath={imagePath}

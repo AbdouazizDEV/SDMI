@@ -38,7 +38,10 @@ export function ProductShowcaseCard({
   const description = pickLocalized(product.description, locale);
   const imagePath =
     product.imageStoragePath ??
-    resolveProductShowcaseImage(product.subfamilySlug, product.familySlug);
+    resolveProductShowcaseImage(product.subfamilySlug, product.familySlug, {
+      reference: product.reference,
+      productSlug: product.slug,
+    });
 
   return (
     <article className="sdmi-surface-card sdmi-surface-card-accent group flex h-full flex-col">
