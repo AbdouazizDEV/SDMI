@@ -1,0 +1,580 @@
+{
+  "Metadata": {
+    "title": "SDMI | Accueil",
+    "description": "Sénégalaise de distribution de matériels industriels — robinetterie, accessoires de tuyauterie, filtres, mesures et raccords à Dakar.",
+    "siteName": "SDMI"
+  },
+  "Layout": {
+    "topBar": {
+      "addressLabel": "Adresse",
+      "phoneLabel": "Téléphone",
+      "emailLabel": "E-mail"
+    },
+    "skipToContent": "Aller au contenu",
+    "logoLabel": "SDMI — Accueil",
+    "logoTaglineLine1": "Sénégalaise de distribution",
+    "logoTaglineLine2": "de matériels industriels",
+    "searchLabel": "Rechercher dans le catalogue",
+    "searchPlaceholder": "Rechercher une référence, un DN, une norme…",
+    "searchSubmit": "Lancer la recherche",
+    "searchSubmitButton": "Rechercher",
+    "searchCategoryLabel": "Catégorie",
+    "searchCategoryAll": "Toutes catégories",
+    "searchCategoryValves": "Robinetterie",
+    "searchCategoryFittings": "Raccords",
+    "searchCategoryInstrumentation": "Instrumentation",
+    "quoteCtaShort": "Devis",
+    "quoteReferenceBadge": "{count} réf.",
+    "searchNoResults": "Aucun produit trouvé",
+    "dnLabel": "DN {value}",
+    "searchLoading": "Recherche en cours…",
+    "phoneLabel": "Téléphone",
+    "phoneSecondaryLabel": "Téléphone",
+    "whatsappLabel": "Contacter SDMI sur WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "quoteCta": "Demander un devis",
+    "mobileActionsLabel": "Actions rapides",
+    "languageSwitcher": "Choisir la langue du site",
+    "localeFr": "Français",
+    "localeEn": "English",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu",
+    "openSearch": "Ouvrir la recherche",
+    "mainNavLabel": "Navigation principale",
+    "productsMegaMenuLabel": "Parcourir nos produits",
+    "megaMenuFamilies": "Par famille",
+    "megaMenuSubfamilies": "Sous-familles",
+    "megaMenuSectors": "Par secteur",
+    "megaMenuAllProducts": "Voir tout le catalogue",
+    "nav": {
+      "home": "Accueil",
+      "products": "Nos produits",
+      "sectors": "Secteurs d'activité",
+      "documentation": "Documentation technique & Certificats",
+      "about": "A propos de nous",
+      "contact": "Contact & Agence Dakar",
+      "accountLabel": "Contact agence"
+    },
+    "footer": {
+      "productFamiliesTitle": "Nos Produits",
+      "companyTitle": "Entreprise",
+      "legalTitle": "Légal",
+      "contactTitle": "Contact",
+      "about": "A propos de nous",
+      "certifications": "Certifications",
+      "careers": "Nous rejoindre",
+      "legalNotice": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales de vente",
+      "addressLine1": "Bopp rue 2 x Casamance",
+      "addressLine2": "BP 3134 RP",
+      "addressCity": "Dakar, Sénégal",
+      "hoursTitle": "Horaires",
+      "hoursWeek": "",
+      "hoursSaturday": "",
+      "emailLabel": "E-mail",
+      "copyright": "{year} © Tous droits réservés SDMI"
+    }
+  },
+  "NotFound": {
+    "title": "Page introuvable",
+    "description": "La page demandée n'existe pas ou a été déplacée.",
+    "homeCta": "Accueil",
+    "catalogCta": "Nos Produits"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Dakar Km 4,5 • Distributeur agréé DIN / ANSI / ISO",
+      "title": "Le partenaire de référence en robinetterie & matériel industriel au Sénégal",
+      "subtitle": "Plus de 12 000 références en stock à Dakar : vannes, raccords, brides, instrumentation et dispositifs incendie pour industries minières, chimiques, offshore et pétrolières.",
+      "carousel": {
+        "slides": {
+          "stockDakar": "Stock robinetterie — dépôt SDMI Dakar",
+          "oilGas": "Circuit eau, pétrole et gaz",
+          "industrialValves": "Robinetterie industrielle",
+          "foodIndustry": "Industrie agro-alimentaire",
+          "fireSafety": "Tuyauterie et matériels incendie"
+        }
+      },
+      "quoteCta": "Demande de cotation rapide",
+      "catalogCta": "Accéder au catalogue technique",
+      "whatsappCta": "WhatsApp stock"
+    },
+    "trust": {
+      "stockDakar": {
+        "title": "Stock à Dakar",
+        "description": "Références prêtes à l'enlèvement — dépôt SDMI"
+      },
+      "quote24h": {
+        "title": "Devis sous 24 h",
+        "description": "Chiffrage réactif et réponses aux appels d'offres"
+      },
+      "certified": {
+        "title": "Certifié ISO & CE",
+        "description": "Traçabilité et conformité des fournitures"
+      }
+    },
+    "stockSelector": {
+      "title": "Sélecteur rapide de stock par caractéristiques techniques",
+      "familyLabel": "1. Type de matériel",
+      "dnLabel": "2. Diamètre (DN / Ø)",
+      "pressureLabel": "3. Pression de service",
+      "materialLabel": "4. Métallurgie / Matière",
+      "filterCta": "Filtrer le stock",
+      "filterCtaDakar": "Filtrer le stock Dakar",
+      "catalogPdfCta": "Télécharger le catalogue PDF",
+      "familyOptions": {
+        "all": "Toutes familles",
+        "vannes-boisseau": "Vannes à boisseau sphérique",
+        "vannes-papillon": "Vannes papillon",
+        "clapets": "Clapets anti-retour",
+        "filtration": "Filtration industrielle",
+        "raccords": "Raccords & brides"
+      },
+      "dnOptions": {
+        "all": "Tous diamètres",
+        "dn15-50": "DN15 – DN50",
+        "dn65-150": "DN65 – DN150",
+        "dn200-600": "DN200 – DN600",
+        "dn600plus": "DN600 +"
+      },
+      "pressureOptions": {
+        "all": "Toutes pressions",
+        "pn10-16": "PN10 / PN16",
+        "pn25-40": "PN25 / PN40",
+        "pn63plus": "PN63 et +",
+        "class150": "Class 150 / 300"
+      },
+      "materialOptions": {
+        "all": "Toutes matières",
+        "inox316": "Inox 316 / 316L",
+        "inox304": "Inox 304 / 304L",
+        "fonte": "Fonte GS / ductile",
+        "acier": "Acier forgé A105 / WCB",
+        "laiton": "Laiton CW617N"
+      }
+    },
+    "featured": {
+      "title": "Sélection technique : références prêtes à l'enlèvement",
+      "description": "Retrait au comptoir SDMI ou livraison sur le grand Dakar.",
+      "pdfLabel": "PDF 3.1",
+      "addToQuote": "Ajouter au devis",
+      "footnote": "Affichage d'une sélection prioritaire — voir le catalogue complet pour l'ensemble des gammes.",
+      "viewAll": "Voir tout le catalogue",
+      "viewProduct": "Voir"
+    },
+    "quality": {
+      "eyebrow": "Assurance qualité SDMI",
+      "title": "Rigueur métrologique & conformité sur chaque fourniture",
+      "description": "Origine et fiabilité de chaque pièce installée sous pression.",
+      "pillars": {
+        "traceability": {
+          "title": "Traçabilité certificats 3.1",
+          "description": "Aciers, brides et corps de vannes avec certificats EN 10204 type 3.1.",
+          "items": {
+            "0": "Analyse chimique C, Mn, Cr, Ni, Mo",
+            "1": "Limite élastique & résilience",
+            "2": "Attestations ATEX sur demande"
+          }
+        },
+        "testing": {
+          "title": "Essais & contrôles",
+          "description": "Postes de test pour validation avant mise en service.",
+          "items": {
+            "0": "Test hydrostatique 1,5 × PN",
+            "1": "Contrôle étanchéité siège",
+            "2": "Tarage soupapes de sûreté"
+          }
+        },
+        "engineering": {
+          "title": "Bureau d'études fluides",
+          "description": "Dimensionnement et motorisation pour vos installations.",
+          "items": {
+            "0": "Calcul pertes de charge & Kv/Cv",
+            "1": "Actionneurs pneumatiques / électriques",
+            "2": "Assistance sur site"
+          }
+        }
+      }
+    },
+    "sectors": {
+      "title": "Présent sur les grands chantiers industriels sénégalais",
+      "description": "Équipements adaptés aux environnements abrasifs, corrosifs et sous pression.",
+      "explore": "Découvrir"
+    },
+    "families": {
+      "title": "Nos familles de fournitures industrielles",
+      "description": "Composants sourcés selon les standards DESP, API, DIN et ASME.",
+      "referenceCount": "{count, plural, =0 {Catalogue complet} one {# référence} other {# références}}",
+      "explore": "Explorer"
+    },
+    "subfamilies": {
+      "title": "Nos gammes",
+      "description": "Parcourez le catalogue SDMI par famille et sous-famille — disponibilité dépôt Dakar.",
+      "readMore": "En savoir plus",
+      "viewFamily": "Voir la famille",
+      "familyLabel": "Famille {index}"
+    },
+    "documentation": {
+      "title": "Documentation technique",
+      "description": "",
+      "downloadLabel": "Télécharger",
+      "items": {}
+    },
+    "why": {
+      "title": "Pourquoi SDMI",
+      "description": ""
+    },
+    "figures": {},
+    "clients": {
+      "title": "Ils nous ont fait confiance",
+      "description": "",
+      "empty": "Logos partenaires à venir."
+    },
+    "finalCta": {
+      "title": "Besoin d'un devis express ou d'une réponse AO ?",
+      "description": "Transmettez bordereaux, schémas ou nomenclatures — réponse commerciale sous 24 h ouvrées.",
+      "quoteCta": "Demander un devis",
+      "whatsappCta": "WhatsApp Pro",
+      "whatsappLabel": "Contacter SDMI sur WhatsApp"
+    }
+  },
+  "Catalog": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Nos produits",
+    "eyebrow": "Cat. Fluid-01 — Normes DIN / EN / ANSI / API",
+    "title": "Robinetterie industrielle",
+    "description": "Sectionnement, régulation et sécurité des fluides — disponibilité dépôt SDMI Dakar.",
+    "stockBadge": "Disponibles en stock Dakar",
+    "filtersTitle": "Filtres techniques",
+    "filterClearAll": "Effacer tout",
+    "filterDeviceFamily": "Famille d'appareil",
+    "filterConnection": "Raccordement",
+    "filterStandards": "Normes & contrôle",
+    "filterSector": "Secteur cible",
+    "filtersHelpTitle": "Besoin d'aide technique ?",
+    "activeFiltersLabel": "Filtres actifs :",
+    "resultsRange": "Affichage de {from} – {to} sur {total} produits industriels",
+    "sortBy": "Trier par",
+    "sortRelevance": "Pertinence technique",
+    "sortDnAsc": "DN croissant",
+    "sortDnDesc": "DN décroissant",
+    "sortRefAsc": "Référence A→Z",
+    "stockInStock": "En stock Dakar ({count} unités)",
+    "certifiedBadge": "Certifié 3.1",
+    "pdfDatasheet": "PDF (1,2 Mo)",
+    "loadingCatalog": "Chargement du catalogue…",
+    "catalogSupportLink": "Support technique & cotation sur plan →",
+    "connections": {
+      "flangedRf": "À brides RF",
+      "wafer": "Wafer / inter-brides",
+      "threaded": "Taraudé BSPP / NPT",
+      "sw": "Soudure socket (SW)",
+      "npt": "NPT F/F",
+      "bsp": "BSP F/F"
+    },
+    "standards": {
+      "en10204": "EN 10204 3.1",
+      "iso5211": "ISO 5211",
+      "atex": "ATEX II 2G"
+    },
+    "sectors": {
+      "mines": "Mines & carrières",
+      "energy": "Pétrole & gaz",
+      "agro": "Agroalimentaire",
+      "water": "Eau & assainissement",
+      "fire": "Incendie & sécurité"
+    },
+    "filtersHint": "Filtres avancés (matière, PN, DN, secteur) — branchement catalogue Supabase à venir.",
+    "filtersBrowseHint": "Affinez votre recherche par famille ou ouvrez une sous-famille pour filtrer par DN, PN et matière.",
+    "quoteHelpCta": "Besoin d'aide technique",
+    "resultsCount": "{count, plural, one {# produit affiché} other {# produits affichés}}",
+    "quoteProductCta": "Demander un devis",
+    "familiesTitle": "Familles produits",
+    "familyCardHint": "{count, plural, one {# sous-famille} other {# sous-familles}}",
+    "familyDescription": "Sous-familles et références disponibles au dépôt SDMI Dakar.",
+    "familySkeletonHint": "Cette famille est en cours de structuration dans le catalogue SDMI. Notre équipe peut déjà vous orienter sur les gammes équivalentes et les alternatives en stock.",
+    "skeletonBrowseHint": "Les fiches produits seront publiées progressivement. Commencez par la robinetterie pétrole ou transmettez votre nomenclature pour un devis.",
+    "referencesTitle": "Références catalogue",
+    "subfamiliesTitle": "Sous-familles",
+    "subfamilyDescription": "Références filtrables par DN, pression nominale et matière corps.",
+    "emptySubfamily": "Aucune référence publiée pour cette sous-famille pour le moment. Notre équipe peut vous proposer une cotation sur plan ou une alternative en stock.",
+    "emptySubfamilyTitle": "Catalogue en cours d'enrichissement",
+    "emptySubfamilyQuoteCta": "Demander un devis",
+    "emptySubfamilyContactCta": "Contacter SDMI",
+    "filtersPendingHint": "Les filtres DN, PN et matière s'affichent dès qu'au moins une référence est publiée dans cette gamme.",
+    "filtersHelpText": "Besoin d'aide pour le dimensionnement ou la matière ?",
+    "filterDn": "DN",
+    "filterPn": "PN",
+    "filterMaterial": "Matière",
+    "filterReset": "Réinitialiser les filtres",
+    "searchResultsFor": "Résultats pour « {query} »",
+    "specDn": "Diamètre nominal",
+    "specPn": "Pression nominale",
+    "specMaterial": "Matière corps",
+    "specPressureClass": "Classe de pression",
+    "specTrim": "Trim",
+    "specConnection": "Raccordement",
+    "rangeBadge": "Gamme",
+    "seriesReference": "Série {ref}",
+    "dnOnConfiguration": "Sur plan",
+    "quoteOnConfiguration": "Cotation sur configuration (DN, classe, matière)",
+    "documentationCta": "Documentation",
+    "viewProduct": "Voir",
+    "productDetail": {
+      "specsTitle": "Caractéristiques techniques",
+      "ctaTitle": "Cotation & documentation",
+      "ctaHint": "Ajoutez la référence au panier devis ou envoyez une demande détaillée — réponse commerciale sous 24 h ouvrées.",
+      "rangeCtaHint": "Indiquez DN, classe de pression et raccordement dans votre demande de devis — fiches techniques et certificats sur demande.",
+      "imageHint": "Visuel indicatif de gamme — fiche et certificats sur demande.",
+      "noImage": "Image à venir",
+      "backToSubfamily": "← Toutes les références {name}"
+    }
+  },
+  "Quote": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Demande de devis",
+    "eyebrow": "Cotation industrielle",
+    "title": "Demander un devis",
+    "description": "Transmission de votre nomenclature ou bordereau — réponse commerciale sous 24 h ouvrées.",
+    "companyName": "Société",
+    "contactName": "Nom du contact",
+    "email": "E-mail professionnel",
+    "phone": "Téléphone",
+    "productReference": "Référence produit (optionnel)",
+    "message": "Détails de la demande",
+    "consent": "J'accepte que SDMI traite mes données pour répondre à cette demande commerciale (voir politique de confidentialité).",
+    "consentRequired": "Le consentement est requis pour envoyer la demande.",
+    "fieldRequired": "Ce champ est requis.",
+    "emailInvalid": "Adresse e-mail invalide.",
+    "submit": "Envoyer la demande",
+    "submitting": "Envoi…",
+    "success": "Demande enregistrée. Notre équipe vous recontactera rapidement.",
+    "error": "Envoi impossible. Réessayez ou contactez-nous par téléphone.",
+    "asideTitle": "Contact direct",
+    "responseTime": "Délai indicatif : 24 h ouvrées",
+    "fallbackContact": "En cas de problème technique : {email}",
+    "addToQuote": "Ajouter au devis",
+    "cartTitle": "Panier devis",
+    "cartEmpty": "Aucune référence dans le panier. Ajoutez des produits depuis le catalogue.",
+    "cartClear": "Vider le panier",
+    "removeLine": "Retirer la ligne",
+    "quantity": "Quantité"
+  },
+  "Sectors": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Secteurs d'activité",
+    "eyebrow": "Industrie & fourniture générale",
+    "title": "Solutions industrielles par secteur d'activité",
+    "description": "Matériel certifié pour sites miniers, énergétiques, agroalimentaires et utilities au Sénégal.",
+    "stats": [
+      { "label": "Disponibilité hub Dakar", "value": "Stock SDMI" },
+      { "label": "Délai urgent chantiers", "value": "24–48 h" },
+      { "label": "Conformité pression", "value": "PN / ANSI" },
+      { "label": "Bureau d'études", "value": "Support dédié" }
+    ],
+    "gridTitle": "Secteurs accompagnés",
+    "environmentsTitle": "Environnements & contraintes process",
+    "exploreSector": "Explorer",
+    "backToSectors": "Tous les secteurs",
+    "familiesTitle": "Familles produits associées",
+    "detailCtaHint": "Cotation sur plan, DN/PN et alternatives stock Dakar — réponse sous 24 h ouvrées.",
+    "recommendedTitle": "Matériel & robinetterie préconisés",
+    "refsCta": "Voir les références",
+    "quoteCta": "Demander un devis",
+    "whatsappCta": "WhatsApp bureau d'études",
+    "blocks": {
+      "mines": {
+        "eyebrow": "Extraction & minéraux",
+        "title": "Mines, phosphates & cimenteries",
+        "body": "Circuits abrasifs, acides et chocs thermiques — continuité de production sur concasseurs, fours et broyage.",
+        "standards": "Alliages AISI 316Ti, fonte Ni-Hard, revêtements EPDM/NR."
+      },
+      "energy": {
+        "eyebrow": "Hydrocarbures & énergie",
+        "title": "Pétrole, gaz & centrales thermiques",
+        "body": "Traçabilité pour installations gazières et IPP — résistance aux fluides agressifs et hautes pressions.",
+        "standards": "Certificats EN 10204 3.1 et contrôles CND."
+      },
+      "agro": {
+        "eyebrow": "Process stérile & agro",
+        "title": "Agroalimentaire, sucre & brasseries",
+        "body": "Hygiène, NEP/CIP et inox poli pour lignes sucre, boissons et produits laitiers.",
+        "standards": "Conformité CE 1935/2004 et bonnes pratiques FDA."
+      },
+      "water": {
+        "eyebrow": "Hydraulique & assainissement",
+        "title": "Traitement de l'eau & pompage",
+        "body": "Vannes et raccords pour conduites forcées, surpression et stations d'épuration.",
+        "standards": "Solutions conformes exigences sanitaires et ACS."
+      },
+      "fire": {
+        "eyebrow": "Sécurité industrielle",
+        "title": "Incendie, RIA & postes déluge",
+        "body": "Réseaux sprinkler, RIA et vannes pour sites Seveso, dépôts et terminaux.",
+        "standards": "Homologations FM / UL et schémas NFPA."
+      }
+    }
+  },
+  "About": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "A propos de nous",
+    "eyebrow": "Entreprise",
+    "title": "A propos de SDMI",
+    "description": "Distribution de matériels industriels à Dakar depuis plus de 15 ans.",
+    "body": "SDMI accompagne les industriels sénégalais et de la sous-région avec une offre complète en robinetterie, tuyauterie, filtration, mesure et raccords, sélectionnée auprès de fabricants certifiés.",
+    "partnersTitle": "Ils nous ont fait confiance",
+    "missionTitle": "Notre engagement terrain",
+    "figures": {
+      "years": { "value": "15+", "label": "Années d'expérience" },
+      "families": { "value": "5", "label": "Familles produits" },
+      "stock": { "value": "Dakar", "label": "Stock & comptoir pro" }
+    },
+    "suppliersTitle": "Fabricants & conformité",
+    "suppliersDescription": "Approvisionnement auprès d'usines certifiées, avec traçabilité matière et documentation pour vos dossiers industriels.",
+    "suppliersItems": {
+      "0": "Robinetterie et vannes sous pression CE / PED",
+      "1": "Certificats EN 10204 type 3.1 sur demande",
+      "2": "Marques reconnues pétrole, agro et utilities"
+    },
+    "referencesTitle": "Nos références"
+  },
+  "Contact": {
+    "breadcrumbLabel": "Fil d'Ariane",
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Contact & Agence Dakar",
+    "eyebrow": "Agence Dakar",
+    "title": "Contact & dépôt SDMI",
+    "description": "Comptoir pro, devis et support technique pour vos projets robinetterie et tuyauterie.",
+    "depotTitle": "Adresse du dépôt",
+    "phoneTitle": "Téléphone & e-mail",
+    "hoursTitle": "Horaires d'ouverture",
+    "mapTitle": "Plan d'accès",
+    "mapDescription": "Comptoir et dépôt SDMI à Bopp — accès camion possible sur rendez-vous pour enlèvements volumineux.",
+    "directionsCta": "Itinéraire Google Maps",
+    "formTitle": "Demande commerciale",
+    "formHint": "Transmettez nomenclatures, DN/PN ou bordereaux pour une cotation structurée.",
+    "commercialNote": "Réponse commerciale visée sous 24 h ouvrées pour les demandes complètes.",
+    "quoteCta": "Demander un devis",
+    "whatsappCta": "WhatsApp Pro"
+  },
+  "StaticPages": {
+    "documentation": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Documentation",
+      "title": "Documentation technique & certificats",
+      "description": "Fiches produits, certificats matière et catalogues SDMI.",
+      "body": "Téléchargez la documentation technique et les certificats de conformité pour vos dossiers d'appel d'offres. Notre équipe peut transmettre les fiches EN 10204 3.1 et les notices fabricants sur demande."
+    },
+    "devis": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Demande de devis",
+      "title": "Demander un devis",
+      "description": "Cotation robinetterie et matériel industriel — réponse sous 24 h.",
+      "body": "Formulaire de demande de devis en cours de déploiement. En attendant, contactez-nous par téléphone, e-mail ou WhatsApp avec votre nomenclature ou bordereau quantitatif."
+    },
+    "certifications": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Certifications",
+      "eyebrow": "Qualité & traçabilité",
+      "title": "Certifications & conformité",
+      "description": "ISO, CE et traçabilité des fournitures sous pression.",
+      "body": "SDMI s'approvisionne auprès de fabricants certifiés ISO et CE. Les certificats matière et de conformité sont disponibles pour vos installations industrielles, raffineries, sucreries et réseaux d'eau.",
+      "standardsTitle": "Référentiels couverts",
+      "standardsDescription": "Documentation adaptée aux exigences AO, commissaires aux comptes techniques et bureaux de contrôle.",
+      "standards": {
+        "iso": {
+          "title": "ISO 9001",
+          "description": "Systèmes qualité des fabricants partenaires et maîtrise des process de production."
+        },
+        "ce": {
+          "title": "Marquage CE",
+          "description": "Appareils sous pression et robinetterie conformes aux directives européennes applicables."
+        },
+        "en10204": {
+          "title": "EN 10204 3.1",
+          "description": "Certificats matière avec résultats d'essais pour aciers, brides et corps de vannes."
+        },
+        "ped": {
+          "title": "PED / DESP",
+          "description": "Équipements dimensionnés selon catégories de risque pour fluides sous pression."
+        }
+      },
+      "documentsTitle": "Documents disponibles sur demande",
+      "documentsHint": "Notre équipe transmet les pièces pour vos dossiers d'homologation et d'appel d'offres.",
+      "documentsItems": {
+        "0": "Certificats matière et conformité usine",
+        "1": "Fiches techniques et notices de montage",
+        "2": "Courbes de pertes de charge et Cv/Kv",
+        "3": "Attestations ATEX / SIL sur références éligibles"
+      },
+      "documentationLink": "Accéder à la documentation technique →"
+    },
+    "carrieres": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Carrières",
+      "eyebrow": "Talents industriels",
+      "title": "Nous rejoindre",
+      "description": "Rejoignez l'équipe SDMI à Dakar.",
+      "body": "SDMI recrute des profils techniques et commerciaux passionnés par la robinetterie industrielle. Nous valorisons la rigueur métier, la réactivité client et l'expertise terrain en Afrique de l'Ouest.",
+      "valuesTitle": "Pourquoi nous rejoindre",
+      "values": {
+        "team": {
+          "title": "Équipe experte",
+          "description": "Ingénieurs et commerciaux spécialisés fluides, avec culture terrain et proximité clients."
+        },
+        "expertise": {
+          "title": "Produits exigeants",
+          "description": "Vannes, tuyauterie et instrumentation pour secteurs à forte contrainte (pression, corrosion)."
+        },
+        "impact": {
+          "title": "Projets visibles",
+          "description": "Participation aux grands comptes industriels et utilities au Sénégal et en sous-région."
+        }
+      },
+      "profilesTitle": "Profils recherchés",
+      "profiles": {
+        "technical": {
+          "title": "Technico-commercial fluides",
+          "description": "Cotation, dimensionnement vanne et accompagnement AO B2B."
+        },
+        "commercial": {
+          "title": "Chargé de clientèle industrielle",
+          "description": "Suivi comptes, relances devis et coordination logistique Dakar."
+        },
+        "operations": {
+          "title": "Magasinier / préparateur",
+          "description": "Réception, contrôle visuel et préparation de commandes robinetterie."
+        }
+      },
+      "applyTitle": "Candidature spontanée",
+      "applyDescription": "Envoyez CV et lettre de motivation — nous étudions chaque profil correspondant à nos métiers.",
+      "applyCta": "Envoyer un e-mail",
+      "applyEmailSubject": "Candidature SDMI — Robinetterie industrielle"
+    },
+    "legalNotice": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Mentions légales",
+      "title": "Mentions légales",
+      "description": "Informations légales SDMI — Dakar, Sénégal.",
+      "body": "Sénégalaise de distribution de matériels industriels (SDMI) — Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Sénégal. Tél. +221 33 824 83 73 — smdi@sdmi.sn."
+    },
+    "privacy": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Politique de confidentialité",
+      "title": "Politique de confidentialité",
+      "description": "Protection des données personnelles.",
+      "body": "SDMI traite vos données de contact uniquement pour répondre à vos demandes commerciales et techniques. Vous pouvez exercer vos droits en écrivant à smdi@sdmi.sn."
+    },
+    "terms": {
+      "breadcrumbHome": "Accueil",
+      "breadcrumbCurrent": "Conditions générales de vente",
+      "title": "Conditions générales de vente",
+      "description": "CGV B2B SDMI.",
+      "body": "Les conditions générales de vente SDMI s'appliquent aux fournitures industrielles proposées aux professionnels. Document complet disponible sur demande auprès du service commercial."
+    }
+  }
+}

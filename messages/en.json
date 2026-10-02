@@ -1,0 +1,580 @@
+{
+  "Metadata": {
+    "title": "SDMI | Home",
+    "description": "Senegalese industrial equipment distributor — valves, piping accessories, filters, instrumentation and fittings in Dakar.",
+    "siteName": "SDMI"
+  },
+  "Layout": {
+    "topBar": {
+      "addressLabel": "Address",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email"
+    },
+    "skipToContent": "Skip to content",
+    "logoLabel": "SDMI — Home",
+    "logoTaglineLine1": "Senegalese distribution",
+    "logoTaglineLine2": "of industrial equipment",
+    "searchLabel": "Search the catalog",
+    "searchPlaceholder": "Search a reference, DN, standard…",
+    "searchSubmit": "Search",
+    "searchSubmitButton": "Search",
+    "searchCategoryLabel": "Category",
+    "searchCategoryAll": "All categories",
+    "searchCategoryValves": "Valves",
+    "searchCategoryFittings": "Fittings",
+    "searchCategoryInstrumentation": "Instrumentation",
+    "quoteCtaShort": "Quote",
+    "quoteReferenceBadge": "{count} refs",
+    "searchNoResults": "No products found",
+    "dnLabel": "DN {value}",
+    "searchLoading": "Searching…",
+    "phoneLabel": "Phone",
+    "phoneSecondaryLabel": "Phone",
+    "whatsappLabel": "Contact SDMI on WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "quoteCta": "Request a quote",
+    "mobileActionsLabel": "Quick actions",
+    "languageSwitcher": "Choose site language",
+    "localeFr": "Français",
+    "localeEn": "English",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close menu",
+    "openSearch": "Open search",
+    "mainNavLabel": "Main navigation",
+    "productsMegaMenuLabel": "Browse our products",
+    "megaMenuFamilies": "By family",
+    "megaMenuSubfamilies": "Sub-families",
+    "megaMenuSectors": "By sector",
+    "megaMenuAllProducts": "View full catalog",
+    "nav": {
+      "home": "Home",
+      "products": "Our products",
+      "sectors": "Industry sectors",
+      "documentation": "Technical docs & certificates",
+      "about": "About us",
+      "contact": "Contact & Dakar office",
+      "accountLabel": "Agency contact"
+    },
+    "footer": {
+      "productFamiliesTitle": "Our Products",
+      "companyTitle": "Company",
+      "legalTitle": "Legal",
+      "contactTitle": "Contact",
+      "about": "About us",
+      "certifications": "Certifications",
+      "careers": "Join us",
+      "legalNotice": "Legal notice",
+      "privacy": "Privacy policy",
+      "terms": "Terms & conditions",
+      "addressLine1": "Bopp rue 2 x Casamance",
+      "addressLine2": "BP 3134 RP",
+      "addressCity": "Dakar, Senegal",
+      "hoursTitle": "Opening hours",
+      "hoursWeek": "",
+      "hoursSaturday": "",
+      "emailLabel": "Email",
+      "copyright": "{year} © All rights reserved SDMI"
+    }
+  },
+  "NotFound": {
+    "title": "Page not found",
+    "description": "The page you requested does not exist or has moved.",
+    "homeCta": "Home",
+    "catalogCta": "Our Products"
+  },
+  "Home": {
+    "hero": {
+      "badge": "Dakar Km 4,5 • DIN / ANSI / ISO approved distributor",
+      "title": "Your reference partner for industrial valves & equipment in Senegal",
+      "subtitle": "12,000+ references in stock in Dakar: valves, fittings, flanges, instrumentation and fire protection for mining, chemical, offshore and oil industries.",
+      "carousel": {
+        "slides": {
+          "stockDakar": "Valve stock — SDMI Dakar depot",
+          "oilGas": "Water circuits, oil and gas",
+          "industrialValves": "Industrial valves",
+          "foodIndustry": "Food processing industry",
+          "fireSafety": "Fire protection piping and equipment"
+        }
+      },
+      "quoteCta": "Fast quote request",
+      "catalogCta": "Browse technical catalog",
+      "whatsappCta": "WhatsApp stock"
+    },
+    "trust": {
+      "stockDakar": {
+        "title": "Dakar stock",
+        "description": "References ready for pickup at SDMI depot"
+      },
+      "quote24h": {
+        "title": "Quote within 24 h",
+        "description": "Responsive pricing and tender responses"
+      },
+      "certified": {
+        "title": "ISO & CE certified",
+        "description": "Traceability and compliance on supplies"
+      }
+    },
+    "stockSelector": {
+      "title": "Quick stock selector by technical criteria",
+      "familyLabel": "1. Equipment type",
+      "dnLabel": "2. Nominal diameter (DN)",
+      "pressureLabel": "3. Service pressure",
+      "materialLabel": "4. Material",
+      "filterCta": "Filter stock",
+      "filterCtaDakar": "Filter Dakar stock",
+      "catalogPdfCta": "Download PDF catalog",
+      "familyOptions": {
+        "all": "All families",
+        "vannes-boisseau": "Ball valves",
+        "vannes-papillon": "Butterfly valves",
+        "clapets": "Check valves",
+        "filtration": "Industrial filtration",
+        "raccords": "Fittings & flanges"
+      },
+      "dnOptions": {
+        "all": "All diameters",
+        "dn15-50": "DN15 – DN50",
+        "dn65-150": "DN65 – DN150",
+        "dn200-600": "DN200 – DN600",
+        "dn600plus": "DN600 +"
+      },
+      "pressureOptions": {
+        "all": "All pressures",
+        "pn10-16": "PN10 / PN16",
+        "pn25-40": "PN25 / PN40",
+        "pn63plus": "PN63 and above",
+        "class150": "Class 150 / 300"
+      },
+      "materialOptions": {
+        "all": "All materials",
+        "inox316": "316 / 316L stainless",
+        "inox304": "304 / 304L stainless",
+        "fonte": "Cast / ductile iron",
+        "acier": "Forged A105 / WCB",
+        "laiton": "Brass CW617N"
+      }
+    },
+    "featured": {
+      "title": "Technical selection — ready for pickup",
+      "description": "Counter pickup or delivery across greater Dakar.",
+      "pdfLabel": "PDF 3.1",
+      "addToQuote": "Add to quote",
+      "footnote": "Priority selection — see full catalog for all ranges.",
+      "viewAll": "View full catalog",
+      "viewProduct": "View"
+    },
+    "quality": {
+      "eyebrow": "SDMI quality assurance",
+      "title": "Metrological rigor & compliance on every supply",
+      "description": "Verified origin and reliability for pressurized installations.",
+      "pillars": {
+        "traceability": {
+          "title": "3.1 certificate traceability",
+          "description": "Steels, flanges and valve bodies with EN 10204 type 3.1.",
+          "items": {
+            "0": "Chemical analysis C, Mn, Cr, Ni, Mo",
+            "1": "Yield strength & impact tests",
+            "2": "ATEX certificates on request"
+          }
+        },
+        "testing": {
+          "title": "Testing & controls",
+          "description": "Test benches before commissioning.",
+          "items": {
+            "0": "Hydro test 1.5 × PN",
+            "1": "Seat leakage check",
+            "2": "Safety valve setting"
+          }
+        },
+        "engineering": {
+          "title": "Fluids engineering desk",
+          "description": "Sizing and actuation for your projects.",
+          "items": {
+            "0": "Pressure drop & Kv/Cv sizing",
+            "1": "Pneumatic / electric actuators",
+            "2": "On-site assistance"
+          }
+        }
+      }
+    },
+    "sectors": {
+      "title": "On major industrial sites across Senegal",
+      "description": "Equipment for abrasive, corrosive and high-pressure environments.",
+      "explore": "Discover"
+    },
+    "families": {
+      "title": "Our industrial product families",
+      "description": "Components sourced to DESP, API, DIN and ASME standards.",
+      "referenceCount": "{count, plural, =0 {Full catalog} one {# reference} other {# references}}",
+      "explore": "Explore"
+    },
+    "subfamilies": {
+      "title": "Our ranges",
+      "description": "Browse the SDMI catalog by family and subfamily — Dakar depot availability.",
+      "readMore": "Read more",
+      "viewFamily": "View family",
+      "familyLabel": "Family {index}"
+    },
+    "documentation": {
+      "title": "Technical documentation",
+      "description": "",
+      "downloadLabel": "Download",
+      "items": {}
+    },
+    "why": {
+      "title": "Why SDMI",
+      "description": ""
+    },
+    "figures": {},
+    "clients": {
+      "title": "They trust us",
+      "description": "",
+      "empty": "Partner logos coming soon."
+    },
+    "finalCta": {
+      "title": "Need an express quote or tender response?",
+      "description": "Send BOQs, P&IDs or BOMs — commercial reply within one business day.",
+      "quoteCta": "Request a quote",
+      "whatsappCta": "WhatsApp Pro",
+      "whatsappLabel": "Contact SDMI on WhatsApp"
+    }
+  },
+  "Catalog": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Our products",
+    "eyebrow": "Fluid-01 — DIN / EN / ANSI / API standards",
+    "title": "Industrial valves",
+    "description": "Isolation, control and safety — SDMI Dakar depot availability.",
+    "stockBadge": "Available from Dakar stock",
+    "filtersTitle": "Technical filters",
+    "filterClearAll": "Clear all",
+    "filterDeviceFamily": "Device family",
+    "filterConnection": "Connection type",
+    "filterStandards": "Standards & inspection",
+    "filterSector": "Target sector",
+    "filtersHelpTitle": "Need technical help?",
+    "activeFiltersLabel": "Active filters:",
+    "resultsRange": "Showing {from} – {to} of {total} industrial products",
+    "sortBy": "Sort by",
+    "sortRelevance": "Technical relevance",
+    "sortDnAsc": "DN ascending",
+    "sortDnDesc": "DN descending",
+    "sortRefAsc": "Reference A→Z",
+    "stockInStock": "In stock Dakar ({count} units)",
+    "certifiedBadge": "Certified 3.1",
+    "pdfDatasheet": "PDF (1.2 MB)",
+    "loadingCatalog": "Loading catalog…",
+    "catalogSupportLink": "Technical support & spec quoting →",
+    "connections": {
+      "flangedRf": "RF flanged",
+      "wafer": "Wafer / between flanges",
+      "threaded": "Threaded BSPP / NPT",
+      "sw": "Socket weld (SW)",
+      "npt": "NPT F/F",
+      "bsp": "BSP F/F"
+    },
+    "standards": {
+      "en10204": "EN 10204 3.1",
+      "iso5211": "ISO 5211",
+      "atex": "ATEX II 2G"
+    },
+    "sectors": {
+      "mines": "Mining & quarries",
+      "energy": "Oil & gas",
+      "agro": "Food & beverage",
+      "water": "Water & wastewater",
+      "fire": "Fire & safety"
+    },
+    "filtersHint": "Advanced filters (material, PN, DN, sector) — Supabase catalog wiring next.",
+    "filtersBrowseHint": "Browse by family or open a subfamily to filter by DN, PN and body material.",
+    "quoteHelpCta": "Technical support",
+    "resultsCount": "{count, plural, one {# product shown} other {# products shown}}",
+    "quoteProductCta": "Request a quote",
+    "familiesTitle": "Product families",
+    "familyCardHint": "{count, plural, one {# subfamily} other {# subfamilies}}",
+    "familyDescription": "Subfamilies and part numbers available from SDMI Dakar.",
+    "familySkeletonHint": "This family is being structured in the SDMI catalog. Our team can already guide you on equivalent ranges and in-stock alternatives.",
+    "skeletonBrowseHint": "Product pages will be published progressively. Start with petroleum valves or send your BOM for a quote.",
+    "referencesTitle": "Catalog references",
+    "subfamiliesTitle": "Subfamilies",
+    "subfamilyDescription": "References filterable by DN, nominal pressure and body material.",
+    "emptySubfamily": "No published references in this subfamily yet. Our team can quote from your spec or suggest an in-stock alternative.",
+    "emptySubfamilyTitle": "Catalog being updated",
+    "emptySubfamilyQuoteCta": "Request a quote",
+    "emptySubfamilyContactCta": "Contact SDMI",
+    "filtersPendingHint": "DN, PN and material filters appear once at least one reference is published in this range.",
+    "filtersHelpText": "Need help with sizing or material selection?",
+    "filterDn": "DN",
+    "filterPn": "PN",
+    "filterMaterial": "Material",
+    "filterReset": "Reset filters",
+    "searchResultsFor": "Results for “{query}”",
+    "specDn": "Nominal diameter",
+    "specPn": "Nominal pressure",
+    "specMaterial": "Body material",
+    "specPressureClass": "Pressure class",
+    "specTrim": "Trim",
+    "specConnection": "End connection",
+    "rangeBadge": "Product range",
+    "seriesReference": "Series {ref}",
+    "dnOnConfiguration": "Per spec",
+    "quoteOnConfiguration": "Quote by configuration (DN, class, material)",
+    "documentationCta": "Documentation",
+    "viewProduct": "View",
+    "productDetail": {
+      "specsTitle": "Technical specifications",
+      "ctaTitle": "Quote & documentation",
+      "ctaHint": "Add the reference to your quote basket or send a detailed request — reply within one business day.",
+      "rangeCtaHint": "Include DN, pressure class and end connection in your quote request — datasheets and certificates available on request.",
+      "imageHint": "Illustrative range image — datasheet and certificates on request.",
+      "noImage": "Image coming soon",
+      "backToSubfamily": "← All references in {name}"
+    }
+  },
+  "Quote": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Quote request",
+    "eyebrow": "Industrial quoting",
+    "title": "Request a quote",
+    "description": "Send your BOM or specification — commercial reply within one business day.",
+    "companyName": "Company",
+    "contactName": "Contact name",
+    "email": "Work email",
+    "phone": "Phone",
+    "productReference": "Product reference (optional)",
+    "message": "Request details",
+    "consent": "I agree that SDMI may process my data to respond to this commercial request (see privacy policy).",
+    "consentRequired": "Consent is required to submit.",
+    "fieldRequired": "This field is required.",
+    "emailInvalid": "Invalid email address.",
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "success": "Request received. Our team will get back to you shortly.",
+    "error": "Could not send. Try again or call us directly.",
+    "asideTitle": "Direct contact",
+    "responseTime": "Typical response: 1 business day",
+    "fallbackContact": "If the form fails: {email}",
+    "addToQuote": "Add to quote",
+    "cartTitle": "Quote basket",
+    "cartEmpty": "No items in your basket. Add products from the catalog.",
+    "cartClear": "Clear basket",
+    "removeLine": "Remove line",
+    "quantity": "Quantity"
+  },
+  "Sectors": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Industry sectors",
+    "eyebrow": "Industry & general supply",
+    "title": "Industrial solutions by sector",
+    "description": "Certified equipment for mining, energy, food and utilities in Senegal.",
+    "stats": [
+      { "label": "Dakar hub availability", "value": "SDMI stock" },
+      { "label": "Urgent site lead time", "value": "24–48 h" },
+      { "label": "Pressure compliance", "value": "PN / ANSI" },
+      { "label": "Engineering desk", "value": "Dedicated support" }
+    ],
+    "gridTitle": "Sectors we support",
+    "environmentsTitle": "Process environments & constraints",
+    "exploreSector": "Explore",
+    "backToSectors": "All sectors",
+    "familiesTitle": "Related product families",
+    "detailCtaHint": "Quote from specs, DN/PN and Dakar stock alternatives — response within one business day.",
+    "recommendedTitle": "Recommended equipment",
+    "refsCta": "View references",
+    "quoteCta": "Request a quote",
+    "whatsappCta": "WhatsApp engineering",
+    "blocks": {
+      "mines": {
+        "eyebrow": "Mining & minerals",
+        "title": "Mines, phosphates & cement",
+        "body": "Abrasive slurry, acids and thermal shock — uptime for crushers, kilns and mills.",
+        "standards": "AISI 316Ti alloys, Ni-Hard cast iron, EPDM/NR linings."
+      },
+      "energy": {
+        "eyebrow": "Hydrocarbons & power",
+        "title": "Oil, gas & power plants",
+        "body": "Full traceability for gas assets and IPPs — sour service and high pressure.",
+        "standards": "EN 10204 3.1 certificates and NDT reports."
+      },
+      "agro": {
+        "eyebrow": "Food & beverage",
+        "title": "Food, sugar & breweries",
+        "body": "Hygiene, CIP and polished stainless for sugar, drinks and dairy lines.",
+        "standards": "CE 1935/2004 and FDA good practices."
+      },
+      "water": {
+        "eyebrow": "Water & wastewater",
+        "title": "Water treatment & pumping",
+        "body": "Valves and fittings for transmission mains, boosting and WWTP.",
+        "standards": "Sanitary and ACS-aligned solutions."
+      },
+      "fire": {
+        "eyebrow": "Fire protection",
+        "title": "Fire safety, hydrants & deluge",
+        "body": "Sprinkler networks and valves for Seveso sites, terminals and depots.",
+        "standards": "FM / UL approvals and NFPA schemes."
+      }
+    }
+  },
+  "About": {
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "About us",
+    "eyebrow": "Company",
+    "title": "About SDMI",
+    "description": "Industrial equipment distribution in Dakar for over 15 years.",
+    "body": "SDMI supports manufacturers in Senegal and the region with valves, piping, filtration, instrumentation and fittings from certified suppliers.",
+    "partnersTitle": "They trust us",
+    "missionTitle": "Our field commitment",
+    "figures": {
+      "years": { "value": "15+", "label": "Years of experience" },
+      "families": { "value": "5", "label": "Product families" },
+      "stock": { "value": "Dakar", "label": "Stock & trade counter" }
+    },
+    "suppliersTitle": "Manufacturers & compliance",
+    "suppliersDescription": "Sourcing from certified plants with material traceability and documentation for your industrial files.",
+    "suppliersItems": {
+      "0": "CE / PED pressure valves and equipment",
+      "1": "EN 10204 type 3.1 certificates on request",
+      "2": "Leading brands for oil, agro and utilities"
+    },
+    "referencesTitle": "Our references"
+  },
+  "Contact": {
+    "breadcrumbLabel": "Breadcrumb",
+    "breadcrumbHome": "Home",
+    "breadcrumbCurrent": "Contact & Dakar office",
+    "eyebrow": "Dakar agency",
+    "title": "Contact & SDMI depot",
+    "description": "Trade counter, quotes and technical support for valves and piping.",
+    "depotTitle": "Depot address",
+    "phoneTitle": "Phone & email",
+    "hoursTitle": "Opening hours",
+    "mapTitle": "Getting here",
+    "mapDescription": "SDMI counter and depot in Bopp — truck access by appointment for bulk collections.",
+    "directionsCta": "Google Maps directions",
+    "formTitle": "Commercial request",
+    "formHint": "Send BOMs, DN/PN specs or quantity schedules for a structured quote.",
+    "commercialNote": "Target commercial response within one business day for complete requests.",
+    "quoteCta": "Request a quote",
+    "whatsappCta": "WhatsApp Pro"
+  },
+  "StaticPages": {
+    "documentation": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Documentation",
+      "title": "Technical documentation & certificates",
+      "description": "Datasheets, material certificates and SDMI catalogs.",
+      "body": "Download technical documentation and compliance certificates for your tenders. Our team can provide EN 10204 3.1 certificates and manufacturer datasheets on request."
+    },
+    "devis": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Quote request",
+      "title": "Request a quote",
+      "description": "Industrial valves and equipment — response within 24 h.",
+      "body": "The online quote form is being rolled out. Meanwhile, contact us by phone, email or WhatsApp with your BOM or quantity schedule."
+    },
+    "certifications": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Certifications",
+      "eyebrow": "Quality & traceability",
+      "title": "Certifications & compliance",
+      "description": "ISO, CE and traceability for pressurized equipment.",
+      "body": "SDMI sources from ISO- and CE-certified manufacturers. Material and compliance certificates are available for refineries, sugar plants, water networks and industrial sites.",
+      "standardsTitle": "Standards we support",
+      "standardsDescription": "Documentation suited to tenders, technical inspectors and third-party reviews.",
+      "standards": {
+        "iso": {
+          "title": "ISO 9001",
+          "description": "Partner manufacturers' quality systems and controlled production processes."
+        },
+        "ce": {
+          "title": "CE marking",
+          "description": "Pressure equipment and valves aligned with applicable European directives."
+        },
+        "en10204": {
+          "title": "EN 10204 3.1",
+          "description": "Material certificates with test results for steels, flanges and valve bodies."
+        },
+        "ped": {
+          "title": "PED / pressure equipment",
+          "description": "Equipment sized by risk category for pressurized fluids."
+        }
+      },
+      "documentsTitle": "Documents available on request",
+      "documentsHint": "Our team supplies files for approval packages and tenders.",
+      "documentsItems": {
+        "0": "Material and factory compliance certificates",
+        "1": "Datasheets and installation manuals",
+        "2": "Head loss curves and Cv/Kv data",
+        "3": "ATEX / SIL statements on eligible references"
+      },
+      "documentationLink": "Browse technical documentation →"
+    },
+    "carrieres": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Careers",
+      "eyebrow": "Industrial talent",
+      "title": "Join us",
+      "description": "Join the SDMI team in Dakar.",
+      "body": "SDMI hires technical and sales profiles passionate about industrial valves. We value field expertise, customer responsiveness and West Africa market knowledge.",
+      "valuesTitle": "Why join us",
+      "values": {
+        "team": {
+          "title": "Expert team",
+          "description": "Fluid specialists and sales engineers with strong field culture and customer proximity."
+        },
+        "expertise": {
+          "title": "Demanding products",
+          "description": "Valves, piping and instrumentation for high-pressure and corrosive environments."
+        },
+        "impact": {
+          "title": "Visible projects",
+          "description": "Work with major industrial and utility accounts in Senegal and the region."
+        }
+      },
+      "profilesTitle": "Profiles we hire",
+      "profiles": {
+        "technical": {
+          "title": "Technical sales — fluids",
+          "description": "Quoting, valve sizing and B2B tender support."
+        },
+        "commercial": {
+          "title": "Industrial account manager",
+          "description": "Account follow-up, quote chasing and Dakar logistics coordination."
+        },
+        "operations": {
+          "title": "Warehouse / order picker",
+          "description": "Goods-in, visual checks and valve order preparation."
+        }
+      },
+      "applyTitle": "Spontaneous application",
+      "applyDescription": "Send your CV and cover letter — we review every profile that matches our trades.",
+      "applyCta": "Send an email",
+      "applyEmailSubject": "SDMI application — Industrial valves"
+    },
+    "legalNotice": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Legal notice",
+      "title": "Legal notice",
+      "description": "SDMI legal information — Dakar, Senegal.",
+      "body": "Senegalese industrial equipment distributor (SDMI) — Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Senegal. Phone +221 33 824 83 73 — smdi@sdmi.sn."
+    },
+    "privacy": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Privacy policy",
+      "title": "Privacy policy",
+      "description": "Personal data protection.",
+      "body": "SDMI processes your contact data only to respond to commercial and technical requests. Contact smdi@sdmi.sn to exercise your rights."
+    },
+    "terms": {
+      "breadcrumbHome": "Home",
+      "breadcrumbCurrent": "Terms & conditions",
+      "title": "Terms & conditions",
+      "description": "SDMI B2B terms.",
+      "body": "SDMI general terms apply to industrial supplies sold to professionals. Full document available from our sales team on request."
+    }
+  }
+}
