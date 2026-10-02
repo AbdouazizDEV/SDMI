@@ -3,10 +3,12 @@ import type { CatalogProductListItem } from "@/lib/catalog/catalog-product";
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 import { petroleumGateValveRanges } from "@/lib/catalog/seeds/petroleum-gate-valve-ranges";
 import { petroleumGlobeBellowsRanges } from "@/lib/catalog/seeds/petroleum-globe-bellows-ranges";
+import { petroleumNeedleValveRanges } from "@/lib/catalog/seeds/petroleum-needle-valve-ranges";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
   ...petroleumGlobeBellowsRanges,
+  ...petroleumNeedleValveRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {

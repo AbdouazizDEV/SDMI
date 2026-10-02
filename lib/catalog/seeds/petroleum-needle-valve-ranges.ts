@@ -1,0 +1,188 @@
+import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
+
+const FAMILY = "robinetterie-petrole-forgee-moulee";
+const SUB = "robinets-pointeau-petrole-forge-moule";
+
+function frEn(fr: string, en: string) {
+  return { fr, en };
+}
+
+function slug(ref: string, suffix: string) {
+  return `serie-${ref}-robinet-pointeau-${suffix}`;
+}
+
+/** Robinets à pointeau pétrole forgé / inox — gammes par série. */
+export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
+  {
+    reference: "483",
+    slug: slug("483", "forge-atex-bsp"),
+    name: frEn(
+      "Robinet à pointeau acier forgé ATEX — BSP F/F",
+      "Forged steel ATEX needle valve — BSP F/F",
+    ),
+    description: frEn(
+      "Prélèvement et isolement sur lignes hydrocarbures, version ATEX.",
+      "Sampling and isolation on hydrocarbon lines, ATEX rated.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Acier forgé A105N", "Forged steel A105N"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204", "atex"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: {
+      pressureClass: "6000 psi",
+      connection: "bsp",
+      connectionLabel: frEn("BSP F/F", "BSP F/F"),
+      bodyProcess: "forged",
+      atexCapable: true,
+      documentCount: 4,
+    },
+  },
+  {
+    reference: "484",
+    slug: slug("484", "forge-atex-npt"),
+    name: frEn("Robinet à pointeau acier forgé ATEX — NPT F/F", "Forged steel ATEX needle valve — NPT F/F"),
+    description: frEn(
+      "Même gamme ATEX, raccordement NPT pour instrumentation process.",
+      "Same ATEX range, NPT for process instrumentation.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Acier forgé A105N", "Forged steel A105N"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204", "atex"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: {
+      pressureClass: "6000 psi",
+      connection: "npt",
+      bodyProcess: "forged",
+      atexCapable: true,
+      documentCount: 4,
+    },
+  },
+  {
+    reference: "486",
+    slug: slug("486", "forge-atex-sw"),
+    name: frEn("Robinet à pointeau acier forgé ATEX — soudure SW", "Forged steel ATEX needle valve — socket weld"),
+    description: frEn(
+      "Soudure socket, haute pression, prélèvement sécurisé.",
+      "Socket weld, high pressure, secure sampling.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Acier forgé A105N", "Forged steel A105N"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "sw",
+    standards: ["en10204", "atex"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: {
+      pressureClass: "6000 psi",
+      connection: "sw",
+      connectionLabel: frEn("Soudure SW", "Socket weld (SW)"),
+      bodyProcess: "forged",
+      atexCapable: true,
+      documentCount: 4,
+    },
+  },
+  {
+    reference: "489",
+    slug: slug("489", "forge-bsp"),
+    name: frEn("Robinet à pointeau acier forgé — BSP F/F", "Forged steel needle valve — BSP F/F"),
+    description: frEn(
+      "Version standard (non ATEX), BSP, réseaux pétrole et maintenance.",
+      "Standard (non-ATEX) BSP for oil networks and maintenance.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Acier forgé A105N", "Forged steel A105N"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: {
+      pressureClass: "6000 psi",
+      connection: "bsp",
+      bodyProcess: "forged",
+      documentCount: 4,
+    },
+  },
+  {
+    reference: "481",
+    slug: slug("481", "inox-bsp"),
+    name: frEn("Robinet à pointeau inox — BSP F/F", "Stainless needle valve — BSP F/F"),
+    description: frEn(
+      "Inox pour fluides corrosifs et prélèvements agro / pétrochimie.",
+      "Stainless for corrosive fluids and petrochemical sampling.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Inox AISI 316", "AISI 316 stainless"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204"],
+    sectorTags: ["energy", "agro"],
+    certified31: true,
+    technicalSpecs: {
+      pressureClass: "6000 psi",
+      connection: "bsp",
+      documentCount: 4,
+    },
+  },
+  {
+    reference: "487",
+    slug: slug("487", "inox-npt"),
+    name: frEn("Robinet à pointeau inox — NPT F/F", "Stainless needle valve — NPT F/F"),
+    description: frEn(
+      "NPT F/F, gamme inox haute pression pour instrumentation.",
+      "NPT F/F, high-pressure stainless instrumentation range.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Inox AISI 316", "AISI 316 stainless"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: { pressureClass: "6000 psi", connection: "npt", documentCount: 4 },
+  },
+  {
+    reference: "488",
+    slug: slug("488", "inox-bsp-mf"),
+    name: frEn("Robinet à pointeau inox — BSP M/F", "Stainless needle valve — BSP M/F"),
+    description: frEn(
+      "Raccordement mâle/femelle BSP, montage flexible sur lignes process.",
+      "BSP M/F connection, flexible mounting on process lines.",
+    ),
+    dn: null,
+    pn: "Class 6000",
+    material: frEn("Inox AISI 316", "AISI 316 stainless"),
+    familySlug: FAMILY,
+    subfamilySlug: SUB,
+    listingKind: "range",
+    connectionType: "threaded",
+    standards: ["en10204"],
+    sectorTags: ["energy"],
+    certified31: true,
+    technicalSpecs: { pressureClass: "6000 psi", connection: "bsp", documentCount: 4 },
+  },
+];

@@ -10,7 +10,8 @@
     "db:types": "supabase gen types typescript --local > lib/supabase/database.types.ts",
     "sync:legacy-images": "node scripts/sync-legacy-images.mjs",
     "sync:range-images": "node scripts/sync-petroleum-gate-images.mjs && node scripts/sync-petroleum-globe-bellows-images.mjs",
-    "sync:globe-range-images": "node scripts/sync-petroleum-globe-bellows-images.mjs"
+    "sync:globe-range-images": "node scripts/sync-petroleum-globe-bellows-images.mjs",
+    "sync:needle-range-images": "node scripts/sync-petroleum-needle-valve-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
