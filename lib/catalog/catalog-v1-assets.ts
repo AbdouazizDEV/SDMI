@@ -18,7 +18,8 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-petrole-soufflet-soupapes-forge-moule.jpg",
   "robinets-pointeau-petrole-forge-moule":
     "/images/catalog/taxonomy/robinets-pointeau-petrole-forge-moule.jpg",
-  "filtres-petrole-forge-moule": "/images/subfamilies/filtres-a-tamis.jpg",
+  "filtres-petrole-forge-moule":
+    "/images/catalog/taxonomy/filtres-petrole-forge-moule.jpg",
   "clapets-petrole-forge-moule": "/images/subfamilies/clapet-anti-retour.jpg",
 };
 

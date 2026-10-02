@@ -3,6 +3,7 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "vannes-operucle-petrole-forge-moule",
   "robinets-petrole-soufflet-soupapes-forge-moule",
   "robinets-pointeau-petrole-forge-moule",
+  "filtres-petrole-forge-moule",
 ]);
 
 /** Familles dont la page d’accueil catalogue est ouverte (au moins une sous-famille en cours). */
@@ -19,4 +20,4 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
 }
 
 /** Prochaine sous-famille prévue (ordre taxonomie v1 pétrole). */
-export const nextCatalogSubfamilySlug = "filtres-petrole-forge-moule";
+export const nextCatalogSubfamilySlug = "clapets-petrole-forge-moule";
