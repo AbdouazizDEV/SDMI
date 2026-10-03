@@ -1,0 +1,400 @@
+import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
+
+const FAMILY = "robinets-tournant-spherique-acier-inox";
+const SUB = "robinets-tournant-spherique-3-pieces";
+
+function frEn(fr: string, en: string) { return { fr, en }; }
+
+function base(
+  partial: Omit<CatalogRangeSeed, "familySlug" | "subfamilySlug" | "listingKind">,
+): CatalogRangeSeed {
+  return { ...partial, listingKind: "range", familySlug: FAMILY, subfamilySlug: SUB };
+}
+
+/** Robinets 3 pièces — platine ISO, Initiale, Adler, sécurité feu, Performance. */
+export const threePieceBallValveRanges: CatalogRangeSeed[] = [
+  base({
+    reference: "702",
+    slug: "serie-702-robinet-a-tournant-spherique-3-pieces-platine-iso-securite-feu-acier-bsp",
+    name: frEn("702 - Robinet à tournant sphérique 3 pièces platine ISO sécurité feu acier BSP", "702 - Three-piece ball valve three-piece platine ISO sécurité feu steel BSP"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "702dm",
+    slug: "serie-702dm-robinet-a-tournant-spherique-3-pcs-iso5211-montage-direct-acier",
+    name: frEn("702DM - Robinet à tournant sphérique 3 pcs ISO5211 montage direct acier", "702DM - Three-piece ball valve 3 pcs ISO5211 montage direct steel"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "702r",
+    slug: "serie-702r-robinet-a-tournant-spherique-3-pieces-secu-feu-reduit-acier-bsp-bw-sw-npt",
+    name: frEn("702R - Robinet à tournant sphérique 3 pièces sécu feu réduit acier BSP/BW/SW/NPT", "702R - Three-piece ball valve three-piece sécu feu réduit steel BSP/BW/SW/NPT"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "703",
+    slug: "serie-703-robinet-a-tournant-spherique-3-pieces-platine-iso-securit-feu-inox-bsp",
+    name: frEn("703 - Robinet à tournant sphérique 3 pièces platine ISO sécurit feu inox BSP", "703 - Three-piece ball valve three-piece platine ISO sécurit feu stainless BSP"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "7034",
+    slug: "serie-7034-robinet-a-tournant-spherique-3-pieces-a-brides-pn40-inox-securite-feu",
+    name: frEn("7034 - Robinet à tournant sphérique 3 pièces à brides PN40 inox sécurité feu", "7034 - Three-piece ball valve three-piece à brides PN40 stainless sécurité feu"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "703dm",
+    slug: "serie-703dm-robinet-a-tournant-spherique-3pieces-iso-5211-montage-direct-inox",
+    name: frEn("703DM - Robinet à tournant sphérique 3pièces ISO 5211 montage direct inox", "703DM - Three-piece ball valve 3pièces ISO 5211 montage direct stainless"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "703dm4",
+    slug: "serie-703dm4-robinet-a-tournant-spherique-3-pieces-iso5211-securite-feu-pn40",
+    name: frEn("703DM4-Robinet à tournant sphérique 3 pièces ISO5211 sécurité feu PN40", "703DM4-Three-piece ball valve three-piece ISO5211 sécurité feu PN40"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier / inox", "Steel / stainless"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "703r",
+    slug: "serie-703r-robinet-a-tournant-spherique-3-pieces-secu-feu-reduit-inox-bsp-bw-sw-npt",
+    name: frEn("703R - Robinet à tournant sphérique 3 pièces sécu feu réduit inox BSP/BW/SW/NPT", "703R - Three-piece ball valve three-piece sécu feu réduit stainless BSP/BW/SW/NPT"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "710",
+    slug: "serie-710-robinet-a-tournant-spherique-acier-3-pieces-pn40-avec-platine-iso",
+    name: frEn("710 - Robinet à tournant sphérique acier 3 pièces PN40 avec platine ISO", "710 - Three-piece ball valve steel three-piece PN40 avec platine ISO"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "711",
+    slug: "serie-711-robinet-a-tournant-spherique-inox-3-pieces-a-brides-avec-platine-iso",
+    name: frEn("711 - Robinet à tournant sphérique inox 3 pièces à brides avec platine ISO", "711 - Three-piece ball valve stainless three-piece à brides avec platine ISO"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "712",
+    slug: "serie-712-robinet-a-tournant-spherique-3-pieces-acier-adler",
+    name: frEn("712 - Robinet à tournant sphérique 3 pièces acier ADLER", "712 - Three-piece ball valve three-piece steel ADLER"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "713",
+    slug: "serie-713-robinet-a-tournant-spherique-3-pieces-inox-adler",
+    name: frEn("713 - Robinet à tournant sphérique 3 pièces inox ADLER", "713 - Three-piece ball valve three-piece stainless ADLER"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "737",
+    slug: "serie-737-robinet-a-tournant-spherique-3-pieces-acier-platineiso-femelle-femelle-bsp",
+    name: frEn("737 - Robinet à tournant sphérique 3 pièces acier platineISO femelle femelle BSP", "737 - Three-piece ball valve three-piece steel platineISO femelle femelle BSP"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "738",
+    slug: "serie-738-robinet-a-tournant-spherique-3-pieces-acier-platine-iso-butt-welding-bw",
+    name: frEn("738 - Robinet à tournant sphérique 3 pièces acier platine ISO Butt Welding BW", "738 - Three-piece ball valve three-piece steel platine ISO Butt Welding BW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "739",
+    slug: "serie-739-robinet-a-tournant-spherique-3-pcs-acier-platine-iso-socket-welding-sw",
+    name: frEn("739 - Robinet à tournant sphérique 3 pcs acier platine ISO Socket Welding SW", "739 - Three-piece ball valve 3 pcs steel platine ISO Socket Welding SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "740",
+    slug: "serie-740-robinet-a-tournant-spherique-3-pieces-inox-platine-iso-bsp-gamme-initiale",
+    name: frEn("740 - Robinet à tournant sphérique 3 pièces inox platine ISO BSP gamme Initiale", "740 - Three-piece ball valve three-piece stainless platine ISO BSP gamme Initiale"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "741",
+    slug: "serie-741-robinet-tournant-spherique-3-pcs-inox-platine-iso-butt-welding-bw-initiale",
+    name: frEn("741 - Robinet tournant sphérique 3 pcs inox platine ISO Butt Welding BW initiale", "741 - Three-piece ball valve 3 pcs stainless platine ISO Butt Welding BW initiale"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "742",
+    slug: "serie-742-robinet-a-tournant-spherique-3-pieces-inox-platine-iso-socket-welding-sw",
+    name: frEn("742 - Robinet à tournant sphérique 3 pièces inox platine ISO Socket Welding SW", "742 - Three-piece ball valve three-piece stainless platine ISO Socket Welding SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "743",
+    slug: "serie-743-robinet-a-tournant-spherique-3-pieces-platine-iso-npt-initiale",
+    name: frEn("743 - Robinet à tournant sphérique 3 pièces platine ISO NPT Initiale", "743 - Three-piece ball valve three-piece platine ISO NPT Initiale"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier / inox", "Steel / stainless"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "744",
+    slug: "serie-744-robinet-a-tournant-spherique-3-pcs-inox-femelle-femelle-npt",
+    name: frEn("744 - Robinet à tournant sphérique 3 pcs inox femelle femelle NPT", "744 - Three-piece ball valve 3 pcs stainless femelle femelle NPT"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "745",
+    slug: "serie-745-robinet-a-tournant-spherique-3-pieces-acier-a105n-class800-npt-sw",
+    name: frEn("745 - Robinet à tournant sphérique 3 pièces acier A105N class800 NPT-SW", "745 - Three-piece ball valve three-piece steel A105N class800 NPT-SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "Class 800", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "747",
+    slug: "serie-747-robinet-a-tournant-spherique-3-pieces-inox-performance-femelle-femelle-bsp",
+    name: frEn("747 - Robinet à tournant sphérique 3 pièces inox Performance femelle femelle BSP", "747 - Three-piece ball valve three-piece stainless Performance femelle femelle BSP"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "748",
+    slug: "serie-748-robinet-a-tournant-spherique-3-pieces-inox-performance-butt-welding-bw",
+    name: frEn("748 - Robinet à tournant sphérique 3 pièces inox Performance Butt Welding BW", "748 - Three-piece ball valve three-piece stainless Performance Butt Welding BW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "749",
+    slug: "serie-749-robinet-a-tournant-spherique-3-pcs-inox-performance-socket-welding-sw",
+    name: frEn("749 - Robinet à tournant sphérique 3 pcs inox Performance Socket Welding SW", "749 - Three-piece ball valve 3 pcs stainless Performance Socket Welding SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "790",
+    slug: "serie-790-robinet-a-tournant-spherique-3-pcs-initiale-inox-femelle-femelle-bsp",
+    name: frEn("790 - Robinet à tournant sphérique 3 pcs initiale inox femelle femelle BSP", "790 - Three-piece ball valve 3 pcs initiale stainless femelle femelle BSP"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "791",
+    slug: "serie-791-robinet-a-tournant-spherique-3-pieces-initiale-inox-butt-welding-bw",
+    name: frEn("791 - Robinet à tournant sphérique 3 pièces initiale inox Butt Welding BW", "791 - Three-piece ball valve three-piece initiale stainless Butt Welding BW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "792",
+    slug: "serie-792-robinet-a-tournant-spherique-3pieces-initiale-inox-socket-welding-sw",
+    name: frEn("792 - Robinet à tournant sphérique 3pièces initiale inox Socket Welding SW", "792 - Three-piece ball valve 3pièces initiale stainless Socket Welding SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Inox", "Stainless steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "796",
+    slug: "serie-796-robinet-a-tournant-spherique-3-pcs-initiale-acier-femelle-bsp-npt",
+    name: frEn("796 -Robinet à tournant sphérique 3 pcs initiale acier femelle BSP-NPT", "796 -Three-piece ball valve 3 pcs initiale steel femelle BSP-NPT"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "797",
+    slug: "serie-797-robinet-a-tournant-spherique-3-pieces-initiale-acier-butt-welding-bw",
+    name: frEn("797 - Robinet à tournant sphérique 3 pièces initiale acier Butt Welding BW", "797 - Three-piece ball valve three-piece initiale steel Butt Welding BW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "798",
+    slug: "serie-798-robinet-a-tournant-spherique-3-pieces-initiale-acier-socket-welding-sw",
+    name: frEn("798 - Robinet à tournant sphérique 3 pièces initiale acier Socket Welding SW", "798 - Three-piece ball valve three-piece initiale steel Socket Welding SW"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier", "Steel"),
+    connectionType: "welded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "welded", documentCount: 4 },
+  }),
+  base({
+    reference: "800naicg",
+    slug: "serie-800naicg-robinet-a-tournant-spherique-3-pieces-acier-forge-800-lbs-jc",
+    name: frEn("800NAICG - Robinet à tournant sphérique 3 pièces acier forgé 800 lbs JC", "800NAICG - Three-piece ball valve three-piece steel forgé 800 lbs JC"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "Class 800", material: frEn("Acier", "Steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+  base({
+    reference: "800niicg",
+    slug: "serie-800niicg-robinet-a-tournant-spherique-3-pieces-inox-forge-800-lbs-jc",
+    name: frEn("800NIICG - Robinet à tournant sphérique 3 pièces inox forgé 800 lbs JC", "800NIICG - Three-piece ball valve three-piece stainless forgé 800 lbs JC"),
+    description: frEn(
+      "Robinet 3 pièces, platine ISO 5211 — gamme catalogue.",
+      "Three-piece ball valve, ISO 5211 mounting pad — catalog range.",
+    ),
+    dn: null, pn: "Class 800", material: frEn("Inox", "Stainless steel"),
+    connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "energy", "industry"],
+    technicalSpecs: { connection: "threaded", documentCount: 4 },
+  }),
+];
