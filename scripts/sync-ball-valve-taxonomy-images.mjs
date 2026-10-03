@@ -33,6 +33,11 @@ const ITEMS = [
     productUrl:
       "https://www.sferaco.com/fr/740-robinet-a-tournant-spherique-3-pieces-inox-platine-iso-bsp-gamme-initiale.html",
   },
+  {
+    fileSlug: "robinets-tournant-spherique-3-pieces-brides-elsa",
+    productUrl:
+      "https://www.sferaco.com/fr/elitrf-robinet-a-tournant-spherique-brides-tournantes-elsa-pn40-inox.html",
+  },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });
