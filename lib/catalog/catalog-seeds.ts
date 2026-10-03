@@ -23,6 +23,7 @@ import { threePieceFlangedBallValveRanges } from "@/lib/catalog/seeds/three-piec
 import { threeWayBallValveRanges } from "@/lib/catalog/seeds/three-way-ball-valve-ranges";
 import { fourWayBallValveRanges } from "@/lib/catalog/seeds/four-way-ball-valve-ranges";
 import { waferBallValveRanges } from "@/lib/catalog/seeds/wafer-ball-valve-ranges";
+import { jcTrunnionBallValveRanges } from "@/lib/catalog/seeds/jc-trunnion-ball-valve-ranges";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
@@ -47,6 +48,7 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...threeWayBallValveRanges,
   ...fourWayBallValveRanges,
   ...waferBallValveRanges,
+  ...jcTrunnionBallValveRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {
