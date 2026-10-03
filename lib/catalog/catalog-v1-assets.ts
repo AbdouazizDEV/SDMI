@@ -48,6 +48,8 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-tournant-spherique-2-pieces-split-body.jpg",
   "robinets-tournant-spherique-3-pieces":
     "/images/catalog/taxonomy/robinets-tournant-spherique-3-pieces.jpg",
+  "robinets-tournant-spherique-3-pieces-brides-elsa":
+    "/images/catalog/taxonomy/robinets-tournant-spherique-3-pieces-brides-elsa.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {
