@@ -9,7 +9,8 @@ export const catalogV1FamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-soupape-pointeau.jpg",
   "robinets-tournant-spherique-acier-inox":
     "/images/catalog/taxonomy/robinets-tournant-spherique-acier-inox.jpg",
-  "vannes-sphere-laiton-fonte-pvc": "/images/famille-robinetterie.jpg",
+  "vannes-sphere-laiton-fonte-pvc":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-fonte-pvc.jpg",
 };
 
 export const catalogV1SubfamilyImages: Record<string, string> = {
@@ -60,6 +61,27 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-tournant-spherique-wafer-brides-etroit.jpg",
   "robinets-tournant-spherique-sphere-arbree-jc":
     "/images/catalog/taxonomy/robinets-tournant-spherique-sphere-arbree-jc.jpg",
+  "vannes-sphere-laiton-serena-cw724r-pn40":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-serena-cw724r-pn40.jpg",
+  "vannes-sphere-laiton-nf-4ms":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-nf-4ms.jpg",
+  "vannes-sphere-laiton-batiment-plus-4ms":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-batiment-plus-4ms.jpg",
+  "robinets-compteur-laiton-ecrou-tournant":
+    "/images/catalog/taxonomy/robinets-compteur-laiton-ecrou-tournant.jpg",
+  "vannes-puisage-laiton-inox":
+    "/images/catalog/taxonomy/vannes-puisage-laiton-inox.jpg",
+  "vannes-sphere-laiton-industrie-cadenassable-demultiplicateur":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-industrie-cadenassable-demultiplicateur.jpg",
+  "vannes-sphere-laiton-sphero-conique":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-sphero-conique.jpg",
+  "vannes-sphere-laiton-collecteurs-tetine":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-collecteurs-tetine.jpg",
+  "vannes-sphere-laiton-3-voies":
+    "/images/catalog/taxonomy/vannes-sphere-laiton-3-voies.jpg",
+  "vannes-sphere-pvc-u": "/images/catalog/taxonomy/vannes-sphere-pvc-u.jpg",
+  "vannes-sphere-a-brides-laiton-fonte":
+    "/images/catalog/taxonomy/vannes-sphere-a-brides-laiton-fonte.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {

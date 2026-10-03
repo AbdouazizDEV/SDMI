@@ -248,7 +248,82 @@ export const catalogV1Navigation: CatalogNavigation = {
         "Vannes à sphère laiton – fonte – PVC",
         "Brass, cast iron & PVC ball valves",
       ),
-      subfamilies: [],
+      subfamilies: [
+        {
+          slug: "vannes-sphere-laiton-serena-cw724r-pn40",
+          name: frEn(
+            "Vannes à sphère Laiton Serena CW724R PN40",
+            "Serena CW724R PN40 brass ball valves",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-nf-4ms",
+          name: frEn(
+            "Vannes à sphère Laiton NF 4MS",
+            "NF 4MS brass ball valves",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-batiment-plus-4ms",
+          name: frEn(
+            "Vannes à sphère Laiton Bâtiment+ 4MS",
+            "Bâtiment+ 4MS brass ball valves",
+          ),
+        },
+        {
+          slug: "robinets-compteur-laiton-ecrou-tournant",
+          name: frEn(
+            "Robinets de compteur Laiton à écrou tournant",
+            "Brass meter ball valves with swivel nut",
+          ),
+        },
+        {
+          slug: "vannes-puisage-laiton-inox",
+          name: frEn(
+            "Vannes de puisage Laiton – Inox",
+            "Brass & stainless draw-off valves",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-industrie-cadenassable-demultiplicateur",
+          name: frEn(
+            "Vannes sphère Laiton industrie – Cadenassable – Démultiplicateur",
+            "Industrial brass ball valves — lockable, gear operator",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-sphero-conique",
+          name: frEn(
+            "Vannes à sphère Laiton sphéro-conique",
+            "Brass conical ball valves",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-collecteurs-tetine",
+          name: frEn(
+            "Vannes à sphère Laiton – Pour collecteurs – Avec tétine",
+            "Brass ball valves for manifolds with drain cock",
+          ),
+        },
+        {
+          slug: "vannes-sphere-laiton-3-voies",
+          name: frEn(
+            "Vannes à sphère Laiton 3 voies",
+            "Brass three-way ball valves",
+          ),
+        },
+        {
+          slug: "vannes-sphere-pvc-u",
+          name: frEn("Vannes à sphère PVC-U", "PVC-U ball valves"),
+        },
+        {
+          slug: "vannes-sphere-a-brides-laiton-fonte",
+          name: frEn(
+            "Vannes à sphère à brides Laiton – Fonte",
+            "Flanged brass & cast iron ball valves",
+          ),
+        },
+      ],
     },
   ],
   sectors: [

@@ -29,7 +29,10 @@
     "sync:three-way-ball-images": "node scripts/sync-three-way-ball-images.mjs",
     "sync:four-way-ball-images": "node scripts/sync-four-way-ball-images.mjs",
     "sync:wafer-ball-images": "node scripts/sync-wafer-ball-images.mjs",
-    "sync:jc-trunnion-ball-images": "node scripts/sync-jc-trunnion-ball-images.mjs"
+    "sync:jc-trunnion-ball-images": "node scripts/sync-jc-trunnion-ball-images.mjs",
+    "sync:brass-pvc-images": "node scripts/sync-brass-pvc-images.mjs",
+    "sync:brass-pvc-taxonomy-images": "node scripts/sync-brass-pvc-taxonomy-images.mjs",
+    "generate:brass-pvc-catalog": "node scripts/generate-brass-pvc-catalog.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
