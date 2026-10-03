@@ -24,7 +24,8 @@
     "sync:two-piece-ball-images": "node scripts/sync-two-piece-ball-images.mjs",
     "sync:split-body-ball-images": "node scripts/sync-split-body-ball-images.mjs",
     "sync:three-piece-ball-images": "node scripts/sync-three-piece-ball-images.mjs",
-    "sync:elsa-ball-images": "node scripts/sync-elsa-ball-images.mjs"
+    "sync:elsa-ball-images": "node scripts/sync-elsa-ball-images.mjs",
+    "sync:three-piece-flanged-ball-images": "node scripts/sync-three-piece-flanged-ball-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
