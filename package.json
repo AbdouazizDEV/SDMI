@@ -18,7 +18,10 @@
     "sync:knife-gate-range-images": "node scripts/sync-knife-gate-images.mjs",
     "sync:knife-gate-accessory-images": "node scripts/sync-knife-gate-accessory-images.mjs",
     "sync:soupape-pointeau-images": "node scripts/sync-soupape-pointeau-images.mjs",
-    "sync:soupape-pointeau-taxonomy-images": "node scripts/sync-soupape-pointeau-taxonomy-images.mjs"
+    "sync:soupape-pointeau-taxonomy-images": "node scripts/sync-soupape-pointeau-taxonomy-images.mjs",
+    "sync:stainless-monobloc-ball-images": "node scripts/sync-stainless-monobloc-ball-images.mjs",
+    "sync:ball-valve-taxonomy-images": "node scripts/sync-ball-valve-taxonomy-images.mjs",
+    "sync:two-piece-ball-images": "node scripts/sync-two-piece-ball-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

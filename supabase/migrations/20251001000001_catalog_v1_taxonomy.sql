@@ -35,7 +35,17 @@ join (
     ('robinets-soupape-pointeau', 'robinets-a-soupape', '{"fr": "Robinets à soupape", "en": "Globe valves"}', 10),
     ('robinets-soupape-pointeau', 'robinets-a-pointeau', '{"fr": "Robinets à pointeau", "en": "Needle valves"}', 20),
     ('robinets-soupape-pointeau', 'robinets-incendie-colonne-seche-prise-simple-ou-double', '{"fr": "Robinets incendie colonne sèche prise simple ou double", "en": "Dry riser fire valves — single or double outlet"}', 30),
-    ('robinets-soupape-pointeau', 'robinets-pied-de-colonne-perfection-a-flotteur', '{"fr": "Robinets pied de colonne – Perfection – à flotteur", "en": "Column foot, perfection & float valves"}', 40)
+    ('robinets-soupape-pointeau', 'robinets-pied-de-colonne-perfection-a-flotteur', '{"fr": "Robinets pied de colonne – Perfection – à flotteur", "en": "Column foot, perfection & float valves"}', 40),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-monobloc-inox', '{"fr": "Robinets à tournant sphérique monobloc inox", "en": "Stainless monobloc ball valves"}', 10),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-2-pieces', '{"fr": "Robinets à tournant sphérique 2 pièces", "en": "Two-piece ball valves"}', 20),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-2-pieces-split-body', '{"fr": "Robinets à tournant sphérique 2 pièces à brides Split Body", "en": "Two-piece split body flanged ball valves"}', 30),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-3-pieces', '{"fr": "Robinets à tournant sphérique 3 pièces", "en": "Three-piece ball valves"}', 40),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-3-pieces-brides-elsa', '{"fr": "Robinets à tournant sphérique 3 pièces à brides tournantes ELSA®", "en": "ELSA® three-piece flanged ball valves"}', 50),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-3-pieces-a-brides', '{"fr": "Robinets à tournant sphérique 3 pièces à brides", "en": "Three-piece flanged ball valves"}', 60),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-3-voies', '{"fr": "Robinets à tournant sphérique 3 voies", "en": "Three-way ball valves"}', 70),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-4-voies', '{"fr": "Robinets à tournant sphérique 4 voies", "en": "Four-way ball valves"}', 80),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-wafer-brides-etroit', '{"fr": "Robinets à tournant sphérique Wafer entre brides étroit", "en": "Narrow wafer ball valves"}', 90),
+    ('robinets-tournant-spherique-acier-inox', 'robinets-tournant-spherique-sphere-arbree-jc', '{"fr": "Robinets à tournant sphérique sphère arbrée JC", "en": "JC trunnion-mounted ball valves"}', 100)
 ) as v(family_slug, slug, name, sort_order)
   on f.slug = v.family_slug
 on conflict (family_id, slug) do update set

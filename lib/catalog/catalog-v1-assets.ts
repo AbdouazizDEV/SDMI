@@ -8,7 +8,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
   "robinets-soupape-pointeau":
     "/images/catalog/taxonomy/robinets-soupape-pointeau.jpg",
   "robinets-tournant-spherique-acier-inox":
-    "/images/subfamilies/robinets-a-boisseau-spherique.jpg",
+    "/images/catalog/taxonomy/robinets-tournant-spherique-acier-inox.jpg",
   "vannes-sphere-laiton-fonte-pvc": "/images/famille-robinetterie.jpg",
 };
 
@@ -40,6 +40,10 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-incendie-colonne-seche-prise-simple-ou-double.jpg",
   "robinets-pied-de-colonne-perfection-a-flotteur":
     "/images/catalog/taxonomy/robinets-pied-de-colonne-perfection-a-flotteur.jpg",
+  "robinets-tournant-spherique-monobloc-inox":
+    "/images/catalog/taxonomy/robinets-tournant-spherique-monobloc-inox.jpg",
+  "robinets-tournant-spherique-2-pieces":
+    "/images/catalog/taxonomy/robinets-tournant-spherique-2-pieces.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {

@@ -169,7 +169,78 @@ export const catalogV1Navigation: CatalogNavigation = {
         "Robinets à tournant sphérique acier – inox",
         "Steel & stainless ball valves",
       ),
-      subfamilies: [],
+      subfamilies: [
+        {
+          slug: "robinets-tournant-spherique-monobloc-inox",
+          name: frEn(
+            "Robinets à tournant sphérique monobloc inox",
+            "Stainless monobloc ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-2-pieces",
+          name: frEn(
+            "Robinets à tournant sphérique 2 pièces",
+            "Two-piece ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-2-pieces-split-body",
+          name: frEn(
+            "Robinets à tournant sphérique 2 pièces à brides Split Body",
+            "Two-piece split body flanged ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-3-pieces",
+          name: frEn(
+            "Robinets à tournant sphérique 3 pièces",
+            "Three-piece ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-3-pieces-brides-elsa",
+          name: frEn(
+            "Robinets à tournant sphérique 3 pièces à brides tournantes ELSA®",
+            "ELSA® three-piece flanged ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-3-pieces-a-brides",
+          name: frEn(
+            "Robinets à tournant sphérique 3 pièces à brides",
+            "Three-piece flanged ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-3-voies",
+          name: frEn(
+            "Robinets à tournant sphérique 3 voies",
+            "Three-way ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-4-voies",
+          name: frEn(
+            "Robinets à tournant sphérique 4 voies",
+            "Four-way ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-wafer-brides-etroit",
+          name: frEn(
+            "Robinets à tournant sphérique Wafer entre brides étroit",
+            "Narrow wafer ball valves",
+          ),
+        },
+        {
+          slug: "robinets-tournant-spherique-sphere-arbree-jc",
+          name: frEn(
+            "Robinets à tournant sphérique sphère arbrée JC",
+            "JC trunnion-mounted ball valves",
+          ),
+        },
+      ],
     },
     {
       slug: "vannes-sphere-laiton-fonte-pvc",

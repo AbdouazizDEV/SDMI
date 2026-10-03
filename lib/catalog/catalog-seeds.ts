@@ -14,6 +14,8 @@ import { industrialGlobeValveRanges } from "@/lib/catalog/seeds/industrial-globe
 import { industrialNeedleValveRanges } from "@/lib/catalog/seeds/industrial-needle-valve-ranges";
 import { fireDryColumnValveRanges } from "@/lib/catalog/seeds/fire-dry-column-valve-ranges";
 import { columnFootFloatValveRanges } from "@/lib/catalog/seeds/column-foot-float-valve-ranges";
+import { stainlessMonoblocBallValveRanges } from "@/lib/catalog/seeds/stainless-monobloc-ball-valve-ranges";
+import { twoPieceBallValveRanges } from "@/lib/catalog/seeds/two-piece-ball-valve-ranges";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
@@ -29,6 +31,8 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...industrialNeedleValveRanges,
   ...fireDryColumnValveRanges,
   ...columnFootFloatValveRanges,
+  ...stainlessMonoblocBallValveRanges,
+  ...twoPieceBallValveRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {
