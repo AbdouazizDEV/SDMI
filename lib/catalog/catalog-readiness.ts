@@ -26,6 +26,7 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "robinets-tournant-spherique-3-voies",
   "robinets-tournant-spherique-4-voies",
   "robinets-tournant-spherique-wafer-brides-etroit",
+  "robinets-tournant-spherique-sphere-arbree-jc",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -44,5 +45,5 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
   return BROWSEABLE_FAMILY_SLUGS.has(familySlug);
 }
 
-/** Prochaine ouverture catalogue v1. */
-export const nextCatalogSubfamilySlug = "robinets-tournant-spherique-sphere-arbree-jc";
+/** Prochain lot catalogue v1 — famille laiton / fonte / PVC (sous-familles à définir). */
+export const nextCatalogSubfamilySlug = "vannes-sphere-laiton-fonte-pvc";

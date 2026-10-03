@@ -58,6 +58,11 @@ const ITEMS = [
     productUrl:
       "https://www.sferaco.com/fr/773-robinet-a-tournant-spherique-2-pieces-a-brides-inox-wafer.html",
   },
+  {
+    fileSlug: "robinets-tournant-spherique-sphere-arbree-jc",
+    productUrl:
+      "https://www.sferaco.com/fr/6030aicg-robinet-a-sphere-arbree-jc-a-brides-acier-class300-pn50.html",
+  },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });
