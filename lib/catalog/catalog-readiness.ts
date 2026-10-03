@@ -24,6 +24,8 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "robinets-tournant-spherique-3-pieces-brides-elsa",
   "robinets-tournant-spherique-3-pieces-a-brides",
   "robinets-tournant-spherique-3-voies",
+  "robinets-tournant-spherique-4-voies",
+  "robinets-tournant-spherique-wafer-brides-etroit",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -43,4 +45,4 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
 }
 
 /** Prochaine ouverture catalogue v1. */
-export const nextCatalogSubfamilySlug = "robinets-tournant-spherique-4-voies";
+export const nextCatalogSubfamilySlug = "robinets-tournant-spherique-sphere-arbree-jc";
