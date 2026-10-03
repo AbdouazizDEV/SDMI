@@ -22,7 +22,8 @@
     "sync:stainless-monobloc-ball-images": "node scripts/sync-stainless-monobloc-ball-images.mjs",
     "sync:ball-valve-taxonomy-images": "node scripts/sync-ball-valve-taxonomy-images.mjs",
     "sync:two-piece-ball-images": "node scripts/sync-two-piece-ball-images.mjs",
-    "sync:split-body-ball-images": "node scripts/sync-split-body-ball-images.mjs"
+    "sync:split-body-ball-images": "node scripts/sync-split-body-ball-images.mjs",
+    "sync:three-piece-ball-images": "node scripts/sync-three-piece-ball-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

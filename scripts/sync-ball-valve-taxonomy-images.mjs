@@ -28,6 +28,11 @@ const ITEMS = [
     productUrl:
       "https://www.sferaco.com/fr/750-robinet-a-tournant-spherique-2-pieces-a-brides-acier-fm2.html",
   },
+  {
+    fileSlug: "robinets-tournant-spherique-3-pieces",
+    productUrl:
+      "https://www.sferaco.com/fr/740-robinet-a-tournant-spherique-3-pieces-inox-platine-iso-bsp-gamme-initiale.html",
+  },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });

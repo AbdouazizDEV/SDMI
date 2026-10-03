@@ -17,6 +17,7 @@ import { columnFootFloatValveRanges } from "@/lib/catalog/seeds/column-foot-floa
 import { stainlessMonoblocBallValveRanges } from "@/lib/catalog/seeds/stainless-monobloc-ball-valve-ranges";
 import { twoPieceBallValveRanges } from "@/lib/catalog/seeds/two-piece-ball-valve-ranges";
 import { splitBodyBallValveRanges } from "@/lib/catalog/seeds/split-body-ball-valve-ranges";
+import { threePieceBallValveRanges } from "@/lib/catalog/seeds/three-piece-ball-valve-ranges";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
@@ -35,6 +36,7 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...stainlessMonoblocBallValveRanges,
   ...twoPieceBallValveRanges,
   ...splitBodyBallValveRanges,
+  ...threePieceBallValveRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {
