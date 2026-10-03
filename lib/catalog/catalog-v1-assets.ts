@@ -44,6 +44,8 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
     "/images/catalog/taxonomy/robinets-tournant-spherique-monobloc-inox.jpg",
   "robinets-tournant-spherique-2-pieces":
     "/images/catalog/taxonomy/robinets-tournant-spherique-2-pieces.jpg",
+  "robinets-tournant-spherique-2-pieces-split-body":
+    "/images/catalog/taxonomy/robinets-tournant-spherique-2-pieces-split-body.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {
