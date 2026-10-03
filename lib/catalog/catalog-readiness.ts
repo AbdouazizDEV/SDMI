@@ -27,6 +27,17 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "robinets-tournant-spherique-4-voies",
   "robinets-tournant-spherique-wafer-brides-etroit",
   "robinets-tournant-spherique-sphere-arbree-jc",
+  "vannes-sphere-laiton-serena-cw724r-pn40",
+  "vannes-sphere-laiton-nf-4ms",
+  "vannes-sphere-laiton-batiment-plus-4ms",
+  "robinets-compteur-laiton-ecrou-tournant",
+  "vannes-puisage-laiton-inox",
+  "vannes-sphere-laiton-industrie-cadenassable-demultiplicateur",
+  "vannes-sphere-laiton-sphero-conique",
+  "vannes-sphere-laiton-collecteurs-tetine",
+  "vannes-sphere-laiton-3-voies",
+  "vannes-sphere-pvc-u",
+  "vannes-sphere-a-brides-laiton-fonte",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -35,6 +46,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "vannes-operucle-guillotine",
   "robinets-soupape-pointeau",
   "robinets-tournant-spherique-acier-inox",
+  "vannes-sphere-laiton-fonte-pvc",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {
@@ -45,5 +57,5 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
   return BROWSEABLE_FAMILY_SLUGS.has(familySlug);
 }
 
-/** Prochain lot catalogue v1 — famille laiton / fonte / PVC (sous-familles à définir). */
-export const nextCatalogSubfamilySlug = "vannes-sphere-laiton-fonte-pvc";
+/** Prochain lot catalogue v1 — tuyauterie et accessoires (sous-familles à définir). */
+export const nextCatalogSubfamilySlug = "tuyauterie-et-accessoires";

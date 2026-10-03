@@ -1,0 +1,824 @@
+[
+  {
+    "reference": "509s",
+    "pathKey": "509s-vanne-a-sphere-laiton-cw724r-serena-femelle-femelle-levier-noir",
+    "productSlug": "serie-509s-vanne-a-sphere-laiton-cw724r-serena-femelle-femelle-levier-noir",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "510s",
+    "pathKey": "510s-vanne-a-sphere-laiton-cw724r-serena-a-purge-femelle-femelle-levier-noir",
+    "productSlug": "serie-510s-vanne-a-sphere-laiton-cw724r-serena-a-purge-femelle-femelle-levier-noir",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "525s",
+    "pathKey": "525s-vanne-a-sphere-laiton-cw724r-serena-femelle-femelle-manette-noire",
+    "productSlug": "serie-525s-vanne-a-sphere-laiton-cw724r-serena-femelle-femelle-manette-noire",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "530s",
+    "pathKey": "530s-vanne-a-sphere-laiton-cw724r-serena-a-purge-femelle-manette-noire",
+    "productSlug": "serie-530s-vanne-a-sphere-laiton-cw724r-serena-a-purge-femelle-manette-noire",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "565s",
+    "pathKey": "565s-vanne-a-sphere-laiton-cw724r-serena-male-male-manette-noire",
+    "productSlug": "serie-565s-vanne-a-sphere-laiton-cw724r-serena-male-male-manette-noire",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "566s",
+    "pathKey": "566s-vanne-a-sphere-laiton-cw724r-serena-male-male-levier-noir",
+    "productSlug": "serie-566s-vanne-a-sphere-laiton-cw724r-serena-male-male-levier-noir",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "570s",
+    "pathKey": "570s-vanne-a-sphere-laiton-cw724r-serena-male-femelle-manette-noire",
+    "productSlug": "serie-570s-vanne-a-sphere-laiton-cw724r-serena-male-femelle-manette-noire",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "571s",
+    "pathKey": "571s-vanne-a-sphere-laiton-cw724r-serena-male-femelle-levier-noir",
+    "productSlug": "serie-571s-vanne-a-sphere-laiton-cw724r-serena-male-femelle-levier-noir",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "615s",
+    "pathKey": "615s-vanne-a-sphere-laiton-serena-prolongateur-fixe-femelle-a-poignee-noire",
+    "productSlug": "serie-615s-vanne-a-sphere-laiton-serena-prolongateur-fixe-femelle-a-poignee-noire",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "9812148",
+    "pathKey": "9812148-kit-bouchon-purge-et-joints-pour-vanne-serena-a-purge",
+    "productSlug": "serie-9812148-kit-bouchon-purge-et-joints-pour-vanne-serena-a-purge",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "98125",
+    "pathKey": "98125-levier-cadenassable-noir-pour-vannes-serena",
+    "productSlug": "serie-98125-levier-cadenassable-noir-pour-vannes-serena",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "981251",
+    "pathKey": "981251-rehausse-seule-noire-pour-vannes-serena",
+    "productSlug": "serie-981251-rehausse-seule-noire-pour-vannes-serena",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "9812517",
+    "pathKey": "9812517-sachet-de-10-clips-rouges-eau-chaude-pour-levier-serena",
+    "productSlug": "serie-9812517-sachet-de-10-clips-rouges-eau-chaude-pour-levier-serena",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "9812518",
+    "pathKey": "9812518-sachet-de-10-clips-bleus-eau-froide-pour-levier-serena",
+    "productSlug": "serie-9812518-sachet-de-10-clips-bleus-eau-froide-pour-levier-serena",
+    "imageDir": "serena-cw724r"
+  },
+  {
+    "reference": "506",
+    "pathKey": "506-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-purge-poignee-verte",
+    "productSlug": "serie-506-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-purge-poignee-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "526",
+    "pathKey": "526-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-purge-papillon-vert",
+    "productSlug": "serie-526-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-purge-papillon-vert",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "528",
+    "pathKey": "528-vanne-a-sphere-laiton-titre-4ms-nf-male-femelle-poignee-plate-verte",
+    "productSlug": "serie-528-vanne-a-sphere-laiton-titre-4ms-nf-male-femelle-poignee-plate-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "544",
+    "pathKey": "544-vanne-a-sphere-laiton-titre-4ms-nf-male-male-a-purge-poignee-verte",
+    "productSlug": "serie-544-vanne-a-sphere-laiton-titre-4ms-nf-male-male-a-purge-poignee-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "545",
+    "pathKey": "545-vanne-a-sphere-laiton-titre-4ms-nf-male-male-a-purge-papillon-vert",
+    "productSlug": "serie-545-vanne-a-sphere-laiton-titre-4ms-nf-male-male-a-purge-papillon-vert",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "549",
+    "pathKey": "549-vanne-a-sphere-laiton-titre-4ms-nf-male-femelle-purge-poignee-plate-verte",
+    "productSlug": "serie-549-vanne-a-sphere-laiton-titre-4ms-nf-male-femelle-purge-poignee-plate-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "550",
+    "pathKey": "550-vanne-a-sphere-laiton-4ms-nf-male-femelle-a-purge-manette-papillon",
+    "productSlug": "serie-550-vanne-a-sphere-laiton-4ms-nf-male-femelle-a-purge-manette-papillon",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "567",
+    "pathKey": "567-vanne-a-sphere-laiton-titre-4ms-nf-male-male-poignee-plate-verte",
+    "productSlug": "serie-567-vanne-a-sphere-laiton-titre-4ms-nf-male-male-poignee-plate-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "568",
+    "pathKey": "568-vanne-a-sphere-laiton-titre-4ms-nf-male-male-manette-papillon-verte",
+    "productSlug": "serie-568-vanne-a-sphere-laiton-titre-4ms-nf-male-male-manette-papillon-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "569",
+    "pathKey": "569-vanne-sphere-laiton-titre-4ms-nf-male-femelle-manette-papillon-verte",
+    "productSlug": "serie-569-vanne-sphere-laiton-titre-4ms-nf-male-femelle-manette-papillon-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "577",
+    "pathKey": "577-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-poignee-plate-verte",
+    "productSlug": "serie-577-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-poignee-plate-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "578",
+    "pathKey": "578-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-manette-papillon-verte",
+    "productSlug": "serie-578-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-manette-papillon-verte",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "610",
+    "pathKey": "610-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-prolongateur-tournant",
+    "productSlug": "serie-610-vanne-a-sphere-laiton-titre-4ms-nf-femelle-femelle-a-prolongateur-tournant",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "620",
+    "pathKey": "620-vanne-a-sphere-laiton-nf-rob-gaz-airagas-femelle-femelle-bsp",
+    "productSlug": "serie-620-vanne-a-sphere-laiton-nf-rob-gaz-airagas-femelle-femelle-bsp",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "9812008",
+    "pathKey": "9812008-kit-comprenant-bouchon-purge-et-joints-pour-vanne-a-sphere-nf",
+    "productSlug": "serie-9812008-kit-comprenant-bouchon-purge-et-joints-pour-vanne-a-sphere-nf",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "981232",
+    "pathKey": "981232-rehausse-compatible-avec-toute-la-serie-nf",
+    "productSlug": "serie-981232-rehausse-compatible-avec-toute-la-serie-nf",
+    "imageDir": "nf-4ms"
+  },
+  {
+    "reference": "508",
+    "pathKey": "508-vanne-a-sphere-laiton-titre-femelle-femelle-poignee-plate-bleue",
+    "productSlug": "serie-508-vanne-a-sphere-laiton-titre-femelle-femelle-poignee-plate-bleue",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "511",
+    "pathKey": "511-vanne-a-sphere-laiton-titre-male-femelle-poignee-acier-plate-bleue",
+    "productSlug": "serie-511-vanne-a-sphere-laiton-titre-male-femelle-poignee-acier-plate-bleue",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "529",
+    "pathKey": "529-vanne-a-sphere-laiton-titre-male-male-poignee-acier-bleue",
+    "productSlug": "serie-529-vanne-a-sphere-laiton-titre-male-male-poignee-acier-bleue",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "533",
+    "pathKey": "533-vanne-a-sphere-laiton-titre-batimentplus-male-femelle-manette-bleue",
+    "productSlug": "serie-533-vanne-a-sphere-laiton-titre-batimentplus-male-femelle-manette-bleue",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "536",
+    "pathKey": "536-vanne-a-sphere-laiton-titre-male-male-manette-papillon-bleue",
+    "productSlug": "serie-536-vanne-a-sphere-laiton-titre-male-male-manette-papillon-bleue",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "542",
+    "pathKey": "542-vanne-a-sphere-laiton-titre-batplus-male-male-a-purge-portee-plate-manette",
+    "productSlug": "serie-542-vanne-a-sphere-laiton-titre-batplus-male-male-a-purge-portee-plate-manette",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "543",
+    "pathKey": "543-vanne-sphere-laiton-titre-batplus-male-male-purge-portee-plate-3-4-poignee",
+    "productSlug": "serie-543-vanne-sphere-laiton-titre-batplus-male-male-purge-portee-plate-3-4-poignee",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "546",
+    "pathKey": "546-vanne-a-sphere-laiton-male-femelle-a-purge-portee-plate-manette-papillon",
+    "productSlug": "serie-546-vanne-a-sphere-laiton-male-femelle-a-purge-portee-plate-manette-papillon",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "547",
+    "pathKey": "547-vanne-a-sphere-laiton-male-femelle-purge-portee-plate-poignee-plate-rouge",
+    "productSlug": "serie-547-vanne-a-sphere-laiton-male-femelle-purge-portee-plate-poignee-plate-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "560",
+    "pathKey": "560-vanne-sphere-laiton-titre-4ms-femelle-femelle-purge-manette-papillon-rouge",
+    "productSlug": "serie-560-vanne-sphere-laiton-titre-4ms-femelle-femelle-purge-manette-papillon-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "564",
+    "pathKey": "564-vanne-a-sphere-laiton-titre-4ms-femelle-femelle-manette-papillon-bleue-80s",
+    "productSlug": "serie-564-vanne-a-sphere-laiton-titre-4ms-femelle-femelle-manette-papillon-bleue-80s",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "580",
+    "pathKey": "580-vanne-sphere-laiton-titre-4ms-batimentplus-femelle-femelle-bsp-poignee-rouge",
+    "productSlug": "serie-580-vanne-sphere-laiton-titre-4ms-batimentplus-femelle-femelle-bsp-poignee-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "581",
+    "pathKey": "581-vanne-a-sphere-laiton-titre-4ms-batimentplus-male-femelle-bsp-poignee-rouge",
+    "productSlug": "serie-581-vanne-a-sphere-laiton-titre-4ms-batimentplus-male-femelle-bsp-poignee-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "582",
+    "pathKey": "582-vanne-sphere-laiton-titre-4ms-batimentplus-male-male-bsp-poignee-rouge",
+    "productSlug": "serie-582-vanne-sphere-laiton-titre-4ms-batimentplus-male-male-bsp-poignee-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "585",
+    "pathKey": "585-vanne-sphere-laiton-titre-batplus-femelle-femelle-a-purge-1-4-poignee-rouge",
+    "productSlug": "serie-585-vanne-sphere-laiton-titre-batplus-femelle-femelle-a-purge-1-4-poignee-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "586",
+    "pathKey": "586-vanne-sphere-laiton-titre-4ms-batplus-femelle-femelle-manette-papillon",
+    "productSlug": "serie-586-vanne-sphere-laiton-titre-4ms-batplus-femelle-femelle-manette-papillon",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "587",
+    "pathKey": "587-vanne-sphere-laiton-titre-4ms-batplus-male-femelle-manette-papillon",
+    "productSlug": "serie-587-vanne-sphere-laiton-titre-4ms-batplus-male-femelle-manette-papillon",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "588",
+    "pathKey": "588-vanne-sphere-laiton-titre-4ms-bat-plus-male-male-bsp-manette-papillon-rouge",
+    "productSlug": "serie-588-vanne-sphere-laiton-titre-4ms-bat-plus-male-male-bsp-manette-papillon-rouge",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "981215",
+    "pathKey": "981215-levier-cadenassable-pour-serie-batimentplus-580",
+    "productSlug": "serie-981215-levier-cadenassable-pour-serie-batimentplus-580",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "981233",
+    "pathKey": "981233-rehausse-compatible-avec-toutes-les-series-batiment-plus",
+    "productSlug": "serie-981233-rehausse-compatible-avec-toutes-les-series-batiment-plus",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "kit-purge-avec-bouchon-pour",
+    "pathKey": "kit-purge-avec-bouchon-pour-vannes-542-543-et-546-547",
+    "productSlug": "serie-kit-purge-avec-bouchon-pour-vannes-542-543-et-546-547",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "vanne",
+    "pathKey": "vanne-a-sphere-laiton-titre-batiment-plus-a-prolongateur-fixe",
+    "productSlug": "serie-vanne-a-sphere-laiton-titre-batiment-plus-a-prolongateur-fixe",
+    "imageDir": "batiment-plus-4ms"
+  },
+  {
+    "reference": "555",
+    "pathKey": "555-vanne-a-sphere-equerre-avant-compteur-laiton-4ms-male-femelle-bsp-manette",
+    "productSlug": "serie-555-vanne-a-sphere-equerre-avant-compteur-laiton-4ms-male-femelle-bsp-manette",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "635",
+    "pathKey": "635-robinet-de-compteur-droit-avant-compteur-4ms-femelle-manette-rouge",
+    "productSlug": "serie-635-robinet-de-compteur-droit-avant-compteur-4ms-femelle-manette-rouge",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "636",
+    "pathKey": "636-robinet-de-compteur-droit-avant-compteur-4ms-male-manette-papillon-rouge",
+    "productSlug": "serie-636-robinet-de-compteur-droit-avant-compteur-4ms-male-manette-papillon-rouge",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "637",
+    "pathKey": "637-robinet-de-compteur-cadenassable-male-ecrou-prisonnier-male",
+    "productSlug": "serie-637-robinet-de-compteur-cadenassable-male-ecrou-prisonnier-male",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "638",
+    "pathKey": "638-robinet-de-compteur-cadenassable-male-ecrou-prisonnier-femelle-3-4pouces-3-4pouces",
+    "productSlug": "serie-638-robinet-de-compteur-cadenassable-male-ecrou-prisonnier-femelle-3-4pouces-3-4pouces",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "639",
+    "pathKey": "639-robinet-de-compteur-droit-a-purge-male-ecrou-tournant-laiton-4ms-3-4pouces-3-4pouces",
+    "productSlug": "serie-639-robinet-de-compteur-droit-a-purge-male-ecrou-tournant-laiton-4ms-3-4pouces-3-4pouces",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "641",
+    "pathKey": "641-robinet-de-compteur-droit-femelle-laiton-4ms-sans-plomb-nf-manette",
+    "productSlug": "serie-641-robinet-de-compteur-droit-femelle-laiton-4ms-sans-plomb-nf-manette",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "642",
+    "pathKey": "642-robinet-de-compteur-male-droit-laiton-4ms-nf-poignee-verte-laiton",
+    "productSlug": "serie-642-robinet-de-compteur-male-droit-laiton-4ms-nf-poignee-verte-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "643",
+    "pathKey": "643-robinet-droit-apres-compteur-a-purge-male-laiton-sans-plomb-4ms",
+    "productSlug": "serie-643-robinet-droit-apres-compteur-a-purge-male-laiton-sans-plomb-4ms",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "644",
+    "pathKey": "644-robinet-de-compteur-equerre-male-femelle-laiton-sans-plomb-4ms",
+    "productSlug": "serie-644-robinet-de-compteur-equerre-male-femelle-laiton-sans-plomb-4ms",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "645",
+    "pathKey": "645-robinet-de-compteur-equerre-male-femelle-laiton-4ms-manette-rouge",
+    "productSlug": "serie-645-robinet-de-compteur-equerre-male-femelle-laiton-4ms-manette-rouge",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "646",
+    "pathKey": "646-robinet-de-compteur-equerre-male-femelle-laiton-sans-plomb-4ms-spde",
+    "productSlug": "serie-646-robinet-de-compteur-equerre-male-femelle-laiton-sans-plomb-4ms-spde",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "648",
+    "pathKey": "648-robinet-compteur-droit-laiton-4ms-ecrou-prisonnier-femelle-manette-laiton",
+    "productSlug": "serie-648-robinet-compteur-droit-laiton-4ms-ecrou-prisonnier-femelle-manette-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "649",
+    "pathKey": "649-robinet-de-compteur-droit-laiton-4ms-ecrou-prisonnier-male-manette-laiton",
+    "productSlug": "serie-649-robinet-de-compteur-droit-laiton-4ms-ecrou-prisonnier-male-manette-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "650",
+    "pathKey": "650-robinet-compteur-equerre-laiton-4ms-ecrou-prisonnier-male-manette-laiton",
+    "productSlug": "serie-650-robinet-compteur-equerre-laiton-4ms-ecrou-prisonnier-male-manette-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "654",
+    "pathKey": "654-robinet-de-compteur-droit-laiton-sans-plomb-4ms-ecrou-tournant",
+    "productSlug": "serie-654-robinet-de-compteur-droit-laiton-sans-plomb-4ms-ecrou-tournant",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "656",
+    "pathKey": "656-robinet-de-compteur-equerre-purge-1-4pouces-laiton-4ms-25-ecrou-prisonnier-3-4pouces",
+    "productSlug": "serie-656-robinet-de-compteur-equerre-purge-1-4pouces-laiton-4ms-25-ecrou-prisonnier-3-4pouces",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "657",
+    "pathKey": "657-robinet-de-compteur-droit-a-purge-1-4pouces-laiton-4ms-25-ecrou-prisonnier-3-4pouces",
+    "productSlug": "serie-657-robinet-de-compteur-droit-a-purge-1-4pouces-laiton-4ms-25-ecrou-prisonnier-3-4pouces",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "659",
+    "pathKey": "659-robinet-de-compteur-equerre-laiton-sans-plomb-4ms-a-ecrou-tournant",
+    "productSlug": "serie-659-robinet-de-compteur-equerre-laiton-sans-plomb-4ms-a-ecrou-tournant",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "660",
+    "pathKey": "660-robinet-de-compteur-equerre-femelle-femelle-laiton-4ms-manette-laiton",
+    "productSlug": "serie-660-robinet-de-compteur-equerre-femelle-femelle-laiton-4ms-manette-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9810403",
+    "pathKey": "9810403-cle-passe-partout-pour-vanne-de-compteur-sferalocking-ref-637-638",
+    "productSlug": "serie-9810403-cle-passe-partout-pour-vanne-de-compteur-sferalocking-ref-637-638",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9810404",
+    "pathKey": "9810404-kit-systeme-de-cadenassage-pour-vanne-de-compteur-sferalocking",
+    "productSlug": "serie-9810404-kit-systeme-de-cadenassage-pour-vanne-de-compteur-sferalocking",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9812180",
+    "pathKey": "9812180-verrou-magnetique-pour-vannes-a-sphere-laiton",
+    "productSlug": "serie-9812180-verrou-magnetique-pour-vannes-a-sphere-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9812181",
+    "pathKey": "9812181-cle-pour-cadenas-magnetique-de-vanne-a-sphere-laiton",
+    "productSlug": "serie-9812181-cle-pour-cadenas-magnetique-de-vanne-a-sphere-laiton",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9812182",
+    "pathKey": "9812182-adaptateur-pour-verrou-magnetique-sur-vannes-serena",
+    "productSlug": "serie-9812182-adaptateur-pour-verrou-magnetique-sur-vannes-serena",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9812183",
+    "pathKey": "9812183-adaptateur-pour-verrou-magnetique-vanne-de-compteur-batplus",
+    "productSlug": "serie-9812183-adaptateur-pour-verrou-magnetique-vanne-de-compteur-batplus",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "9812184",
+    "pathKey": "9812184-adaptateur-pour-verrou-magnetique-vanne-de-compteur-airaga",
+    "productSlug": "serie-9812184-adaptateur-pour-verrou-magnetique-vanne-de-compteur-airaga",
+    "imageDir": "compteur-ecrou"
+  },
+  {
+    "reference": "1345",
+    "pathKey": "1345-robinet-de-puisage-laiton-a-potence-pn10-avec-manette-papillon",
+    "productSlug": "serie-1345-robinet-de-puisage-laiton-a-potence-pn10-avec-manette-papillon",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "1346",
+    "pathKey": "1346-robinet-de-puisage-laiton-a-potence-oblique-laiton-pn10-1-2pouces-3-4pouces",
+    "productSlug": "serie-1346-robinet-de-puisage-laiton-a-potence-oblique-laiton-pn10-1-2pouces-3-4pouces",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "680",
+    "pathKey": "680-robinet-de-puisage-laiton-nickele-a-tete-cache-entree",
+    "productSlug": "serie-680-robinet-de-puisage-laiton-nickele-a-tete-cache-entree",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "681",
+    "pathKey": "681-robinet-de-puisage-laiton-brosse-4ms-1-2pouces-3-4-tetine-17-manette-laiton",
+    "productSlug": "serie-681-robinet-de-puisage-laiton-brosse-4ms-1-2pouces-3-4-tetine-17-manette-laiton",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "682",
+    "pathKey": "682-robinet-de-puisage-laiton-brosse-4ms-avec-tetine-poignee-acier-plate-rouge",
+    "productSlug": "serie-682-robinet-de-puisage-laiton-brosse-4ms-avec-tetine-poignee-acier-plate-rouge",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "686",
+    "pathKey": "686-robinet-de-puisage-antigel-icecal-laiton-chrome-4ms-male-1-2pouces-3-4pouces",
+    "productSlug": "serie-686-robinet-de-puisage-antigel-icecal-laiton-chrome-4ms-male-1-2pouces-3-4pouces",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "695",
+    "pathKey": "695-bouche-d-arrosage-vanne-a-sphere-sortie-d-equerre-laiton-4ms-sortie-male",
+    "productSlug": "serie-695-bouche-d-arrosage-vanne-a-sphere-sortie-d-equerre-laiton-4ms-sortie-male",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "696",
+    "pathKey": "696-robinet-de-puisage-acs-laiton-4ms-nickele-poignee-acier-plate-rouge",
+    "productSlug": "serie-696-robinet-de-puisage-acs-laiton-4ms-nickele-poignee-acier-plate-rouge",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "698",
+    "pathKey": "698-robinet-de-puisage-antigel-laiton-a-boisseau-spherique-1-2pouces-3-4pouces",
+    "productSlug": "serie-698-robinet-de-puisage-antigel-laiton-a-boisseau-spherique-1-2pouces-3-4pouces",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "699",
+    "pathKey": "699-robinet-de-puisage-cadenassable-laiton-4ms-nickele-acs",
+    "productSlug": "serie-699-robinet-de-puisage-cadenassable-laiton-4ms-nickele-acs",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "795",
+    "pathKey": "795-robinet-de-puisage-cadenassable-inox-a-boisseau-spherique",
+    "productSlug": "serie-795-robinet-de-puisage-cadenassable-inox-a-boisseau-spherique",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "9800",
+    "pathKey": "9800-tete-pour-robinet-figure-1345",
+    "productSlug": "serie-9800-tete-pour-robinet-figure-1345",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "98100",
+    "pathKey": "98100-cartouche-antigel-de-rechange-icecal-1-2pouces",
+    "productSlug": "serie-98100-cartouche-antigel-de-rechange-icecal-1-2pouces",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "98104",
+    "pathKey": "98104-cle-pour-cache-entree-carre-de-6mm",
+    "productSlug": "serie-98104-cle-pour-cache-entree-carre-de-6mm",
+    "imageDir": "puisage-laiton-inox"
+  },
+  {
+    "reference": "1385",
+    "pathKey": "1385-vanne-equerre-fix-in-acs-avec-fixation-integree",
+    "productSlug": "serie-1385-vanne-equerre-fix-in-acs-avec-fixation-integree",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "502",
+    "pathKey": "502-vanne-a-sphere-laiton-degraissee-poignee-blanche-serie-industrie",
+    "productSlug": "serie-502-vanne-a-sphere-laiton-degraissee-poignee-blanche-serie-industrie",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "520",
+    "pathKey": "520-vanne-a-sphere-laiton-degraissee-oxygene-industrie-femelle-femelle",
+    "productSlug": "serie-520-vanne-a-sphere-laiton-degraissee-oxygene-industrie-femelle-femelle",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "521",
+    "pathKey": "521-vanne-a-sphere-laiton-serie-industrie-femelle-femelle-npt-poignee-noire",
+    "productSlug": "serie-521-vanne-a-sphere-laiton-serie-industrie-femelle-femelle-npt-poignee-noire",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "523",
+    "pathKey": "523-vanne-a-sphere-laiton-serie-industrie-femelle-femelle-bsp-papillon-rouge",
+    "productSlug": "serie-523-vanne-a-sphere-laiton-serie-industrie-femelle-femelle-bsp-papillon-rouge",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "527",
+    "pathKey": "527-vanne-a-sphere-laiton-industrie-filets-longs-male-femelle-poignee-rouge",
+    "productSlug": "serie-527-vanne-a-sphere-laiton-industrie-filets-longs-male-femelle-poignee-rouge",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "531",
+    "pathKey": "531-vanne-a-sphere-laiton-avec-demultiplicateur-femelle-femelle-bsp",
+    "productSlug": "serie-531-vanne-a-sphere-laiton-avec-demultiplicateur-femelle-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "537",
+    "pathKey": "537-vanne-a-sphere-laiton-industrie-filets-longs-male-femelle-manette-rouge",
+    "productSlug": "serie-537-vanne-a-sphere-laiton-industrie-filets-longs-male-femelle-manette-rouge",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "538",
+    "pathKey": "538-vanne-a-sphere-laiton-industrie-filets-longs-male-male-poignee-rouge",
+    "productSlug": "serie-538-vanne-a-sphere-laiton-industrie-filets-longs-male-male-poignee-rouge",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "548",
+    "pathKey": "548-vanne-a-sphere-laiton-industrie-filets-longs-male-male-manette-rouge",
+    "productSlug": "serie-548-vanne-a-sphere-laiton-industrie-filets-longs-male-male-manette-rouge",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "556",
+    "pathKey": "556-vanne-a-sphere-laiton-titre-cadenassage-sferalock-femelle-femelle-bsp",
+    "productSlug": "serie-556-vanne-a-sphere-laiton-titre-cadenassage-sferalock-femelle-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "557",
+    "pathKey": "557-vanne-a-sphere-laiton-cadenassage-sferalock-a-decompression-femelle-bsp",
+    "productSlug": "serie-557-vanne-a-sphere-laiton-cadenassage-sferalock-a-decompression-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "561",
+    "pathKey": "561-vanne-a-sphere-laiton-degraissee-oxygene-manette-papillon-femelle-femelle",
+    "productSlug": "serie-561-vanne-a-sphere-laiton-degraissee-oxygene-manette-papillon-femelle-femelle",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "576",
+    "pathKey": "576-vanne-a-sphere-laiton-industrie-filets-longs-poignee-rouge-femelle-bsp",
+    "productSlug": "serie-576-vanne-a-sphere-laiton-industrie-filets-longs-poignee-rouge-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "674",
+    "pathKey": "674-mini-vanne-a-sphere-laiton-4ms-male-femelle-bsp",
+    "productSlug": "serie-674-mini-vanne-a-sphere-laiton-4ms-male-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "67401",
+    "pathKey": "67401-mini-vanne-a-sphere-laiton-acs-4ms-male-femelle-bsp",
+    "productSlug": "serie-67401-mini-vanne-a-sphere-laiton-acs-4ms-male-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "677",
+    "pathKey": "677-mini-vanne-a-sphere-laiton-4ms-femelle-femelle-bsp",
+    "productSlug": "serie-677-mini-vanne-a-sphere-laiton-4ms-femelle-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "690",
+    "pathKey": "690-mini-vanne-a-sphere-laiton-4ms-male-male-bsp",
+    "productSlug": "serie-690-mini-vanne-a-sphere-laiton-4ms-male-male-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "691",
+    "pathKey": "691-micro-vanne-a-sphere-laiton-femelle-femelle-bsp",
+    "productSlug": "serie-691-micro-vanne-a-sphere-laiton-femelle-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "692",
+    "pathKey": "692-micro-vanne-a-sphere-laiton-male-femelle-bsp",
+    "productSlug": "serie-692-micro-vanne-a-sphere-laiton-male-femelle-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "693",
+    "pathKey": "693-micro-vanne-a-sphere-laiton-male-male-bsp",
+    "productSlug": "serie-693-micro-vanne-a-sphere-laiton-male-male-bsp",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "694",
+    "pathKey": "694-mini-vanne-a-sphere-laiton-4ms-avec-trou-de-decompression-male-femelle",
+    "productSlug": "serie-694-mini-vanne-a-sphere-laiton-4ms-avec-trou-de-decompression-male-femelle",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "697",
+    "pathKey": "697-mini-vanne-a-sphere-laiton-4ms-avec-trou-de-decompression-femelle-femelle",
+    "productSlug": "serie-697-mini-vanne-a-sphere-laiton-4ms-avec-trou-de-decompression-femelle-femelle",
+    "imageDir": "industrie-cadenassable"
+  },
+  {
+    "reference": "524",
+    "pathKey": "524-vanne-a-sphere-laiton-4ms-avec-raccord-demontable-male-femelle-bsp",
+    "productSlug": "serie-524-vanne-a-sphere-laiton-4ms-avec-raccord-demontable-male-femelle-bsp",
+    "imageDir": "sphero-conique"
+  },
+  {
+    "reference": "620",
+    "pathKey": "620-vanne-a-sphere-laiton-nf-rob-gaz-airagas-femelle-femelle-bsp",
+    "productSlug": "serie-620-vanne-a-sphere-laiton-nf-rob-gaz-airagas-femelle-femelle-bsp-sphero-conique",
+    "imageDir": "sphero-conique"
+  },
+  {
+    "reference": "670",
+    "pathKey": "670-vanne-sphere-laiton-a-raccordement-sphero-conique-male-male-manette-rouge",
+    "productSlug": "serie-670-vanne-sphere-laiton-a-raccordement-sphero-conique-male-male-manette-rouge",
+    "imageDir": "sphero-conique"
+  },
+  {
+    "reference": "675",
+    "pathKey": "675-vanne-a-sphere-laiton-a-raccordement-sphero-conique-male-femelle-bsp-1-2pouces",
+    "productSlug": "serie-675-vanne-a-sphere-laiton-a-raccordement-sphero-conique-male-femelle-bsp-1-2pouces",
+    "imageDir": "sphero-conique"
+  },
+  {
+    "reference": "553",
+    "pathKey": "553-vanne-a-sphere-laiton-femelle-avec-tetine-1-2pouces",
+    "productSlug": "serie-553-vanne-a-sphere-laiton-femelle-avec-tetine-1-2pouces",
+    "imageDir": "collecteurs-tetine"
+  },
+  {
+    "reference": "554",
+    "pathKey": "554-vanne-a-sphere-laiton-male-avec-tetine-1-2pouces",
+    "productSlug": "serie-554-vanne-a-sphere-laiton-male-avec-tetine-1-2pouces",
+    "imageDir": "collecteurs-tetine"
+  },
+  {
+    "reference": "633",
+    "pathKey": "633-vanne-a-sphere-laiton-4ms-pour-collecteur-a-ecrou-tournant",
+    "productSlug": "serie-633-vanne-a-sphere-laiton-4ms-pour-collecteur-a-ecrou-tournant",
+    "imageDir": "collecteurs-tetine"
+  },
+  {
+    "reference": "678",
+    "pathKey": "678-vanne-laiton-pour-collecteur-a-boisseau-spherique-bsp-1-2poucesf-1-2poucesm",
+    "productSlug": "serie-678-vanne-laiton-pour-collecteur-a-boisseau-spherique-bsp-1-2poucesf-1-2poucesm",
+    "imageDir": "collecteurs-tetine"
+  },
+  {
+    "reference": "513",
+    "pathKey": "513-vanne-a-sphere-laiton-3-voies-en-l-femelle-bsp",
+    "productSlug": "serie-513-vanne-a-sphere-laiton-3-voies-en-l-femelle-bsp",
+    "imageDir": "laiton-3-voies"
+  },
+  {
+    "reference": "514",
+    "pathKey": "514-vanne-a-sphere-laiton-3-voies-en-t-femelle-bsp",
+    "productSlug": "serie-514-vanne-a-sphere-laiton-3-voies-en-t-femelle-bsp",
+    "imageDir": "laiton-3-voies"
+  },
+  {
+    "reference": "534",
+    "pathKey": "534-vanne-a-sphere-laiton-4ms-3-voies-en-l-passage-integral-femelle-bsp",
+    "productSlug": "serie-534-vanne-a-sphere-laiton-4ms-3-voies-en-l-passage-integral-femelle-bsp",
+    "imageDir": "laiton-3-voies"
+  },
+  {
+    "reference": "535",
+    "pathKey": "535-vanne-a-sphere-laiton-4ms-3-voies-en-t-passage-standard-femelle-bsp",
+    "productSlug": "serie-535-vanne-a-sphere-laiton-4ms-3-voies-en-t-passage-standard-femelle-bsp",
+    "imageDir": "laiton-3-voies"
+  },
+  {
+    "reference": "589",
+    "pathKey": "589-vanne-a-sphere-laiton-titre-3-voies-en-y",
+    "productSlug": "serie-589-vanne-a-sphere-laiton-titre-3-voies-en-y",
+    "imageDir": "laiton-3-voies"
+  },
+  {
+    "reference": "583",
+    "pathKey": "583-vanne-a-sphere-pvc-u-serie-batiment-a-coller",
+    "productSlug": "serie-583-vanne-a-sphere-pvc-u-serie-batiment-a-coller",
+    "imageDir": "pvc-u"
+  },
+  {
+    "reference": "584",
+    "pathKey": "584-vanne-a-sphere-pvc-u-serie-batiment-femelle-femelle-bsp",
+    "productSlug": "serie-584-vanne-a-sphere-pvc-u-serie-batiment-femelle-femelle-bsp",
+    "imageDir": "pvc-u"
+  },
+  {
+    "reference": "598",
+    "pathKey": "598-vanne-a-sphere-pvc-u-serie-industrie-a-coller",
+    "productSlug": "serie-598-vanne-a-sphere-pvc-u-serie-industrie-a-coller",
+    "imageDir": "pvc-u"
+  },
+  {
+    "reference": "599",
+    "pathKey": "599-vanne-a-sphere-pvc-u-serie-industrie-taraudee-femelle-femelle-bsp",
+    "productSlug": "serie-599-vanne-a-sphere-pvc-u-serie-industrie-taraudee-femelle-femelle-bsp",
+    "imageDir": "pvc-u"
+  },
+  {
+    "reference": "500",
+    "pathKey": "500-vanne-a-sphere-fonte-gs-nf29323-avec-platine-iso-5211",
+    "productSlug": "serie-500-vanne-a-sphere-fonte-gs-nf29323-avec-platine-iso-5211",
+    "imageDir": "a-brides-laiton-fonte"
+  },
+  {
+    "reference": "504",
+    "pathKey": "504-vanne-a-sphere-laiton-titre-cw617n-a-brides-pn10-16",
+    "productSlug": "serie-504-vanne-a-sphere-laiton-titre-cw617n-a-brides-pn10-16",
+    "imageDir": "a-brides-laiton-fonte"
+  },
+  {
+    "reference": "505",
+    "pathKey": "505-vanne-a-sphere-fonte-nf29323-avec-platine-iso-5211",
+    "productSlug": "serie-505-vanne-a-sphere-fonte-nf29323-avec-platine-iso-5211",
+    "imageDir": "a-brides-laiton-fonte"
+  },
+  {
+    "reference": "507",
+    "pathKey": "507-vanne-a-sphere-fonte-avec-platine-iso-5211-din-3202-atex",
+    "productSlug": "serie-507-vanne-a-sphere-fonte-avec-platine-iso-5211-din-3202-atex",
+    "imageDir": "a-brides-laiton-fonte"
+  }
+]
