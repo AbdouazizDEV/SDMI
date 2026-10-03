@@ -48,6 +48,16 @@ const ITEMS = [
     productUrl:
       "https://www.sferaco.com/fr/785-robinet-a-tournant-spherique-3-voies-inox-lumiere-en-l.html",
   },
+  {
+    fileSlug: "robinets-tournant-spherique-4-voies",
+    productUrl:
+      "https://www.sferaco.com/fr/727-vanne-a-sphere-inox-4-voies-x-t-adler-pn16.html",
+  },
+  {
+    fileSlug: "robinets-tournant-spherique-wafer-brides-etroit",
+    productUrl:
+      "https://www.sferaco.com/fr/773-robinet-a-tournant-spherique-2-pieces-a-brides-inox-wafer.html",
+  },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });

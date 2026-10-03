@@ -26,7 +26,9 @@
     "sync:three-piece-ball-images": "node scripts/sync-three-piece-ball-images.mjs",
     "sync:elsa-ball-images": "node scripts/sync-elsa-ball-images.mjs",
     "sync:three-piece-flanged-ball-images": "node scripts/sync-three-piece-flanged-ball-images.mjs",
-    "sync:three-way-ball-images": "node scripts/sync-three-way-ball-images.mjs"
+    "sync:three-way-ball-images": "node scripts/sync-three-way-ball-images.mjs",
+    "sync:four-way-ball-images": "node scripts/sync-four-way-ball-images.mjs",
+    "sync:wafer-ball-images": "node scripts/sync-wafer-ball-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
