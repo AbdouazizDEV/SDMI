@@ -19,6 +19,7 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "robinets-pied-de-colonne-perfection-a-flotteur",
   "robinets-tournant-spherique-monobloc-inox",
   "robinets-tournant-spherique-2-pieces",
+  "robinets-tournant-spherique-2-pieces-split-body",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -38,4 +39,4 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
 }
 
 /** Prochaine ouverture catalogue v1. */
-export const nextCatalogSubfamilySlug = "robinets-tournant-spherique-2-pieces-split-body";
+export const nextCatalogSubfamilySlug = "robinets-tournant-spherique-3-pieces";
