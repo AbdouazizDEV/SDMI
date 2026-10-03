@@ -43,6 +43,11 @@ const ITEMS = [
     productUrl:
       "https://www.sferaco.com/fr/731-robinet-a-tournant-spherique-3-pieces-a-brides-inox.html",
   },
+  {
+    fileSlug: "robinets-tournant-spherique-3-voies",
+    productUrl:
+      "https://www.sferaco.com/fr/785-robinet-a-tournant-spherique-3-voies-inox-lumiere-en-l.html",
+  },
 ];
 
 fs.mkdirSync(outDir, { recursive: true });
