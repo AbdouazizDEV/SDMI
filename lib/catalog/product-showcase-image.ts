@@ -22,8 +22,11 @@ export function resolveProductShowcaseImage(
     context?.reference ??
     (context?.productSlug ? findSeedBySlug(context.productSlug)?.reference : undefined);
 
-  if (reference) {
-    const rangeImage = getCatalogRangeImage(reference);
+  if (reference || context?.productSlug) {
+    const rangeImage = getCatalogRangeImage(
+      reference ?? "",
+      context?.productSlug,
+    );
     if (rangeImage) {
       return rangeImage;
     }

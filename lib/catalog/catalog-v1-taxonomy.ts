@@ -66,12 +66,102 @@ export const catalogV1Navigation: CatalogNavigation = {
         "Vannes à opercule – vannes à guillotine",
         "Gate & knife gate valves",
       ),
-      subfamilies: [],
+      subfamilies: [
+        {
+          slug: "vannes-opercule-monobloc-fermeture-rapide",
+          name: frEn(
+            "Vannes à opercule monobloc – vannes à fermeture rapide",
+            "Monobloc gate valves — quick closing",
+          ),
+        },
+        {
+          slug: "vannes-opercule-fonte-brides",
+          name: frEn(
+            "Vannes à opercule fonte à brides",
+            "Cast iron flanged gate valves",
+          ),
+        },
+        {
+          slug: "vannes-opercule-acier-inox-moule",
+          name: frEn(
+            "Vannes à opercule acier moulé – inox moulé",
+            "Cast steel & cast stainless gate valves",
+          ),
+        },
+        {
+          slug: "vannes-opercule-forge",
+          name: frEn(
+            "Vannes à opercule forgé",
+            "Forged gate valves",
+          ),
+        },
+        {
+          slug: "vannes-opercule-caoutchouc-o-gate",
+          name: frEn(
+            "Vannes à opercule caoutchouc O-GATE",
+            "Rubber seated O-GATE gate valves",
+          ),
+        },
+        {
+          slug: "vannes-guillotine-s-gate-unidirectionnelles",
+          name: frEn(
+            "Vannes à guillotine S-GATE unidirectionnelles",
+            "S-GATE unidirectional knife gate valves",
+          ),
+        },
+        {
+          slug: "vannes-guillotine-s-gate-bidirectionnelles",
+          name: frEn(
+            "Vannes à guillotine S-GATE bidirectionnelles",
+            "S-GATE bidirectional knife gate valves",
+          ),
+        },
+        {
+          slug: "vannes-guillotine-s-gate-pelle-traversante",
+          name: frEn(
+            "Vannes à guillotine S-GATE à pelle traversante",
+            "S-GATE through-blade knife gate valves",
+          ),
+        },
+        {
+          slug: "accessoires-vannes-guillotine",
+          name: frEn(
+            "Accessoires vannes guillotine",
+            "Knife gate valve accessories",
+          ),
+        },
+      ],
     },
     {
-      slug: "robinets-papillon",
-      name: frEn("Robinets à papillon", "Butterfly valves"),
-      subfamilies: [],
+      slug: "robinets-soupape-pointeau",
+      name: frEn(
+        "Robinets à soupape – robinets à pointeau",
+        "Globe & needle valves",
+      ),
+      subfamilies: [
+        {
+          slug: "robinets-a-soupape",
+          name: frEn("Robinets à soupape", "Globe valves"),
+        },
+        {
+          slug: "robinets-a-pointeau",
+          name: frEn("Robinets à pointeau", "Needle valves"),
+        },
+        {
+          slug: "robinets-incendie-colonne-seche-prise-simple-ou-double",
+          name: frEn(
+            "Robinets incendie colonne sèche prise simple ou double",
+            "Dry riser fire valves — single or double outlet",
+          ),
+        },
+        {
+          slug: "robinets-pied-de-colonne-perfection-a-flotteur",
+          name: frEn(
+            "Robinets pied de colonne – Perfection – à flotteur",
+            "Column foot, perfection & float valves",
+          ),
+        },
+      ],
     },
     {
       slug: "robinets-tournant-spherique-acier-inox",

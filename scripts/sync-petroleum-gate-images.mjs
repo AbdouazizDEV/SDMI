@@ -6,6 +6,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  assignImage,
+  loadManifest,
+  saveManifest,
+} from "./lib/sync-range-manifest.mjs";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const outDir = path.join(root, "public", "images", "catalog", "petroleum-gate");
@@ -68,10 +73,7 @@ async function download(url, dest) {
   return buf.length;
 }
 
-const prior = fs.existsSync(manifestPath)
-  ? JSON.parse(fs.readFileSync(manifestPath, "utf8"))
-  : {};
-const manifest = { ...prior };
+const manifest = loadManifest(manifestPath);
 
 for (const reference of REFERENCES) {
   try {
@@ -92,12 +94,20 @@ for (const reference of REFERENCES) {
     const fileName = `${reference}${ext}`;
     const dest = path.join(outDir, fileName);
     const bytes = await download(imageUrl, dest);
-    manifest[reference] = `/images/catalog/petroleum-gate/${fileName}`;
+    assignImage(manifest, {
+      reference,
+      publicPath: `/images/catalog/petroleum-gate/${fileName}`,
+    });
     console.log("ok", reference, bytes, "bytes", fileName);
   } catch (err) {
     console.warn("fail", reference, err.message);
   }
 }
 
-fs.writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
-console.log("manifest", manifestPath, Object.keys(manifest).length, "entries");
+saveManifest(manifestPath, manifest);
+console.log(
+  "manifest",
+  manifestPath,
+  Object.keys(manifest.references).length,
+  "entries",
+);

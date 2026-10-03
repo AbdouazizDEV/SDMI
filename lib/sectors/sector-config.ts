@@ -37,10 +37,10 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
   "robinetterie-industrielle": [
     "robinetterie-petrole-forgee-moulee",
     "vannes-operucle-guillotine",
-    "robinets-papillon",
+    "robinets-soupape-pointeau",
   ],
   "industrie-agro-alimentaire": [
-    "robinets-papillon",
+    "robinets-soupape-pointeau",
     "vannes-sphere-laiton-fonte-pvc",
     "robinets-tournant-spherique-acier-inox",
   ],

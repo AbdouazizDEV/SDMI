@@ -12,7 +12,13 @@
     "sync:range-images": "node scripts/sync-petroleum-gate-images.mjs && node scripts/sync-petroleum-globe-bellows-images.mjs",
     "sync:globe-range-images": "node scripts/sync-petroleum-globe-bellows-images.mjs",
     "sync:needle-range-images": "node scripts/sync-petroleum-needle-valve-images.mjs",
-    "sync:strainer-range-images": "node scripts/sync-petroleum-strainer-images.mjs"
+    "sync:strainer-range-images": "node scripts/sync-petroleum-strainer-images.mjs",
+    "sync:check-valve-range-images": "node scripts/sync-petroleum-check-valve-images.mjs",
+    "sync:industrial-gate-range-images": "node scripts/sync-industrial-gate-images.mjs",
+    "sync:knife-gate-range-images": "node scripts/sync-knife-gate-images.mjs",
+    "sync:knife-gate-accessory-images": "node scripts/sync-knife-gate-accessory-images.mjs",
+    "sync:soupape-pointeau-images": "node scripts/sync-soupape-pointeau-images.mjs",
+    "sync:soupape-pointeau-taxonomy-images": "node scripts/sync-soupape-pointeau-taxonomy-images.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",
