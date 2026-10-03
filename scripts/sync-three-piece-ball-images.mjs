@@ -218,7 +218,7 @@ for (const item of ITEMS) {
     assignImage(manifest, {
       reference: item.reference,
       productSlug: item.productSlug,
-      publicPath: `/images/catalog/split-body-ball/${fileName}`,
+      publicPath: `/images/catalog/three-piece-ball/${fileName}`,
     });
     console.log("ok", item.reference);
   } catch (err) {
