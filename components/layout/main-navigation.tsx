@@ -1,11 +1,15 @@
 "use client";
 
 import { ChevronDownIcon } from "lucide-react";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
 
 import { NavPendingLink } from "@/components/layout/nav-pending-link";
-import { Link, usePathname } from "@/i18n/navigation";
+import {
+  getCatalogV1FamilyImage,
+  getCatalogV1SubfamilyImage,
+} from "@/lib/catalog/catalog-v1-assets";
 import {
   isCatalogFamilyBrowseable,
   isCatalogSubfamilyBrowseable,
@@ -16,6 +20,7 @@ import {
 } from "@/lib/catalog/navigation";
 import type { SiteLocale } from "@/lib/site";
 import { cn } from "@/lib/utils";
+import { Link, usePathname } from "@/i18n/navigation";
 
 type MainNavigationProps = {
   catalog: CatalogNavigation;
@@ -24,12 +29,47 @@ type MainNavigationProps = {
   onNavigate?: () => void;
 };
 
+const DEFAULT_CATALOG_IMAGE = "/images/catalog/taxonomy/tuyauterie-et-accessoires.jpg";
+
 const staticLinks = [
   { key: "sectors" as const, href: "/secteurs" },
   { key: "documentation" as const, href: "/documentation" },
   { key: "about" as const, href: "/a-propos" },
   { key: "contact" as const, href: "/contact" },
 ];
+
+function familyImage(slug: string) {
+  return getCatalogV1FamilyImage(slug) ?? DEFAULT_CATALOG_IMAGE;
+}
+
+function subfamilyImage(subSlug: string, familySlug: string) {
+  return (
+    getCatalogV1SubfamilyImage(subSlug) ??
+    getCatalogV1FamilyImage(familySlug) ??
+    DEFAULT_CATALOG_IMAGE
+  );
+}
+
+function CatalogThumb({
+  src,
+  alt,
+  size = "sm",
+}: {
+  src: string;
+  alt: string;
+  size?: "sm" | "md";
+}) {
+  return (
+    <span
+      className={cn(
+        "border-border/60 relative shrink-0 overflow-hidden rounded-md border bg-white shadow-sm",
+        size === "md" ? "size-14" : "size-10",
+      )}
+    >
+      <Image src={src} alt={alt} fill className="object-contain p-1" sizes="56px" />
+    </span>
+  );
+}
 
 export function MainNavigation({
   catalog,
@@ -110,7 +150,7 @@ export function MainNavigation({
               className={cn(
                 isVertical
                   ? "mt-2 space-y-4 border-l border-primary-foreground/20 pl-3"
-                  : "border-border absolute left-0 top-full z-50 w-[min(100vw-2rem,56rem)] rounded-md border bg-popover text-popover-foreground shadow-xl",
+                  : "border-border absolute left-0 top-full z-50 w-[min(100vw-2rem,52rem)] rounded-md border bg-popover text-popover-foreground shadow-xl",
               )}
               role="region"
               aria-label={t("productsMegaMenuLabel")}
@@ -118,68 +158,102 @@ export function MainNavigation({
             >
               <div
                 className={cn(
-                  isVertical ? "space-y-4" : "grid grid-cols-3 gap-0 p-4",
+                  isVertical ? "space-y-4" : "grid grid-cols-2 gap-0 p-4",
                 )}
               >
-                <div className={cn(!isVertical && "border-border border-r pr-4")}>
-                  <p className="font-heading mb-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
+                <div
+                  className={cn(
+                    !isVertical && "border-border flex max-h-[min(70vh,32rem)] flex-col border-r pr-3",
+                  )}
+                >
+                  <p className="font-heading mb-2 shrink-0 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
                     {t("megaMenuFamilies")}
                   </p>
-                  <ul className="space-y-1">
-                    {catalog.families.map((family) => (
-                      <li key={family.slug}>
-                        <button
-                          type="button"
-                          className={cn(
-                            "w-full rounded-sm px-2 py-1.5 text-left text-sm transition-colors hover:bg-muted",
-                            activeFamily === family.slug && "bg-muted font-medium",
-                          )}
-                          onMouseEnter={() => setActiveFamily(family.slug)}
-                          onFocus={() => setActiveFamily(family.slug)}
-                          onClick={() => setActiveFamily(family.slug)}
-                        >
-                          {pickCatalogLabel(family.name, locale)}
-                        </button>
-                      </li>
-                    ))}
+                  <ul className="min-h-0 flex-1 space-y-1 overflow-y-auto overscroll-contain pr-1">
+                    {catalog.families.map((family) => {
+                      const label = pickCatalogLabel(family.name, locale);
+                      const img = familyImage(family.slug);
+                      return (
+                        <li key={family.slug}>
+                          <button
+                            type="button"
+                            className={cn(
+                              "flex w-full items-center gap-2.5 rounded-md px-2 py-2 text-left text-sm transition-colors hover:bg-muted",
+                              activeFamily === family.slug && "bg-muted font-medium ring-1 ring-primary/20",
+                            )}
+                            onMouseEnter={() => setActiveFamily(family.slug)}
+                            onFocus={() => setActiveFamily(family.slug)}
+                            onClick={() => setActiveFamily(family.slug)}
+                          >
+                            <CatalogThumb src={img} alt="" size="md" />
+                            <span className="leading-snug">{label}</span>
+                          </button>
+                        </li>
+                      );
+                    })}
                   </ul>
                   <Link
                     href="/produits"
-                    className="text-primary mt-3 inline-block text-sm font-medium underline-offset-2 hover:underline"
+                    className="text-primary mt-3 inline-block shrink-0 text-sm font-medium underline-offset-2 hover:underline"
                     onClick={onNavigate}
                   >
                     {t("megaMenuAllProducts")}
                   </Link>
                 </div>
 
-                <div className={cn(!isVertical && "border-border border-r px-4")}>
-                  <p className="font-heading mb-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
+                <div
+                  className={cn(
+                    !isVertical && "flex max-h-[min(70vh,32rem)] flex-col pl-3",
+                  )}
+                >
+                  <p className="font-heading mb-2 shrink-0 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
                     {t("megaMenuSubfamilies")}
                   </p>
+                  {activeFamilyData ? (
+                    <div className="relative mb-2 h-28 w-full shrink-0 overflow-hidden rounded-lg border bg-muted/30">
+                      <Image
+                        src={familyImage(activeFamilyData.slug)}
+                        alt={pickCatalogLabel(activeFamilyData.name, locale)}
+                        fill
+                        className="object-contain p-2"
+                        sizes="320px"
+                      />
+                    </div>
+                  ) : null}
                   {activeFamilyData?.subfamilies.length ? (
-                    <ul className="space-y-1">
+                    <ul className="min-h-0 flex-1 space-y-1 overflow-y-auto overscroll-contain pr-1">
                       {activeFamilyData.subfamilies.map((sub) => {
                         const open = isCatalogSubfamilyBrowseable(sub.slug);
+                        const label = pickCatalogLabel(sub.name, locale);
+                        const img = subfamilyImage(sub.slug, activeFamilyData.slug);
+                        const content = (
+                          <>
+                            <CatalogThumb src={img} alt="" size="sm" />
+                            <span className="flex-1 leading-snug">{label}</span>
+                            {!open ? (
+                              <span className="text-[10px] font-bold tracking-wide text-muted-foreground uppercase">
+                                ({comingSoonLabel})
+                              </span>
+                            ) : null}
+                          </>
+                        );
                         return (
                           <li key={sub.slug}>
                             {open ? (
                               <Link
                                 href={`/produits/${activeFamilyData.slug}/${sub.slug}`}
-                                className="hover:bg-muted block rounded-sm px-2 py-1.5 text-sm"
+                                className="hover:bg-muted flex items-center gap-2 rounded-md px-2 py-2 text-sm"
                                 onClick={onNavigate}
                               >
-                                {pickCatalogLabel(sub.name, locale)}
+                                {content}
                               </Link>
                             ) : (
                               <span
-                                className="text-muted-foreground block cursor-not-allowed rounded-sm px-2 py-1.5 text-sm"
+                                className="text-muted-foreground flex cursor-not-allowed items-center gap-2 rounded-md px-2 py-2 text-sm"
                                 aria-disabled="true"
                                 title={comingSoonLabel}
                               >
-                                {pickCatalogLabel(sub.name, locale)}
-                                <span className="ml-1.5 text-[10px] font-bold tracking-wide uppercase">
-                                  ({comingSoonLabel})
-                                </span>
+                                {content}
                               </span>
                             )}
                           </li>
@@ -197,25 +271,6 @@ export function MainNavigation({
                   ) : (
                     <p className="text-muted-foreground px-2 py-1.5 text-sm">{comingSoonLabel}</p>
                   )}
-                </div>
-
-                <div className={cn(!isVertical && "pl-4")}>
-                  <p className="font-heading mb-2 text-xs font-semibold tracking-wide text-muted-foreground uppercase">
-                    {t("megaMenuSectors")}
-                  </p>
-                  <ul className="space-y-1">
-                    {catalog.sectors.map((sector) => (
-                      <li key={sector.slug}>
-                        <Link
-                          href={`/secteurs/${sector.slug}`}
-                          className="hover:bg-muted block rounded-sm px-2 py-1.5 text-sm"
-                          onClick={onNavigate}
-                        >
-                          {pickCatalogLabel(sector.name, locale)}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
                 </div>
               </div>
             </div>

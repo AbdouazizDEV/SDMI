@@ -3,7 +3,8 @@
 export const catalogV1FamilyImages: Record<string, string> = {
   "robinetterie-petrole-forgee-moulee":
     "/images/catalog/taxonomy/robinetterie-petrole-forgee-moulee.jpg",
-  "tuyauterie-et-accessoires": "/images/famille-accessoires-tuyauterie.jpg",
+  "tuyauterie-et-accessoires":
+    "/images/catalog/taxonomy/tuyauterie-et-accessoires.jpg",
   "vannes-operucle-guillotine": "/images/subfamilies/robinets-a-operucle.jpg",
   "robinets-soupape-pointeau":
     "/images/catalog/taxonomy/robinets-soupape-pointeau.jpg",
@@ -82,6 +83,12 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "vannes-sphere-pvc-u": "/images/catalog/taxonomy/vannes-sphere-pvc-u.jpg",
   "vannes-sphere-a-brides-laiton-fonte":
     "/images/catalog/taxonomy/vannes-sphere-a-brides-laiton-fonte.jpg",
+  "tubes-acier-carbone": "/images/catalog/taxonomy/tubes-acier-carbone.jpg",
+  "brides-plates": "/images/catalog/taxonomy/brides-plates.jpg",
+  "brides-a-collerettes": "/images/catalog/taxonomy/tuyauterie-et-accessoires.jpg",
+  "raccords-inox": "/images/catalog/taxonomy/raccords-inox.jpg",
+  "manchons-compensateurs-elastomere":
+    "/images/catalog/taxonomy/manchons-compensateurs-elastomere.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {

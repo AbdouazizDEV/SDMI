@@ -1,0 +1,3422 @@
+[
+  {
+    "reference": "2100",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2100-bride-en-acier-forge-a-collerette-butt-welding-bw-type-11-b1-pn10-16-40",
+    "productSlug": "serie-brides-a-collerettes-2100-bride-en-acier-forge-a-collerette-butt-welding-bw-type-11-b1-pn10-16-40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2101",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2101-bride-en-acier-forge-a-collerette-butt-welding-bw-type-11-b1-pn10",
+    "productSlug": "serie-brides-a-collerettes-2101-bride-en-acier-forge-a-collerette-butt-welding-bw-type-11-b1-pn10",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2105",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2105-bride-a-collerette-type11-b1-excellence-butt-welding-bw-pn25-40",
+    "productSlug": "serie-brides-a-collerettes-2105-bride-a-collerette-type11-b1-excellence-butt-welding-bw-pn25-40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2123",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2123-bride-taraudee-type-13-b1-gamme-performance-pn10-16",
+    "productSlug": "serie-brides-a-collerettes-2123-bride-taraudee-type-13-b1-gamme-performance-pn10-16",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2124",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2124-bride-a-collerette-type-11-b1-butt-welding-bw-gamme-performance-pn6",
+    "productSlug": "serie-brides-a-collerettes-2124-bride-a-collerette-type-11-b1-butt-welding-bw-gamme-performance-pn6",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2151",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2151-bride-a-collerette-type-11-b1-butt-welding-bw-pn6-gamme-excellence",
+    "productSlug": "serie-brides-a-collerettes-2151-bride-a-collerette-type-11-b1-butt-welding-bw-pn6-gamme-excellence",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2152",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2152-bride-a-collerette-11-b1-gamme-excellence-butt-welding-bw",
+    "productSlug": "serie-brides-a-collerettes-2152-bride-a-collerette-11-b1-gamme-excellence-butt-welding-bw",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2153",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2153-bride-a-collerette-electro-zinguee-excellence-butt-welding",
+    "productSlug": "serie-brides-a-collerettes-2153-bride-a-collerette-electro-zinguee-excellence-butt-welding",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2155",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2155-bride-a-collerette-simple-emboitement-male-butt-welding",
+    "productSlug": "serie-brides-a-collerettes-2155-bride-a-collerette-simple-emboitement-male-butt-welding",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2156",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2156-bride-collerette-simple-emboitement-femelle-butt-welding",
+    "productSlug": "serie-brides-a-collerettes-2156-bride-collerette-simple-emboitement-femelle-butt-welding",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2col40",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2col40-bride-a-collerette-a-souder-bw-inox-304l-11-b1-pn25-40",
+    "productSlug": "serie-brides-a-collerettes-2col40-bride-a-collerette-a-souder-bw-inox-304l-11-b1-pn25-40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2col50",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2col50-bride-a-collerette-a-souder-bw-inox-304l-type-11-b1-pn10-40",
+    "productSlug": "serie-brides-a-collerettes-2col50-bride-a-collerette-a-souder-bw-inox-304l-type-11-b1-pn10-40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2so20",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2so20-bride-a-emmancher-a-collerette-inox-304l-type-12b-class150-pn20",
+    "productSlug": "serie-brides-a-collerettes-2so20-bride-a-emmancher-a-collerette-inox-304l-type-12b-class150-pn20",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2wn20",
+    "pathKey": "brides-et-collets/brides-a-collerettes/2wn20-bride-a-collerette-inox-304l-a-souder-bw-type-11b-class150-pn20",
+    "productSlug": "serie-brides-a-collerettes-2wn20-bride-a-collerette-inox-304l-a-souder-bw-type-11b-class150-pn20",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4col",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4col-bride-a-collerette-a-souder-bw-inox-316l-type-11b-pn10-40",
+    "productSlug": "serie-brides-a-collerettes-4col-bride-a-collerette-a-souder-bw-inox-316l-type-11b-pn10-40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4col40",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4col40-bride-a-collerette-a-souder-bw-inox-316l-type-11b-pn40",
+    "productSlug": "serie-brides-a-collerettes-4col40-bride-a-collerette-a-souder-bw-inox-316l-type-11b-pn40",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4so20",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4so20-bride-a-emmancher-a-collerette-inox-316l-type-12b-class150-pn20",
+    "productSlug": "serie-brides-a-collerettes-4so20-bride-a-emmancher-a-collerette-inox-316l-type-12b-class150-pn20",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4so50",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4so50-bride-a-emmancher-a-collerette-inox-316l-type-12b-class300-pn50",
+    "productSlug": "serie-brides-a-collerettes-4so50-bride-a-emmancher-a-collerette-inox-316l-type-12b-class300-pn50",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4wn20",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4wn20-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class150-pn20",
+    "productSlug": "serie-brides-a-collerettes-4wn20-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class150-pn20",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "4wn50",
+    "pathKey": "brides-et-collets/brides-a-collerettes/4wn50-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class300-pn50",
+    "productSlug": "serie-brides-a-collerettes-4wn50-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class300-pn50",
+    "imageDir": "brides-collerettes"
+  },
+  {
+    "reference": "2120",
+    "pathKey": "brides-et-collets/brides-plates/2120-bride-plate-amincie-acier-forge-gamme-performance-pn10a",
+    "productSlug": "serie-brides-plates-2120-bride-plate-amincie-acier-forge-gamme-performance-pn10a",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2121",
+    "pathKey": "brides-et-collets/brides-plates/2121-bride-plate-acier-forge-a-souder-gamme-performance-type-01-a",
+    "productSlug": "serie-brides-plates-2121-bride-plate-acier-forge-a-souder-gamme-performance-type-01-a",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2160",
+    "pathKey": "brides-et-collets/brides-plates/2160-bride-plate-acier-forge-a-souder-gamme-excellence-type-01-a",
+    "productSlug": "serie-brides-plates-2160-bride-plate-acier-forge-a-souder-gamme-excellence-type-01-a",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2pas40",
+    "pathKey": "brides-et-collets/brides-plates/2pas40-bride-plate-a-souder-inox-304l-type-01-a-en1092-1",
+    "productSlug": "serie-brides-plates-2pas40-bride-plate-a-souder-inox-304l-type-01-a-en1092-1",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2pasb",
+    "pathKey": "brides-et-collets/brides-plates/2pasb-bride-plate-a-souder-rf-inox-304l-type-01-b-en1092-1",
+    "productSlug": "serie-brides-plates-2pasb-bride-plate-a-souder-rf-inox-304l-type-01-b-en1092-1",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2pt",
+    "pathKey": "brides-et-collets/brides-plates/2pt-bride-plate-taraudee-femelle-femelle-bsp-inox-304l",
+    "productSlug": "serie-brides-plates-2pt-bride-plate-taraudee-femelle-femelle-bsp-inox-304l",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "4pas40",
+    "pathKey": "brides-et-collets/brides-plates/4pas40-bride-plate-a-souder-inox-316l-type-01-a-en1092-1",
+    "productSlug": "serie-brides-plates-4pas40-bride-plate-a-souder-inox-316l-type-01-a-en1092-1",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "4pasb",
+    "pathKey": "brides-et-collets/brides-plates/4pasb-bride-plate-a-souder-rf-inox-304l-type-01-b-en1092-1",
+    "productSlug": "serie-brides-plates-4pasb-bride-plate-a-souder-rf-inox-304l-type-01-b-en1092-1",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "4pt",
+    "pathKey": "brides-et-collets/brides-plates/4pt-bride-plate-taraudee-bsp-face-plate-inox-316l-femelle-pn10-16",
+    "productSlug": "serie-brides-plates-4pt-bride-plate-taraudee-bsp-face-plate-inox-316l-femelle-pn10-16",
+    "imageDir": "brides-plates"
+  },
+  {
+    "reference": "2122",
+    "pathKey": "brides-et-collets/brides-pleines/2122-bride-pleine-en-acier-forge-gamme-performance-type-05-a-pn10-16",
+    "productSlug": "serie-brides-pleines-2122-bride-pleine-en-acier-forge-gamme-performance-type-05-a-pn10-16",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2161",
+    "pathKey": "brides-et-collets/brides-pleines/2161-bride-pleine-acier-forge-type-05-a",
+    "productSlug": "serie-brides-pleines-2161-bride-pleine-acier-forge-type-05-a",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2b20",
+    "pathKey": "brides-et-collets/brides-pleines/2b20-bride-pleine-a-face-surelevee-inox-304l-class150-type-05b-pn20",
+    "productSlug": "serie-brides-pleines-2b20-bride-pleine-a-face-surelevee-inox-304l-class150-type-05b-pn20",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2tp",
+    "pathKey": "brides-et-collets/brides-pleines/2tp-bride-pleine-plate-tampon-plein-inox-304l-type-05a",
+    "productSlug": "serie-brides-pleines-2tp-bride-pleine-plate-tampon-plein-inox-304l-type-05a",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2tp40",
+    "pathKey": "brides-et-collets/brides-pleines/2tp40-bride-pleine-plate-tampon-plein-inox-304l-pn25-40-type-05a",
+    "productSlug": "serie-brides-pleines-2tp40-bride-pleine-plate-tampon-plein-inox-304l-pn25-40-type-05a",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2tpa",
+    "pathKey": "brides-et-collets/brides-pleines/2tpa-bride-pleine-plate-amincie-face-plate-inox-304l-type-05-a-pn10",
+    "productSlug": "serie-brides-pleines-2tpa-bride-pleine-plate-amincie-face-plate-inox-304l-type-05-a-pn10",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2tpb",
+    "pathKey": "brides-et-collets/brides-pleines/2tpb-bride-pleine-plate-rf-inox-304l-type-05-b-en1092-1",
+    "productSlug": "serie-brides-pleines-2tpb-bride-pleine-plate-rf-inox-304l-type-05-b-en1092-1",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4b20",
+    "pathKey": "brides-et-collets/brides-pleines/4b20-bride-pleine-a-face-surelevee-inox-316l-class150-type-05b-pn20",
+    "productSlug": "serie-brides-pleines-4b20-bride-pleine-a-face-surelevee-inox-316l-class150-type-05b-pn20",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4b50",
+    "pathKey": "brides-et-collets/brides-pleines/4b50-bride-pleine-a-face-surelevee-inox-316l-class300-type-05b-pn50",
+    "productSlug": "serie-brides-pleines-4b50-bride-pleine-a-face-surelevee-inox-316l-class300-type-05b-pn50",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4tp",
+    "pathKey": "brides-et-collets/brides-pleines/4tp-bride-pleine-plate-tampon-plein-inox-316l-type-05a-en1092-1-pn10-40",
+    "productSlug": "serie-brides-pleines-4tp-bride-pleine-plate-tampon-plein-inox-316l-type-05a-en1092-1-pn10-40",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4tp40",
+    "pathKey": "brides-et-collets/brides-pleines/4tp40-bride-pleine-plate-tampon-plein-inox-316l-pn25-40-type-05a",
+    "productSlug": "serie-brides-pleines-4tp40-bride-pleine-plate-tampon-plein-inox-316l-pn25-40-type-05a",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4tpa",
+    "pathKey": "brides-et-collets/brides-pleines/4tpa-bride-pleine-plate-amincie-face-plate-inox-316l-type-05-a-pn10",
+    "productSlug": "serie-brides-pleines-4tpa-bride-pleine-plate-amincie-face-plate-inox-316l-type-05-a-pn10",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "4tpb",
+    "pathKey": "brides-et-collets/brides-pleines/4tpb-bride-pleine-plate-rf-inox-316l-type-05-b-en1092-1-pn10-16",
+    "productSlug": "serie-brides-pleines-4tpb-bride-pleine-plate-rf-inox-316l-type-05-b-en1092-1-pn10-16",
+    "imageDir": "brides-pleines"
+  },
+  {
+    "reference": "2123",
+    "pathKey": "brides-et-collets/brides-taraudees/2123-bride-taraudee-type-13-b1-gamme-performance-pn10-16",
+    "productSlug": "serie-brides-taraudees-2123-bride-taraudee-type-13-b1-gamme-performance-pn10-16",
+    "imageDir": "brides-taraudees"
+  },
+  {
+    "reference": "2157",
+    "pathKey": "brides-et-collets/brides-taraudees/2157-bride-taraudee-acier-forge-type-13-b1-gamme-excellence",
+    "productSlug": "serie-brides-taraudees-2157-bride-taraudee-acier-forge-type-13-b1-gamme-excellence",
+    "imageDir": "brides-taraudees"
+  },
+  {
+    "reference": "2158",
+    "pathKey": "brides-et-collets/brides-taraudees/2158-bride-taraudee-acier-zingue-forge-type-13-b1-gamme-excellence",
+    "productSlug": "serie-brides-taraudees-2158-bride-taraudee-acier-zingue-forge-type-13-b1-gamme-excellence",
+    "imageDir": "brides-taraudees"
+  },
+  {
+    "reference": "2106",
+    "pathKey": "brides-et-collets/brides-tournantes/2106-bride-tournante-plate-acier-type-02-a-pn10-16",
+    "productSlug": "serie-brides-tournantes-2106-bride-tournante-plate-acier-type-02-a-pn10-16",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "2be",
+    "pathKey": "brides-et-collets/brides-tournantes/2be-bride-tournante-emboutie-inox-304l-point-bleu-pn10-din2642",
+    "productSlug": "serie-brides-tournantes-2be-bride-tournante-emboutie-inox-304l-point-bleu-pn10-din2642",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "2bt",
+    "pathKey": "brides-et-collets/brides-tournantes/2bt-bride-tournante-plate-inox-304l-type-02-a-pn10-40",
+    "productSlug": "serie-brides-tournantes-2bt-bride-tournante-plate-inox-304l-type-02-a-pn10-40",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "2lj20",
+    "pathKey": "brides-et-collets/brides-tournantes/2lj20-bride-tournante-inox-304l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "productSlug": "serie-brides-tournantes-2lj20-bride-tournante-inox-304l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "4be",
+    "pathKey": "brides-et-collets/brides-tournantes/4be-bride-tournante-emboutie-inox-316-point-bleu-pn10-din2642",
+    "productSlug": "serie-brides-tournantes-4be-bride-tournante-emboutie-inox-316-point-bleu-pn10-din2642",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "4bt",
+    "pathKey": "brides-et-collets/brides-tournantes/4bt-bride-tournante-plate-inox-316l-type-02-a-pn10-40",
+    "productSlug": "serie-brides-tournantes-4bt-bride-tournante-plate-inox-316l-type-02-a-pn10-40",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "4lj20",
+    "pathKey": "brides-et-collets/brides-tournantes/4lj20-bride-tournante-inox-316l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "productSlug": "serie-brides-tournantes-4lj20-bride-tournante-inox-316l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "4lj50",
+    "pathKey": "brides-et-collets/brides-tournantes/4lj50-bride-tournante-inox-316l-forge-lap-joint-class300-pn50-ansi-b16-9",
+    "productSlug": "serie-brides-tournantes-4lj50-bride-tournante-inox-316l-forge-lap-joint-class300-pn50-ansi-b16-9",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "abe",
+    "pathKey": "brides-et-collets/brides-tournantes/abe-bride-tournante-emboutie-acier-bichromate-point-bleu-din2642-pn10",
+    "productSlug": "serie-brides-tournantes-abe-bride-tournante-emboutie-acier-bichromate-point-bleu-din2642-pn10",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "abt",
+    "pathKey": "brides-et-collets/brides-tournantes/abt-bride-tournante-aluminium-iso-type-c-din2642-pn10",
+    "productSlug": "serie-brides-tournantes-abt-bride-tournante-aluminium-iso-type-c-din2642-pn10",
+    "imageDir": "brides-tournantes"
+  },
+  {
+    "reference": "2b20",
+    "pathKey": "brides-et-collets/brides-petrole/2b20-bride-pleine-a-face-surelevee-inox-304l-class150-type-05b-pn20",
+    "productSlug": "serie-brides-petrole-asme-2b20-bride-pleine-a-face-surelevee-inox-304l-class150-type-05b-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "2lj20",
+    "pathKey": "brides-et-collets/brides-petrole/2lj20-bride-tournante-inox-304l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "productSlug": "serie-brides-petrole-asme-2lj20-bride-tournante-inox-304l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "2so20",
+    "pathKey": "brides-et-collets/brides-petrole/2so20-bride-a-emmancher-a-collerette-inox-304l-type-12b-class150-pn20",
+    "productSlug": "serie-brides-petrole-asme-2so20-bride-a-emmancher-a-collerette-inox-304l-type-12b-class150-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "2wn20",
+    "pathKey": "brides-et-collets/brides-petrole/2wn20-bride-a-collerette-inox-304l-a-souder-bw-type-11b-class150-pn20",
+    "productSlug": "serie-brides-petrole-asme-2wn20-bride-a-collerette-inox-304l-a-souder-bw-type-11b-class150-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4b20",
+    "pathKey": "brides-et-collets/brides-petrole/4b20-bride-pleine-a-face-surelevee-inox-316l-class150-type-05b-pn20",
+    "productSlug": "serie-brides-petrole-asme-4b20-bride-pleine-a-face-surelevee-inox-316l-class150-type-05b-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4b50",
+    "pathKey": "brides-et-collets/brides-petrole/4b50-bride-pleine-a-face-surelevee-inox-316l-class300-type-05b-pn50",
+    "productSlug": "serie-brides-petrole-asme-4b50-bride-pleine-a-face-surelevee-inox-316l-class300-type-05b-pn50",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4lj20",
+    "pathKey": "brides-et-collets/brides-petrole/4lj20-bride-tournante-inox-316l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "productSlug": "serie-brides-petrole-asme-4lj20-bride-tournante-inox-316l-forge-lap-joint-class150-pn20-ansi-b16-9",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4lj50",
+    "pathKey": "brides-et-collets/brides-petrole/4lj50-bride-tournante-inox-316l-forge-lap-joint-class300-pn50-ansi-b16-9",
+    "productSlug": "serie-brides-petrole-asme-4lj50-bride-tournante-inox-316l-forge-lap-joint-class300-pn50-ansi-b16-9",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4so20",
+    "pathKey": "brides-et-collets/brides-petrole/4so20-bride-a-emmancher-a-collerette-inox-316l-type-12b-class150-pn20",
+    "productSlug": "serie-brides-petrole-asme-4so20-bride-a-emmancher-a-collerette-inox-316l-type-12b-class150-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4so50",
+    "pathKey": "brides-et-collets/brides-petrole/4so50-bride-a-emmancher-a-collerette-inox-316l-type-12b-class300-pn50",
+    "productSlug": "serie-brides-petrole-asme-4so50-bride-a-emmancher-a-collerette-inox-316l-type-12b-class300-pn50",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4wn20",
+    "pathKey": "brides-et-collets/brides-petrole/4wn20-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class150-pn20",
+    "productSlug": "serie-brides-petrole-asme-4wn20-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class150-pn20",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "4wn50",
+    "pathKey": "brides-et-collets/brides-petrole/4wn50-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class300-pn50",
+    "productSlug": "serie-brides-petrole-asme-4wn50-bride-a-collerette-inox-316l-a-souder-bw-type-11b-class300-pn50",
+    "imageDir": "brides-petrole"
+  },
+  {
+    "reference": "2102",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2102-equipement-brides-acier-pour-clapet-370",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2102-equipement-brides-acier-pour-clapet-370",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2103",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2103-boulon-pour-vannes-a-brides-pn10-16-en-acier-zingue-8-8",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2103-boulon-pour-vannes-a-brides-pn10-16-en-acier-zingue-8-8",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2104",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2104-equipement-brides-acier-pour-clapet-364",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2104-equipement-brides-acier-pour-clapet-364",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2110",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2110-boulon-pour-vannes-papillon-sandwich-en-acier-zingue-8-8",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2110-boulon-pour-vannes-papillon-sandwich-en-acier-zingue-8-8",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2111",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2111-vis-pour-vannes-papillon-a-oreilles-taraudees-acier-zingue",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2111-vis-pour-vannes-papillon-a-oreilles-taraudees-acier-zingue",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2112",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2112-equipement-brides-acier-pour-vannes-papillon-centrage",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2112-equipement-brides-acier-pour-vannes-papillon-centrage",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2113",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2113-equipement-brides-acier-pour-vannes-papillon-taraudees",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2113-equipement-brides-acier-pour-vannes-papillon-taraudees",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2128",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2128-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2128-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2129",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2129-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b-classe-8-8",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2129-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b-classe-8-8",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2130",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2130-equipement-brides-acier-boulons-pour-robinetterie-pn16-2-voies",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2130-equipement-brides-acier-boulons-pour-robinetterie-pn16-2-voies",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2131",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2131-equipement-brides-acier-pour-robinetterie-pn10-2-voies-dn200",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2131-equipement-brides-acier-pour-robinetterie-pn10-2-voies-dn200",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2132",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2132-equipement-brides-acier-boulons-pour-robinetterie-pn16-3-voies",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2132-equipement-brides-acier-boulons-pour-robinetterie-pn16-3-voies",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2134",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2134-equipement-brides-acier-pour-vannes-guillotine",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2134-equipement-brides-acier-pour-vannes-guillotine",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2140",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2140-equipement-brides-inox-pour-robinetterie-pn16-2-voies",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2140-equipement-brides-inox-pour-robinetterie-pn16-2-voies",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2142",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2142-equipement-brides-inox-boulons-acier-pour-clapet-372",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2142-equipement-brides-inox-boulons-acier-pour-clapet-372",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2143",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2143-equipement-brides-inox-vis-acier-joints-pour-vannes-770-771",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2143-equipement-brides-inox-vis-acier-joints-pour-vannes-770-771",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2144",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2144-equipement-brides-inox-boulons-acier-pour-clapet-365",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2144-equipement-brides-inox-boulons-acier-pour-clapet-365",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2145",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2145-equipement-brides-inox-pour-robinetterie-pn10-16-3-voies",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2145-equipement-brides-inox-pour-robinetterie-pn10-16-3-voies",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2146",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2146-equipement-brides-inox-pour-clapet-386",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2146-equipement-brides-inox-pour-clapet-386",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2147",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2147-equipement-brides-inox-boulons-acier-pour-vannes-papillon-1112",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2147-equipement-brides-inox-boulons-acier-pour-vannes-papillon-1112",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2150",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/2150-equipement-brides-boulons-acier-pour-compensateurs-sferaco",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-2150-equipement-brides-boulons-acier-pour-compensateurs-sferaco",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "jb",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/jb-joint-de-brides-vert-csa25-acs-pn10",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-jb-joint-de-brides-vert-csa25-acs-pn10",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "jcsa",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/jcsa-joint-de-brides-vert-csa50-pn10-pour-air-eau-vapeur",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-jcsa-joint-de-brides-vert-csa50-pn10-pour-air-eau-vapeur",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "jcsc",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/jcsc-joint-de-brides-csc120-pn10-special-vapeur-inferieur-250degresc",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-jcsc-joint-de-brides-csc120-pn10-special-vapeur-inferieur-250degresc",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "jgraf",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/jgraf-joint-de-brides-noir-graphite-pn10-pour-vapeur-haute-pression",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-jgraf-joint-de-brides-noir-graphite-pn10-pour-vapeur-haute-pression",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "joint",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/joint-universel-de-brides-pour-eau-hydrocarbure-vapeur-gaz",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-joint-universel-de-brides-pour-eau-hydrocarbure-vapeur-gaz",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "jptfe",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/jptfe-joint-de-brides-ptfe-pn10-pour-hydrocarbures",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-jptfe-joint-de-brides-ptfe-pn10-pour-hydrocarbures",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "kb10",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/kb10-kit-boulons-inox-304-pour-brides-pn10",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-kb10-kit-boulons-inox-304-pour-brides-pn10",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "kb16",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/kb16-kit-boulons-inox-304-pour-brides-pn16",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-kb16-kit-boulons-inox-304-pour-brides-pn16",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "kb40",
+    "pathKey": "brides-et-collets/kit-boulonnerie-et-equipements-brides/kb40-kit-boulons-inox-304-pour-brides-pn40",
+    "productSlug": "serie-kit-boulonnerie-equipements-brides-kb40-kit-boulons-inox-304-pour-brides-pn40",
+    "imageDir": "kit-boulonnerie-brides"
+  },
+  {
+    "reference": "2pas",
+    "pathKey": "brides-et-collets/collets/2pas-bride-plate-a-souder-inox-304l-type-01-a-en1092-1-pn10-40",
+    "productSlug": "serie-collets-forges-2pas-bride-plate-a-souder-inox-304l-type-01-a-en1092-1-pn10-40",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "2pasa",
+    "pathKey": "brides-et-collets/collets/2pasa-bride-plate-amincie-a-souder-inox-304l-type-01-a-en1092-1-pn10",
+    "productSlug": "serie-collets-forges-2pasa-bride-plate-amincie-a-souder-inox-304l-type-01-a-en1092-1-pn10",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "4ce",
+    "pathKey": "brides-et-collets/collets/4ce-collet-a-souder-inox-316l-iso-usine-epais-type-37",
+    "productSlug": "serie-collets-forges-4ce-collet-a-souder-inox-316l-iso-usine-epais-type-37",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "4cm",
+    "pathKey": "brides-et-collets/collets/4cm-collet-a-souder-inox-316l-iso-embouti-type-33",
+    "productSlug": "serie-collets-forges-4cm-collet-a-souder-inox-316l-iso-embouti-type-33",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "4pas",
+    "pathKey": "brides-et-collets/collets/4pas-bride-plate-a-souder-inox-316l-type-01-a-en1092-1-pn10-40",
+    "productSlug": "serie-collets-forges-4pas-bride-plate-a-souder-inox-316l-type-01-a-en1092-1-pn10-40",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "4pasa",
+    "pathKey": "brides-et-collets/collets/4pasa-bride-plate-amincie-a-souder-inox-316l-type-01-a-en1092-1-pn10",
+    "productSlug": "serie-collets-forges-4pasa-bride-plate-amincie-a-souder-inox-316l-type-01-a-en1092-1-pn10",
+    "imageDir": "collets-forges"
+  },
+  {
+    "reference": "800",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/800-raccord-laiton-deca-serrage-exterieur-coude-90degres-a-ecrou-prisonnier-4ms",
+    "productSlug": "serie-raccords-deca-800-raccord-laiton-deca-serrage-exterieur-coude-90degres-a-ecrou-prisonnier-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "806",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/806-raccord-laiton-a-serrage-exterieur-droit-ecrou-prisonnier",
+    "productSlug": "serie-raccords-deca-806-raccord-laiton-a-serrage-exterieur-droit-ecrou-prisonnier",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "807",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/807-raccord-laiton-a-serrage-exterieur-manchon-prolonge-4ms",
+    "productSlug": "serie-raccords-deca-807-raccord-laiton-a-serrage-exterieur-manchon-prolonge-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "810",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/810-raccord-laiton-a-serrage-exterieur-droit-femelle-4ms",
+    "productSlug": "serie-raccords-deca-810-raccord-laiton-a-serrage-exterieur-droit-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "811",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/811-raccord-laiton-a-serrage-exterieur-droit-male-4ms",
+    "productSlug": "serie-raccords-deca-811-raccord-laiton-a-serrage-exterieur-droit-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "813",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/813-raccord-laiton-a-serrage-exterieur-manchon-egal-4ms",
+    "productSlug": "serie-raccords-deca-813-raccord-laiton-a-serrage-exterieur-manchon-egal-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "814",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/814-raccord-laiton-a-serrage-exterieur-te-egal-4ms",
+    "productSlug": "serie-raccords-deca-814-raccord-laiton-a-serrage-exterieur-te-egal-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "815",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/815-raccord-laiton-a-serrage-exterieur-te-male-femelle-4ms",
+    "productSlug": "serie-raccords-deca-815-raccord-laiton-a-serrage-exterieur-te-male-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "816",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/816-raccord-laiton-a-serrage-exterieur-manchon-coude-4ms",
+    "productSlug": "serie-raccords-deca-816-raccord-laiton-a-serrage-exterieur-manchon-coude-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "817",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/817-raccord-laiton-a-serrage-exterieur-coude-male-4ms",
+    "productSlug": "serie-raccords-deca-817-raccord-laiton-a-serrage-exterieur-coude-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "818",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/818-raccord-laiton-a-serrage-exterieur-coude-femelle-4ms",
+    "productSlug": "serie-raccords-deca-818-raccord-laiton-a-serrage-exterieur-coude-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "819",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/819-raccord-laiton-a-serrage-exterieur-applique-murale-4ms",
+    "productSlug": "serie-raccords-deca-819-raccord-laiton-a-serrage-exterieur-applique-murale-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "820",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/820-raccord-laiton-a-serrage-exterieur-coude-egal-4ms",
+    "productSlug": "serie-raccords-deca-820-raccord-laiton-a-serrage-exterieur-coude-egal-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "860",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/860-raccord-laiton-deca-serrage-exterieur-droit-femelle-4ms",
+    "productSlug": "serie-raccords-deca-860-raccord-laiton-deca-serrage-exterieur-droit-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "860",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/860-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-droit-femelle-4ms",
+    "productSlug": "serie-raccords-deca-860-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-droit-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "861",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/861-raccord-deca-serrage-exterieur-tube-pe-fer-droit-male-4ms",
+    "productSlug": "serie-raccords-deca-861-raccord-deca-serrage-exterieur-tube-pe-fer-droit-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "861",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/861-raccord-laiton-deca-a-serrage-exterieur-droit-male-4ms",
+    "productSlug": "serie-raccords-deca-861-raccord-laiton-deca-a-serrage-exterieur-droit-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "862",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/862-raccord-laiton-deca-serrage-exterieur-droit-male-reduit-4ms",
+    "productSlug": "serie-raccords-deca-862-raccord-laiton-deca-serrage-exterieur-droit-male-reduit-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "863",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/863-raccord-laiton-deca-serrage-exterieur-manchon-d-accouplement-4ms",
+    "productSlug": "serie-raccords-deca-863-raccord-laiton-deca-serrage-exterieur-manchon-d-accouplement-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "863",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/863-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-manchon-4ms",
+    "productSlug": "serie-raccords-deca-863-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-manchon-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "864",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/864-raccord-laiton-deca-serrage-exterieur-en-t-4ms",
+    "productSlug": "serie-raccords-deca-864-raccord-laiton-deca-serrage-exterieur-en-t-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "864",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/864-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-en-t",
+    "productSlug": "serie-raccords-deca-864-raccord-laiton-deca-serrage-exterieur-tube-pe-fer-en-t",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "865",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/865-raccord-laiton-deca-serrage-exterieur-en-t-et-taraude-femelle-male-4ms",
+    "productSlug": "serie-raccords-deca-865-raccord-laiton-deca-serrage-exterieur-en-t-et-taraude-femelle-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "866",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/866-raccord-laiton-deca-serrage-exterieur-manchon-coude-90degres-4ms",
+    "productSlug": "serie-raccords-deca-866-raccord-laiton-deca-serrage-exterieur-manchon-coude-90degres-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "867",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/867-raccord-laiton-deca-serrage-exterieur-coude-90degres-male-4ms",
+    "productSlug": "serie-raccords-deca-867-raccord-laiton-deca-serrage-exterieur-coude-90degres-male-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "868",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/868-raccord-laiton-deca-serrage-exterieur-coude-90degres-femelle-4ms",
+    "productSlug": "serie-raccords-deca-868-raccord-laiton-deca-serrage-exterieur-coude-90degres-femelle-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "869",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/869-raccord-laiton-deca-serrage-exterieur-applique-murale-4ms",
+    "productSlug": "serie-raccords-deca-869-raccord-laiton-deca-serrage-exterieur-applique-murale-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "870",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/870-raccord-laiton-deca-serrage-exterieur-manchon-de-reparation-4ms",
+    "productSlug": "serie-raccords-deca-870-raccord-laiton-deca-serrage-exterieur-manchon-de-reparation-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "875",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/875-raccord-laiton-deca-serrage-exterieur-droit-femelle-reduit-4ms",
+    "productSlug": "serie-raccords-deca-875-raccord-laiton-deca-serrage-exterieur-droit-femelle-reduit-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "876",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/876-raccord-laiton-deca-serrage-exterieur-droit-ecrou-joint-plat-4ms",
+    "productSlug": "serie-raccords-deca-876-raccord-laiton-deca-serrage-exterieur-droit-ecrou-joint-plat-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "886",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/886-kit-de-reduction-pour-tube-polyethylene",
+    "productSlug": "serie-raccords-deca-886-kit-de-reduction-pour-tube-polyethylene",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "890",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/890-raccord-laiton-serrage-exterieur-tube-acier-droit-femelle",
+    "productSlug": "serie-raccords-deca-890-raccord-laiton-serrage-exterieur-tube-acier-droit-femelle",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "891",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/891-raccord-laiton-serrage-exterieur-tube-acier-droit-male",
+    "productSlug": "serie-raccords-deca-891-raccord-laiton-serrage-exterieur-tube-acier-droit-male",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "893",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/893-raccord-laiton-deca-serrage-exterieur-tube-acier-manchon-4ms",
+    "productSlug": "serie-raccords-deca-893-raccord-laiton-deca-serrage-exterieur-tube-acier-manchon-4ms",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "894",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/894-raccord-laiton-deca-serrage-exterieur-tube-acier-en-t",
+    "productSlug": "serie-raccords-deca-894-raccord-laiton-deca-serrage-exterieur-tube-acier-en-t",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "9852",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/9852-bague-de-serrage-deca",
+    "productSlug": "serie-raccords-deca-9852-bague-de-serrage-deca",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "9852",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/9852-joint-torique-deca-dn20",
+    "productSlug": "serie-raccords-deca-9852-joint-torique-deca-dn20",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "9852",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-deca/9852-rondelle-deca",
+    "productSlug": "serie-raccords-deca-9852-rondelle-deca",
+    "imageDir": "raccords-deca"
+  },
+  {
+    "reference": "1000",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1000-raccord-polypropylene-haute-densite-droit-male-reduit-40-1pouces",
+    "productSlug": "serie-raccords-polypropylene-1000-raccord-polypropylene-haute-densite-droit-male-reduit-40-1pouces",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1001",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1001-raccord-polypropylene-haute-densite-a-serrage-exterieur-droit-male",
+    "productSlug": "serie-raccords-polypropylene-1001-raccord-polypropylene-haute-densite-a-serrage-exterieur-droit-male",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1002",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1002-raccord-polypropylene-haute-densite-droit-male-augmente",
+    "productSlug": "serie-raccords-polypropylene-1002-raccord-polypropylene-haute-densite-droit-male-augmente",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1003",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1003-raccord-polypropylene-haute-densite-droit-femelle",
+    "productSlug": "serie-raccords-polypropylene-1003-raccord-polypropylene-haute-densite-droit-femelle",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1005",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1005-raccord-polypropylene-haute-densite-manchon-d-accouplement",
+    "productSlug": "serie-raccords-polypropylene-1005-raccord-polypropylene-haute-densite-manchon-d-accouplement",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1007",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1007-raccord-polypropylene-haute-densite-a-serrage-exterieur-en-t",
+    "productSlug": "serie-raccords-polypropylene-1007-raccord-polypropylene-haute-densite-a-serrage-exterieur-en-t",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1009",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1009-raccord-polypropylene-haute-densite-en-t-taraude-femelle",
+    "productSlug": "serie-raccords-polypropylene-1009-raccord-polypropylene-haute-densite-en-t-taraude-femelle",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1012",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1012-raccord-polypropylene-haute-densite-manchon-coude-90degres",
+    "productSlug": "serie-raccords-polypropylene-1012-raccord-polypropylene-haute-densite-manchon-coude-90degres",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1013",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1013-raccord-polypropylene-haute-densite-coude-90degres-femelle",
+    "productSlug": "serie-raccords-polypropylene-1013-raccord-polypropylene-haute-densite-coude-90degres-femelle",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1014",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1014-raccord-polypropylene-haute-densite-coude-90degres",
+    "productSlug": "serie-raccords-polypropylene-1014-raccord-polypropylene-haute-densite-coude-90degres",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1017",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1017-raccord-polypropylene-haute-densite-en-t-filete-male",
+    "productSlug": "serie-raccords-polypropylene-1017-raccord-polypropylene-haute-densite-en-t-filete-male",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "1020",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-polypropylene/1020-raccord-polypropylene-haute-densite-bouchon",
+    "productSlug": "serie-raccords-polypropylene-1020-raccord-polypropylene-haute-densite-bouchon",
+    "imageDir": "raccords-polypropylene"
+  },
+  {
+    "reference": "120g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/120g-raccord-en-fonte-malleable-coude-ff-petit-rayon-45degres-galva",
+    "productSlug": "serie-raccords-fonte-malleable-120g-raccord-en-fonte-malleable-coude-ff-petit-rayon-45degres-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "120n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/120n-raccord-en-fonte-malleable-coude-ff-petit-rayon-45degres-noir",
+    "productSlug": "serie-raccords-fonte-malleable-120n-raccord-en-fonte-malleable-coude-ff-petit-rayon-45degres-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "121g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/121g-raccord-en-fonte-malleable-coude-mf-petit-rayon-45degres-galva",
+    "productSlug": "serie-raccords-fonte-malleable-121g-raccord-en-fonte-malleable-coude-mf-petit-rayon-45degres-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "121n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/121n-raccord-fonte-malleable-coude-male-femelle-petit-rayon-45degres-noir-bsp-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-121n-raccord-fonte-malleable-coude-male-femelle-petit-rayon-45degres-noir-bsp-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130g-afy-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130g-afy-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130g-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130g-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130n-afy-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130n-afy-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130n-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130n-raccord-fonte-malleable-te-egal-femelle-femelle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130rg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130rg-raccord-fonte-malleable-te-femelle-reduit-1eg3sup2-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130rg-raccord-fonte-malleable-te-femelle-reduit-1eg3sup2-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "130rn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/130rn-raccord-fonte-malleable-te-femelle-reduit-1eg3sup2-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-130rn-raccord-fonte-malleable-te-femelle-reduit-1eg3sup2-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "131g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/131g-raccord-fonte-malleable-te-egal-femelle-1-voie-cintree-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-131g-raccord-fonte-malleable-te-egal-femelle-1-voie-cintree-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "131n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/131n-raccord-fonte-malleable-te-egal-femelle-1-voie-cintree-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-131n-raccord-fonte-malleable-te-egal-femelle-1-voie-cintree-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "132g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/132g-raccord-fonte-malleable-te-femelle-egal-voies-courbees-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-132g-raccord-fonte-malleable-te-femelle-egal-voies-courbees-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "132n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/132n-raccord-fonte-malleable-te-femelle-egal-voies-courbees-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-132n-raccord-fonte-malleable-te-femelle-egal-voies-courbees-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "133g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/133g-raccord-fonte-malleable-te-femelle-male-femelle-galva-bsp-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-133g-raccord-fonte-malleable-te-femelle-male-femelle-galva-bsp-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "133n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/133n-raccord-fonte-malleable-te-femelle-male-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-133n-raccord-fonte-malleable-te-femelle-male-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "134g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/134g-raccord-fonte-malleable-te-male-femelle-femelle-egal-galva-bsp-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-134g-raccord-fonte-malleable-te-male-femelle-femelle-egal-galva-bsp-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "134n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/134n-raccord-fonte-malleable-te-male-femelle-femelle-egal-noir-bsp-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-134n-raccord-fonte-malleable-te-male-femelle-femelle-egal-noir-bsp-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "134rg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/134rg-raccord-fonte-malleable-te-male-femelle-femelle-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-134rg-raccord-fonte-malleable-te-male-femelle-femelle-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "134rn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/134rn-raccord-en-fonte-malleable-te-mff-reduit-noir",
+    "productSlug": "serie-raccords-fonte-malleable-134rn-raccord-en-fonte-malleable-te-mff-reduit-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "135g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/135g-raccord-fonte-malleable-te-male-male-male-egal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-135g-raccord-fonte-malleable-te-male-male-male-egal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "135n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/135n-raccord-fonte-malleable-te-male-male-male-egal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-135n-raccord-fonte-malleable-te-male-male-male-egal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "165g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/165g-raccord-fonte-malleable-te-femelle-egal-oblique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-165g-raccord-fonte-malleable-te-femelle-egal-oblique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "165n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/165n-raccord-fonte-malleable-te-femelle-egal-oblique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-165n-raccord-fonte-malleable-te-femelle-egal-oblique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "180g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/180g-afy-raccord-fonte-malleable-croix-femelle-egale-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-180g-afy-raccord-fonte-malleable-croix-femelle-egale-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "180g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/180g-raccord-fonte-malleable-croix-femelle-egale-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-180g-raccord-fonte-malleable-croix-femelle-egale-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "180gr",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/180gr-raccord-fonte-malleable-croix-reduite-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-180gr-raccord-fonte-malleable-croix-reduite-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "180n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/180n-raccord-fonte-malleable-croix-femelle-egale-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-180n-raccord-fonte-malleable-croix-femelle-egale-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "180nr",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/180nr-raccord-fonte-malleable-croix-reduite-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-180nr-raccord-fonte-malleable-croix-reduite-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1ag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1ag-raccord-fonte-malleable-courbe-male-femelle-courte-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1ag-raccord-fonte-malleable-courbe-male-femelle-courte-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1an",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1an-raccord-fonte-malleable-courbe-male-femelle-courte-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1an-raccord-fonte-malleable-courbe-male-femelle-courte-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1g-afy-raccord-fonte-malleable-courbe-mf-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1g-afy-raccord-fonte-malleable-courbe-mf-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1g-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1g-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1n-afy-raccord-fonte-malleable-courbe-mf-grand-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1n-afy-raccord-fonte-malleable-courbe-mf-grand-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "1n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/1n-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-1n-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "220g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/220g-raccord-fonte-malleable-distributeur-en-y-egal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-220g-raccord-fonte-malleable-distributeur-en-y-egal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "220n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/220n-raccord-fonte-malleable-distributeur-en-y-egal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-220n-raccord-fonte-malleable-distributeur-en-y-egal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "221g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/221g-raccord-fonte-malleable-distributeur-a-coudes-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-221g-raccord-fonte-malleable-distributeur-a-coudes-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "221n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/221n-raccord-fonte-malleable-distributeur-a-coudes-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-221n-raccord-fonte-malleable-distributeur-a-coudes-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "223g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/223g-raccord-fonte-malleable-distributeur-en-te-egal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-223g-raccord-fonte-malleable-distributeur-en-te-egal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "223n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/223n-raccord-fonte-malleable-distributeur-en-te-egal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-223n-raccord-fonte-malleable-distributeur-en-te-egal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "240g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/240g-afy-raccord-fonte-malleable-manchon-femelle-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-240g-afy-raccord-fonte-malleable-manchon-femelle-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "240g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/240g-raccord-fonte-malleable-manchon-femelle-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-240g-raccord-fonte-malleable-manchon-femelle-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "240n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/240n-afy-raccord-fonte-malleable-manchon-femelle-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-240n-afy-raccord-fonte-malleable-manchon-femelle-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "240n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/240n-raccord-fonte-malleable-manchon-femelle-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-240n-raccord-fonte-malleable-manchon-femelle-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "241g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/241g-afy-raccord-fonte-malleable-reduction-malesupfemelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-241g-afy-raccord-fonte-malleable-reduction-malesupfemelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "241g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/241g-raccord-fonte-malleable-reduction-malesupfemelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-241g-raccord-fonte-malleable-reduction-malesupfemelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "241n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/241n-afy-raccord-fonte-malleable-reduction-malesupfemelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-241n-afy-raccord-fonte-malleable-reduction-malesupfemelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "241n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/241n-raccord-fonte-malleable-reduction-malesupfemelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-241n-raccord-fonte-malleable-reduction-malesupfemelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "245g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/245g-afy-raccord-fonte-malleable-mamelon-male-male-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-245g-afy-raccord-fonte-malleable-mamelon-male-male-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "245g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/245g-raccord-fonte-malleable-mamelon-male-male-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-245g-raccord-fonte-malleable-mamelon-male-male-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "245n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/245n-afy-raccord-fonte-malleable-mamelon-male-male-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-245n-afy-raccord-fonte-malleable-mamelon-male-male-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "245n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/245n-raccord-fonte-malleable-mamelon-male-male-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-245n-raccord-fonte-malleable-mamelon-male-male-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "246g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/246g-afy-raccord-fonte-malleable-manchon-femelle-male-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-246g-afy-raccord-fonte-malleable-manchon-femelle-male-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "246g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/246g-raccord-fonte-malleable-manchon-femelle-male-reduit-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-246g-raccord-fonte-malleable-manchon-femelle-male-reduit-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "246n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/246n-afy-raccord-fonte-malleable-manchon-femelle-male-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-246n-afy-raccord-fonte-malleable-manchon-femelle-male-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "246n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/246n-raccord-fonte-malleable-manchon-femelle-male-reduit-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-246n-raccord-fonte-malleable-manchon-femelle-male-reduit-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "270g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/270g-afy-raccord-fonte-malleable-manchon-egal-femelle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-270g-afy-raccord-fonte-malleable-manchon-egal-femelle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "270g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/270g-raccord-fonte-malleable-manchon-egal-femelle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-270g-raccord-fonte-malleable-manchon-egal-femelle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "270n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/270n-afy-raccord-fonte-malleable-manchon-egal-femelle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-270n-afy-raccord-fonte-malleable-manchon-egal-femelle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "270n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/270n-raccord-fonte-malleable-manchon-egal-femelle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-270n-raccord-fonte-malleable-manchon-egal-femelle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "271g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/271g-raccord-fonte-malleable-manchon-egal-femelle-droite-gauche-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-271g-raccord-fonte-malleable-manchon-egal-femelle-droite-gauche-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "271n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/271n-raccord-fonte-malleable-manchon-egal-femelle-droite-gauche-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-271n-raccord-fonte-malleable-manchon-egal-femelle-droite-gauche-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "280g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/280g-afy-raccord-fonte-malleable-mamelon-double-male-male-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-280g-afy-raccord-fonte-malleable-mamelon-double-male-male-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "280g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/280g-raccord-fonte-malleable-mamelon-double-male-male-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-280g-raccord-fonte-malleable-mamelon-double-male-male-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "280n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/280n-afy-raccord-fonte-malleable-mamelon-double-male-male-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-280n-afy-raccord-fonte-malleable-mamelon-double-male-male-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "280n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/280n-raccord-fonte-malleable-mamelon-double-male-male-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-280n-raccord-fonte-malleable-mamelon-double-male-male-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "281g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/281g-raccord-fonte-malleable-mamelon-double-male-droit-gauche-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-281g-raccord-fonte-malleable-mamelon-double-male-droit-gauche-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "281n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/281n-raccord-fonte-malleable-mamelon-double-male-droit-gauche-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-281n-raccord-fonte-malleable-mamelon-double-male-droit-gauche-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "290g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/290g-afy-raccord-fonte-malleable-bouchon-male-a-collet-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-290g-afy-raccord-fonte-malleable-bouchon-male-a-collet-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "290g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/290g-raccord-fonte-malleable-bouchon-male-a-collet-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-290g-raccord-fonte-malleable-bouchon-male-a-collet-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "290n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/290n-afy-raccord-fonte-malleable-bouchon-male-a-collet-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-290n-afy-raccord-fonte-malleable-bouchon-male-a-collet-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "290n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/290n-raccord-fonte-malleable-bouchon-male-a-collet-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-290n-raccord-fonte-malleable-bouchon-male-a-collet-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "291g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/291g-raccord-fonte-malleable-bouchon-male-sans-collet-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-291g-raccord-fonte-malleable-bouchon-male-sans-collet-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "291n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/291n-raccord-fonte-malleable-bouchon-male-sans-collet-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-291n-raccord-fonte-malleable-bouchon-male-sans-collet-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "292g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/292g-bouchon-male-hexagonal-fonte-galvanise",
+    "productSlug": "serie-raccords-fonte-malleable-292g-bouchon-male-hexagonal-fonte-galvanise",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "292n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/292n-bouchon-male-hexagonal-fonte-noir",
+    "productSlug": "serie-raccords-fonte-malleable-292n-bouchon-male-hexagonal-fonte-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2ag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2ag-raccord-fonte-malleable-courbe-femelle-courte-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2ag-raccord-fonte-malleable-courbe-femelle-courte-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2an",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2an-raccord-fonte-malleable-courbe-femelle-courte-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2an-raccord-fonte-malleable-courbe-femelle-courte-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2g-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2g-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2g-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2g-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2n-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2n-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "2n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/2n-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-2n-raccord-fonte-malleable-courbe-femelle-grand-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "300g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/300g-afy-raccord-fonte-malleable-bouchon-femelle-hexagonal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-300g-afy-raccord-fonte-malleable-bouchon-femelle-hexagonal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "300g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/300g-raccord-fonte-malleable-bouchon-femelle-hexagonal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-300g-raccord-fonte-malleable-bouchon-femelle-hexagonal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "300n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/300n-afy-raccord-fonte-malleable-bouchon-femelle-hexagonal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-300n-afy-raccord-fonte-malleable-bouchon-femelle-hexagonal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "300n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/300n-raccord-fonte-malleable-bouchon-femelle-hexagonal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-300n-raccord-fonte-malleable-bouchon-femelle-hexagonal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "312g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/312g-raccord-fonte-malleable-contre-ecrou-hexagonal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-312g-raccord-fonte-malleable-contre-ecrou-hexagonal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "312n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/312n-raccord-fonte-malleable-contre-ecrou-hexagonal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-312n-raccord-fonte-malleable-contre-ecrou-hexagonal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "321g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/321g-raccord-fonte-malleable-bride-filetee-sans-trous-pn10-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-321g-raccord-fonte-malleable-bride-filetee-sans-trous-pn10-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "321n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/321n-raccord-fonte-malleable-bride-filetee-sans-trous-pn10-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-321n-raccord-fonte-malleable-bride-filetee-sans-trous-pn10-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "326g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/326g-raccord-fonte-malleable-bride-ovale-filetee-avec-trous-pn10-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-326g-raccord-fonte-malleable-bride-ovale-filetee-avec-trous-pn10-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "326n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/326n-raccord-fonte-malleable-bride-ovale-filetee-avec-trous-pn10-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-326n-raccord-fonte-malleable-bride-ovale-filetee-avec-trous-pn10-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "330g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/330g-afy-raccord-fonte-malleable-union-egal-femelle-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-330g-afy-raccord-fonte-malleable-union-egal-femelle-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "330g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/330g-raccord-fonte-malleable-union-egal-femelle-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-330g-raccord-fonte-malleable-union-egal-femelle-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "330n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/330n-raccord-fonte-malleable-union-egal-femelle-joint-plat-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-330n-raccord-fonte-malleable-union-egal-femelle-joint-plat-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "331g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/331g-afy-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-331g-afy-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "331g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/331g-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-331g-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "331n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/331n-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-331n-raccord-fonte-malleable-union-egal-male-femelle-joint-plat-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "340g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/340g-afy-raccord-fonte-malleable-union-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-340g-afy-raccord-fonte-malleable-union-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "340g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/340g-raccord-fonte-malleable-union-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-340g-raccord-fonte-malleable-union-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "340n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/340n-afy-raccord-fonte-malleable-union-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-340n-afy-raccord-fonte-malleable-union-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "340n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/340n-raccord-fonte-malleable-union-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-340n-raccord-fonte-malleable-union-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "341g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/341g-afy-raccord-fonte-malleable-union-male-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-341g-afy-raccord-fonte-malleable-union-male-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "341g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/341g-raccord-fonte-malleable-union-male-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-341g-raccord-fonte-malleable-union-male-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "341n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/341n-afy-raccord-fonte-malleable-union-male-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-341n-afy-raccord-fonte-malleable-union-male-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "341n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/341n-raccord-fonte-malleable-union-male-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-341n-raccord-fonte-malleable-union-male-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "342g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/342g-raccord-fonte-malleable-union-femelle-bague-bronze-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-342g-raccord-fonte-malleable-union-femelle-bague-bronze-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "342n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/342n-raccord-fonte-malleable-union-femelle-bague-bronze-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-342n-raccord-fonte-malleable-union-femelle-bague-bronze-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "344g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/344g-raccord-fonte-malleable-union-male-male-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-344g-raccord-fonte-malleable-union-male-male-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "344n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/344n-raccord-fonte-malleable-union-male-male-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-344n-raccord-fonte-malleable-union-male-male-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "370g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/370g-raccord-fonte-malleable-piece-folle-filetee-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-370g-raccord-fonte-malleable-piece-folle-filetee-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "370n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/370n-raccord-fonte-malleable-piece-folle-filetee-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-370n-raccord-fonte-malleable-piece-folle-filetee-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "371g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/371g-raccord-fonte-malleable-piece-folle-male-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-371g-raccord-fonte-malleable-piece-folle-male-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "371n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/371n-raccord-fonte-malleable-piece-folle-male-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-371n-raccord-fonte-malleable-piece-folle-male-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "372g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/372g-raccord-fonte-malleable-piece-folle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-372g-raccord-fonte-malleable-piece-folle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "372n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/372n-raccord-fonte-malleable-piece-folle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-372n-raccord-fonte-malleable-piece-folle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "374g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/374g-raccord-fonte-malleable-ecrou-d-union-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-374g-raccord-fonte-malleable-ecrou-d-union-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "374n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/374n-raccord-fonte-malleable-ecrou-d-union-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-374n-raccord-fonte-malleable-ecrou-d-union-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "3g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/3g-afy-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-3g-afy-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "3g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/3g-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-3g-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "3n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/3n-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-3n-raccord-fonte-malleable-courbe-male-male-grand-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "40g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/40g-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-45degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-40g-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-45degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "40n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/40n-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-45degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-40n-raccord-fonte-malleable-courbe-male-femelle-grand-rayon-45degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "41g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/41g-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-41g-afy-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "41g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/41g-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-41g-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "41n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/41n-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-41n-raccord-fonte-malleable-courbe-femelle-grand-rayon-45degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "471g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/471g-raccord-fonte-malleable-applique-femelle-femelle-coude-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-471g-raccord-fonte-malleable-applique-femelle-femelle-coude-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "529ag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/529ag-afy-raccord-fonte-malleable-allonge-male-femelle-egal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-529ag-afy-raccord-fonte-malleable-allonge-male-femelle-egal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "529ag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/529ag-raccord-fonte-malleable-allonge-male-femelle-egal-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-529ag-raccord-fonte-malleable-allonge-male-femelle-egal-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "529an",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/529an-raccord-fonte-malleable-allonge-male-femelle-egal-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-529an-raccord-fonte-malleable-allonge-male-femelle-egal-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "596g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/596g-raccord-fonte-malleable-bouchon-male-carre-creux-galva",
+    "productSlug": "serie-raccords-fonte-malleable-596g-raccord-fonte-malleable-bouchon-male-carre-creux-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "596n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/596n-raccord-fonte-malleable-bouchon-male-carre-creux-noir",
+    "productSlug": "serie-raccords-fonte-malleable-596n-raccord-fonte-malleable-bouchon-male-carre-creux-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "60g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/60g-raccord-fonte-malleable-courbe-double-180degres-femelle-femelle-galva",
+    "productSlug": "serie-raccords-fonte-malleable-60g-raccord-fonte-malleable-courbe-double-180degres-femelle-femelle-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "60n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/60n-raccord-fonte-malleable-courbe-double-180degres-femelle-femelle-noir",
+    "productSlug": "serie-raccords-fonte-malleable-60n-raccord-fonte-malleable-courbe-double-180degres-femelle-femelle-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "85g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/85g-raccord-fonte-malleable-dos-d-ane-femelle-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-85g-raccord-fonte-malleable-dos-d-ane-femelle-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "85n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/85n-raccord-fonte-malleable-dos-d-ane-femelle-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-85n-raccord-fonte-malleable-dos-d-ane-femelle-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90g-afy-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90g-afy-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90g-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90g-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90n-afy-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90n-afy-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90n-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90n-raccord-fonte-malleable-coude-petit-rayon-90degres-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90rg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90rg-raccord-fonte-malleable-coude-reduit-90degres-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90rg-raccord-fonte-malleable-coude-reduit-90degres-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "90rn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/90rn-raccord-fonte-malleable-coude-reduit-90degres-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-90rn-raccord-fonte-malleable-coude-reduit-90degres-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92g-afy-raccord-fonte-malleable-coude-90degres-male-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-92g-afy-raccord-fonte-malleable-coude-90degres-male-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92g-raccord-fonte-malleable-coude-90degres-male-femelle-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-92g-raccord-fonte-malleable-coude-90degres-male-femelle-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92n-afy-raccord-fonte-malleable-coude-90degres-male-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-92n-afy-raccord-fonte-malleable-coude-90degres-male-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92n-raccord-fonte-malleable-coude-90degres-male-femelle-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-92n-raccord-fonte-malleable-coude-90degres-male-femelle-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92rg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92rg-raccord-fonte-malleable-coude-reduit-90degres-femellesupmale-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-92rg-raccord-fonte-malleable-coude-reduit-90degres-femellesupmale-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "92rn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/92rn-raccord-fonte-malleable-coude-reduit-90degres-femellesupmale-noir",
+    "productSlug": "serie-raccords-fonte-malleable-92rn-raccord-fonte-malleable-coude-reduit-90degres-femellesupmale-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "94g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/94g-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-94g-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "94n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/94n-afy-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-94n-afy-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "94n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/94n-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-94n-raccord-fonte-malleable-coude-egal-male-male-rayon-90degres-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "95g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/95g-raccord-fonte-malleable-coude-union-femelle-a-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-95g-raccord-fonte-malleable-coude-union-femelle-a-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "95n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/95n-raccord-fonte-malleable-coude-union-femelle-a-joint-plat-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-95n-raccord-fonte-malleable-coude-union-femelle-a-joint-plat-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "96g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/96g-afy-raccord-fonte-malleable-coude-union-femelle-joint-conique-galva",
+    "productSlug": "serie-raccords-fonte-malleable-96g-afy-raccord-fonte-malleable-coude-union-femelle-joint-conique-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "96g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/96g-raccord-fonte-malleable-coude-union-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-96g-raccord-fonte-malleable-coude-union-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "96n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/96n-afy-raccord-fonte-malleable-coude-union-femelle-joint-conique-noir",
+    "productSlug": "serie-raccords-fonte-malleable-96n-afy-raccord-fonte-malleable-coude-union-femelle-joint-conique-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "96n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/96n-raccord-fonte-malleable-coude-union-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-96n-raccord-fonte-malleable-coude-union-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "97g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/97g-raccord-fonte-malleable-coude-union-male-femelle-joint-plat-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-97g-raccord-fonte-malleable-coude-union-male-femelle-joint-plat-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "97n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/97n-raccord-fonte-malleable-coude-union-male-femelle-joint-plat-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-97n-raccord-fonte-malleable-coude-union-male-femelle-joint-plat-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "98030",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/98030-joint-fibre-plat-epaisseur-1-5",
+    "productSlug": "serie-raccords-fonte-malleable-98030-joint-fibre-plat-epaisseur-1-5",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "98g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/98g-afy-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-galva",
+    "productSlug": "serie-raccords-fonte-malleable-98g-afy-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-galva",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "98g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/98g-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-galva-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-98g-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-galva-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "98n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/98n-afy-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-noir",
+    "productSlug": "serie-raccords-fonte-malleable-98n-afy-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-noir",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "98n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/98n-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-noir-bsp",
+    "productSlug": "serie-raccords-fonte-malleable-98n-raccord-fonte-malleable-coude-union-male-femelle-joint-conique-noir-bsp",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "zru",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-fonte-malleable/zru-raccord-union-pour-circulateur-filete-g1pouces1-2-a-visser",
+    "productSlug": "serie-raccords-fonte-malleable-zru-raccord-union-pour-circulateur-filete-g1pouces1-2-a-visser",
+    "imageDir": "raccords-fonte-malleable"
+  },
+  {
+    "reference": "530ag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530ag-demi-mamelon-tube-acier-galva-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530ag-demi-mamelon-tube-acier-galva-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "530an",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530an-demi-mamelon-tube-acier-noir-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530an-demi-mamelon-tube-acier-noir-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "530at3",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530at3-demi-mamelon-tube-sans-soudure-acier-noir-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530at3-demi-mamelon-tube-sans-soudure-acier-noir-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "530g",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530g-mamelon-tube-acier-galva-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530g-mamelon-tube-acier-galva-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "530n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530n-mamelon-tube-acier-noir-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530n-mamelon-tube-acier-noir-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "530t3n",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/530t3n-mamelon-tube-acier-noir-sans-soudure-en-10241-bsp",
+    "productSlug": "serie-mamelons-et-manchons-acier-530t3n-mamelon-tube-acier-noir-sans-soudure-en-10241-bsp",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "madn-demi",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/madn-demi-manchon-acier-noir-bsp-en-10241",
+    "productSlug": "serie-mamelons-et-manchons-acier-madn-demi-manchon-acier-noir-bsp-en-10241",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "mag",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/mag-manchon-acier-galva-bsp-en-10241",
+    "productSlug": "serie-mamelons-et-manchons-acier-mag-manchon-acier-galva-bsp-en-10241",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "maln",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/maln-manchon-acier-noir-longueur-60mm-bsp-en-10241",
+    "productSlug": "serie-mamelons-et-manchons-acier-maln-manchon-acier-noir-longueur-60mm-bsp-en-10241",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "man",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/mamelons-et-manchons-acier/man-manchon-acier-noir-bsp-en-10241",
+    "productSlug": "serie-mamelons-et-manchons-acier-man-manchon-acier-noir-bsp-en-10241",
+    "imageDir": "mamelons-manchons-acier"
+  },
+  {
+    "reference": "2001",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2001-raccord-inox-coude-90degres-femelle-femelle-class150",
+    "productSlug": "serie-raccords-inox-2001-raccord-inox-coude-90degres-femelle-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2002",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2002-raccord-inox-croix-femelle-class150",
+    "productSlug": "serie-raccords-inox-2002-raccord-inox-croix-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2003",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2003-raccord-inox-t-femelle-class150",
+    "productSlug": "serie-raccords-inox-2003-raccord-inox-t-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2010",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2010-raccord-inox-coude-90degres-male-femelle-class150",
+    "productSlug": "serie-raccords-inox-2010-raccord-inox-coude-90degres-male-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2013",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2013-raccord-inox-reduction-femelle-femelle-class150",
+    "productSlug": "serie-raccords-inox-2013-raccord-inox-reduction-femelle-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2014",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2014-raccord-inox-double-reduction-femelle-femelle-class150",
+    "productSlug": "serie-raccords-inox-2014-raccord-inox-double-reduction-femelle-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2015",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2015-raccord-inox-manchon",
+    "productSlug": "serie-raccords-inox-2015-raccord-inox-manchon",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2017",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2017-raccord-inox-demi-manchon",
+    "productSlug": "serie-raccords-inox-2017-raccord-inox-demi-manchon",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2020",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2020-raccord-inox-bouchon-male-tete-carree-class150",
+    "productSlug": "serie-raccords-inox-2020-raccord-inox-bouchon-male-tete-carree-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2021",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2021-raccord-inox-reduction-male-femelle-class150",
+    "productSlug": "serie-raccords-inox-2021-raccord-inox-reduction-male-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2022",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2022-raccord-inox-bouchon-male-hexagonal-modele-evide-class150",
+    "productSlug": "serie-raccords-inox-2022-raccord-inox-bouchon-male-hexagonal-modele-evide-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2023",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2023-raccord-inox-bouchon-male-hexagonal-modele-plein-class150",
+    "productSlug": "serie-raccords-inox-2023-raccord-inox-bouchon-male-hexagonal-modele-plein-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2024",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2024-raccord-inox-double-reduction-male-femelle-class150",
+    "productSlug": "serie-raccords-inox-2024-raccord-inox-double-reduction-male-femelle-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2025",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2025-raccord-union-inox-a-portee-conique-femelle-femelle",
+    "productSlug": "serie-raccords-inox-2025-raccord-union-inox-a-portee-conique-femelle-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2026",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2026-raccord-union-inox-a-portee-conique-male-femelle",
+    "productSlug": "serie-raccords-inox-2026-raccord-union-inox-a-portee-conique-male-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2027",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2027-raccord-union-inox-a-portee-conique-male-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2027-raccord-union-inox-a-portee-conique-male-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2028",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2028-raccord-union-inox-a-portee-conique-femelle-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2028-raccord-union-inox-a-portee-conique-femelle-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2029",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2029-raccord-union-inox-a-portee-conique-butt-welding-bw-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2029-raccord-union-inox-a-portee-conique-butt-welding-bw-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2030",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2030-raccord-inox-mamelon-hexagonal-class150-bsp",
+    "productSlug": "serie-raccords-inox-2030-raccord-inox-mamelon-hexagonal-class150-bsp",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2031",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2031-raccord-inox-reduction-male-male-class150",
+    "productSlug": "serie-raccords-inox-2031-raccord-inox-reduction-male-male-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2032",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2032-raccord-inox-double-reduction-male-male-class150",
+    "productSlug": "serie-raccords-inox-2032-raccord-inox-double-reduction-male-male-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2033",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2033-raccord-inox-reduction-femelle-male-class150",
+    "productSlug": "serie-raccords-inox-2033-raccord-inox-reduction-femelle-male-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2034",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2034-raccord-inox-embout-male-a-souder-longueur-50mm",
+    "productSlug": "serie-raccords-inox-2034-raccord-inox-embout-male-a-souder-longueur-50mm",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2035",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2035-raccord-inox-embout-tetine-13-male-class150",
+    "productSlug": "serie-raccords-inox-2035-raccord-inox-embout-tetine-13-male-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2036",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2036-raccord-inox-ecrou-hexagonal-class150",
+    "productSlug": "serie-raccords-inox-2036-raccord-inox-ecrou-hexagonal-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2037",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2037-raccord-inox-bouchon-femelle-hexagonal-class150",
+    "productSlug": "serie-raccords-inox-2037-raccord-inox-bouchon-femelle-hexagonal-class150",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2038",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2038-raccord-inox-mamelon-tube-longueur-100mm",
+    "productSlug": "serie-raccords-inox-2038-raccord-inox-mamelon-tube-longueur-100mm",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2039",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2039-raccord-inox-embout-male-a-souder-standard",
+    "productSlug": "serie-raccords-inox-2039-raccord-inox-embout-male-a-souder-standard",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2040",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2040-raccord-inox-mamelon-tube-standard",
+    "productSlug": "serie-raccords-inox-2040-raccord-inox-mamelon-tube-standard",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2041",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2041-raccord-inox-mamelon-tube-longueur-200mm",
+    "productSlug": "serie-raccords-inox-2041-raccord-inox-mamelon-tube-longueur-200mm",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2042",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2042-raccord-inox-embout-male-a-souder-longueur-100mm",
+    "productSlug": "serie-raccords-inox-2042-raccord-inox-embout-male-a-souder-longueur-100mm",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2062",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2062-raccord-union-inox-a-portee-conique-male-male",
+    "productSlug": "serie-raccords-inox-2062-raccord-union-inox-a-portee-conique-male-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2064",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2064-raccord-union-3-pieces-usine-inox-male-male",
+    "productSlug": "serie-raccords-inox-2064-raccord-union-3-pieces-usine-inox-male-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2065",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2065-raccord-union-3-pieces-usine-inox-femelle-femelle",
+    "productSlug": "serie-raccords-inox-2065-raccord-union-3-pieces-usine-inox-femelle-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2066",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2066-raccord-union-3-pieces-usine-inox-male-femelle",
+    "productSlug": "serie-raccords-inox-2066-raccord-union-3-pieces-usine-inox-male-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2067",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2067-raccord-union-3-pieces-usine-inox-male-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2067-raccord-union-3-pieces-usine-inox-male-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2068",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2068-raccord-union-3-pieces-usine-inox-femelle-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2068-raccord-union-3-pieces-usine-inox-femelle-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2069",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2069-raccord-union-3-pieces-usine-inox-butt-welding-bw-butt-welding-bw",
+    "productSlug": "serie-raccords-inox-2069-raccord-union-3-pieces-usine-inox-butt-welding-bw-butt-welding-bw",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2070",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2070-raccord-inox-class150-gamme-initiale-coude-90degres-femelle-femelle",
+    "productSlug": "serie-raccords-inox-2070-raccord-inox-class150-gamme-initiale-coude-90degres-femelle-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2071",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2071-raccord-inox-class150-gamme-initiale-t-femelle",
+    "productSlug": "serie-raccords-inox-2071-raccord-inox-class150-gamme-initiale-t-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2072",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2072-raccord-inox-class150-gamme-initiale-coude-90degres-male-femelle",
+    "productSlug": "serie-raccords-inox-2072-raccord-inox-class150-gamme-initiale-coude-90degres-male-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2073",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2073-raccord-inox-gamme-initiale-reduction-femelle-femelle",
+    "productSlug": "serie-raccords-inox-2073-raccord-inox-gamme-initiale-reduction-femelle-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2074",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2074-raccord-inox-gamme-initiale-double-reduction-femelle-femelle",
+    "productSlug": "serie-raccords-inox-2074-raccord-inox-gamme-initiale-double-reduction-femelle-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2075",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2075-raccord-inox-gamme-initiale-reduction-male-femelle",
+    "productSlug": "serie-raccords-inox-2075-raccord-inox-gamme-initiale-reduction-male-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2076",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2076-raccord-inox-gamme-initiale-bouchon-male-hexagonal-modele-evide",
+    "productSlug": "serie-raccords-inox-2076-raccord-inox-gamme-initiale-bouchon-male-hexagonal-modele-evide",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2077",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2077-raccord-inox-gamme-initiale-bouchon-male-hexagonal-modele-plein",
+    "productSlug": "serie-raccords-inox-2077-raccord-inox-gamme-initiale-bouchon-male-hexagonal-modele-plein",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2078",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2078-raccord-inox-gamme-initiale-double-reduction-male-femelle",
+    "productSlug": "serie-raccords-inox-2078-raccord-inox-gamme-initiale-double-reduction-male-femelle",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2084",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2084-raccord-inox-gamme-initiale-mamelon-hexagonal",
+    "productSlug": "serie-raccords-inox-2084-raccord-inox-gamme-initiale-mamelon-hexagonal",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2085",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2085-raccord-inox-gamme-initiale-reduction-male-male",
+    "productSlug": "serie-raccords-inox-2085-raccord-inox-gamme-initiale-reduction-male-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2086",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2086-raccord-inox-gamme-initiale-double-reduction-male-male",
+    "productSlug": "serie-raccords-inox-2086-raccord-inox-gamme-initiale-double-reduction-male-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2087",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2087-raccord-inox-gamme-initiale-reduction-femelle-male",
+    "productSlug": "serie-raccords-inox-2087-raccord-inox-gamme-initiale-reduction-femelle-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2088",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2088-raccord-inox-gamme-initiale-embout-tetine-13-male",
+    "productSlug": "serie-raccords-inox-2088-raccord-inox-gamme-initiale-embout-tetine-13-male",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2089",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2089-raccord-inox-gamme-initiale-ecrou-hexagonal",
+    "productSlug": "serie-raccords-inox-2089-raccord-inox-gamme-initiale-ecrou-hexagonal",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "2090",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-inox/2090-raccord-inox-class150-gamme-initiale-bouchon-femelle-hexagonal",
+    "productSlug": "serie-raccords-inox-2090-raccord-inox-class150-gamme-initiale-bouchon-femelle-hexagonal",
+    "imageDir": "raccords-inox"
+  },
+  {
+    "reference": "embout",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-laiton-a-visser/embout-laiton-cw617n-cannele-femelle-bsp-ref-2800",
+    "productSlug": "serie-raccords-laiton-a-visser-embout-laiton-cw617n-cannele-femelle-bsp-ref-2800",
+    "imageDir": "raccords-laiton-visser"
+  },
+  {
+    "reference": "embout",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-laiton-a-visser/embout-laiton-cw617n-cannele-male-bsp-ref-2820",
+    "productSlug": "serie-raccords-laiton-a-visser-embout-laiton-cw617n-cannele-male-bsp-ref-2820",
+    "imageDir": "raccords-laiton-visser"
+  },
+  {
+    "reference": "2201",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2201-raccord-a-cames-aluminium-adaptateur-femelle-a",
+    "productSlug": "serie-raccords-a-cames-2201-raccord-a-cames-aluminium-adaptateur-femelle-a",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2202",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2202-raccord-a-cames-aluminium-coupleur-male-b",
+    "productSlug": "serie-raccords-a-cames-2202-raccord-a-cames-aluminium-coupleur-male-b",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2203",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2203-raccord-a-cames-aluminium-coupleur-cannele-c",
+    "productSlug": "serie-raccords-a-cames-2203-raccord-a-cames-aluminium-coupleur-cannele-c",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2204",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2204-raccord-a-cames-aluminium-coupleur-femelle-d",
+    "productSlug": "serie-raccords-a-cames-2204-raccord-a-cames-aluminium-coupleur-femelle-d",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2205",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2205-raccord-a-cames-aluminium-adaptateur-cannele-e",
+    "productSlug": "serie-raccords-a-cames-2205-raccord-a-cames-aluminium-adaptateur-cannele-e",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2206",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2206-raccord-a-cames-aluminium-adaptateur-male-f",
+    "productSlug": "serie-raccords-a-cames-2206-raccord-a-cames-aluminium-adaptateur-male-f",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2207",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2207-raccord-a-cames-aluminium-bouchon-coupleur-dc",
+    "productSlug": "serie-raccords-a-cames-2207-raccord-a-cames-aluminium-bouchon-coupleur-dc",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2208",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2208-raccord-a-cames-aluminium-bouchon-adaptateur-dp",
+    "productSlug": "serie-raccords-a-cames-2208-raccord-a-cames-aluminium-bouchon-adaptateur-dp",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2211",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2211-raccord-a-cames-polypropylene-adaptateur-femelle-a",
+    "productSlug": "serie-raccords-a-cames-2211-raccord-a-cames-polypropylene-adaptateur-femelle-a",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2212",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2212-raccord-a-cames-polypropylene-coupleur-male-b",
+    "productSlug": "serie-raccords-a-cames-2212-raccord-a-cames-polypropylene-coupleur-male-b",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2213",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2213-raccord-a-cames-polypropylene-coupleur-cannele-c",
+    "productSlug": "serie-raccords-a-cames-2213-raccord-a-cames-polypropylene-coupleur-cannele-c",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2214",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2214-raccord-a-cames-polypropylene-coupleur-femelle-d",
+    "productSlug": "serie-raccords-a-cames-2214-raccord-a-cames-polypropylene-coupleur-femelle-d",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2215",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2215-raccord-a-cames-polypropylene-adaptateur-cannele-e",
+    "productSlug": "serie-raccords-a-cames-2215-raccord-a-cames-polypropylene-adaptateur-cannele-e",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2216",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2216-raccord-a-cames-polypropylene-adaptateur-male-f",
+    "productSlug": "serie-raccords-a-cames-2216-raccord-a-cames-polypropylene-adaptateur-male-f",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2217",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2217-raccord-a-cames-polypropylene-bouchon-coupleur-dc",
+    "productSlug": "serie-raccords-a-cames-2217-raccord-a-cames-polypropylene-bouchon-coupleur-dc",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2218",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2218-raccord-a-cames-polypropylene-bouchon-adaptateur-dp",
+    "productSlug": "serie-raccords-a-cames-2218-raccord-a-cames-polypropylene-bouchon-adaptateur-dp",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2241",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2241-raccord-a-cames-inox-adaptateur-femelle-a",
+    "productSlug": "serie-raccords-a-cames-2241-raccord-a-cames-inox-adaptateur-femelle-a",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2242",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2242-raccord-a-cames-inox-coupleur-male-b",
+    "productSlug": "serie-raccords-a-cames-2242-raccord-a-cames-inox-coupleur-male-b",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2243",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2243-raccord-a-cames-inox-coupleur-cannele-c",
+    "productSlug": "serie-raccords-a-cames-2243-raccord-a-cames-inox-coupleur-cannele-c",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2244",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2244-raccord-a-cames-inox-coupleur-femelle-d",
+    "productSlug": "serie-raccords-a-cames-2244-raccord-a-cames-inox-coupleur-femelle-d",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2245",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2245-raccord-a-cames-inox-adaptateur-cannele-e",
+    "productSlug": "serie-raccords-a-cames-2245-raccord-a-cames-inox-adaptateur-cannele-e",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2246",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2246-raccord-a-cames-inox-adaptateur-male-f",
+    "productSlug": "serie-raccords-a-cames-2246-raccord-a-cames-inox-adaptateur-male-f",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2247",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2247-raccord-a-cames-inox-bouchon-coupleur-dc",
+    "productSlug": "serie-raccords-a-cames-2247-raccord-a-cames-inox-bouchon-coupleur-dc",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2248",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2248-raccord-a-cames-inox-bouchon-adaptateur-dp",
+    "productSlug": "serie-raccords-a-cames-2248-raccord-a-cames-inox-bouchon-adaptateur-dp",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2261",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2261-raccord-a-cames-laiton-adaptateur-femelle-a",
+    "productSlug": "serie-raccords-a-cames-2261-raccord-a-cames-laiton-adaptateur-femelle-a",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2262",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2262-raccord-a-cames-laiton-coupleur-male-b",
+    "productSlug": "serie-raccords-a-cames-2262-raccord-a-cames-laiton-coupleur-male-b",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2263",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2263-raccord-a-cames-laiton-coupleur-cannele-c",
+    "productSlug": "serie-raccords-a-cames-2263-raccord-a-cames-laiton-coupleur-cannele-c",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2264",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2264-raccord-a-cames-laiton-coupleur-femelle-d",
+    "productSlug": "serie-raccords-a-cames-2264-raccord-a-cames-laiton-coupleur-femelle-d",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2265",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2265-raccord-a-cames-laiton-adaptateur-cannele-e",
+    "productSlug": "serie-raccords-a-cames-2265-raccord-a-cames-laiton-adaptateur-cannele-e",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2266",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2266-raccord-a-cames-laiton-adaptateur-male-f",
+    "productSlug": "serie-raccords-a-cames-2266-raccord-a-cames-laiton-adaptateur-male-f",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2267",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2267-raccord-a-cames-laiton-bouchon-coupleur-dc",
+    "productSlug": "serie-raccords-a-cames-2267-raccord-a-cames-laiton-bouchon-coupleur-dc",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2268",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/2268-raccord-a-cames-laiton-bouchon-adaptateur-dp",
+    "productSlug": "serie-raccords-a-cames-2268-raccord-a-cames-laiton-bouchon-adaptateur-dp",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "983085",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/983085-joint-epdm-raccord-a-cames",
+    "productSlug": "serie-raccords-a-cames-983085-joint-epdm-raccord-a-cames",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "983086",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/983086-joint-nbr-raccord-a-cames",
+    "productSlug": "serie-raccords-a-cames-983086-joint-nbr-raccord-a-cames",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "983087",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-a-cames/983087-joint-fkm-raccord-a-cames",
+    "productSlug": "serie-raccords-a-cames-983087-joint-fkm-raccord-a-cames",
+    "imageDir": "raccords-cames"
+  },
+  {
+    "reference": "2280",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2280-raccord-express-laiton-joint-nbr-cannele-a-collerette",
+    "productSlug": "serie-raccords-express-2280-raccord-express-laiton-joint-nbr-cannele-a-collerette",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2281",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2281-raccord-express-laiton-joint-nbr-male",
+    "productSlug": "serie-raccords-express-2281-raccord-express-laiton-joint-nbr-male",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2282",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2282-raccord-express-laiton-joint-nbr-femelle",
+    "productSlug": "serie-raccords-express-2282-raccord-express-laiton-joint-nbr-femelle",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2283",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2283-raccord-express-laiton-joint-nbr-bouchon-entre-griffes-41-mm",
+    "productSlug": "serie-raccords-express-2283-raccord-express-laiton-joint-nbr-bouchon-entre-griffes-41-mm",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2285",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2285-raccord-express-laiton-sans-joint-cannele-a-collerette",
+    "productSlug": "serie-raccords-express-2285-raccord-express-laiton-sans-joint-cannele-a-collerette",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2286",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2286-raccord-express-laiton-sans-joint-male",
+    "productSlug": "serie-raccords-express-2286-raccord-express-laiton-sans-joint-male",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2287",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2287-raccord-express-laiton-sans-joint-femelle",
+    "productSlug": "serie-raccords-express-2287-raccord-express-laiton-sans-joint-femelle",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2288",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2288-raccord-express-laiton-sans-joint-bouchon-entre-griffes-41-mm",
+    "productSlug": "serie-raccords-express-2288-raccord-express-laiton-sans-joint-bouchon-entre-griffes-41-mm",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2290",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2290-raccord-express-inox-joint-fkm-cannele",
+    "productSlug": "serie-raccords-express-2290-raccord-express-inox-joint-fkm-cannele",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2291",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2291-raccord-express-inox-joint-fkm-male",
+    "productSlug": "serie-raccords-express-2291-raccord-express-inox-joint-fkm-male",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2292",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2292-raccord-express-inox-joint-fkm-femelle",
+    "productSlug": "serie-raccords-express-2292-raccord-express-inox-joint-fkm-femelle",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2293",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/2293-raccord-express-inox-joint-fkm-bouchon-longueur-47",
+    "productSlug": "serie-raccords-express-2293-raccord-express-inox-joint-fkm-bouchon-longueur-47",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "9830970",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/9830970-joint-de-rechange-neoprene-22-raccord-express",
+    "productSlug": "serie-raccords-express-9830970-joint-de-rechange-neoprene-22-raccord-express",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "9830971",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/9830971-joint-de-rechange-reduit-neoprene-16-raccord-express",
+    "productSlug": "serie-raccords-express-9830971-joint-de-rechange-reduit-neoprene-16-raccord-express",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "9830983",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/9830983-joint-de-rechange-reduit-nbr-noir-16-raccord-express",
+    "productSlug": "serie-raccords-express-9830983-joint-de-rechange-reduit-nbr-noir-16-raccord-express",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "9830984",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/9830984-joint-de-rechange-nbr-noir-22-raccord-express",
+    "productSlug": "serie-raccords-express-9830984-joint-de-rechange-nbr-noir-22-raccord-express",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "9830986",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/9830986-joint-de-rechange-reduit-fkm-15-raccord-express",
+    "productSlug": "serie-raccords-express-9830986-joint-de-rechange-reduit-fkm-15-raccord-express",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "98440",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-express/98440-collier-de-serrage-a-griffes-acier-zingue",
+    "productSlug": "serie-raccords-express-98440-collier-de-serrage-a-griffes-acier-zingue",
+    "imageDir": "raccords-express"
+  },
+  {
+    "reference": "2410",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2410-raccord-symetrique-aluminium-a-douille-annelee-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2410-raccord-symetrique-aluminium-a-douille-annelee-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2410d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2410d-raccord-symetrique-aluminium-a-douille-annelee-a-verrou-dsp",
+    "productSlug": "serie-raccords-symetriques-2410d-raccord-symetrique-aluminium-a-douille-annelee-a-verrou-dsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2411",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2411-raccord-symetrique-aluminium-a-douille-annelee-reduite",
+    "productSlug": "serie-raccords-symetriques-2411-raccord-symetrique-aluminium-a-douille-annelee-reduite",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2411d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2411d-raccord-symetrique-aluminium-douille-annelee-reduite-a-verrou-dsp",
+    "productSlug": "serie-raccords-symetriques-2411d-raccord-symetrique-aluminium-douille-annelee-reduite-a-verrou-dsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2411so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2411so-raccord-symetrique-alu-a-douille-annelee-a-verrou-sans-oreilles",
+    "productSlug": "serie-raccords-symetriques-2411so-raccord-symetrique-alu-a-douille-annelee-a-verrou-sans-oreilles",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2412",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2412-raccord-symetrique-aluminium-reduction-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2412-raccord-symetrique-aluminium-reduction-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2412asa",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2412asa-transformation-symetrique-aluminium-vers-raccord-storz",
+    "productSlug": "serie-raccords-symetriques-2412asa-transformation-symetrique-aluminium-vers-raccord-storz",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2412ex",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2412ex-transformation-symetrique-aluminium-vers-raccord-express-laiton",
+    "productSlug": "serie-raccords-symetriques-2412ex-transformation-symetrique-aluminium-vers-raccord-express-laiton",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2413",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2413-raccord-symetrique-aluminium-male-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2413-raccord-symetrique-aluminium-male-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2413d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2413d-raccord-symetrique-aluminium-male-bsp-a-verrou-dsp",
+    "productSlug": "serie-raccords-symetriques-2413d-raccord-symetrique-aluminium-male-bsp-a-verrou-dsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2413so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2413so-raccord-symetrique-aluminium-sans-oreilles-male-2pouces-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2413so-raccord-symetrique-aluminium-sans-oreilles-male-2pouces-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2414",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2414-raccord-symetrique-aluminium-femelle-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2414-raccord-symetrique-aluminium-femelle-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2414d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2414d-raccord-symetrique-dsp-alu-a-verrou-femelle-bsp",
+    "productSlug": "serie-raccords-symetriques-2414d-raccord-symetrique-dsp-alu-a-verrou-femelle-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2414so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2414so-raccord-symetrique-aluminium-sans-oreilles-femelle-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2414so-raccord-symetrique-aluminium-sans-oreilles-femelle-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2415",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2415-raccord-symetrique-aluminium-male-sans-verrou-sans-joint",
+    "productSlug": "serie-raccords-symetriques-2415-raccord-symetrique-aluminium-male-sans-verrou-sans-joint",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2415d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2415d-raccord-symetrique-dsp-alu-sans-verrou-male-bsp",
+    "productSlug": "serie-raccords-symetriques-2415d-raccord-symetrique-dsp-alu-sans-verrou-male-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2416",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2416-raccord-symetrique-aluminium-femelle-sans-verrou-sans-joint",
+    "productSlug": "serie-raccords-symetriques-2416-raccord-symetrique-aluminium-femelle-sans-verrou-sans-joint",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2416d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2416d-raccord-symetrique-dsp-aluminium-femelle-bsp-sans-verrou",
+    "productSlug": "serie-raccords-symetriques-2416d-raccord-symetrique-dsp-aluminium-femelle-bsp-sans-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2417",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2417-raccord-symetrique-aluminium-bouchon-a-verrou-avec-joint-et-chainette",
+    "productSlug": "serie-raccords-symetriques-2417-raccord-symetrique-aluminium-bouchon-a-verrou-avec-joint-et-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2417d",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2417d-raccord-symetrique-dsp-aluminium-bouchon-a-verrou-et-chainette",
+    "productSlug": "serie-raccords-symetriques-2417d-raccord-symetrique-dsp-aluminium-bouchon-a-verrou-et-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2419",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2419-raccord-symetrique-aluminium-bouchon-cadenassable-a-chainette",
+    "productSlug": "serie-raccords-symetriques-2419-raccord-symetrique-aluminium-bouchon-cadenassable-a-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2419p",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2419p-raccord-symetrique-aluminium-bouchon-a-poignee-a-chainette",
+    "productSlug": "serie-raccords-symetriques-2419p-raccord-symetrique-aluminium-bouchon-a-poignee-a-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2420",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2420-raccord-symetrique-inox-a-douille-annelee-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2420-raccord-symetrique-inox-a-douille-annelee-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2421",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2421-raccord-symetrique-inox-a-douille-annelee-reduite-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2421-raccord-symetrique-inox-a-douille-annelee-reduite-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2421so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2421so-raccord-symetrique-inox-sans-oreilles-a-douille-annelee-reduite",
+    "productSlug": "serie-raccords-symetriques-2421so-raccord-symetrique-inox-sans-oreilles-a-douille-annelee-reduite",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2422",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2422-raccord-symetrique-inox-reduction-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2422-raccord-symetrique-inox-reduction-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2422mk",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2422mk-transformation-symetrique-inox-vers-raccord-tankwagen-femelle",
+    "productSlug": "serie-raccords-symetriques-2422mk-transformation-symetrique-inox-vers-raccord-tankwagen-femelle",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2423",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2423-raccord-symetrique-inox-male-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2423-raccord-symetrique-inox-male-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2423so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2423so-raccord-symetrique-inox-sans-oreilles-male-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2423so-raccord-symetrique-inox-sans-oreilles-male-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2424",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2424-raccord-symetrique-inox-femelle-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2424-raccord-symetrique-inox-femelle-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2424rt",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2424rt-raccord-symetrique-inox-tournant-femelle-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2424rt-raccord-symetrique-inox-tournant-femelle-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2424so",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2424so-raccord-symetrique-inox-sans-oreilles-femelle-bsp-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2424so-raccord-symetrique-inox-sans-oreilles-femelle-bsp-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2425",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2425-raccord-symetrique-inox-male-sans-verrou-sans-joint",
+    "productSlug": "serie-raccords-symetriques-2425-raccord-symetrique-inox-male-sans-verrou-sans-joint",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2426",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2426-raccord-symetrique-inox-femelle-sans-verrou-sans-joint",
+    "productSlug": "serie-raccords-symetriques-2426-raccord-symetrique-inox-femelle-sans-verrou-sans-joint",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2427",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2427-raccord-symetrique-inox-bouchon-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2427-raccord-symetrique-inox-bouchon-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2428",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2428-raccord-symetrique-inox-a-souder-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2428-raccord-symetrique-inox-a-souder-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2428rt",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2428rt-raccord-symetrique-inox-tournant-a-souder-bw-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2428rt-raccord-symetrique-inox-tournant-a-souder-bw-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2428sv",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2428sv-raccord-symetrique-inox-tournant-a-souder-bw-sans-verrou",
+    "productSlug": "serie-raccords-symetriques-2428sv-raccord-symetrique-inox-tournant-a-souder-bw-sans-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2429",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2429-raccord-symetrique-inox-bouchon-sans-verrou",
+    "productSlug": "serie-raccords-symetriques-2429-raccord-symetrique-inox-bouchon-sans-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2429p",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2429p-raccord-symetrique-inox-bouchon-a-poignee-sans-verrou",
+    "productSlug": "serie-raccords-symetriques-2429p-raccord-symetrique-inox-bouchon-a-poignee-sans-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2430",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2430-raccord-symetrique-polypropylene-a-douille-annelee-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2430-raccord-symetrique-polypropylene-a-douille-annelee-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2432",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2432-raccord-symetrique-polypropylene-reduction-a-verrou-dn80x50",
+    "productSlug": "serie-raccords-symetriques-2432-raccord-symetrique-polypropylene-reduction-a-verrou-dn80x50",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2433",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2433-raccord-symetrique-polypropylene-male-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2433-raccord-symetrique-polypropylene-male-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2434",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2434-raccord-symetrique-polypropylene-femelle-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2434-raccord-symetrique-polypropylene-femelle-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2437",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2437-raccord-symetrique-polypropylene-bouchon-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2437-raccord-symetrique-polypropylene-bouchon-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2440",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2440-raccord-symetrique-alliages-cuivreux-a-douille-annelee-a-verrou-dn50-55",
+    "productSlug": "serie-raccords-symetriques-2440-raccord-symetrique-alliages-cuivreux-a-douille-annelee-a-verrou-dn50-55",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2441",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2441-raccord-symetrique-alliages-cuivreux-douille-annelee-a-collerette",
+    "productSlug": "serie-raccords-symetriques-2441-raccord-symetrique-alliages-cuivreux-douille-annelee-a-collerette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2442",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2442-raccord-symetrique-alliages-cuivreux-reduction-a-verrou",
+    "productSlug": "serie-raccords-symetriques-2442-raccord-symetrique-alliages-cuivreux-reduction-a-verrou",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2442mk",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2442mk-tranformation-symetrique-alliages-cuivreux-tankwagen",
+    "productSlug": "serie-raccords-symetriques-2442mk-tranformation-symetrique-alliages-cuivreux-tankwagen",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2443",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2443-raccord-symetrique-alliages-cuivreux-male-bsp",
+    "productSlug": "serie-raccords-symetriques-2443-raccord-symetrique-alliages-cuivreux-male-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2444",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2444-raccord-symetrique-alliages-cuivreux-femelle-bsp",
+    "productSlug": "serie-raccords-symetriques-2444-raccord-symetrique-alliages-cuivreux-femelle-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2445",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2445-raccord-symetrique-alliages-cuivreux-male-bsp",
+    "productSlug": "serie-raccords-symetriques-2445-raccord-symetrique-alliages-cuivreux-male-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2446",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2446-raccord-symetrique-alliages-cuivreux-femelle-bsp",
+    "productSlug": "serie-raccords-symetriques-2446-raccord-symetrique-alliages-cuivreux-femelle-bsp",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2447",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2447-raccord-symetrique-alliages-cuivreux-bouchon-a-verrou-et-chainette",
+    "productSlug": "serie-raccords-symetriques-2447-raccord-symetrique-alliages-cuivreux-bouchon-a-verrou-et-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "2449",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/2449-raccord-symetrique-alliages-cuivreux-bouchon-sans-verrou-a-chainette",
+    "productSlug": "serie-raccords-symetriques-2449-raccord-symetrique-alliages-cuivreux-bouchon-sans-verrou-a-chainette",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "983082",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/983082-joint-nbr-blanc-raccord-symetrique",
+    "productSlug": "serie-raccords-symetriques-983082-joint-nbr-blanc-raccord-symetrique",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "983083",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/983083-joint-epdm-blanc-raccord-symetrique",
+    "productSlug": "serie-raccords-symetriques-983083-joint-epdm-blanc-raccord-symetrique",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "983084",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/983084-joint-fkm-raccord-symetrique",
+    "productSlug": "serie-raccords-symetriques-983084-joint-fkm-raccord-symetrique",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830895",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830895-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn50-100",
+    "productSlug": "serie-raccords-symetriques-9830895-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn50-100",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830896",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830896-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn20-65",
+    "productSlug": "serie-raccords-symetriques-9830896-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn20-65",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830897",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830897-cle-tricoise-simple-acier-2-ergots-dn20-65-pour-raccord-symetrique",
+    "productSlug": "serie-raccords-symetriques-9830897-cle-tricoise-simple-acier-2-ergots-dn20-65-pour-raccord-symetrique",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830898",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830898-cle-tricoise-universelle-acier-2-ergots-dn50-150-pour-raccord-symetrique",
+    "productSlug": "serie-raccords-symetriques-9830898-cle-tricoise-universelle-acier-2-ergots-dn50-150-pour-raccord-symetrique",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830899",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830899-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn20-150",
+    "productSlug": "serie-raccords-symetriques-9830899-cle-tricoise-petrolier-laiton-pour-raccords-symetriques-dn20-150",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "9830900",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-symetriques/9830900-cle-tricoise-deschamps-multifonction-pour-raccord-symetrique-dn20-100",
+    "productSlug": "serie-raccords-symetriques-9830900-cle-tricoise-deschamps-multifonction-pour-raccord-symetrique-dn20-100",
+    "imageDir": "raccords-symetriques"
+  },
+  {
+    "reference": "c3dg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c3dg-courbe-3d-acier-a-souder-90degres-sans-soudure-galva-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-c3dg-courbe-3d-acier-a-souder-90degres-sans-soudure-galva-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "c3dn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c3dn-courbe-3d-90degres-a-souder-acier-noir-en-2",
+    "productSlug": "serie-raccords-acier-a-souder-c3dn-courbe-3d-90degres-a-souder-acier-noir-en-2",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "c3dn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c3dn-courbe-3d-acier-a-souder-90degres-sans-soudure-noir-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-c3dn-courbe-3d-acier-a-souder-90degres-sans-soudure-noir-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "c3dnr",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c3dnr-courbe-3d-acier-a-souder-180degres-sans-soudure-noir-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-c3dnr-courbe-3d-acier-a-souder-180degres-sans-soudure-noir-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "c5dg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c5dg-courbe-5d-acier-a-souder-90degres-sans-soudure-galva-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-c5dg-courbe-5d-acier-a-souder-90degres-sans-soudure-galva-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "c5dn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/c5dn-courbe-5d-acier-a-souder-90degres-sans-soudure-noir-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-c5dn-courbe-5d-acier-a-souder-90degres-sans-soudure-noir-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "fbg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/fbg-fond-bombe-a-souder-acier-galvanise-sans-soudure-en-10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-fbg-fond-bombe-a-souder-acier-galvanise-sans-soudure-en-10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "fbn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/fbn-fond-bombe-a-souder-acier-noir-sans-soudure-en-10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-fbn-fond-bombe-a-souder-acier-noir-sans-soudure-en-10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "rsg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/rsg-reduction-concentrique-a-souder-forme1-acier-galva-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-rsg-reduction-concentrique-a-souder-forme1-acier-galva-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "rsn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/rsn-reduction-concentrique-a-souder-forme1-acier-noir-en10253-2",
+    "productSlug": "serie-raccords-acier-a-souder-rsn-reduction-concentrique-a-souder-forme1-acier-noir-en10253-2",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "rsn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/rsn-reduction-concentrique-a-souder-forme1-ou-2-acier-noir-en10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-rsn-reduction-concentrique-a-souder-forme1-ou-2-acier-noir-en10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "rsne",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/rsne-reduction-excentrique-a-souder-acier-noir-en10253-2",
+    "productSlug": "serie-raccords-acier-a-souder-rsne-reduction-excentrique-a-souder-acier-noir-en10253-2",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "tasg",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/tasg-te-egal-a-souder-acier-galva-sans-soudure-en-10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-tasg-te-egal-a-souder-acier-galva-sans-soudure-en-10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "tasn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/tasn-te-egal-a-souder-acier-noir-sans-soudure-en-10253-1",
+    "productSlug": "serie-raccords-acier-a-souder-tasn-te-egal-a-souder-acier-noir-sans-soudure-en-10253-1",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "tasn",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/raccords-acier-a-souder/tasn-te-egal-a-souder-acier-noir-sans-soudure-en-10253-2",
+    "productSlug": "serie-raccords-acier-a-souder-tasn-te-egal-a-souder-acier-noir-sans-soudure-en-10253-2",
+    "imageDir": "raccords-acier-souder"
+  },
+  {
+    "reference": "1189",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1189-collier-de-prise-en-charge-polypropylene-pour-tube-pe-femelle-bsp",
+    "productSlug": "serie-colliers-de-prise-en-charge-1189-collier-de-prise-en-charge-polypropylene-pour-tube-pe-femelle-bsp",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1190",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1190-collier-de-prise-en-charge-corps-fonte-gjs-pour-multitubes",
+    "productSlug": "serie-colliers-de-prise-en-charge-1190-collier-de-prise-en-charge-corps-fonte-gjs-pour-multitubes",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1401",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1401-collier-de-reparation-type-m-1-tirant-l80mm-joint-epdm-acs",
+    "productSlug": "serie-colliers-de-prise-en-charge-1401-collier-de-reparation-type-m-1-tirant-l80mm-joint-epdm-acs",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1403",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1403-collier-de-reparation-b-3-tirants-l200mm-joint-epdm-acs",
+    "productSlug": "serie-colliers-de-prise-en-charge-1403-collier-de-reparation-b-3-tirants-l200mm-joint-epdm-acs",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1405",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1405-collier-de-reparation-b-3-tirants-l200mm-joint-nbr",
+    "productSlug": "serie-colliers-de-prise-en-charge-1405-collier-de-reparation-b-3-tirants-l200mm-joint-nbr",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1406",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1406-collier-de-reparation-epdm-200mm-type-d-3x2tirants-acs",
+    "productSlug": "serie-colliers-de-prise-en-charge-1406-collier-de-reparation-epdm-200mm-type-d-3x2tirants-acs",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1407",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1407-collier-de-reparation-inox-3-tirants-type-ab-l200mm-joints-epdm",
+    "productSlug": "serie-colliers-de-prise-en-charge-1407-collier-de-reparation-inox-3-tirants-type-ab-l200mm-joints-epdm",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1408",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1408-collier-de-reparation-300mm-simple-bande-4-tirants-acs",
+    "productSlug": "serie-colliers-de-prise-en-charge-1408-collier-de-reparation-300mm-simple-bande-4-tirants-acs",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "1409",
+    "pathKey": "raccords-et-colliers-de-prise-en-charge/colliers-de-prise-en-charge/1409-collier-de-reparation-double-bande-300mm-2x4-tirants",
+    "productSlug": "serie-colliers-de-prise-en-charge-1409-collier-de-reparation-double-bande-300mm-2x4-tirants",
+    "imageDir": "colliers-prise-en-charge"
+  },
+  {
+    "reference": "2501",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/adaptateurs-de-brides/2501-adaptateur-de-bride-large-plages-avec-talon-d-appui-acs",
+    "productSlug": "serie-adaptateurs-de-brides-eau-2501-adaptateur-de-bride-large-plages-avec-talon-d-appui-acs",
+    "imageDir": "adaptateurs-brides-eau"
+  },
+  {
+    "reference": "2503",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/adaptateurs-de-brides/2503-adaptateur-a-bride-verrouille-pour-tubes-pvc-pe-acs",
+    "productSlug": "serie-adaptateurs-de-brides-eau-2503-adaptateur-a-bride-verrouille-pour-tubes-pvc-pe-acs",
+    "imageDir": "adaptateurs-brides-eau"
+  },
+  {
+    "reference": "2509",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/adaptateurs-de-brides/2509-adaptateur-de-bride-verrouille-large-plages-acs",
+    "productSlug": "serie-adaptateurs-de-brides-eau-2509-adaptateur-de-bride-verrouille-large-plages-acs",
+    "imageDir": "adaptateurs-brides-eau"
+  },
+  {
+    "reference": "98607",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/adaptateurs-de-brides/98607-inserts-inox-304-pour-tubes-pehd",
+    "productSlug": "serie-adaptateurs-de-brides-eau-98607-inserts-inox-304-pour-tubes-pehd",
+    "imageDir": "adaptateurs-brides-eau"
+  },
+  {
+    "reference": "2502",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2502-bride-de-raccordement-verrouillee-pour-tubes-pvc-pe-acs",
+    "productSlug": "serie-brides-reseau-eau-2502-bride-de-raccordement-verrouillee-pour-tubes-pvc-pe-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2504",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2504-bride-de-raccordement-libre-pour-tubes-pvc-acs",
+    "productSlug": "serie-brides-reseau-eau-2504-bride-de-raccordement-libre-pour-tubes-pvc-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2510",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2510-bride-fonte-de-reduction-goujonnee-pn16-acs",
+    "productSlug": "serie-brides-reseau-eau-2510-bride-fonte-de-reduction-goujonnee-pn16-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2511",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2511-bride-pleine-fonte-ronde-pn10-16-acs",
+    "productSlug": "serie-brides-reseau-eau-2511-bride-pleine-fonte-ronde-pn10-16-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2512",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2512-bride-fonte-taraudee-metrique-petit-bossage-40x300-acs",
+    "productSlug": "serie-brides-reseau-eau-2512-bride-fonte-taraudee-metrique-petit-bossage-40x300-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2513",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2513-bride-fonte-taraudee-metrique-gros-bossage-55x300-acs",
+    "productSlug": "serie-brides-reseau-eau-2513-bride-fonte-taraudee-metrique-gros-bossage-55x300-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2514",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/2514-bride-fonte-taraudee-bsp-pn10-16-acs",
+    "productSlug": "serie-brides-reseau-eau-2514-bride-fonte-taraudee-bsp-pn10-16-acs",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "98031",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/98031-joint-de-brides-epdm-noir-non-perce",
+    "productSlug": "serie-brides-reseau-eau-98031-joint-de-brides-epdm-noir-non-perce",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "98032",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/brides/98032-joint-de-brides-epdm-noir-perce",
+    "productSlug": "serie-brides-reseau-eau-98032-joint-de-brides-epdm-noir-perce",
+    "imageDir": "brides-reseau-eau"
+  },
+  {
+    "reference": "2505",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/manchons/2505-manchon-fonte-universel-large-plages-pour-tubes-rigides-acs",
+    "productSlug": "serie-manchons-reseau-eau-2505-manchon-fonte-universel-large-plages-pour-tubes-rigides-acs",
+    "imageDir": "manchons-reseau-eau"
+  },
+  {
+    "reference": "2507",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/manchons/2507-manchon-fonte-universel-verrouille-large-autobute-plages-acs",
+    "productSlug": "serie-manchons-reseau-eau-2507-manchon-fonte-universel-verrouille-large-autobute-plages-acs",
+    "imageDir": "manchons-reseau-eau"
+  },
+  {
+    "reference": "2508",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/manchons/2508-manchon-fonte-verrouille-autobute-pour-tubes-pvc-pe-acs",
+    "productSlug": "serie-manchons-reseau-eau-2508-manchon-fonte-verrouille-autobute-pour-tubes-pvc-pe-acs",
+    "imageDir": "manchons-reseau-eau"
+  },
+  {
+    "reference": "98607",
+    "pathKey": "manchons-et-adaptateurs-de-brides-eau/manchons/98607-inserts-inox-304-pour-tubes-pehd",
+    "productSlug": "serie-manchons-reseau-eau-98607-inserts-inox-304-pour-tubes-pehd",
+    "imageDir": "manchons-reseau-eau"
+  },
+  {
+    "reference": "1501",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1501-manchon-compensateur-elastomere-epdm-a-brides-acier-pn10-16",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1501-manchon-compensateur-elastomere-epdm-a-brides-acier-pn10-16",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1502",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1502-manchon-compensateur-elastomere-epdm-a-brides-acier-pn10-16",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1502-manchon-compensateur-elastomere-epdm-a-brides-acier-pn10-16",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1503",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1503-manchon-compensateur-elastomere-nbr-a-brides-acier-pn10-16",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1503-manchon-compensateur-elastomere-nbr-a-brides-acier-pn10-16",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1504",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1504-manchon-compensateur-elastomere-epdm-avec-raccords-fonte-galvanisee",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1504-manchon-compensateur-elastomere-epdm-avec-raccords-fonte-galvanisee",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1505",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1505-manchon-compensateur-elastomere-epdm-pn10-16-l130mm",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1505-manchon-compensateur-elastomere-epdm-pn10-16-l130mm",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1506",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1506-manchon-compensateur-elastomere-nbr-pn10-16-l130mm",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1506-manchon-compensateur-elastomere-nbr-pn10-16-l130mm",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1507",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1507-manchon-compensateur-elastomere-epdm-acs-pn10-16-l130mm",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1507-manchon-compensateur-elastomere-epdm-acs-pn10-16-l130mm",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1508",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/1508-manchon-compensateur-elastomere-epdm-acs-avec-raccords-fonte",
+    "productSlug": "serie-manchons-compensateurs-elastomere-1508-manchon-compensateur-elastomere-epdm-acs-avec-raccords-fonte",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "2150",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/2150-equipement-brides-boulons-acier-pour-compensateurs-sferaco",
+    "productSlug": "serie-manchons-compensateurs-elastomere-2150-equipement-brides-boulons-acier-pour-compensateurs-sferaco",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "98603",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/98603-limiteur-d-ecartement-kit-complet-acier-pn16-2-tirants-4-plaques",
+    "productSlug": "serie-manchons-compensateurs-elastomere-98603-limiteur-d-ecartement-kit-complet-acier-pn16-2-tirants-4-plaques",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "98604",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/98604-limiteur-d-ecartement-kit-complet-acier-2-tirants-4-plaquettes",
+    "productSlug": "serie-manchons-compensateurs-elastomere-98604-limiteur-d-ecartement-kit-complet-acier-2-tirants-4-plaquettes",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "98606",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-elastomere/98606-limiteur-d-ecartement-acier-pn10-l130-avec-2-tirant-4-plaquettes",
+    "productSlug": "serie-manchons-compensateurs-elastomere-98606-limiteur-d-ecartement-acier-pn10-l130-avec-2-tirant-4-plaquettes",
+    "imageDir": "compensateurs-elastomere"
+  },
+  {
+    "reference": "1560",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1560-manchon-compensateur-industrie-l130mm-pn10-16-epdm-rouge",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1560-manchon-compensateur-industrie-l130mm-pn10-16-epdm-rouge",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1561",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1561-manchon-compensateur-industrie-l130mm-pn10-16-epdm-rouge-blanc-acs",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1561-manchon-compensateur-industrie-l130mm-pn10-16-epdm-rouge-blanc-acs",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1562",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1562-manchon-compensateur-l130mm-epdm-haute-temperature-double-rouge",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1562-manchon-compensateur-l130mm-epdm-haute-temperature-double-rouge",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1563",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1563-manchon-compensateur-industrie-l130mm-epichlorhydrine-jaune",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1563-manchon-compensateur-industrie-l130mm-epichlorhydrine-jaune",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1564",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1564-manchon-compensateur-industrie-l130mm-pn10-16-csm-vert",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1564-manchon-compensateur-industrie-l130mm-pn10-16-csm-vert",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1565",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1565-manchon-compensateur-industrie-l130mm-nbr-alimentaire-blanc-fda",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1565-manchon-compensateur-industrie-l130mm-nbr-alimentaire-blanc-fda",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1566",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1566-manchon-compensateur-industrie-pn10-16-l130mm-sbr-bleu",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1566-manchon-compensateur-industrie-pn10-16-l130mm-sbr-bleu",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1567",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1567-manchon-compensateur-industrie-pn10-16-l130mm-fkm-double-violet",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1567-manchon-compensateur-industrie-pn10-16-l130mm-fkm-double-violet",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1568",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/1568-manchon-compensateur-industrie-pn10-16-l130mm-hnbr-double-jaune",
+    "productSlug": "serie-manchons-compensateurs-teguflex-1568-manchon-compensateur-industrie-pn10-16-l130mm-hnbr-double-jaune",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "9815",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/9815-bague-de-vide-inox",
+    "productSlug": "serie-manchons-compensateurs-teguflex-9815-bague-de-vide-inox",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "98606",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-industrie-teguflex/98606-limiteur-d-ecartement-acier-pn10-l130-avec-2-tirant-4-plaquettes",
+    "productSlug": "serie-manchons-compensateurs-teguflex-98606-limiteur-d-ecartement-acier-pn10-l130-avec-2-tirant-4-plaquettes",
+    "imageDir": "compensateurs-teguflex"
+  },
+  {
+    "reference": "1511",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-metalliques-a-soufflet/1511-manchon-compensateur-metallique-a-soufflet-inox-butt-welding-bw",
+    "productSlug": "serie-manchons-compensateurs-metalliques-1511-manchon-compensateur-metallique-a-soufflet-inox-butt-welding-bw",
+    "imageDir": "compensateurs-metalliques"
+  },
+  {
+    "reference": "1521",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-metalliques-a-soufflet/1521-manchon-compensateur-metallique-a-soufflet-inox-a-brides-pn16",
+    "productSlug": "serie-manchons-compensateurs-metalliques-1521-manchon-compensateur-metallique-a-soufflet-inox-a-brides-pn16",
+    "imageDir": "compensateurs-metalliques"
+  },
+  {
+    "reference": "1551",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-metalliques-a-soufflet/1551-manchon-compensateur-metallique-a-soufflet-inox",
+    "productSlug": "serie-manchons-compensateurs-metalliques-1551-manchon-compensateur-metallique-a-soufflet-inox",
+    "imageDir": "compensateurs-metalliques"
+  },
+  {
+    "reference": "1509",
+    "pathKey": "manchons-compensateurs/manchons-compensateurs-antibruit/1509-manchon-antibruit-epdm-a-inserts-taraudes-acier-pn10",
+    "productSlug": "serie-manchons-compensateurs-antibruit-1509-manchon-antibruit-epdm-a-inserts-taraudes-acier-pn10",
+    "imageDir": "compensateurs-antibruit"
+  }
+]

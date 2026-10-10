@@ -32,7 +32,12 @@
     "sync:jc-trunnion-ball-images": "node scripts/sync-jc-trunnion-ball-images.mjs",
     "sync:brass-pvc-images": "node scripts/sync-brass-pvc-images.mjs",
     "sync:brass-pvc-taxonomy-images": "node scripts/sync-brass-pvc-taxonomy-images.mjs",
-    "generate:brass-pvc-catalog": "node scripts/generate-brass-pvc-catalog.mjs"
+    "generate:brass-pvc-catalog": "node scripts/generate-brass-pvc-catalog.mjs",
+    "generate:piping-catalog": "node scripts/generate-piping-catalog.mjs",
+    "sync:piping-images": "node scripts/sync-piping-images.mjs",
+    "sync:piping-taxonomy-images": "node scripts/sync-piping-taxonomy-images.mjs",
+    "sync:sdmi-piping-hero-images": "node scripts/sync-sdmi-piping-hero-images.mjs",
+    "audit:piping-offer": "node scripts/audit-piping-offer.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.8.0",

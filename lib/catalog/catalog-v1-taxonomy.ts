@@ -58,7 +58,179 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "tuyauterie-et-accessoires",
       name: frEn("Tuyauterie et accessoires", "Piping & accessories"),
-      subfamilies: [],
+      subfamilies: [
+        {
+          slug: "tubes-acier-carbone",
+          name: frEn("Tubes acier carbone", "Carbon steel tubes"),
+        },
+        {
+          slug: "tubes-acier-inoxydable",
+          name: frEn("Tubes acier inoxydable", "Stainless steel tubes"),
+        },
+        {
+          slug: "tubes-carbone-pre-enrobes-3pe",
+          name: frEn(
+            "Tubes carbone pré-enrobés 3PE",
+            "3PE coated carbon steel tubes",
+          ),
+        },
+        {
+          slug: "brides-en1092-acier-carbone",
+          name: frEn(
+            "Brides EN 1092 acier carbone",
+            "EN 1092 carbon steel flanges",
+          ),
+        },
+        {
+          slug: "brides-asme-b16-5-a105",
+          name: frEn(
+            "Brides ASME B16.5 A105",
+            "ASME B16.5 A105 flanges",
+          ),
+        },
+        {
+          slug: "brides-inox-en1092-asme",
+          name: frEn(
+            "Brides inox EN 1092 / ASME",
+            "Stainless EN 1092 / ASME flanges",
+          ),
+        },
+        {
+          slug: "brides-acier-galvanise",
+          name: frEn(
+            "Brides acier galvanisé",
+            "Galvanized steel flanges",
+          ),
+        },
+        {
+          slug: "brides-a-collerettes",
+          name: frEn("Brides à collerettes", "Weld neck flanges"),
+        },
+        {
+          slug: "brides-plates",
+          name: frEn("Brides plates", "Plate flanges"),
+        },
+        {
+          slug: "brides-pleines",
+          name: frEn("Brides pleines", "Blank flanges"),
+        },
+        {
+          slug: "brides-taraudees",
+          name: frEn("Brides taraudées", "Threaded flanges"),
+        },
+        {
+          slug: "brides-tournantes",
+          name: frEn("Brides tournantes", "Loose / rotating flanges"),
+        },
+        {
+          slug: "brides-petrole-asme",
+          name: frEn("Brides pétrole ASME", "ASME oil & gas flanges"),
+        },
+        {
+          slug: "kit-boulonnerie-equipements-brides",
+          name: frEn(
+            "Kit boulonnerie et équipements brides",
+            "Flange bolting kits & accessories",
+          ),
+        },
+        {
+          slug: "collets-forges",
+          name: frEn("Collets forgés", "Forged fittings / hubs"),
+        },
+        {
+          slug: "raccords-deca",
+          name: frEn("Raccords DECA", "DECA couplings"),
+        },
+        {
+          slug: "raccords-polypropylene",
+          name: frEn("Raccords polypropylène", "Polypropylene fittings"),
+        },
+        {
+          slug: "raccords-fonte-malleable",
+          name: frEn("Raccords fonte malléable", "Malleable iron fittings"),
+        },
+        {
+          slug: "mamelons-et-manchons-acier",
+          name: frEn(
+            "Mamelons et manchons acier",
+            "Steel nipples & couplings",
+          ),
+        },
+        {
+          slug: "raccords-inox",
+          name: frEn("Raccords inox", "Stainless steel fittings"),
+        },
+        {
+          slug: "raccords-laiton-a-visser",
+          name: frEn("Raccords laiton à visser", "Threaded brass fittings"),
+        },
+        {
+          slug: "raccords-a-cames",
+          name: frEn("Raccords à cames", "Camlock couplings"),
+        },
+        {
+          slug: "raccords-express",
+          name: frEn("Raccords express", "Express couplings"),
+        },
+        {
+          slug: "raccords-symetriques",
+          name: frEn("Raccords symétriques", "Symmetric couplings"),
+        },
+        {
+          slug: "raccords-acier-a-souder",
+          name: frEn("Raccords acier à souder", "Welded steel fittings"),
+        },
+        {
+          slug: "colliers-de-prise-en-charge",
+          name: frEn(
+            "Colliers de prise en charge",
+            "Tap saddles & repair clamps",
+          ),
+        },
+        {
+          slug: "adaptateurs-de-brides-eau",
+          name: frEn(
+            "Adaptateurs de brides eau",
+            "Water network flange adapters",
+          ),
+        },
+        {
+          slug: "brides-reseau-eau",
+          name: frEn("Brides réseau eau", "Water network flanges"),
+        },
+        {
+          slug: "manchons-reseau-eau",
+          name: frEn("Manchons réseau eau", "Water network couplings"),
+        },
+        {
+          slug: "manchons-compensateurs-elastomere",
+          name: frEn(
+            "Manchons compensateurs élastomère",
+            "Rubber expansion joints",
+          ),
+        },
+        {
+          slug: "manchons-compensateurs-teguflex",
+          name: frEn(
+            "Manchons compensateurs TEGUFLEX",
+            "TEGUFLEX expansion joints",
+          ),
+        },
+        {
+          slug: "manchons-compensateurs-metalliques",
+          name: frEn(
+            "Manchons compensateurs métalliques",
+            "Metal bellows expansion joints",
+          ),
+        },
+        {
+          slug: "manchons-compensateurs-antibruit",
+          name: frEn(
+            "Manchons compensateurs antibruit",
+            "Noise-reducing expansion joints",
+          ),
+        },
+      ],
     },
     {
       slug: "vannes-operucle-guillotine",

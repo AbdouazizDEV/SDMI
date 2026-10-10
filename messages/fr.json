@@ -251,6 +251,8 @@
     "description": "Sectionnement, régulation et sécurité des fluides — disponibilité dépôt SDMI Dakar.",
     "stockBadge": "Disponibles en stock Dakar",
     "filtersTitle": "Filtres techniques",
+    "filterSearchPlaceholder": "Rechercher une option de filtre…",
+    "filterSearchNoResults": "Aucune option correspondante",
     "filterClearAll": "Effacer tout",
     "filterDeviceFamily": "Famille d'appareil",
     "filterConnection": "Raccordement",
