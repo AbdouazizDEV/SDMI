@@ -251,6 +251,8 @@
     "description": "Isolation, control and safety — SDMI Dakar depot availability.",
     "stockBadge": "Available from Dakar stock",
     "filtersTitle": "Technical filters",
+    "filterSearchPlaceholder": "Search filter options…",
+    "filterSearchNoResults": "No matching options",
     "filterClearAll": "Clear all",
     "filterDeviceFamily": "Device family",
     "filterConnection": "Connection type",

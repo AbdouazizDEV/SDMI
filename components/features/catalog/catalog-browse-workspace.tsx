@@ -5,6 +5,7 @@ import {
   ChevronDownIcon,
   LayoutGridIcon,
   ListIcon,
+  SearchIcon,
   SlidersHorizontalIcon,
   XIcon,
 } from "lucide-react";
@@ -31,6 +32,8 @@ import { cn } from "@/lib/utils";
 
 export type CatalogBrowseLabels = {
   filtersTitle: string;
+  filterSearchPlaceholder: string;
+  filterSearchNoResults: string;
   clearAll: string;
   filterDeviceFamily: string;
   filterMaterial: string;
@@ -85,15 +88,24 @@ function toggleValue(list: string[] | undefined, value: string): string[] {
   return [...set];
 }
 
+function matchesFilterQuery(label: string, query: string) {
+  const q = query.trim().toLowerCase();
+  if (!q) return true;
+  return label.toLowerCase().includes(q);
+}
+
 function FilterSection({
   title,
   children,
   defaultOpen = true,
+  hidden,
 }: {
   title: string;
   children: React.ReactNode;
   defaultOpen?: boolean;
+  hidden?: boolean;
 }) {
+  if (hidden) return null;
   return (
     <details open={defaultOpen} className="group border-border/60 border-b pb-4">
       <summary className="text-muted-foreground flex cursor-pointer list-none items-center justify-between py-2 text-xs font-bold tracking-wider uppercase [&::-webkit-details-marker]:hidden">
@@ -151,6 +163,8 @@ export function CatalogBrowseWorkspace({
   const searchParams = useSearchParams();
   const [, startTransition] = useTransition();
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [filterQuery, setFilterQuery] = useState("");
+  const [filterSuggestOpen, setFilterSuggestOpen] = useState(false);
 
   const filters = useMemo(() => {
     const record: Record<string, string | string[] | undefined> = {};
@@ -233,6 +247,82 @@ export function CatalogBrowseWorkspace({
   }
 
   const sortValue = filters.sort ?? "relevance";
+  const q = filterQuery.trim().toLowerCase();
+  const hasQuery = q.length > 0;
+
+  type SuggestOption = {
+    id: string;
+    label: string;
+    group: string;
+    apply: () => void;
+  };
+
+  const suggestOptions: SuggestOption[] = [];
+  for (const [slug] of Object.entries(subfamilyCounts)) {
+    const label = subfamilyLabels[slug] ?? slug;
+    suggestOptions.push({
+      id: `sf-${slug}`,
+      label,
+      group: labels.filterDeviceFamily,
+      apply: () => update({ subfamilies: toggleValue(filters.subfamilies, slug) }),
+    });
+  }
+  for (const [material] of Object.entries(materialCounts)) {
+    if (!material) continue;
+    suggestOptions.push({
+      id: `mat-${material}`,
+      label: material,
+      group: labels.filterMaterial,
+      apply: () => update({ materials: toggleValue(filters.materials, material) }),
+    });
+  }
+  for (const [pn] of Object.entries(pnCounts)) {
+    if (!pn) continue;
+    suggestOptions.push({
+      id: `pn-${pn}`,
+      label: pn,
+      group: labels.filterPn,
+      apply: () => update({ pn: toggleValue(filters.pn, pn) }),
+    });
+  }
+  for (const [conn] of Object.entries(connectionCounts)) {
+    if (!conn) continue;
+    suggestOptions.push({
+      id: `conn-${conn}`,
+      label: labels.connections[conn] ?? conn,
+      group: labels.filterConnection,
+      apply: () => update({ connections: toggleValue(filters.connections, conn) }),
+    });
+  }
+  for (const sector of ["mines", "energy", "agro", "water", "fire"] as const) {
+    suggestOptions.push({
+      id: `sector-${sector}`,
+      label: labels.sectors[sector],
+      group: labels.filterSector,
+      apply: () => update({ sectors: toggleValue(filters.sectors, sector) }),
+    });
+  }
+
+  const suggestMatches =
+    q.length < 1
+      ? []
+      : suggestOptions.filter((o) => o.label.toLowerCase().includes(q)).slice(0, 12);
+
+  const subfamilyEntries = Object.entries(subfamilyCounts).filter(([slug]) =>
+    matchesFilterQuery(subfamilyLabels[slug] ?? slug, filterQuery),
+  );
+  const materialEntries = Object.entries(materialCounts).filter(
+    ([key]) => key && matchesFilterQuery(key, filterQuery),
+  );
+  const pnEntries = Object.entries(pnCounts).filter(
+    ([key]) => key && matchesFilterQuery(key, filterQuery),
+  );
+  const connectionEntries = Object.entries(connectionCounts).filter(
+    ([key]) => key && matchesFilterQuery(labels.connections[key] ?? key, filterQuery),
+  );
+  const sectorEntries = (["mines", "energy", "agro", "water", "fire"] as const).filter((sector) =>
+    matchesFilterQuery(labels.sectors[sector], filterQuery),
+  );
 
   return (
     <div className="grid gap-8 lg:grid-cols-[minmax(260px,300px)_1fr] lg:gap-10">
@@ -261,10 +351,68 @@ export function CatalogBrowseWorkspace({
           ) : null}
         </div>
 
+        <div className="relative mb-4">
+          <SearchIcon
+            aria-hidden
+            className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
+          />
+          <input
+            type="search"
+            value={filterQuery}
+            onChange={(e) => {
+              setFilterQuery(e.target.value);
+              setFilterSuggestOpen(true);
+            }}
+            onFocus={() => setFilterSuggestOpen(true)}
+            onBlur={() => {
+              window.setTimeout(() => setFilterSuggestOpen(false), 150);
+            }}
+            placeholder={labels.filterSearchPlaceholder}
+            className="border-border focus:ring-primary/30 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
+            aria-autocomplete="list"
+            aria-expanded={filterSuggestOpen && suggestMatches.length > 0}
+          />
+          {filterSuggestOpen && hasQuery ? (
+            <ul
+              className="border-border absolute z-20 mt-1 max-h-52 w-full overflow-y-auto rounded-md border bg-popover py-1 shadow-lg"
+              role="listbox"
+            >
+              {suggestMatches.length === 0 ? (
+                <li className="text-muted-foreground px-3 py-2 text-xs">
+                  {labels.filterSearchNoResults}
+                </li>
+              ) : (
+                suggestMatches.map((option) => (
+                  <li key={option.id} role="option">
+                    <button
+                      type="button"
+                      className="hover:bg-muted flex w-full flex-col items-start gap-0.5 px-3 py-2 text-left text-sm"
+                      onMouseDown={(e) => e.preventDefault()}
+                      onClick={() => {
+                        option.apply();
+                        setFilterQuery("");
+                        setFilterSuggestOpen(false);
+                      }}
+                    >
+                      <span>{option.label}</span>
+                      <span className="text-muted-foreground text-[10px] font-bold tracking-wide uppercase">
+                        {option.group}
+                      </span>
+                    </button>
+                  </li>
+                ))
+              )}
+            </ul>
+          ) : null}
+        </div>
+
         <div className="max-h-[70vh] space-y-1 overflow-y-auto pr-1">
-          <FilterSection title={labels.filterDeviceFamily}>
+          <FilterSection
+            title={labels.filterDeviceFamily}
+            hidden={hasQuery && subfamilyEntries.length === 0}
+          >
             <ul className="space-y-0.5">
-              {Object.entries(subfamilyCounts)
+              {subfamilyEntries
                 .sort((a, b) => b[1] - a[1])
                 .map(([slug, count]) => (
                   <li key={slug}>
@@ -284,10 +432,12 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterMaterial}>
+          <FilterSection
+            title={labels.filterMaterial}
+            hidden={hasQuery && materialEntries.length === 0}
+          >
             <ul className="space-y-0.5">
-              {Object.entries(materialCounts)
-                .filter(([key]) => key)
+              {materialEntries
                 .sort((a, b) => b[1] - a[1])
                 .map(([material, count]) => (
                   <li key={material}>
@@ -307,7 +457,7 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterDn}>
+          <FilterSection title={labels.filterDn} hidden={hasQuery}>
             <div className="space-y-3 px-1">
               <div className="flex gap-2">
                 <label className="flex-1 text-xs">
@@ -350,11 +500,12 @@ export function CatalogBrowseWorkspace({
             </div>
           </FilterSection>
 
-          <FilterSection title={labels.filterPn}>
+          <FilterSection
+            title={labels.filterPn}
+            hidden={hasQuery && pnEntries.length === 0}
+          >
             <ul className="flex flex-wrap gap-2">
-              {Object.entries(pnCounts)
-                .filter(([key]) => key)
-                .map(([pn, count]) => {
+              {pnEntries.map(([pn, count]) => {
                   const active = filters.pn?.includes(pn) ?? false;
                   return (
                     <li key={pn}>
@@ -379,11 +530,13 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterConnection} defaultOpen={false}>
+          <FilterSection
+            title={labels.filterConnection}
+            defaultOpen={false}
+            hidden={hasQuery && connectionEntries.length === 0}
+          >
             <ul className="space-y-0.5">
-              {Object.entries(connectionCounts)
-                .filter(([key]) => key)
-                .map(([conn, count]) => (
+              {connectionEntries.map(([conn, count]) => (
                   <li key={conn}>
                     <CheckboxRow
                       id={`conn-${conn}`}
@@ -401,7 +554,7 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterStandards} defaultOpen={false}>
+          <FilterSection title={labels.filterStandards} defaultOpen={false} hidden={hasQuery}>
             <ul className="flex flex-wrap gap-2">
               {(["en10204", "iso5211", "atex"] as const).map((std) => (
                 <li key={std}>
@@ -424,9 +577,13 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterSector} defaultOpen={false}>
+          <FilterSection
+            title={labels.filterSector}
+            defaultOpen={false}
+            hidden={hasQuery && sectorEntries.length === 0}
+          >
             <ul className="space-y-0.5">
-              {(["mines", "energy", "agro", "water", "fire"] as const).map((sector) => (
+              {sectorEntries.map((sector) => (
                 <li key={sector}>
                   <CheckboxRow
                     id={`sector-${sector}`}

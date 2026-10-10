@@ -1,0 +1,375 @@
+import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
+
+const FAMILY = "tuyauterie-et-accessoires";
+const SUB = "kit-boulonnerie-equipements-brides";
+
+function frEn(fr: string, en: string) { return { fr, en }; }
+
+function base(
+  partial: Omit<CatalogRangeSeed, "familySlug" | "subfamilySlug" | "listingKind">,
+): CatalogRangeSeed {
+  return { ...partial, listingKind: "range", familySlug: FAMILY, subfamilySlug: SUB };
+}
+
+export const kitBoulonnerieBridesRanges: CatalogRangeSeed[] = [
+  base({
+    reference: "2102",
+    slug: "serie-kit-boulonnerie-equipements-brides-2102-equipement-brides-acier-pour-clapet-370",
+    name: frEn("2102 - Equipement brides acier pour clapet 370", "2102 - Equipement Flanges steel pour clapet 370"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2103",
+    slug: "serie-kit-boulonnerie-equipements-brides-2103-boulon-pour-vannes-a-brides-pn10-16-en-acier-zingue-8-8",
+    name: frEn("2103 - Boulon pour vannes à brides PN10/16 en acier zingué 8-8", "2103 - Boulon pour vannes à Flanges PN10/16 en steel zingué 8-8"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier galvanisé", "Galvanized steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2104",
+    slug: "serie-kit-boulonnerie-equipements-brides-2104-equipement-brides-acier-pour-clapet-364",
+    name: frEn("2104 - Equipement brides acier pour clapet 364", "2104 - Equipement Flanges steel pour clapet 364"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2110",
+    slug: "serie-kit-boulonnerie-equipements-brides-2110-boulon-pour-vannes-papillon-sandwich-en-acier-zingue-8-8",
+    name: frEn("2110 - Boulon pour vannes papillon sandwich en acier zingué 8-8", "2110 - Boulon pour vannes papillon sandwich en steel zingué 8-8"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier galvanisé", "Galvanized steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2111",
+    slug: "serie-kit-boulonnerie-equipements-brides-2111-vis-pour-vannes-papillon-a-oreilles-taraudees-acier-zingue",
+    name: frEn("2111 - Vis pour vannes papillon à oreilles taraudées acier zingué", "2111 - Vis pour vannes papillon à oreilles taraudées steel zingué"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier galvanisé", "Galvanized steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2112",
+    slug: "serie-kit-boulonnerie-equipements-brides-2112-equipement-brides-acier-pour-vannes-papillon-centrage",
+    name: frEn("2112 - Equipement brides acier pour vannes papillon centrage", "2112 - Equipement Flanges steel pour vannes papillon centrage"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2113",
+    slug: "serie-kit-boulonnerie-equipements-brides-2113-equipement-brides-acier-pour-vannes-papillon-taraudees",
+    name: frEn("2113 - Equipement brides acier pour vannes papillon taraudées", "2113 - Equipement Flanges steel pour vannes papillon taraudées"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2128",
+    slug: "serie-kit-boulonnerie-equipements-brides-2128-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b",
+    name: frEn("2128 - Kit de boulonnerie acier revêtu Geomet® 500 grade B", "2128 - Kit de boulonnerie steel revêtu Geomet® 500 grade B"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2129",
+    slug: "serie-kit-boulonnerie-equipements-brides-2129-kit-de-boulonnerie-acier-revetu-geomet-500-grade-b-classe-8-8",
+    name: frEn("2129 - Kit de boulonnerie acier revêtu Geomet® 500 grade B Classe 8.8", "2129 - Kit de boulonnerie steel revêtu Geomet® 500 grade B Classe 8.8"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2130",
+    slug: "serie-kit-boulonnerie-equipements-brides-2130-equipement-brides-acier-boulons-pour-robinetterie-pn16-2-voies",
+    name: frEn("2130 - Equipement brides acier boulons pour robinetterie PN16 2 voies", "2130 - Equipement Flanges steel boulons pour robinetterie PN16 2 voies"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN16", material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2131",
+    slug: "serie-kit-boulonnerie-equipements-brides-2131-equipement-brides-acier-pour-robinetterie-pn10-2-voies-dn200",
+    name: frEn("2131 - Equipement brides acier pour robinetterie PN10 2 voies DN200", "2131 - Equipement Flanges steel pour robinetterie PN10 2 voies DN200"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2132",
+    slug: "serie-kit-boulonnerie-equipements-brides-2132-equipement-brides-acier-boulons-pour-robinetterie-pn16-3-voies",
+    name: frEn("2132 - Equipement brides acier, boulons pour robinetterie PN16 3 voies", "2132 - Equipement Flanges steel, boulons pour robinetterie PN16 3 voies"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN16", material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2134",
+    slug: "serie-kit-boulonnerie-equipements-brides-2134-equipement-brides-acier-pour-vannes-guillotine",
+    name: frEn("2134 - Equipement brides acier pour vannes guillotine", "2134 - Equipement Flanges steel pour vannes guillotine"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2140",
+    slug: "serie-kit-boulonnerie-equipements-brides-2140-equipement-brides-inox-pour-robinetterie-pn16-2-voies",
+    name: frEn("2140 - Equipement brides inox pour robinetterie PN16 2 voies", "2140 - Equipement Flanges stainless pour robinetterie PN16 2 voies"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN16", material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2142",
+    slug: "serie-kit-boulonnerie-equipements-brides-2142-equipement-brides-inox-boulons-acier-pour-clapet-372",
+    name: frEn("2142 - Equipement brides inox boulons acier pour clapet 372", "2142 - Equipement Flanges stainless boulons steel pour clapet 372"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2143",
+    slug: "serie-kit-boulonnerie-equipements-brides-2143-equipement-brides-inox-vis-acier-joints-pour-vannes-770-771",
+    name: frEn("2143 - Equipement brides inox vis acier joints pour vannes 770/771", "2143 - Equipement Flanges stainless vis steel joints pour vannes 770/771"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2144",
+    slug: "serie-kit-boulonnerie-equipements-brides-2144-equipement-brides-inox-boulons-acier-pour-clapet-365",
+    name: frEn("2144 - Equipement brides inox boulons acier pour clapet 365", "2144 - Equipement Flanges stainless boulons steel pour clapet 365"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2145",
+    slug: "serie-kit-boulonnerie-equipements-brides-2145-equipement-brides-inox-pour-robinetterie-pn10-16-3-voies",
+    name: frEn("2145 - Equipement brides inox pour robinetterie PN10/16 3 voies", "2145 - Equipement Flanges stainless pour robinetterie PN10/16 3 voies"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2146",
+    slug: "serie-kit-boulonnerie-equipements-brides-2146-equipement-brides-inox-pour-clapet-386",
+    name: frEn("2146 - Equipement brides inox pour clapet 386", "2146 - Equipement Flanges stainless pour clapet 386"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2147",
+    slug: "serie-kit-boulonnerie-equipements-brides-2147-equipement-brides-inox-boulons-acier-pour-vannes-papillon-1112",
+    name: frEn("2147 - Equipement brides inox boulons acier pour vannes papillon 1112", "2147 - Equipement Flanges stainless boulons steel pour vannes papillon 1112"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "2150",
+    slug: "serie-kit-boulonnerie-equipements-brides-2150-equipement-brides-boulons-acier-pour-compensateurs-sferaco",
+    name: frEn("2150 - Equipement brides boulons acier pour compensateurs Sferaco", "2150 - Equipement Flanges boulons steel pour Expansion joints Sferaco"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier carbone", "Carbon steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "jb",
+    slug: "serie-kit-boulonnerie-equipements-brides-jb-joint-de-brides-vert-csa25-acs-pn10",
+    name: frEn("JB- Joint de brides vert CSA25 ACS PN10", "JB- Joint de Flanges vert CSA25 ACS PN10"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "jcsa",
+    slug: "serie-kit-boulonnerie-equipements-brides-jcsa-joint-de-brides-vert-csa50-pn10-pour-air-eau-vapeur",
+    name: frEn("JCSA- Joint de brides vert CSA50 PN10 pour air, eau, vapeur", "JCSA- Joint de Flanges vert CSA50 PN10 pour air, eau, vapeur"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "jcsc",
+    slug: "serie-kit-boulonnerie-equipements-brides-jcsc-joint-de-brides-csc120-pn10-special-vapeur-inferieur-250degresc",
+    name: frEn("JCSC- Joint de brides CSC120 PN10 spécial vapeur inférieur 250°C", "JCSC- Joint de Flanges CSC120 PN10 spécial vapeur inférieur 250°C"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "jgraf",
+    slug: "serie-kit-boulonnerie-equipements-brides-jgraf-joint-de-brides-noir-graphite-pn10-pour-vapeur-haute-pression",
+    name: frEn("JGRAF- Joint de brides noir Graphite PN10 pour vapeur haute pression", "JGRAF- Joint de Flanges noir Graphite PN10 pour vapeur haute pression"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "joint",
+    slug: "serie-kit-boulonnerie-equipements-brides-joint-universel-de-brides-pour-eau-hydrocarbure-vapeur-gaz",
+    name: frEn("Joint universel de brides pour eau, hydrocarbure, vapeur, gaz", "Joint universel de Flanges pour eau, hydrocarbure, vapeur, gaz"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: null, material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "jptfe",
+    slug: "serie-kit-boulonnerie-equipements-brides-jptfe-joint-de-brides-ptfe-pn10-pour-hydrocarbures",
+    name: frEn("JPTFE- Joint de brides PTFE PN10 pour hydrocarbures", "JPTFE- Joint de Flanges PTFE PN10 pour hydrocarbures"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier", "Steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "kb10",
+    slug: "serie-kit-boulonnerie-equipements-brides-kb10-kit-boulons-inox-304-pour-brides-pn10",
+    name: frEn("KB10 - Kit boulons inox 304 pour brides PN10", "KB10 - Kit boulons stainless 304 pour Flanges PN10"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN10", material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "kb16",
+    slug: "serie-kit-boulonnerie-equipements-brides-kb16-kit-boulons-inox-304-pour-brides-pn16",
+    name: frEn("KB16 - Kit boulons inox 304 pour brides PN16", "KB16 - Kit boulons stainless 304 pour Flanges PN16"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN16", material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+  base({
+    reference: "kb40",
+    slug: "serie-kit-boulonnerie-equipements-brides-kb40-kit-boulons-inox-304-pour-brides-pn40",
+    name: frEn("KB40 - Kit boulons inox 304 pour brides PN40", "KB40 - Kit boulons stainless 304 pour Flanges PN40"),
+    description: frEn(
+      "Gamme tuyauterie et accessoires — catalogue SDMI.",
+      "Piping & accessories range — SDMI catalog.",
+    ),
+    dn: null, pn: "PN40", material: frEn("Acier inoxydable", "Stainless steel"),
+    connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
+    technicalSpecs: { connection: "flanged-rf", documentCount: 4 },
+  }),
+];

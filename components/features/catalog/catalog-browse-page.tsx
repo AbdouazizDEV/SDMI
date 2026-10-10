@@ -41,6 +41,8 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
 
   const labels = {
     filtersTitle: t("filtersTitle"),
+    filterSearchPlaceholder: t("filterSearchPlaceholder"),
+    filterSearchNoResults: t("filterSearchNoResults"),
     clearAll: t("filterClearAll"),
     filterDeviceFamily: t("filterDeviceFamily"),
     filterMaterial: t("filterMaterial"),

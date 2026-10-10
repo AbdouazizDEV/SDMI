@@ -22,7 +22,7 @@ export function saveManifest(manifestPath, manifest) {
 export function assignImage(manifest, { reference, productSlug, publicPath }) {
   if (productSlug) {
     manifest.slugs[productSlug] = publicPath;
-  } else {
+  } else if (reference) {
     manifest.references[reference] = publicPath;
   }
 }

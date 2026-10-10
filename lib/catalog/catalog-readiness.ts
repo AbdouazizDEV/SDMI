@@ -38,6 +38,39 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "vannes-sphere-laiton-3-voies",
   "vannes-sphere-pvc-u",
   "vannes-sphere-a-brides-laiton-fonte",
+  "tubes-acier-carbone",
+  "tubes-acier-inoxydable",
+  "tubes-carbone-pre-enrobes-3pe",
+  "brides-en1092-acier-carbone",
+  "brides-asme-b16-5-a105",
+  "brides-inox-en1092-asme",
+  "brides-acier-galvanise",
+  "brides-a-collerettes",
+  "brides-plates",
+  "brides-pleines",
+  "brides-taraudees",
+  "brides-tournantes",
+  "brides-petrole-asme",
+  "kit-boulonnerie-equipements-brides",
+  "collets-forges",
+  "raccords-deca",
+  "raccords-polypropylene",
+  "raccords-fonte-malleable",
+  "mamelons-et-manchons-acier",
+  "raccords-inox",
+  "raccords-laiton-a-visser",
+  "raccords-a-cames",
+  "raccords-express",
+  "raccords-symetriques",
+  "raccords-acier-a-souder",
+  "colliers-de-prise-en-charge",
+  "adaptateurs-de-brides-eau",
+  "brides-reseau-eau",
+  "manchons-reseau-eau",
+  "manchons-compensateurs-elastomere",
+  "manchons-compensateurs-teguflex",
+  "manchons-compensateurs-metalliques",
+  "manchons-compensateurs-antibruit",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -47,6 +80,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "robinets-soupape-pointeau",
   "robinets-tournant-spherique-acier-inox",
   "vannes-sphere-laiton-fonte-pvc",
+  "tuyauterie-et-accessoires",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {
@@ -57,5 +91,5 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
   return BROWSEABLE_FAMILY_SLUGS.has(familySlug);
 }
 
-/** Prochain lot catalogue v1 — tuyauterie et accessoires (sous-familles à définir). */
-export const nextCatalogSubfamilySlug = "tuyauterie-et-accessoires";
+/** Prochain lot catalogue v1 — opercule monobloc (non encore publié). */
+export const nextCatalogSubfamilySlug = "vannes-opercule-monobloc-fermeture-rapide";
