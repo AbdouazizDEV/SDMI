@@ -2,12 +2,12 @@
 
 export const catalogV1FamilyImages: Record<string, string> = {
   "robinetterie-petrole-forgee-moulee":
-    "/images/catalog/taxonomy/robinetterie-petrole-forgee-moulee.jpg",
-  "tuyauterie-et-accessoires":
-    "/images/catalog/taxonomy/tuyauterie-et-accessoires.jpg",
-  "vannes-operucle-guillotine": "/images/subfamilies/robinets-a-operucle.jpg",
+    "/images/Robinetterie_pétroleforgéemoulée.jpeg",
+  "tuyauterie-et-accessoires": "/images/Tuyauterie_et_accessoires.jpeg",
+  "vannes-operucle-guillotine":
+    "/images/Vannes_à_opercule_vannes_à_guillotine.jpeg",
   "robinets-soupape-pointeau":
-    "/images/catalog/taxonomy/robinets-soupape-pointeau.jpg",
+    "/images/Robinets_à_soupape_robinets_à_pointeau.jpeg",
   "robinets-tournant-spherique-acier-inox":
     "/images/catalog/taxonomy/robinets-tournant-spherique-acier-inox.jpg",
   "vannes-sphere-laiton-fonte-pvc":

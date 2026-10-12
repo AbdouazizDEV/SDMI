@@ -23,7 +23,9 @@ export function CatalogTaxonomyMedia({
     <div
       className={cn(
         "relative w-full overflow-hidden bg-gradient-to-br from-white via-slate-50 to-primary/5",
-        isHero ? "aspect-square min-h-[220px] max-w-md" : "aspect-4/3 min-h-[180px]",
+        isHero
+          ? "aspect-[16/10] min-h-[280px] w-full rounded-2xl sm:min-h-[340px] lg:aspect-auto lg:min-h-[606px]"
+          : "aspect-[4/3] min-h-[200px] rounded-xl sm:min-h-[220px]",
         className,
       )}
     >
@@ -35,12 +37,14 @@ export function CatalogTaxonomyMedia({
           className="absolute inset-0 size-full"
           imageClassName={cn(
             "object-contain transition-transform duration-500",
-            isHero ? "p-6 md:p-8" : "p-4 group-hover:scale-105",
+            isHero
+              ? "rounded-xl p-2 sm:p-3 lg:p-4"
+              : "rounded-lg p-3 sm:p-4 group-hover:scale-[1.02]",
           )}
           sizes={
             isHero
-              ? "(max-width: 1024px) 90vw, 320px"
-              : "(max-width: 640px) 100vw, 33vw"
+              ? "(max-width: 1024px) 100vw, 640px"
+              : "(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
           }
         />
       ) : (

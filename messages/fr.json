@@ -41,6 +41,7 @@
     "closeMenu": "Fermer le menu",
     "openSearch": "Ouvrir la recherche",
     "mainNavLabel": "Navigation principale",
+    "closeMegaMenu": "Fermer le menu produits",
     "productsMegaMenuLabel": "Parcourir nos produits",
     "megaMenuFamilies": "Par famille",
     "megaMenuSubfamilies": "Sous-familles",
@@ -85,16 +86,25 @@
   },
   "Home": {
     "hero": {
-      "badge": "Dakar Km 4,5 • Distributeur agréé DIN / ANSI / ISO",
-      "title": "Le partenaire de référence en robinetterie & matériel industriel au Sénégal",
-      "subtitle": "Plus de 12 000 références en stock à Dakar : vannes, raccords, brides, instrumentation et dispositifs incendie pour industries minières, chimiques, offshore et pétrolières.",
+      "location": "Dakar, Sénégal — Bopp rue 2 x Casamance",
+      "certificationBadge": "Distributeur agréé DIN / ANSI / ISO",
       "carousel": {
         "slides": {
-          "stockDakar": "Stock robinetterie — dépôt SDMI Dakar",
-          "oilGas": "Circuit eau, pétrole et gaz",
-          "industrialValves": "Robinetterie industrielle",
-          "foodIndustry": "Industrie agro-alimentaire",
-          "fireSafety": "Tuyauterie et matériels incendie"
+          "agro": {
+            "label": "Secteur agro-alimentaire",
+            "title": "Hygiène, inox et process pour l'agro-industrie",
+            "description": "Vannes, raccords et tuyauteries adaptés aux lignes de production alimentaire : conformité sanitaire, corrosion et maintenance simplifiée."
+          },
+          "fire": {
+            "label": "Matériel et incendie",
+            "title": "Protection incendie et robinetterie de sécurité",
+            "description": "Hydrants, vannes, collecteurs et accessoires pour réseaux sprinklers, stock industriel et mise en service rapide à Dakar."
+          },
+          "oilGas": {
+            "label": "Eau — pétrole — gaz",
+            "title": "Fluides critiques pour l'énergie et le réseau",
+            "description": "Robinetterie haute pression, brides et accessoires pour hydrocarbures, gaz, eau industrielle et projets onshore / offshore."
+          }
         }
       },
       "quoteCta": "Demande de cotation rapide",
@@ -201,20 +211,23 @@
     "sectors": {
       "title": "Présent sur les grands chantiers industriels sénégalais",
       "description": "Équipements adaptés aux environnements abrasifs, corrosifs et sous pression.",
-      "explore": "Découvrir"
+      "explore": "Découvrir",
+      "viewAll": "Tous les secteurs d'activité"
     },
     "families": {
       "title": "Nos familles de fournitures industrielles",
       "description": "Composants sourcés selon les standards DESP, API, DIN et ASME.",
       "referenceCount": "{count, plural, =0 {Catalogue complet} one {# référence} other {# références}}",
       "explore": "Explorer",
-      "comingSoon": "Bientôt disponible"
+      "comingSoon": "Bientôt disponible",
+      "viewAll": "Voir tout le catalogue"
     },
     "subfamilies": {
       "title": "Nos gammes",
       "description": "Parcourez le catalogue SDMI par famille et sous-famille — disponibilité dépôt Dakar.",
       "readMore": "En savoir plus",
       "viewFamily": "Voir la famille",
+      "viewAll": "Toutes les gammes du catalogue",
       "familyLabel": "Famille {index}",
       "comingSoon": "Bientôt disponible"
     },
@@ -299,6 +312,28 @@
     "familiesTitle": "Familles produits",
     "familyCardHint": "{count, plural, one {# sous-famille} other {# sous-familles}}",
     "familyDescription": "Sous-familles et références disponibles au dépôt SDMI Dakar.",
+    "familyOverviewFallback": "Équipements industriels sélectionnés pour les fluides sous pression, avec conformité aux normes internationales et disponibilité au dépôt SDMI à Dakar.",
+    "familySubfamiliesNavTitle": "Sous-familles de cette gamme",
+    "familyOverviews": {
+      "robinetterie-petrole-forgee-moulee": {
+        "body": "Robinetterie forgée et moulée pour hydrocarbures, gaz et process industriels exigeants : vannes à opercule, soupapes et robinets à soufflet, robinets à pointeau, filtres et clapets. Gammes dimensionnées selon DIN, EN, ANSI et API, avec traçabilité matière (certificats 3.1 sur demande) et conseil technique au comptoir SDMI."
+      },
+      "tuyauterie-et-accessoires": {
+        "body": "Tubes, brides, raccords et accessoires pour réseaux de fluides : acier carbone et inox, pré-enrobés, brides EN 1092 et ASME, raccords filetés, à souder et mécaniques. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles, prêtes à l’enlèvement ou sur cotation rapide."
+      },
+      "vannes-operucle-guillotine": {
+        "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
+      },
+      "robinets-soupape-pointeau": {
+        "body": "Robinets à soupape, robinets à pointeau et équipements incendie (colonnes sèches, pieds de colonne) pour réseaux techniques, sprinklers et installations bâtiment & industrie."
+      },
+      "robinets-tournant-spherique-acier-inox": {
+        "body": "Robinetterie tournante à sphère en acier et inox : monobloc, 2 et 3 pièces, multi-voies, wafer et modèles à brides pour fluides agressifs, vapeur et process sous pression."
+      },
+      "vannes-sphere-laiton-fonte-pvc": {
+        "body": "Vannes à sphère laiton, fonte et PVC pour bâtiment, réseaux d’eau, industrie légère et collectifs : modèles cadenassables, 3 voies, puisage et raccordements taraudés ou à brides."
+      }
+    },
     "familySkeletonHint": "Cette famille est en cours de structuration dans le catalogue SDMI. Notre équipe peut déjà vous orienter sur les gammes équivalentes et les alternatives en stock.",
     "skeletonBrowseHint": "Les fiches produits seront publiées progressivement. Commencez par la robinetterie pétrole ou transmettez votre nomenclature pour un devis.",
     "referencesTitle": "Références catalogue",

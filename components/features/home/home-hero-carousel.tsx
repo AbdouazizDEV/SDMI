@@ -3,25 +3,25 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
-import {
-  HERO_CAROUSEL_INTERVAL_MS,
-  type HeroCarouselSlide,
-} from "@/lib/home/hero-carousel-slides";
+import { type HeroCarouselSlide } from "@/lib/home/hero-carousel-slides";
 import { cn } from "@/lib/utils";
 
 type HomeHeroCarouselProps = {
   slides: HeroCarouselSlide[];
   /** Labels accessibles indexés comme slides */
   slideLabels: string[];
+  activeIndex: number;
+  onActiveIndexChange: (index: number) => void;
   className?: string;
 };
 
 export function HomeHeroCarousel({
   slides,
   slideLabels,
+  activeIndex,
+  onActiveIndexChange,
   className,
 }: HomeHeroCarouselProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
   const [reduceMotion, setReduceMotion] = useState(false);
 
   useEffect(() => {
@@ -32,14 +32,6 @@ export function HomeHeroCarousel({
     return () => mq.removeEventListener("change", onChange);
   }, []);
 
-  useEffect(() => {
-    if (reduceMotion || slides.length <= 1) return;
-    const timer = window.setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % slides.length);
-    }, HERO_CAROUSEL_INTERVAL_MS);
-    return () => window.clearInterval(timer);
-  }, [reduceMotion, slides.length]);
-
   return (
     <div className={cn("absolute inset-0 overflow-hidden", className)} aria-hidden>
       {slides.map((slide, index) => {
@@ -48,7 +40,7 @@ export function HomeHeroCarousel({
           <div
             key={slide.id}
             className={cn(
-              "absolute inset-0 transition-opacity duration-[1.4s] ease-in-out",
+              "absolute inset-0 transition-opacity duration-[1.8s] ease-in-out",
               isActive ? "opacity-100" : "opacity-0",
             )}
           >
@@ -59,7 +51,7 @@ export function HomeHeroCarousel({
               priority={index === 0}
               sizes="100vw"
               className={cn(
-                "object-cover object-center opacity-90",
+                "object-cover object-center",
                 isActive && !reduceMotion && "sdmi-hero-media",
               )}
             />
@@ -72,14 +64,14 @@ export function HomeHeroCarousel({
             <button
               type="button"
               className={cn(
-                "size-2 rounded-full transition-all",
+                "size-2 rounded-full transition-all duration-300",
                 index === activeIndex
-                  ? "bg-cta w-6"
-                  : "bg-primary-foreground/40 hover:bg-primary-foreground/70",
+                  ? "bg-cta w-7 shadow-md"
+                  : "bg-primary-foreground/45 hover:bg-primary-foreground/75",
               )}
               aria-label={slideLabels[index]}
               aria-current={index === activeIndex ? "true" : undefined}
-              onClick={() => setActiveIndex(index)}
+              onClick={() => onActiveIndexChange(index)}
             />
           </li>
         ))}

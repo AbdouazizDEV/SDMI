@@ -13,20 +13,21 @@ export async function HomeHeroSection({ trustIndicators }: HomeHeroSectionProps)
   const t = await getTranslations("Home");
   const tCarousel = await getTranslations("Home.hero.carousel");
 
-  const slideLabels = heroCarouselSlides.map((slide) =>
-    tCarousel(`slides.${slide.labelKey}`),
-  );
+  const slideContents = heroCarouselSlides.map((slide) => ({
+    label: tCarousel(`slides.${slide.labelKey}.label`),
+    title: tCarousel(`slides.${slide.labelKey}.title`),
+    description: tCarousel(`slides.${slide.labelKey}.description`),
+  }));
 
   return (
     <>
       <HomeHeroExperience
-        badge={t("hero.badge")}
-        title={t("hero.title")}
-        subtitle={t("hero.subtitle")}
+        location={t("hero.location")}
+        certificationBadge={t("hero.certificationBadge")}
         catalogCta={t("hero.catalogCta")}
         quoteCta={t("hero.quoteCta")}
         stockSelectorTitle={t("stockSelector.title")}
-        slideLabels={slideLabels}
+        slideContents={slideContents}
       />
       <HomeTrustBand indicators={trustIndicators} />
     </>

@@ -18,7 +18,10 @@ export function SiteShell({ children }: SiteShellProps) {
   return (
     <>
       <NavigationProgress />
-      <div className="sticky top-0 z-40 shadow-md ring-1 ring-black/5">
+      <div
+        className="sticky top-0 z-40 shadow-md ring-1 ring-black/5"
+        data-sdmi-sticky-header
+      >
         <SiteTopBar />
         <SiteHeader catalog={catalog} />
       </div>
