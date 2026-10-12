@@ -106,7 +106,7 @@ export function SiteHeader({ catalog }: SiteHeaderProps) {
       <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
         <SheetContent
           side="left"
-          className="w-[min(100vw-2rem,24rem)] overflow-y-auto"
+          className="w-[min(100vw-1rem,26rem)] overflow-y-auto sm:w-[min(100vw-2rem,28rem)]"
           closeLabel={t("closeMenu")}
         >
           <SheetHeader>

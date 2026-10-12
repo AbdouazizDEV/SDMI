@@ -44,7 +44,7 @@ export function MediaLinkCard({
 
   const body = (
     <>
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded-t-xl">
         {media}
         {isModern ? <div className="sdmi-media-card-overlay" aria-hidden /> : null}
         {disabled && disabledHint ? (

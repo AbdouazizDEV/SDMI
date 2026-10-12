@@ -41,6 +41,7 @@
     "closeMenu": "Close menu",
     "openSearch": "Open search",
     "mainNavLabel": "Main navigation",
+    "closeMegaMenu": "Close products menu",
     "productsMegaMenuLabel": "Browse our products",
     "megaMenuFamilies": "By family",
     "megaMenuSubfamilies": "Sub-families",
@@ -85,16 +86,25 @@
   },
   "Home": {
     "hero": {
-      "badge": "Dakar Km 4,5 • DIN / ANSI / ISO approved distributor",
-      "title": "Your reference partner for industrial valves & equipment in Senegal",
-      "subtitle": "12,000+ references in stock in Dakar: valves, fittings, flanges, instrumentation and fire protection for mining, chemical, offshore and oil industries.",
+      "location": "Dakar, Senegal — Bopp rue 2 x Casamance",
+      "certificationBadge": "DIN / ANSI / ISO approved distributor",
       "carousel": {
         "slides": {
-          "stockDakar": "Valve stock — SDMI Dakar depot",
-          "oilGas": "Water circuits, oil and gas",
-          "industrialValves": "Industrial valves",
-          "foodIndustry": "Food processing industry",
-          "fireSafety": "Fire protection piping and equipment"
+          "agro": {
+            "label": "Food processing sector",
+            "title": "Hygiene, stainless and process for food industry",
+            "description": "Valves, fittings and piping for food production lines: sanitary compliance, corrosion resistance and easier maintenance."
+          },
+          "fire": {
+            "label": "Fire protection equipment",
+            "title": "Fire protection and safety valves",
+            "description": "Hydrants, valves, manifolds and accessories for sprinkler networks, industrial stock and fast commissioning in Dakar."
+          },
+          "oilGas": {
+            "label": "Water — oil — gas",
+            "title": "Critical fluids for energy and utilities",
+            "description": "High-pressure valves, flanges and accessories for hydrocarbons, gas, industrial water and onshore / offshore projects."
+          }
         }
       },
       "quoteCta": "Fast quote request",
@@ -201,20 +211,23 @@
     "sectors": {
       "title": "On major industrial sites across Senegal",
       "description": "Equipment for abrasive, corrosive and high-pressure environments.",
-      "explore": "Discover"
+      "explore": "Discover",
+      "viewAll": "All activity sectors"
     },
     "families": {
       "title": "Our industrial product families",
       "description": "Components sourced to DESP, API, DIN and ASME standards.",
       "referenceCount": "{count, plural, =0 {Full catalog} one {# reference} other {# references}}",
       "explore": "Explore",
-      "comingSoon": "Coming soon"
+      "comingSoon": "Coming soon",
+      "viewAll": "Browse full catalog"
     },
     "subfamilies": {
       "title": "Our ranges",
       "description": "Browse the SDMI catalog by family and subfamily — Dakar depot availability.",
       "readMore": "Read more",
       "viewFamily": "View family",
+      "viewAll": "All catalog ranges",
       "familyLabel": "Family {index}",
       "comingSoon": "Coming soon"
     },
@@ -299,6 +312,28 @@
     "familiesTitle": "Product families",
     "familyCardHint": "{count, plural, one {# subfamily} other {# subfamilies}}",
     "familyDescription": "Subfamilies and part numbers available from SDMI Dakar.",
+    "familyOverviewFallback": "Industrial equipment selected for pressurized fluids, international standards compliance and availability at the SDMI depot in Dakar.",
+    "familySubfamiliesNavTitle": "Subfamilies in this range",
+    "familyOverviews": {
+      "robinetterie-petrole-forgee-moulee": {
+        "body": "Forged and cast valves for hydrocarbons, gas and demanding industrial processes: gate, globe and bellows valves, needle valves, strainers and check valves. Ranges sized to DIN, EN, ANSI and API, with material traceability (3.1 certificates on request) and technical support at SDMI counter."
+      },
+      "tuyauterie-et-accessoires": {
+        "body": "Tubes, flanges, fittings and accessories for fluid networks: carbon and stainless steel, coated pipe, EN 1092 and ASME flanges, threaded, welded and mechanical fittings. Solutions for water, oil, gas and industrial utilities, ready for pickup or fast quote."
+      },
+      "vannes-operucle-guillotine": {
+        "body": "Gate and knife gate valves for isolation on water, process and heavy industry networks: monobloc, flanged, forged, resilient seated and unidirectional or bidirectional S-gate models."
+      },
+      "robinets-soupape-pointeau": {
+        "body": "Globe valves, needle valves and fire protection equipment (dry risers, column bases) for technical networks, sprinklers and building & industrial installations."
+      },
+      "robinets-tournant-spherique-acier-inox": {
+        "body": "Steel and stainless ball valves: monobloc, two- and three-piece, multi-port, wafer and flanged designs for aggressive fluids, steam and pressurized process."
+      },
+      "vannes-sphere-laiton-fonte-pvc": {
+        "body": "Brass, cast iron and PVC ball valves for building services, water networks, light industry and utilities: lockable models, 3-way, tapping and threaded or flanged connections."
+      }
+    },
     "familySkeletonHint": "This family is being structured in the SDMI catalog. Our team can already guide you on equivalent ranges and in-stock alternatives.",
     "skeletonBrowseHint": "Product pages will be published progressively. Start with petroleum valves or send your BOM for a quote.",
     "referencesTitle": "Catalog references",
