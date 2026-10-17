@@ -1,4 +1,8 @@
 import type { CatalogBrowseFilters } from "@/lib/catalog/catalog-facets";
+import {
+  browseFiltersFromStockSelector,
+  stockSelectorPressureKeys,
+} from "@/lib/catalog/stock-selector-params";
 
 type SearchParamRecord = Record<string, string | string[] | undefined>;
 
@@ -28,16 +32,35 @@ export function parseBrowseFiltersFromRecord(
       ? sort
       : undefined;
 
+  const stockSelector = browseFiltersFromStockSelector({
+    famille: typeof params.famille === "string" ? params.famille : undefined,
+    dn: typeof params.dn === "string" ? params.dn : undefined,
+    pn: typeof params.pn === "string" ? params.pn : undefined,
+    matiere: typeof params.matiere === "string" ? params.matiere : undefined,
+  });
+
+  const subfamilies = readMulti(params.sf) ?? stockSelector.subfamilies;
+  const materials = readMulti(params.mat) ?? stockSelector.materials;
+
+  const pnRaw = typeof params.pn === "string" ? params.pn : undefined;
+  const pnFromStock =
+    pnRaw && stockSelectorPressureKeys.has(pnRaw) ? stockSelector.pn : undefined;
+  const pn = pnFromStock ?? readMulti(params.pn) ?? stockSelector.pn;
+
   return {
     q: typeof params.q === "string" ? params.q : undefined,
-    subfamilies: readMulti(params.sf),
-    materials: readMulti(params.mat),
-    pn: readMulti(params.pn),
+    subfamilies,
+    materials,
+    pn,
     connections: readMulti(params.conn),
     standards: readMulti(params.std),
     sectors: readMulti(params.sector),
-    dnMin: readNumber(typeof params.dnMin === "string" ? params.dnMin : undefined),
-    dnMax: readNumber(typeof params.dnMax === "string" ? params.dnMax : undefined),
+    dnMin:
+      readNumber(typeof params.dnMin === "string" ? params.dnMin : undefined) ??
+      stockSelector.dnMin,
+    dnMax:
+      readNumber(typeof params.dnMax === "string" ? params.dnMax : undefined) ??
+      stockSelector.dnMax,
     sort: sortValue,
   };
 }

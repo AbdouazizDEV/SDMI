@@ -57,6 +57,8 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
     activeFilters: t("activeFiltersLabel"),
     resetFilters: t("filterReset"),
     resultsRange: t("resultsRange"),
+    liveSearchPlaceholder: t("liveSearchPlaceholder"),
+    liveSearchLabel: t("liveSearchLabel"),
     sortBy: t("sortBy"),
     sortRelevance: t("sortRelevance"),
     sortDnAsc: t("sortDnAsc"),

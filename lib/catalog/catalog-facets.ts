@@ -41,7 +41,12 @@ export function filterCatalogProductsAdvanced(
   if (q) {
     result = result.filter((product) => {
       const name = pickLocalized(product.name, locale).toLowerCase();
-      const hay = `${name} ${product.reference.toLowerCase()} ${product.slug}`;
+      const material = materialKey(product, locale).toLowerCase();
+      const hay = `${name} ${product.reference.toLowerCase()} ${product.slug} ${product.pn?.toLowerCase() ?? ""} ${material} ${product.dn ?? ""}`;
+      const dnQuery = q.match(/^dn\s*(\d+)$/)?.[1] ?? (/^\d+$/.test(q) ? q : null);
+      if (dnQuery && product.dn === Number.parseInt(dnQuery, 10)) {
+        return true;
+      }
       return hay.includes(q);
     });
   }
@@ -52,13 +57,18 @@ export function filterCatalogProductsAdvanced(
   }
 
   if (filters.materials?.length) {
-    const set = new Set(filters.materials.map((m) => m.toLowerCase()));
-    result = result.filter((p) => set.has(materialKey(p, locale).toLowerCase()));
+    const needles = filters.materials.map((m) => m.toLowerCase());
+    result = result.filter((p) => {
+      const mat = materialKey(p, locale).toLowerCase();
+      return needles.some((needle) => mat.includes(needle));
+    });
   }
 
   if (filters.pn?.length) {
-    const set = new Set(filters.pn.map((v) => v.toUpperCase()));
-    result = result.filter((p) => p.pn && set.has(p.pn.toUpperCase()));
+    const needles = filters.pn.map((v) => v.toUpperCase());
+    result = result.filter(
+      (p) => p.pn && needles.some((needle) => p.pn!.toUpperCase().includes(needle)),
+    );
   }
 
   if (filters.connections?.length) {

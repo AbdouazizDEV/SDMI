@@ -6,7 +6,7 @@ export const catalogSearchQuerySchema = z.object({
   q: z
     .string()
     .trim()
-    .min(2)
+    .min(1)
     .max(80)
     .regex(/^[\p{L}\p{N}\s./\-_+]+$/u, "Invalid search characters"),
   locale: z.enum(siteConfig.locales),

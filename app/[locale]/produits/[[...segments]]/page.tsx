@@ -17,7 +17,18 @@ import type { SiteLocale } from "@/lib/site";
 
 type ProductsPageProps = {
   params: Promise<{ locale: string; segments?: string[] }>;
-  searchParams: Promise<{ dn?: string; pn?: string; material?: string; q?: string }>;
+  searchParams: Promise<{
+    q?: string;
+    dn?: string;
+    pn?: string;
+    material?: string;
+    matiere?: string;
+    famille?: string;
+    sf?: string | string[];
+    mat?: string | string[];
+    dnMin?: string;
+    dnMax?: string;
+  }>;
 };
 
 export default async function ProductsCatchAllPage({ params, searchParams }: ProductsPageProps) {

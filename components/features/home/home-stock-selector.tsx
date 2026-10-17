@@ -7,6 +7,7 @@ import { useState } from "react";
 
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
+import { buildStockSelectorQueryString } from "@/lib/catalog/stock-selector-params";
 import { cn } from "@/lib/utils";
 
 const familyOptions = [
@@ -33,13 +34,13 @@ export function HomeStockSelectorPanel({
   const [material, setMaterial] = useState("all");
 
   function filterStock() {
-    const params = new URLSearchParams();
-    if (family !== "all") params.set("famille", family);
-    if (dn !== "all") params.set("dn", dn);
-    if (pressure !== "all") params.set("pn", pressure);
-    if (material !== "all") params.set("matiere", material);
-    const query = params.toString();
-    router.push(query ? `/produits?${query}` : "/produits");
+    const query = buildStockSelectorQueryString({
+      family,
+      dn,
+      pressure,
+      material,
+    });
+    router.push(`/produits${query}#catalog-live-results`);
   }
 
   const isHero = variant === "heroFooter";
