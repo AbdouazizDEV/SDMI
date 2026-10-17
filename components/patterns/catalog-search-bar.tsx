@@ -2,7 +2,7 @@
 
 import { SearchIcon } from "lucide-react";
 import { useTranslations } from "next-intl";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 
 import { HeaderSearch } from "@/components/layout/header-search";
 import { cn } from "@/lib/utils";
@@ -12,7 +12,7 @@ type CatalogSearchBarProps = {
   inputId?: string;
 };
 
-export function CatalogSearchBar({ className, inputId }: CatalogSearchBarProps) {
+function CatalogSearchBarInner({ className, inputId }: CatalogSearchBarProps) {
   const t = useTranslations("Layout");
   const [focused, setFocused] = useState(false);
   const searchInputId = inputId ?? "catalog-header-search";
@@ -60,5 +60,23 @@ export function CatalogSearchBar({ className, inputId }: CatalogSearchBarProps) 
         </button>
       </div>
     </div>
+  );
+}
+
+export function CatalogSearchBar(props: CatalogSearchBarProps) {
+  return (
+    <Suspense
+      fallback={
+        <div
+          className={cn(
+            "sdmi-catalog-search h-11 w-full max-w-3xl animate-pulse rounded-sm bg-muted",
+            props.className,
+          )}
+          aria-hidden
+        />
+      }
+    >
+      <CatalogSearchBarInner {...props} />
+    </Suspense>
   );
 }

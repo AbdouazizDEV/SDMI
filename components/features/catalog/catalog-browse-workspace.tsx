@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, useTransition } from "react";
+import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import {
   ChevronDownIcon,
   LayoutGridIcon,
@@ -48,6 +48,8 @@ export type CatalogBrowseLabels = {
   activeFilters: string;
   resetFilters: string;
   resultsRange: string;
+  liveSearchPlaceholder: string;
+  liveSearchLabel: string;
   sortBy: string;
   sortRelevance: string;
   sortDnAsc: string;
@@ -165,6 +167,8 @@ export function CatalogBrowseWorkspace({
   const [view, setView] = useState<"grid" | "list">("grid");
   const [filterQuery, setFilterQuery] = useState("");
   const [filterSuggestOpen, setFilterSuggestOpen] = useState(false);
+  const [catalogQ, setCatalogQ] = useState("");
+  const catalogQFromUrlRef = useRef(true);
 
   const filters = useMemo(() => {
     const record: Record<string, string | string[] | undefined> = {};
@@ -211,7 +215,35 @@ export function CatalogBrowseWorkspace({
     pushFilters({ ...filters, ...partial });
   }
 
+  useEffect(() => {
+    catalogQFromUrlRef.current = true;
+    setCatalogQ(filters.q ?? "");
+  }, [filters.q]);
+
+  useEffect(() => {
+    if (catalogQFromUrlRef.current) {
+      catalogQFromUrlRef.current = false;
+      return;
+    }
+
+    const timer = window.setTimeout(() => {
+      const next = catalogQ.trim();
+      const current = filters.q?.trim() ?? "";
+      if (next === current) return;
+      update({ q: next || undefined });
+    }, 200);
+    return () => window.clearTimeout(timer);
+  }, [catalogQ, filters.q]);
+
   const activeTags: { key: string; label: string; onRemove: () => void }[] = [];
+
+  if (filters.q?.trim()) {
+    activeTags.push({
+      key: "q",
+      label: `« ${filters.q.trim()} »`,
+      onRemove: () => update({ q: undefined }),
+    });
+  }
 
   filters.subfamilies?.forEach((sf) => {
     activeTags.push({
@@ -619,7 +651,29 @@ export function CatalogBrowseWorkspace({
         </div>
       </aside>
 
-      <div className="min-w-0">
+      <div className="min-w-0" id="catalog-live-results">
+        <div className="relative mb-4">
+          <label htmlFor="catalog-live-search" className="sr-only">
+            {labels.liveSearchLabel}
+          </label>
+          <SearchIcon
+            aria-hidden
+            className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
+          />
+          <input
+            id="catalog-live-search"
+            type="search"
+            value={catalogQ}
+            onChange={(e) => {
+              catalogQFromUrlRef.current = false;
+              setCatalogQ(e.target.value);
+            }}
+            placeholder={labels.liveSearchPlaceholder}
+            className="border-border focus:ring-primary/30 h-11 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
+            autoComplete="off"
+          />
+        </div>
+
         {activeTags.length > 0 ? (
           <div className="border-border/60 mb-4 flex flex-wrap items-center gap-2 rounded-lg border bg-card/80 px-3 py-2">
             <span className="text-muted-foreground text-xs font-bold uppercase">
