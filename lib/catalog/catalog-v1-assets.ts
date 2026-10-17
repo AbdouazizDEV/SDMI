@@ -9,9 +9,9 @@ export const catalogV1FamilyImages: Record<string, string> = {
   "robinets-soupape-pointeau":
     "/images/Robinets_à_soupape_robinets_à_pointeau.jpeg",
   "robinets-tournant-spherique-acier-inox":
-    "/images/catalog/taxonomy/robinets-tournant-spherique-acier-inox.jpg",
+    "/images/Robinets_à_tournant_sphérique_acier_inox.jpeg",
   "vannes-sphere-laiton-fonte-pvc":
-    "/images/catalog/taxonomy/vannes-sphere-laiton-fonte-pvc.jpg",
+    "/images/Vannes_à_sphère_laiton_fonte_PVC.jpeg",
 };
 
 export const catalogV1SubfamilyImages: Record<string, string> = {

@@ -1,6 +1,6 @@
 import { ArrowUpRightIcon } from "lucide-react";
 
-import { CatalogTaxonomyMedia } from "@/components/features/catalog/catalog-taxonomy-media";
+import { StorageMedia } from "@/components/features/home/storage-media";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import type { SectorBlockKey } from "@/lib/sectors/sector-config";
@@ -18,6 +18,10 @@ type SectorEnvironmentBlockProps = {
   refsCta: string;
   quoteCta: string;
   whatsappCta: string;
+  /** Photo secteur (cover) — prioritaire sur le visuel block générique. */
+  imagePath?: string | null;
+  detailHref?: string;
+  sectorDetailCta?: string;
   reverse?: boolean;
   id?: string;
 };
@@ -32,9 +36,14 @@ export function SectorEnvironmentBlock({
   refsCta,
   quoteCta,
   whatsappCta,
+  imagePath,
+  detailHref,
+  sectorDetailCta,
   reverse = false,
   id,
 }: SectorEnvironmentBlockProps) {
+  const mediaPath = imagePath ?? sectorBlockImages[blockKey];
+
   return (
     <article
       id={id}
@@ -44,16 +53,18 @@ export function SectorEnvironmentBlock({
       )}
     >
       <div className="relative min-h-[220px] lg:min-h-full">
-        <CatalogTaxonomyMedia
-          storagePath={sectorBlockImages[blockKey]}
+        <StorageMedia
+          storagePath={mediaPath}
           alt={title}
-          variant="card"
-          className="aspect-auto size-full min-h-[220px] max-w-none rounded-none lg:min-h-[320px]"
+          className="absolute inset-0 size-full min-h-[220px] lg:min-h-[320px]"
+          imageClassName="object-cover object-center"
+          sizes="(max-width: 1024px) 100vw, 50vw"
         />
+        <div className="sdmi-media-card-overlay pointer-events-none absolute inset-0" aria-hidden />
       </div>
       <div className="flex flex-col justify-center p-6 md:p-8 lg:p-10">
         <p className="text-cta text-xs font-bold tracking-widest uppercase">{eyebrow}</p>
-        <h2 className="font-heading text-primary mt-2 text-xl font-bold tracking-tight uppercase md:text-2xl">
+        <h2 className="font-heading text-primary mt-2 text-xl leading-snug font-bold tracking-tight md:text-2xl">
           {title}
         </h2>
         <p className="text-muted-foreground mt-4 text-sm leading-relaxed md:text-base">{body}</p>
@@ -65,6 +76,18 @@ export function SectorEnvironmentBlock({
             {recommendedTitle}
           </p>
           <div className="mt-3 flex flex-col gap-2 sm:flex-row sm:flex-wrap">
+            {detailHref && sectorDetailCta ? (
+              <Link
+                href={detailHref}
+                className={buttonVariants({
+                  className:
+                    "bg-primary text-primary-foreground hover:bg-primary/90 inline-flex h-10 items-center rounded-sm font-semibold",
+                })}
+              >
+                {sectorDetailCta}
+                <ArrowUpRightIcon aria-hidden className="ml-1.5 size-4" />
+              </Link>
+            ) : null}
             <Link
               href="/produits"
               className={buttonVariants({

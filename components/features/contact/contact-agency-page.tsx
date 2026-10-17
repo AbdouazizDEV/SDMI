@@ -6,24 +6,24 @@ import {
   NavigationIcon,
   PhoneIcon,
   FileTextIcon,
+  TruckIcon,
+  WrenchIcon,
 } from "lucide-react";
 
+import { ContactGoogleMap } from "@/components/features/contact/contact-google-map";
 import { CompanyFinalCta } from "@/components/features/company/company-final-cta";
 import { PageMain } from "@/components/layout/page-main";
 import { CompanyPageLayout } from "@/components/patterns/company-page-layout";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
+import { contactMapDirectionsUrl } from "@/lib/site/contact-map";
 import { siteConfig } from "@/lib/site";
-
-const MAP_QUERY = encodeURIComponent(
-  "Bopp rue 2 x Casamance, Dakar, Sénégal",
-);
-const MAP_DIRECTIONS_HREF = `https://www.google.com/maps/search/?api=1&query=${MAP_QUERY}`;
 
 export async function ContactAgencyPage() {
   const t = await getTranslations("Contact");
   const { address, phones, email, hours } = siteConfig.contact;
   const [mainPhone] = phones;
+  const services = t.raw("services") as { title: string; body: string }[];
 
   return (
     <PageMain>
@@ -34,7 +34,7 @@ export async function ContactAgencyPage() {
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}
-        className="space-y-10"
+        className="space-y-10 lg:space-y-12"
       >
         <div className="grid gap-6 lg:grid-cols-3">
           <article className="sdmi-surface-card sdmi-surface-card-accent bg-card p-6">
@@ -50,7 +50,7 @@ export async function ContactAgencyPage() {
               {address.city}
             </p>
             <a
-              href={MAP_DIRECTIONS_HREF}
+              href={contactMapDirectionsUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary mt-4 inline-flex items-center gap-1.5 text-sm font-semibold hover:text-cta"
@@ -92,41 +92,60 @@ export async function ContactAgencyPage() {
           </article>
         </div>
 
-        <div className="grid gap-8 lg:grid-cols-2 lg:gap-10">
-          <section
-            className="sdmi-surface-card relative min-h-[240px] overflow-hidden bg-muted/40 p-6 md:min-h-[280px]"
-            aria-labelledby="contact-map-heading"
+        <section aria-labelledby="contact-services-heading">
+          <h2
+            id="contact-services-heading"
+            className="font-heading text-primary sdmi-heading-accent mb-6 text-lg font-bold tracking-tight uppercase md:text-xl"
           >
-            <div
-              className="from-primary/10 absolute inset-0 bg-gradient-to-br via-muted/20 to-cta/10"
-              aria-hidden
-            />
-            <div className="relative">
-              <h2
-                id="contact-map-heading"
-                className="font-heading text-primary text-lg font-bold tracking-tight uppercase"
-              >
-                {t("mapTitle")}
-              </h2>
-              <p className="text-muted-foreground mt-2 max-w-md text-sm">
-                {t("mapDescription")}
-              </p>
-              <a
-                href={MAP_DIRECTIONS_HREF}
-                target="_blank"
-                rel="noopener noreferrer"
-                className={buttonVariants({
-                  variant: "outline",
-                  className: "mt-6 h-10 rounded-sm font-semibold",
-                })}
-              >
-                {t("directionsCta")}
-              </a>
-            </div>
+            {t("servicesTitle")}
+          </h2>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {services.map((item, index) => {
+              const Icon = index === 0 ? TruckIcon : index === 1 ? WrenchIcon : FileTextIcon;
+              return (
+                <li key={item.title}>
+                  <article className="sdmi-trust-tile h-full p-5">
+                    <Icon aria-hidden className="text-cta size-7" />
+                    <h3 className="font-heading text-primary mt-3 text-sm font-bold tracking-tight">
+                      {item.title}
+                    </h3>
+                    <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
+                      {item.body}
+                    </p>
+                  </article>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+
+        <div className="grid gap-8 lg:grid-cols-2 lg:gap-10">
+          <section aria-labelledby="contact-map-heading">
+            <h2
+              id="contact-map-heading"
+              className="font-heading text-primary mb-2 text-lg font-bold tracking-tight uppercase"
+            >
+              {t("mapTitle")}
+            </h2>
+            <p className="text-muted-foreground mb-4 max-w-md text-sm">
+              {t("mapDescription")}
+            </p>
+            <ContactGoogleMap title={t("mapIframeTitle")} />
+            <a
+              href={contactMapDirectionsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={buttonVariants({
+                variant: "outline",
+                className: "mt-4 h-10 rounded-sm font-semibold",
+              })}
+            >
+              {t("directionsCta")}
+            </a>
           </section>
 
           <section
-            className="sdmi-surface-card sdmi-surface-card-accent bg-card p-6 lg:p-8"
+            className="sdmi-surface-card sdmi-surface-card-accent flex flex-col bg-card p-6 lg:p-8"
             aria-labelledby="contact-commercial-heading"
           >
             <FileTextIcon aria-hidden className="text-cta size-7" />
@@ -139,8 +158,16 @@ export async function ContactAgencyPage() {
             <p className="text-muted-foreground mt-2 text-sm leading-relaxed">
               {t("formHint")}
             </p>
+            <ul className="text-muted-foreground mt-4 space-y-2 text-sm">
+              {(t.raw("formBullets") as string[]).map((bullet) => (
+                <li key={bullet} className="flex gap-2">
+                  <span className="bg-cta mt-2 size-1.5 shrink-0 rounded-full" aria-hidden />
+                  <span>{bullet}</span>
+                </li>
+              ))}
+            </ul>
             <p className="text-muted-foreground mt-4 text-sm">{t("commercialNote")}</p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-auto flex flex-col gap-3 pt-6 sm:flex-row">
               <Link
                 href="/devis"
                 className={buttonVariants({

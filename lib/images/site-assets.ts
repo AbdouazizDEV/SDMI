@@ -15,10 +15,13 @@ export const siteAssets = {
     tuyauterieIncendie: "/images/main-slider/4.jpg",
   },
   sectors: {
-    "circuit-eau-petrole-gaz": "/images/main-slider/1.jpg",
+    "circuit-eau-petrole-gaz":
+      "/images/hero/énergie_et_le_réseau_Eau_Pétrole_Gaz.jpeg",
     "robinetterie-industrielle": "/images/main-slider/2.jpg",
-    "industrie-agro-alimentaire": "/images/main-slider/3.jpg",
-    "tuyauterie-materiels-incendie": "/images/main-slider/4.jpg",
+    "industrie-agro-alimentaire":
+      "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
+    "tuyauterie-materiels-incendie":
+      "/images/hero/Protection_incendie_et_robinetterie_de_sécurité.jpeg",
   },
   families: {
     robinetterie: "/images/famille-robinetterie.jpg",

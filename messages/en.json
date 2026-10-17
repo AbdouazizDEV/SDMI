@@ -102,7 +102,7 @@
           },
           "oilGas": {
             "label": "Water — oil — gas",
-            "title": "Critical fluids for energy and utilities",
+            "title": "Critical fluids for energy and water–oil–gas networks",
             "description": "High-pressure valves, flanges and accessories for hydrocarbons, gas, industrial water and onshore / offshore projects."
           }
         }
@@ -212,7 +212,21 @@
       "title": "On major industrial sites across Senegal",
       "description": "Equipment for abrasive, corrosive and high-pressure environments.",
       "explore": "Discover",
-      "viewAll": "All activity sectors"
+      "viewAll": "All activity sectors",
+      "featured": {
+        "tuyauterie-materiels-incendie": {
+          "title": "Fire protection and safety valves",
+          "description": "Hydrants, valves, manifolds and accessories for sprinkler networks, industrial stock and fast commissioning in Dakar."
+        },
+        "circuit-eau-petrole-gaz": {
+          "title": "Critical fluids for energy and water–oil–gas networks",
+          "description": "High-pressure valves, flanges and accessories for hydrocarbons, gas, industrial water and onshore / offshore projects."
+        },
+        "industrie-agro-alimentaire": {
+          "title": "Hygiene, stainless and process for food industry",
+          "description": "Valves, fittings and piping for food production lines: sanitary compliance, corrosion resistance and easier maintenance."
+        }
+      }
     },
     "families": {
       "title": "Our industrial product families",
@@ -409,19 +423,27 @@
     "breadcrumbHome": "Home",
     "breadcrumbCurrent": "Industry sectors",
     "eyebrow": "Industry & general supply",
-    "title": "Industrial solutions by sector",
-    "description": "Certified equipment for mining, energy, food and utilities in Senegal.",
+    "title": "On major industrial sites across Senegal",
+    "description": "Fire protection, water–oil–gas fluids and food processing: sized valves, Dakar stock and detailed sector pages for your projects.",
+    "landingHeroAlt": "Industrial water, oil and gas networks — SDMI equipment",
     "stats": [
       { "label": "Dakar hub availability", "value": "SDMI stock" },
       { "label": "Urgent site lead time", "value": "24–48 h" },
       { "label": "Pressure compliance", "value": "PN / ANSI" },
       { "label": "Engineering desk", "value": "Dedicated support" }
     ],
-    "gridTitle": "Sectors we support",
-    "environmentsTitle": "Process environments & constraints",
+    "gridTitle": "Our three focus sectors",
+    "gridDescription": "Featured on the homepage — same visuals, same field teams and dedicated detail pages.",
+    "secondaryTitle": "General industrial valves",
+    "secondaryDescription": "Mining, cement, phosphates and severe service — production uptime and matched materials.",
+    "environmentsTitle": "Explore each sector",
+    "environmentsDescription": "Process context, standards and product families — open the full sector page for DN/PN quotes and Dakar stock.",
+    "sectorDetailCta": "View sector page",
     "exploreSector": "Explore",
     "backToSectors": "All sectors",
     "familiesTitle": "Related product families",
+    "exploreFamily": "Browse family",
+    "comingSoonFamily": "Coming soon",
     "detailCtaHint": "Quote from specs, DN/PN and Dakar stock alternatives — response within one business day.",
     "recommendedTitle": "Recommended equipment",
     "refsCta": "View references",
@@ -458,6 +480,140 @@
         "body": "Sprinkler networks and valves for Seveso sites, terminals and depots.",
         "standards": "FM / UL approvals and NFPA schemes."
       }
+    },
+    "pages": {
+      "circuit-eau-petrole-gaz": {
+        "metaTitle": "Water, oil & gas — industrial valves | SDMI Dakar",
+        "metaDescription": "Valves, flanges and piping for water, hydrocarbon and gas networks in Senegal: Dakar stock, 3.1 certificates, DN/PN quotes within 24 h.",
+        "eyebrow": "Water — oil — gas",
+        "title": "Critical fluids for energy and water–oil–gas networks",
+        "lead": "SDMI supplies water distribution networks, fuel depots, gas lines and power assets across Senegal with valves sized for pressure, corrosion and uptime. From our Bopp counter to major projects, we secure your fluid loops with traceable references and responsive engineering support.",
+        "standards": "API 6D / 600, ANSI B16.34, EN 1092 & EN 10204 type 3.1 — PN10 to PN100, Class 150 to 600.",
+        "highlightsTitle": "Site responsiveness & compliance",
+        "highlights": [
+          { "label": "Logistics hub", "value": "Dakar stock" },
+          { "label": "Urgent sites", "value": "24–48 h" },
+          { "label": "Pressure & temperature", "value": "PN / ANSI" },
+          { "label": "Material traceability", "value": "3.1 certificates" }
+        ],
+        "challengesTitle": "Process challenges",
+        "challenges": [
+          "Aggressive fluids, H₂S and corrosion in oil & gas service.",
+          "Pressure swings on transmission mains, boosting and water pumping stations.",
+          "Traceability requirements for owner dossiers, utilities and QHSE audits.",
+          "Flange, DN and material compatibility between legacy networks and extensions.",
+          "Tight windows for planned shutdowns, O&M and like-for-like replacement."
+        ],
+        "applicationsTitle": "Typical applications & sites",
+        "applications": [
+          "Potable water transmission, boosting and treatment plants.",
+          "Fuel depots, loading terminals, onshore pipelines and process manifolds.",
+          "Gas networks, thermal power, cogeneration and regulation skids.",
+          "Transfer lines, bypass, vent/drain and isolation on industrial assets.",
+          "EPC projects, industrial maintenance and pressurized asset renewal."
+        ],
+        "supplyTitle": "How SDMI supports your project",
+        "supplyItems": [
+          "Valves, cocks, check valves and strainers matched to fluid, DN/PN and temperature.",
+          "Flanges, fittings, gaskets and piping accessories for complete loops.",
+          "Technical alternatives and counter stock to reduce downtime.",
+          "EN 10204 3.1 material certificates and documentation for tenders.",
+          "Structured quotes from BOQs, isometrics or project BOMs."
+        ],
+        "familySummaries": {
+          "robinetterie-petrole-forgee-moulee": "Forged and cast valves for hydrocarbons, gas and severe service — API, ANSI and high PN ratings.",
+          "tuyauterie-et-accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
+          "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process."
+        }
+      },
+      "industrie-agro-alimentaire": {
+        "metaTitle": "Food industry — stainless process valves | SDMI Dakar",
+        "metaDescription": "Stainless valves, cocks and piping for food processing in Senegal: hygiene, CIP, food-contact compliance, Dakar stock.",
+        "eyebrow": "Food processing sector",
+        "title": "Hygiene, stainless and process for food industry",
+        "lead": "SDMI supports sugar plants, breweries, dairies and processing units across Senegal with valves built for hygiene, CIP/SIP cleaning and corrosion resistance. Polished stainless, reliable sealing and material traceability — we size your food and process loops for production uptime and quality audits.",
+        "standards": "AISI 304L / 316L stainless, CE 1935/2004 (food contact), FDA good practices — sanitary finishes and CIP-compatible seals.",
+        "highlightsTitle": "Hygiene & production uptime",
+        "highlights": [
+          { "label": "Process materials", "value": "304L / 316L SS" },
+          { "label": "Clean-in-place", "value": "CIP / SIP" },
+          { "label": "Site response", "value": "24–48 h" },
+          { "label": "Traceability", "value": "3.1 certificates" }
+        ],
+        "challengesTitle": "Food & beverage challenges",
+        "challenges": [
+          "Food contact, migration limits and regulatory compliance (EU / internal audits).",
+          "Aggressive CIP/SIP cycles: thermal shock, acids/bases and seal wear.",
+          "Cross-contamination risk — sterile zones, isolation and dead legs to control.",
+          "Corrosion from sugary products, wort and concentrated cleaning solutions.",
+          "Planned maintenance on continuous lines: fast like-for-like replacement."
+        ],
+        "applicationsTitle": "Applications & segments",
+        "applications": [
+          "Transfer, dosing and isolation on sugar factories and refineries.",
+          "Breweries, soft drinks and juices — cold/hot loops and pasteurization.",
+          "Dairy, cheese and liquid milk — hygiene and polished stainless.",
+          "Oil mills, flour mills and grain processing — process valves and fittings.",
+          "Filtration skids, sampling bypass and drain on packaging units."
+        ],
+        "supplyTitle": "How SDMI supports your project",
+        "supplyItems": [
+          "Stainless valves, butterfly/ball valves and cocks for food fluids.",
+          "Brass, coated cast iron or PVC valves for utilities and non-direct food lines.",
+          "Control cocks (globe, needle) for sampling and drain lines.",
+          "Seal and finish selection compatible with your CIP chemistry.",
+          "Quotes from loop drawings, BOMs and urgent O&M requirements."
+        ],
+        "familySummaries": {
+          "robinets-soupape-pointeau": "Globe and needle valves for fine regulation, drain and sampling on process lines.",
+          "vannes-sphere-laiton-fonte-pvc": "Brass, cast iron or PVC ball valves for utilities and non-direct food networks.",
+          "robinets-tournant-spherique-acier-inox": "Stainless ball valves for sanitary isolation, frequent cycling and CIP food lines."
+        }
+      },
+      "tuyauterie-materiels-incendie": {
+        "metaTitle": "Fire protection & safety valves | SDMI Dakar",
+        "metaDescription": "Hydrants, valves, manifolds and fire piping in Senegal: sprinklers, hose reels, industrial sites, Dakar stock and commissioning support.",
+        "eyebrow": "Fire protection equipment",
+        "title": "Fire protection and safety valves",
+        "lead": "SDMI supplies valves and piping that secure fire networks on industrial sites, depots and commercial buildings across Senegal. Sprinklers, hose reel stations, alarm valves and fill accessories — we size your loops for available pressure, layout schemes and requirements from authorities and insurers.",
+        "standards": "NFPA / APSAD-type schemes, FM & UL listings on dedicated references — fire-listed valves, PN ratings for fire water networks.",
+        "highlightsTitle": "Safety & site responsiveness",
+        "highlights": [
+          { "label": "Fire networks", "value": "Sprinkler & hose" },
+          { "label": "Urgent sites", "value": "24–48 h" },
+          { "label": "Isolation & alarm", "value": "Dedicated valves" },
+          { "label": "Stock & traceability", "value": "Dakar / 3.1" }
+        ],
+        "challengesTitle": "Fire protection challenges",
+        "challenges": [
+          "Available pressure and flow on fire water mains or dedicated booster sets.",
+          "Valve and piping coordination with detection, alarms and control panels.",
+          "Corrosive environments (coastal air, outdoor) and long-term reliability.",
+          "Commissioning dossiers, hydro tests and regulatory acceptance.",
+          "Fast turnaround for extensions, zoning changes or post-incident replacement."
+        ],
+        "applicationsTitle": "Applications & installations",
+        "applications": [
+          "Automatic sprinkler systems — warehouses, industry and retail.",
+          "Fire hose reels (RIA), dry/wet risers and hydrant outlets.",
+          "Deluge posts, ATEX zones and critical equipment protection.",
+          "Fuel depots, logistics terminals and high-risk industrial sites.",
+          "Site extensions, O&M and return to service after works or safety audits."
+        ],
+        "supplyTitle": "How SDMI supports your project",
+        "supplyItems": [
+          "Valves, cocks and check valves for fire loops, bypass and testing.",
+          "Piping, flanges, fittings and accessories for manifolds and branches.",
+          "Gate, knife gate or butterfly valves for large bore and zone isolation.",
+          "Forged/cast valves for hard points, manifolds and high-pressure service.",
+          "Quotes from sprinkler layouts, hydraulic notes and engineer BOMs."
+        ],
+        "familySummaries": {
+          "tuyauterie-et-accessoires": "Pipes, flanges, fittings and accessories for fire networks, manifolds and sprinkler/hose branches.",
+          "vannes-operucle-guillotine": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
+          "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points."
+        }
+      }
     }
   },
   "About": {
@@ -465,10 +621,18 @@
     "breadcrumbCurrent": "About us",
     "eyebrow": "Company",
     "title": "About SDMI",
-    "description": "Industrial equipment distribution in Dakar for over 15 years.",
+    "description": "Senegalese industrial equipment distributor — valves, piping and process supplies in Dakar for over 15 years.",
+    "heroImageAlt": "SDMI depot and team — industrial distribution in Dakar",
     "body": "SDMI supports manufacturers in Senegal and the region with valves, piping, filtration, instrumentation and fittings from certified suppliers.",
+    "bodySecondary": "Our Bopp counter centralizes stock, technical advice and logistics for your projects: fire protection, water–oil–gas fluids, food processing and general industrial valves.",
     "partnersTitle": "They trust us",
     "missionTitle": "Our field commitment",
+    "stats": [
+      { "label": "Structured quotes", "value": "24 h" },
+      { "label": "Stock references", "value": "+12,000" },
+      { "label": "Pressure standards", "value": "PN / ANSI" },
+      { "label": "Distributor certification", "value": "DIN / ISO" }
+    ],
     "figures": {
       "years": { "value": "15+", "label": "Years of experience" },
       "families": { "value": "5", "label": "Product families" },
@@ -481,6 +645,43 @@
       "1": "EN 10204 type 3.1 certificates on request",
       "2": "Leading brands for oil, agro and utilities"
     },
+    "expertiseTitle": "Our distribution expertise",
+    "expertiseDescription": "From quoting to site supply — a team focused on projects and process.",
+    "expertise": [
+      {
+        "title": "Stock & trade counter",
+        "body": "Valve and piping references at the Bopp depot, fast pickup and order preparation across greater Dakar."
+      },
+      {
+        "title": "Fluids engineering desk",
+        "body": "Help with DN/PN sizing, materials, actuation and technical alternatives aligned with your drawings and process constraints."
+      },
+      {
+        "title": "Compliance & documentation",
+        "body": "Manufacturer data, material certificates and traceability for tenders, QHSE audits and commissioning."
+      }
+    ],
+    "scopeTitle": "Sectors & applications",
+    "scopeDescription": "We cover major industrial segments in Senegal for greenfield and maintenance work.",
+    "scopeItems": [
+      "Fire protection, sprinklers, hose reels and safety valves.",
+      "Water, oil, gas and utility networks — pressurized fluids.",
+      "Food, sugar and beverages: stainless, hygiene and CIP.",
+      "Mining, cement, phosphates and severe industrial service.",
+      "Tenders, EPC, O&M and replacement of installed assets."
+    ],
+    "scopeCta": "Browse our sectors",
+    "commitmentsTitle": "Our client commitments",
+    "commitments": [
+      "Target commercial response within one business day for complete files.",
+      "Transparency on origin, standards and Dakar stock availability.",
+      "Field support: WhatsApp Pro, phone and dedicated email.",
+      "Long-term partnership with manufacturers in Senegal and the region."
+    ],
+    "ctaTitle": "Talk to SDMI",
+    "ctaDescription": "Quotes, counter visit or technical question — our Bopp team is here to help.",
+    "ctaContact": "Contact & directions",
+    "ctaCatalog": "Browse catalog",
     "referencesTitle": "Our references"
   },
   "Contact": {
@@ -489,15 +690,36 @@
     "breadcrumbCurrent": "Contact & Dakar office",
     "eyebrow": "Dakar agency",
     "title": "Contact & SDMI depot",
-    "description": "Trade counter, quotes and technical support for valves and piping.",
+    "description": "Bopp trade counter, quotes within 24 h and technical support for valves, piping and industrial process.",
     "depotTitle": "Depot address",
     "phoneTitle": "Phone & email",
     "hoursTitle": "Opening hours",
+    "servicesTitle": "Counter services",
+    "services": [
+      {
+        "title": "Pickup & delivery",
+        "body": "Collection at Bopp depot or delivery across greater Dakar for prepared orders."
+      },
+      {
+        "title": "Technical support",
+        "body": "DN/PN advice, materials, stock equivalents and drawing review for your fluid loops."
+      },
+      {
+        "title": "Quotes & tenders",
+        "body": "Pricing from BOMs, quantity schedules and tender packages with related documentation."
+      }
+    ],
     "mapTitle": "Getting here",
-    "mapDescription": "SDMI counter and depot in Bopp — truck access by appointment for bulk collections.",
+    "mapDescription": "SDMI counter and depot at Bopp rue 2 x Casamance — truck access by appointment for bulk collections.",
+    "mapIframeTitle": "Google Maps — SDMI Bopp, Dakar",
     "directionsCta": "Google Maps directions",
     "formTitle": "Commercial request",
     "formHint": "Send BOMs, DN/PN specs or quantity schedules for a structured quote.",
+    "formBullets": [
+      "Include product family, DN, PN and material when known.",
+      "Attach drawings, schedules or existing material lists.",
+      "State site deadline and delivery or counter pickup location."
+    ],
     "commercialNote": "Target commercial response within one business day for complete requests.",
     "quoteCta": "Request a quote",
     "whatsappCta": "WhatsApp Pro"

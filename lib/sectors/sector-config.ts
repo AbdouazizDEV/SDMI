@@ -13,10 +13,10 @@ export type SectorBlockKey = (typeof sectorBlockKeys)[number];
 
 export const sectorBlockImages: Record<SectorBlockKey, string> = {
   mines: siteAssets.sectors["robinetterie-industrielle"],
-  energy: siteAssets.heroCarousel.petroleGaz,
-  agro: siteAssets.heroCarousel.agroalimentaire,
+  energy: siteAssets.sectors["circuit-eau-petrole-gaz"],
+  agro: siteAssets.sectors["industrie-agro-alimentaire"],
   water: siteAssets.heroCarousel.eauTraitement,
-  fire: siteAssets.heroCarousel.incendie,
+  fire: siteAssets.sectors["tuyauterie-materiels-incendie"],
 };
 
 /** Contenu i18n `Sectors.blocks.*` associé à chaque route `/secteurs/[slug]`. */
