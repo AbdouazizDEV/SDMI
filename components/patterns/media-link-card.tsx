@@ -12,7 +12,9 @@ type MediaLinkCardProps = {
   media: React.ReactNode;
   footer?: React.ReactNode;
   footerLinkLabel?: string;
+  eyebrow?: string | null;
   titleClassName?: string;
+  descriptionClassName?: string;
   className?: string;
   variant?: "default" | "modern";
 };
@@ -27,7 +29,9 @@ export function MediaLinkCard({
   media,
   footer,
   footerLinkLabel,
+  eyebrow,
   titleClassName,
+  descriptionClassName,
   className,
   variant = "modern",
 }: MediaLinkCardProps) {
@@ -54,6 +58,11 @@ export function MediaLinkCard({
         ) : null}
       </div>
       <div className="flex flex-1 flex-col p-4 md:p-5">
+        {eyebrow ? (
+          <p className="text-cta mb-1.5 text-[11px] font-bold tracking-widest uppercase">
+            {eyebrow}
+          </p>
+        ) : null}
         <h3
           className={cn(
             "font-heading text-primary font-bold uppercase",
@@ -65,7 +74,12 @@ export function MediaLinkCard({
           {title}
         </h3>
         {description ? (
-          <p className="text-muted-foreground mt-1.5 line-clamp-2 text-sm leading-relaxed">
+          <p
+            className={cn(
+              "text-muted-foreground mt-1.5 line-clamp-2 text-sm leading-relaxed",
+              descriptionClassName,
+            )}
+          >
             {description}
           </p>
         ) : null}

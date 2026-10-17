@@ -9,19 +9,21 @@ export type HeroCarouselSlide = {
 
 export const heroCarouselSlides: HeroCarouselSlide[] = [
   {
-    id: "agro-alimentaire",
-    imagePath: "/images/hero/377ea9b8-cfae-49a8-afa2-30552cb5b6a0.jpeg",
-    labelKey: "agro",
-  },
-  {
     id: "materiel-incendie",
-    imagePath: "/images/hero/Gemini_Generated_Image_acztzeacztzeaczt.jpeg",
+    imagePath:
+      "/images/hero/Protection_incendie_et_robinetterie_de_sécurité.jpeg",
     labelKey: "fire",
   },
   {
     id: "eau-petrole-gaz",
-    imagePath: "/images/hero/Gemini_Generated_Image_ummzueummzueummz.jpeg",
+    imagePath: "/images/hero/énergie_et_le_réseau_Eau_Pétrole_Gaz.jpeg",
     labelKey: "oilGas",
+  },
+  {
+    id: "agro-alimentaire",
+    imagePath:
+      "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
+    labelKey: "agro",
   },
 ];
 

@@ -3,6 +3,10 @@ import { unstable_cache } from "next/cache";
 import { legacyClientLogos } from "@/lib/images/legacy-client-logos";
 import { getCatalogV1FamilyImage } from "@/lib/catalog/catalog-v1-assets";
 import { legacyCatalogNavigation } from "@/lib/images/legacy-catalog";
+import {
+  HOME_FEATURED_SECTOR_SLUGS,
+  homeFeaturedSectorImages,
+} from "@/lib/home/home-featured-sectors";
 import { siteAssets } from "@/lib/images/site-assets";
 import { getCatalogNavigation } from "@/lib/catalog/navigation";
 import { createSupabaseServerClient } from "@/lib/supabase/server";
@@ -60,23 +64,25 @@ export type HomePageData = {
   clientLogos: HomeClientLogo[];
 };
 
-function sectorImage(slug: string): string | null {
-  return (
-    siteAssets.sectors[slug as keyof typeof siteAssets.sectors] ?? null
-  );
-}
-
 function familyImage(slug: string): string | null {
   return getCatalogV1FamilyImage(slug);
 }
 
 function buildHomeSectors(): HomeSectorCard[] {
-  return legacyCatalogNavigation.sectors.map((sector) => ({
-    slug: sector.slug,
-    name: sector.name,
-    description: null,
-    imageStoragePath: sectorImage(sector.slug),
-  }));
+  return HOME_FEATURED_SECTOR_SLUGS.flatMap((slug) => {
+    const sector = legacyCatalogNavigation.sectors.find((item) => item.slug === slug);
+    if (!sector) {
+      return [];
+    }
+    return [
+      {
+        slug: sector.slug,
+        name: sector.name,
+        description: null,
+        imageStoragePath: homeFeaturedSectorImages[slug],
+      },
+    ];
+  });
 }
 
 async function fetchProductCountsByFamily(): Promise<Map<string, number>> {
