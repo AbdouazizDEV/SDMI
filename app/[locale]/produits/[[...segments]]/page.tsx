@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 
 import { CatalogBrowsePage } from "@/components/features/catalog/catalog-browse-page";
@@ -39,6 +39,20 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
 
   if (segments.length === 0) {
     return <CatalogBrowsePage searchQuery={filters.q} />;
+  }
+
+  if (segments[0] === "tuyauterie-et-accessoires") {
+    const tubeSubfamilies = new Set([
+      "tubes-acier-carbone",
+      "tubes-acier-inoxydable",
+      "tubes-carbone-pre-enrobes-3pe",
+    ]);
+    const familySlug = tubeSubfamilies.has(segments[1] ?? "")
+      ? "tuyauteries"
+      : "accessoires";
+    redirect(
+      `/${siteLocale}/produits/${[familySlug, ...segments.slice(1)].join("/")}`,
+    );
   }
 
   if (segments.length === 3) {

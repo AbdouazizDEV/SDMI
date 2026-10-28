@@ -9,7 +9,7 @@ const outDir = path.join(root, "public", "images", "catalog", "taxonomy");
 const itemsPath = path.join(root, "scripts", "piping-sync-items.generated.json");
 
 const SUBFAMILY_REP = {
-  "tuyauterie-et-accessoires": "brides-collerettes",
+  accessoires: "brides-collerettes",
   "tubes-acier-carbone": "mamelons-manchons-acier",
   "brides-plates": "brides-plates",
   "raccords-inox": "raccords-inox",

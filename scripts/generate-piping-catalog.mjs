@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Génère seeds TS + liste sync pour la famille tuyauterie-et-accessoires (Sferaco). */
+/** Génère seeds TS + liste sync pour la famille accessoires (Sferaco). */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
 const seedsDir = path.join(root, "lib", "catalog", "seeds", "piping");
 fs.mkdirSync(seedsDir, { recursive: true });
-const FAMILY = "tuyauterie-et-accessoires";
+const FAMILY = "accessoires";
 
 const LOTS = [
   {

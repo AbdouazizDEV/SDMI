@@ -20,6 +20,8 @@ export type CatalogProductListItem = {
   /** Cotation selon DN, classe et plan — typique des gammes. */
   quoteOnConfiguration?: boolean;
   technicalSpecs?: CatalogTechnicalSpecs;
+  /** Séquence d'images pour le visualiseur 360° (chemins). */
+  images360?: string[];
 };
 
 export function catalogProductHref(product: Pick<CatalogProductListItem, "slug" | "familySlug" | "subfamilySlug">) {

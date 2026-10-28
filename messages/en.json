@@ -338,8 +338,11 @@
       "robinetterie-petrole-forgee-moulee": {
         "body": "Forged and cast valves for hydrocarbons, gas and demanding industrial processes: gate, globe and bellows valves, needle valves, strainers and check valves. Ranges sized to DIN, EN, ANSI and API, with material traceability (3.1 certificates on request) and technical support at SDMI counter."
       },
-      "tuyauterie-et-accessoires": {
-        "body": "Tubes, flanges, fittings and accessories for fluid networks: carbon and stainless steel, coated pipe, EN 1092 and ASME flanges, threaded, welded and mechanical fittings. Solutions for water, oil, gas and industrial utilities, ready for pickup or fast quote."
+      "tuyauteries": {
+        "body": "Steel tubes for fluid networks: carbon steel API 5L, ASTM A106, A53 Gr.B and A333 Gr.6, welded and seamless pipe, ASTM A312 stainless and SCH40 3PE coated tubes. DN6 to DN1000 depending on the range, with 3.1 material certificates on request."
+      },
+      "accessoires": {
+        "body": "Flanges, fittings and accessories for fluid networks: EN 1092 and ASME flanges, threaded, welded and mechanical fittings, expansion joints and water-network equipment. Solutions for water, oil, gas and industrial utilities."
       },
       "vannes-operucle-guillotine": {
         "body": "Gate and knife gate valves for isolation on water, process and heavy industry networks: monobloc, flanged, forged, resilient seated and unidirectional or bidirectional S-gate models."
@@ -390,7 +393,12 @@
       "rangeCtaHint": "Include DN, pressure class and end connection in your quote request — datasheets and certificates available on request.",
       "imageHint": "Illustrative range image — datasheet and certificates on request.",
       "noImage": "Image coming soon",
-      "backToSubfamily": "← All references in {name}"
+      "photo": "Photo",
+      "video360": "360° rotation",
+      "backToSubfamily": "← All references in {name}",
+      "dragToRotate": "Drag to rotate 360°",
+      "play360": "Play 360°",
+      "pause360": "Pause 360°"
     }
   },
   "Quote": {
@@ -528,7 +536,8 @@
         ],
         "familySummaries": {
           "robinetterie-petrole-forgee-moulee": "Forged and cast valves for hydrocarbons, gas and severe service — API, ANSI and high PN ratings.",
-          "tuyauterie-et-accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
+          "tuyauteries": "Carbon, stainless and 3PE coated steel tubes for water, oil and gas, from DN6 to DN1000.",
+          "accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
           "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process."
         }
       },
@@ -615,7 +624,8 @@
           "Quotes from sprinkler layouts, hydraulic notes and engineer BOMs."
         ],
         "familySummaries": {
-          "tuyauterie-et-accessoires": "Pipes, flanges, fittings and accessories for fire networks, manifolds and sprinkler/hose branches.",
+          "tuyauteries": "Steel tubes for fire mains, manifolds and sprinkler or hose branches.",
+          "accessoires": "Flanges, fittings and accessories for fire networks, manifolds and sprinkler or hose branches.",
           "vannes-operucle-guillotine": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
           "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points."
         }

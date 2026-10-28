@@ -31,7 +31,8 @@ export const sectorSlugToBlock: Record<string, SectorBlockKey> = {
 export const sectorSlugToFamilies: Record<string, string[]> = {
   "circuit-eau-petrole-gaz": [
     "robinetterie-petrole-forgee-moulee",
-    "tuyauterie-et-accessoires",
+    "tuyauteries",
+    "accessoires",
     "robinets-tournant-spherique-acier-inox",
   ],
   "robinetterie-industrielle": [
@@ -45,7 +46,8 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
     "robinets-tournant-spherique-acier-inox",
   ],
   "tuyauterie-materiels-incendie": [
-    "tuyauterie-et-accessoires",
+    "tuyauteries",
+    "accessoires",
     "vannes-operucle-guillotine",
     "robinetterie-petrole-forgee-moulee",
   ],

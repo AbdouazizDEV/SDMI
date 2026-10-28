@@ -3,7 +3,9 @@
 export const catalogV1FamilyImages: Record<string, string> = {
   "robinetterie-petrole-forgee-moulee":
     "/images/Robinetterie_pétroleforgéemoulée.jpeg",
-  "tuyauterie-et-accessoires": "/images/Tuyauterie_et_accessoires.jpeg",
+  tuyauteries:
+    "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/famille.jpg",
+  accessoires: "/images/Tuyauterie_et_accessoires.jpeg",
   "vannes-operucle-guillotine":
     "/images/Vannes_à_opercule_vannes_à_guillotine.jpeg",
   "robinets-soupape-pointeau":
@@ -83,7 +85,16 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "vannes-sphere-pvc-u": "/images/catalog/taxonomy/vannes-sphere-pvc-u.jpg",
   "vannes-sphere-a-brides-laiton-fonte":
     "/images/catalog/taxonomy/vannes-sphere-a-brides-laiton-fonte.jpg",
-  "tubes-acier-carbone": "/images/catalog/taxonomy/tubes-acier-carbone.jpg",
+  "tubes-acier-carbone":
+    "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/tubes-acier-carbone-api5l.jpg",
+  "tubes-acier-soudes":
+    "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/tubes-acier-soudes-api5l.jpg",
+  "tubes-acier-sans-soudure":
+    "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/tubes-acier-sans-soudure-a106.jpg",
+  "tubes-acier-inoxydable":
+    "/images/catalog/piping/hero/tubes-acier-inoxydable-a312.jpeg",
+  "tubes-carbone-pre-enrobes-3pe":
+    "/images/catalog/piping/hero/tube-acier-sch40-3pe.jpeg",
   "brides-plates": "/images/catalog/taxonomy/brides-plates.jpg",
   "brides-a-collerettes": "/images/catalog/taxonomy/tuyauterie-et-accessoires.jpg",
   "raccords-inox": "/images/catalog/taxonomy/raccords-inox.jpg",
