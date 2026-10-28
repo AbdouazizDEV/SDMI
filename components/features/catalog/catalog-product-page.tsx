@@ -3,10 +3,11 @@ import { CheckCircle2Icon } from "lucide-react";
 
 import { CatalogBreadcrumbs } from "@/components/features/catalog/catalog-breadcrumbs";
 import { CatalogProductPageActions } from "@/components/features/catalog/catalog-product-page-actions";
-import { StorageMedia } from "@/components/features/home/storage-media";
+import { ProductMediaCarousel } from "@/components/features/catalog/product-media-carousel";
 import { PageMain } from "@/components/layout/page-main";
 import { Link } from "@/i18n/navigation";
 import type { CatalogProductListItem } from "@/lib/catalog/catalog-product";
+import { getProductMedia } from "@/lib/catalog/product-media";
 import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
 import { pickLocalized } from "@/lib/home/pick-localized";
 import type { SiteLocale } from "@/lib/site";
@@ -26,11 +27,13 @@ export async function CatalogProductPage({
   const locale = (await getLocale()) as SiteLocale;
   const name = pickLocalized(product.name, locale);
   const description = pickLocalized(product.description, locale);
-  const imagePath = resolveProductShowcaseImage(
-    product.subfamilySlug,
-    product.familySlug,
-    { reference: product.reference, productSlug: product.slug },
-  );
+  const cloudinaryMedia = getProductMedia(product.slug);
+  const imagePath =
+    cloudinaryMedia.imageUrl ??
+    resolveProductShowcaseImage(product.subfamilySlug, product.familySlug, {
+      reference: product.reference,
+      productSlug: product.slug,
+    });
 
   const isRange = product.listingKind === "range";
   const tech = product.technicalSpecs;
@@ -83,22 +86,16 @@ export async function CatalogProductPage({
       <div className="mx-auto max-w-7xl px-4 py-10 lg:px-6 lg:py-14">
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:items-start lg:gap-12">
           <div className="sdmi-surface-card sdmi-surface-card-accent overflow-hidden lg:sticky lg:top-36">
-            <div className="relative aspect-square bg-gradient-to-br from-white via-slate-50 to-primary/5">
-              {imagePath ? (
-                <StorageMedia
-                  storagePath={imagePath}
-                  alt={name}
-                  className="absolute inset-0 size-full"
-                  imageClassName="object-contain p-8 lg:p-10"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  priority
-                />
-              ) : (
-                <div className="text-muted-foreground flex size-full items-center justify-center text-sm">
-                  {t("productDetail.noImage")}
-                </div>
-              )}
-            </div>
+            <ProductMediaCarousel
+              imageSrc={imagePath}
+              videoSrc={cloudinaryMedia.videoUrl}
+              alt={name}
+              labels={{
+                photo: t("productDetail.photo"),
+                video: t("productDetail.video360"),
+                noImage: t("productDetail.noImage"),
+              }}
+            />
             <p className="text-muted-foreground border-border/70 border-t px-4 py-3 text-center text-xs">
               {t("productDetail.imageHint")}
             </p>

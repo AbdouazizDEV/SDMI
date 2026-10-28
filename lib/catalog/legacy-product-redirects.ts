@@ -3,15 +3,42 @@ import { legacyCatalogNavigation } from "../images/legacy-catalog";
 /** Anciens slugs sdmi.sn → taxonomie v1. */
 const legacyFamilySlugRedirects: Record<string, string> = {
   robinetterie: "robinetterie-petrole-forgee-moulee",
-  "accessoires-tuyauterie": "tuyauterie-et-accessoires",
+  "accessoires-tuyauterie": "accessoires",
+  "tuyauterie-et-accessoires": "accessoires",
   "filtres-et-clapets": "vannes-operucle-guillotine",
   "mesures-et-comptage": "robinets-tournant-spherique-acier-inox",
-  raccords: "tuyauterie-et-accessoires",
+  raccords: "accessoires",
 };
 
 /** Redirections permanentes depuis l’ancien site `/nos-produits/{famille}/{sous-famille}`. */
+const movedTubeSubfamilies = [
+  "tubes-acier-carbone",
+  "tubes-acier-inoxydable",
+  "tubes-carbone-pre-enrobes-3pe",
+] as const;
+
 export function buildLegacyProductRedirects() {
   const rules: { source: string; destination: string; permanent: boolean }[] = [];
+
+  for (const locale of ["fr", "en"] as const) {
+    for (const subfamily of movedTubeSubfamilies) {
+      rules.push({
+        source: `/${locale}/produits/tuyauterie-et-accessoires/${subfamily}`,
+        destination: `/${locale}/produits/tuyauteries/${subfamily}`,
+        permanent: true,
+      });
+      rules.push({
+        source: `/${locale}/produits/tuyauterie-et-accessoires/${subfamily}/:path*`,
+        destination: `/${locale}/produits/tuyauteries/${subfamily}/:path*`,
+        permanent: true,
+      });
+    }
+    rules.push({
+      source: `/${locale}/produits/tuyauterie-et-accessoires/:path*`,
+      destination: `/${locale}/produits/accessoires/:path*`,
+      permanent: true,
+    });
+  }
 
   for (const [from, to] of Object.entries(legacyFamilySlugRedirects)) {
     rules.push({

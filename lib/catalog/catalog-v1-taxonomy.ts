@@ -56,24 +56,38 @@ export const catalogV1Navigation: CatalogNavigation = {
       ],
     },
     {
-      slug: "tuyauterie-et-accessoires",
-      name: frEn("Tuyauterie et accessoires", "Piping & accessories"),
+      slug: "tuyauteries",
+      name: frEn("Tuyauteries", "Piping"),
       subfamilies: [
         {
           slug: "tubes-acier-carbone",
-          name: frEn("Tubes acier carbone", "Carbon steel tubes"),
+          name: frEn("Acier carbone", "Carbon steel"),
+        },
+        {
+          slug: "tubes-acier-soudes",
+          name: frEn("Tubes acier soudés", "Welded steel tubes"),
+        },
+        {
+          slug: "tubes-acier-sans-soudure",
+          name: frEn("Tubes acier sans soudure", "Seamless steel tubes"),
         },
         {
           slug: "tubes-acier-inoxydable",
-          name: frEn("Tubes acier inoxydable", "Stainless steel tubes"),
+          name: frEn("Acier inoxydable", "Stainless steel"),
         },
         {
           slug: "tubes-carbone-pre-enrobes-3pe",
           name: frEn(
-            "Tubes carbone pré-enrobés 3PE",
-            "3PE coated carbon steel tubes",
+            "Tube acier SCH40 pré-enrobé 3PE",
+            "SCH40 3PE coated steel tube",
           ),
         },
+      ],
+    },
+    {
+      slug: "accessoires",
+      name: frEn("Accessoires", "Accessories"),
+      subfamilies: [
         {
           slug: "brides-en1092-acier-carbone",
           name: frEn(

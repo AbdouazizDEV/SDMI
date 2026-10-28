@@ -16,19 +16,7 @@ function frEn(fr: string, en: string): LocalizedText {
 
 /** Regroupements affichés dans le hero famille (navigation compacte). */
 const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
-  "tuyauterie-et-accessoires": [
-    {
-      id: "tubes",
-      label: frEn(
-        "Tubes acier carbone, inox et pré-enrobés 3PE",
-        "Carbon, stainless and 3PE coated tubes",
-      ),
-      subfamilySlugs: [
-        "tubes-acier-carbone",
-        "tubes-acier-inoxydable",
-        "tubes-carbone-pre-enrobes-3pe",
-      ],
-    },
+  accessoires: [
     {
       id: "brides",
       label: frEn(

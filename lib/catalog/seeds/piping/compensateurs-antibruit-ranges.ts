@@ -1,6 +1,6 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
-const FAMILY = "tuyauterie-et-accessoires";
+const FAMILY = "accessoires";
 const SUB = "manchons-compensateurs-antibruit";
 
 function frEn(fr: string, en: string) { return { fr, en }; }

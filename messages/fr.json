@@ -338,8 +338,11 @@
       "robinetterie-petrole-forgee-moulee": {
         "body": "Robinetterie forgée et moulée pour hydrocarbures, gaz et process industriels exigeants : vannes à opercule, soupapes et robinets à soufflet, robinets à pointeau, filtres et clapets. Gammes dimensionnées selon DIN, EN, ANSI et API, avec traçabilité matière (certificats 3.1 sur demande) et conseil technique au comptoir SDMI."
       },
-      "tuyauterie-et-accessoires": {
-        "body": "Tubes, brides, raccords et accessoires pour réseaux de fluides : acier carbone et inox, pré-enrobés, brides EN 1092 et ASME, raccords filetés, à souder et mécaniques. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles, prêtes à l’enlèvement ou sur cotation rapide."
+      "tuyauteries": {
+        "body": "Tubes acier pour réseaux de fluides : acier carbone API 5L, ASTM A106, A53 Gr.B et A333 Gr.6, tubes soudés et sans soudure, inox ASTM A312 et tubes SCH40 pré-enrobés 3PE. Du DN6 au DN1000 selon la gamme, avec certificat matière 3.1 sur demande."
+      },
+      "accessoires": {
+        "body": "Brides, raccords et accessoires pour réseaux de fluides : brides EN 1092 et ASME, raccords filetés, à souder et mécaniques, compensateurs et équipements de réseau eau. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles."
       },
       "vannes-operucle-guillotine": {
         "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
@@ -390,7 +393,12 @@
       "rangeCtaHint": "Indiquez DN, classe de pression et raccordement dans votre demande de devis — fiches techniques et certificats sur demande.",
       "imageHint": "Visuel indicatif de gamme — fiche et certificats sur demande.",
       "noImage": "Image à venir",
-      "backToSubfamily": "← Toutes les références {name}"
+      "photo": "Photo",
+      "video360": "Rotation 360°",
+      "backToSubfamily": "← Toutes les références {name}",
+      "dragToRotate": "Glisser pour pivoter à 360°",
+      "play360": "Lecture 360°",
+      "pause360": "Pause 360°"
     }
   },
   "Quote": {
@@ -528,7 +536,8 @@
         ],
         "familySummaries": {
           "robinetterie-petrole-forgee-moulee": "Vannes et robinets forgés/moulés pour hydrocarbures, gaz et services sévères — API, ANSI et PN élevés.",
-          "tuyauterie-et-accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
+          "tuyauteries": "Tubes acier carbone, inox et pré-enrobés 3PE pour réseaux eau, pétrole et gaz, du DN6 au DN1000.",
+          "accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
           "robinets-tournant-spherique-acier-inox": "Robinetterie inox pour isolement fiable, cycles fréquents et fluides critiques sur skids et process."
         }
       },
@@ -615,7 +624,8 @@
           "Cotation sur plans sprinkler, notes de calcul débit/pression et listes matériel MOE."
         ],
         "familySummaries": {
-          "tuyauterie-et-accessoires": "Tubes, brides, raccords et accessoires pour réseaux incendie, collecteurs et dérivations RIA/sprinkler.",
+          "tuyauteries": "Tubes acier pour collecteurs et dérivations incendie, RIA et sprinkler.",
+          "accessoires": "Brides, raccords et accessoires pour réseaux incendie, collecteurs et dérivations RIA/sprinkler.",
           "vannes-operucle-guillotine": "Vannes opercule et guillotine pour isolement de zones, grands DN et manœuvres fiables en cas d'urgence.",
           "robinetterie-petrole-forgee-moulee": "Robinetterie robuste pour manifolds, postes de pompage incendie et points sous pression élevée."
         }

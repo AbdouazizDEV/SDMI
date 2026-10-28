@@ -7,7 +7,7 @@ function resolveImageSrc(path: string | null): string | null {
   if (!path) {
     return null;
   }
-  if (path.startsWith("/")) {
+  if (path.startsWith("/") || path.startsWith("https://") || path.startsWith("http://")) {
     return path;
   }
   return getStoragePublicUrl(path);
@@ -21,6 +21,7 @@ type StorageMediaProps = {
   priority?: boolean;
   sizes?: string;
   loading?: "lazy" | "eager";
+  quality?: number;
 };
 
 export function StorageMedia({
@@ -31,6 +32,7 @@ export function StorageMedia({
   priority = false,
   sizes = "(max-width: 1024px) 100vw, 50vw",
   loading,
+  quality,
 }: StorageMediaProps) {
   const src = resolveImageSrc(storagePath);
 
@@ -50,6 +52,7 @@ export function StorageMedia({
         src={src}
         alt={alt}
         fill
+        quality={quality}
         priority={priority}
         loading={loading ?? (priority ? "eager" : "lazy")}
         sizes={sizes}

@@ -39,6 +39,8 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "vannes-sphere-pvc-u",
   "vannes-sphere-a-brides-laiton-fonte",
   "tubes-acier-carbone",
+  "tubes-acier-soudes",
+  "tubes-acier-sans-soudure",
   "tubes-acier-inoxydable",
   "tubes-carbone-pre-enrobes-3pe",
   "brides-en1092-acier-carbone",
@@ -80,7 +82,8 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "robinets-soupape-pointeau",
   "robinets-tournant-spherique-acier-inox",
   "vannes-sphere-laiton-fonte-pvc",
-  "tuyauterie-et-accessoires",
+  "tuyauteries",
+  "accessoires",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {
