@@ -34,10 +34,11 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
     "tuyauteries",
     "accessoires",
     "robinets-tournant-spherique-acier-inox",
+    "raccords-et-fittings",
   ],
   "robinetterie-industrielle": [
     "robinetterie-petrole-forgee-moulee",
-    "vannes-operucle-guillotine",
+    "vannes",
     "robinets-soupape-pointeau",
   ],
   "industrie-agro-alimentaire": [
@@ -48,8 +49,9 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
   "tuyauterie-materiels-incendie": [
     "tuyauteries",
     "accessoires",
-    "vannes-operucle-guillotine",
+    "vannes",
     "robinetterie-petrole-forgee-moulee",
+    "raccords-et-fittings",
   ],
 };
 

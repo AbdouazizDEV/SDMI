@@ -1,6 +1,6 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
-const FAMILY = "vannes-operucle-guillotine";
+const FAMILY = "vannes";
 
 const SUB_FONTE = "vannes-opercule-fonte-brides";
 const SUB_ACIER_INOX = "vannes-opercule-acier-inox-moule";

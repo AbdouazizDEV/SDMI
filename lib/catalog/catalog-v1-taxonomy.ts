@@ -247,11 +247,36 @@ export const catalogV1Navigation: CatalogNavigation = {
       ],
     },
     {
-      slug: "vannes-operucle-guillotine",
-      name: frEn(
-        "Vannes à opercule – vannes à guillotine",
-        "Gate & knife gate valves",
-      ),
+      slug: "raccords-et-fittings",
+      name: frEn("Raccords et fittings", "Fittings"),
+      subfamilies: [
+        {
+          slug: "coudes-filetes",
+          name: frEn("Coudes filetés", "Threaded elbows"),
+        },
+        {
+          slug: "tes-et-croix-filetes",
+          name: frEn("Tés et croix filetés", "Threaded tees & crosses"),
+        },
+        {
+          slug: "manchons-et-mamelons-filetes",
+          name: frEn(
+            "Manchons et mamelons filetés",
+            "Threaded sockets & nipples",
+          ),
+        },
+        {
+          slug: "bouchons-et-unions-filetes",
+          name: frEn(
+            "Bouchons et unions filetés",
+            "Threaded plugs & unions",
+          ),
+        },
+      ],
+    },
+    {
+      slug: "vannes",
+      name: frEn("Vannes", "Valves"),
       subfamilies: [
         {
           slug: "vannes-opercule-monobloc-fermeture-rapide",

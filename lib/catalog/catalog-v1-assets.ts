@@ -6,8 +6,8 @@ export const catalogV1FamilyImages: Record<string, string> = {
   tuyauteries:
     "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/famille.jpg",
   accessoires: "/images/Tuyauterie_et_accessoires.jpeg",
-  "vannes-operucle-guillotine":
-    "/images/Vannes_à_opercule_vannes_à_guillotine.jpeg",
+  "raccords-et-fittings": "/images/Raccords-et-fittings.jpeg",
+  vannes: "/images/Vannes.jpeg",
   "robinets-soupape-pointeau":
     "/images/Robinets_à_soupape_robinets_à_pointeau.jpeg",
   "robinets-tournant-spherique-acier-inox":
@@ -38,6 +38,10 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "vannes-guillotine-s-gate-pelle-traversante":
     "/images/subfamilies/vannes-guillotine.jpg",
   "accessoires-vannes-guillotine": "/images/subfamilies/vannes-guillotine.jpg",
+  "coudes-filetes": "/images/catalog/fittings/coudes-filetes.jpeg",
+  "tes-et-croix-filetes": "/images/catalog/fittings/tes-et-croix-filetes.jpeg",
+  "manchons-et-mamelons-filetes": "/images/catalog/fittings/manchons-mamelons.jpeg",
+  "bouchons-et-unions-filetes": "/images/catalog/fittings/bouchons-unions.jpeg",
   "robinets-a-soupape": "/images/catalog/taxonomy/robinets-a-soupape.jpg",
   "robinets-a-pointeau": "/images/catalog/taxonomy/robinets-a-pointeau.jpg",
   "robinets-incendie-colonne-seche-prise-simple-ou-double":

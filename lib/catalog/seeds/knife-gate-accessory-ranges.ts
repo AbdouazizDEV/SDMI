@@ -1,6 +1,6 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
-const FAMILY = "vannes-operucle-guillotine";
+const FAMILY = "vannes";
 const SUB = "accessoires-vannes-guillotine";
 
 function frEn(fr: string, en: string) {

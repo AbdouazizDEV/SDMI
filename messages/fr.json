@@ -344,7 +344,10 @@
       "accessoires": {
         "body": "Brides, raccords et accessoires pour réseaux de fluides : brides EN 1092 et ASME, raccords filetés, à souder et mécaniques, compensateurs et équipements de réseau eau. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles."
       },
-      "vannes-operucle-guillotine": {
+      "raccords-et-fittings": {
+        "body": "Raccords filetés en fonte malléable EN 10242 : coudes, tés, croix, manchons, mamelons, bouchons et unions à siège plat. Filetage BSPT, NPT sur demande, finition galvanisée à chaud ou noire. Pression de service jusqu’à 34,5 bar selon le diamètre."
+      },
+      "vannes": {
         "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
       },
       "robinets-soupape-pointeau": {
@@ -538,7 +541,8 @@
           "robinetterie-petrole-forgee-moulee": "Vannes et robinets forgés/moulés pour hydrocarbures, gaz et services sévères — API, ANSI et PN élevés.",
           "tuyauteries": "Tubes acier carbone, inox et pré-enrobés 3PE pour réseaux eau, pétrole et gaz, du DN6 au DN1000.",
           "accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
-          "robinets-tournant-spherique-acier-inox": "Robinetterie inox pour isolement fiable, cycles fréquents et fluides critiques sur skids et process."
+          "robinets-tournant-spherique-acier-inox": "Robinetterie inox pour isolement fiable, cycles fréquents et fluides critiques sur skids et process.",
+          "raccords-et-fittings": "Raccords filetés fonte malléable EN 10242, BSPT, galvanisés ou noirs, pour dérivations et raccords de ligne."
         }
       },
       "industrie-agro-alimentaire": {
@@ -626,8 +630,9 @@
         "familySummaries": {
           "tuyauteries": "Tubes acier pour collecteurs et dérivations incendie, RIA et sprinkler.",
           "accessoires": "Brides, raccords et accessoires pour réseaux incendie, collecteurs et dérivations RIA/sprinkler.",
-          "vannes-operucle-guillotine": "Vannes opercule et guillotine pour isolement de zones, grands DN et manœuvres fiables en cas d'urgence.",
-          "robinetterie-petrole-forgee-moulee": "Robinetterie robuste pour manifolds, postes de pompage incendie et points sous pression élevée."
+          "vannes": "Vannes opercule et guillotine pour isolement de zones, grands DN et manœuvres fiables en cas d'urgence.",
+          "robinetterie-petrole-forgee-moulee": "Robinetterie robuste pour manifolds, postes de pompage incendie et points sous pression élevée.",
+          "raccords-et-fittings": "Coudes, tés, manchons et unions filetés pour réseaux sprinkler et dérivations incendie."
         }
       }
     }

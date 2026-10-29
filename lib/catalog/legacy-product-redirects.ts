@@ -5,7 +5,8 @@ const legacyFamilySlugRedirects: Record<string, string> = {
   robinetterie: "robinetterie-petrole-forgee-moulee",
   "accessoires-tuyauterie": "accessoires",
   "tuyauterie-et-accessoires": "accessoires",
-  "filtres-et-clapets": "vannes-operucle-guillotine",
+  "filtres-et-clapets": "vannes",
+  "vannes-operucle-guillotine": "vannes",
   "mesures-et-comptage": "robinets-tournant-spherique-acier-inox",
   raccords: "accessoires",
 };
@@ -36,6 +37,11 @@ export function buildLegacyProductRedirects() {
     rules.push({
       source: `/${locale}/produits/tuyauterie-et-accessoires/:path*`,
       destination: `/${locale}/produits/accessoires/:path*`,
+      permanent: true,
+    });
+    rules.push({
+      source: `/${locale}/produits/vannes-operucle-guillotine/:path*`,
+      destination: `/${locale}/produits/vannes/:path*`,
       permanent: true,
     });
   }

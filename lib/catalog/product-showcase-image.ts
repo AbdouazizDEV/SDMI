@@ -12,11 +12,26 @@ export type ProductShowcaseImageContext = {
   productSlug?: string;
 };
 
+/** Sous-familles dont le visuel dédié prime sur la photo du premier produit. */
+const subfamilyHeroFirst = new Set([
+  "coudes-filetes",
+  "tes-et-croix-filetes",
+  "manchons-et-mamelons-filetes",
+  "bouchons-et-unions-filetes",
+]);
+
 /** Visuel sous-famille : 1er produit publié de la gamme, puis assets taxonomie / legacy (sans repli famille). */
 export function resolveSubfamilyShowcaseImage(
   familySlug: string,
   subfamilySlug: string,
 ): string | null {
+  if (subfamilyHeroFirst.has(subfamilySlug)) {
+    const assigned = getCatalogV1SubfamilyImage(subfamilySlug);
+    if (assigned) {
+      return assigned;
+    }
+  }
+
   const seeds = listSeedsForSubfamily(familySlug, subfamilySlug);
   for (const seed of seeds) {
     const rangeImage = getCatalogRangeImage(seed.reference, seed.slug);
@@ -68,7 +83,7 @@ export function resolveProductShowcaseImage(
       return sub;
     }
   }
-  if (familySlug) {
+  if (familySlug && !(familySlug === "raccords-et-fittings" && subfamilySlug)) {
     const v1Family = getCatalogV1FamilyImage(familySlug);
     if (v1Family) {
       return v1Family;

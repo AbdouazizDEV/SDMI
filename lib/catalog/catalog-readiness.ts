@@ -73,17 +73,22 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "manchons-compensateurs-teguflex",
   "manchons-compensateurs-metalliques",
   "manchons-compensateurs-antibruit",
+  "coudes-filetes",
+  "tes-et-croix-filetes",
+  "manchons-et-mamelons-filetes",
+  "bouchons-et-unions-filetes",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
 const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "robinetterie-petrole-forgee-moulee",
-  "vannes-operucle-guillotine",
+  "vannes",
   "robinets-soupape-pointeau",
   "robinets-tournant-spherique-acier-inox",
   "vannes-sphere-laiton-fonte-pvc",
   "tuyauteries",
   "accessoires",
+  "raccords-et-fittings",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {
