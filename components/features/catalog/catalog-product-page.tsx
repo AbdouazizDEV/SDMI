@@ -7,6 +7,7 @@ import { ProductMediaCarousel } from "@/components/features/catalog/product-medi
 import { PageMain } from "@/components/layout/page-main";
 import { Link } from "@/i18n/navigation";
 import type { CatalogProductListItem } from "@/lib/catalog/catalog-product";
+import { getProductImageGallery } from "@/lib/catalog/product-image-gallery";
 import { getProductMedia } from "@/lib/catalog/product-media";
 import { resolveProductShowcaseImage } from "@/lib/catalog/product-showcase-image";
 import { pickLocalized } from "@/lib/home/pick-localized";
@@ -28,12 +29,21 @@ export async function CatalogProductPage({
   const name = pickLocalized(product.name, locale);
   const description = pickLocalized(product.description, locale);
   const cloudinaryMedia = getProductMedia(product.slug);
+  const gallery = getProductImageGallery(product.slug);
   const imagePath =
     cloudinaryMedia.imageUrl ??
+    gallery[0] ??
     resolveProductShowcaseImage(product.subfamilySlug, product.familySlug, {
       reference: product.reference,
       productSlug: product.slug,
     });
+  const imageSrcs = cloudinaryMedia.imageUrl
+    ? [cloudinaryMedia.imageUrl]
+    : gallery.length > 0
+      ? gallery
+      : imagePath
+        ? [imagePath]
+        : [];
 
   const isRange = product.listingKind === "range";
   const tech = product.technicalSpecs;
@@ -87,7 +97,7 @@ export async function CatalogProductPage({
         <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.05fr)] lg:items-start lg:gap-12">
           <div className="sdmi-surface-card sdmi-surface-card-accent overflow-hidden lg:sticky lg:top-36">
             <ProductMediaCarousel
-              imageSrc={imagePath}
+              imageSrcs={imageSrcs}
               videoSrc={cloudinaryMedia.videoUrl}
               alt={name}
               labels={{
@@ -123,7 +133,7 @@ export async function CatalogProductPage({
               {name}
             </h1>
             {description ? (
-              <p className="text-muted-foreground mt-4 max-w-2xl text-base leading-relaxed md:text-lg">
+              <p className="text-muted-foreground mt-4 max-w-2xl text-base leading-relaxed whitespace-pre-line md:text-lg">
                 {description}
               </p>
             ) : null}

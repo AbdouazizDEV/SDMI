@@ -1,6 +1,6 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
-const FAMILY = "vannes-operucle-guillotine";
+const FAMILY = "vannes";
 const SUB_UNI = "vannes-guillotine-s-gate-unidirectionnelles";
 const SUB_BI = "vannes-guillotine-s-gate-bidirectionnelles";
 const SUB_PELLE = "vannes-guillotine-s-gate-pelle-traversante";

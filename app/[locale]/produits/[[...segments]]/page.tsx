@@ -41,6 +41,12 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
     return <CatalogBrowsePage searchQuery={filters.q} />;
   }
 
+  if (segments[0] === "vannes-operucle-guillotine") {
+    redirect(
+      `/${siteLocale}/produits/${["vannes", ...segments.slice(1)].join("/")}`,
+    );
+  }
+
   if (segments[0] === "tuyauterie-et-accessoires") {
     const tubeSubfamilies = new Set([
       "tubes-acier-carbone",

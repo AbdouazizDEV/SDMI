@@ -1,7 +1,7 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 import { petroleumGateValveRanges } from "@/lib/catalog/seeds/petroleum-gate-valve-ranges";
 
-const FAMILY = "vannes-operucle-guillotine";
+const FAMILY = "vannes";
 const SUB = "vannes-opercule-forge";
 
 /** Séries présentes sur la sous-famille « opercule forgé » (hors pétrole). */

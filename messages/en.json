@@ -344,7 +344,10 @@
       "accessoires": {
         "body": "Flanges, fittings and accessories for fluid networks: EN 1092 and ASME flanges, threaded, welded and mechanical fittings, expansion joints and water-network equipment. Solutions for water, oil, gas and industrial utilities."
       },
-      "vannes-operucle-guillotine": {
+      "raccords-et-fittings": {
+        "body": "EN 10242 malleable iron threaded fittings: elbows, tees, crosses, sockets, nipples, plugs and flat-seat unions. BSPT thread, NPT on request, hot-dip galvanized or black finish. Working pressure up to 34.5 bar depending on size."
+      },
+      "vannes": {
         "body": "Gate and knife gate valves for isolation on water, process and heavy industry networks: monobloc, flanged, forged, resilient seated and unidirectional or bidirectional S-gate models."
       },
       "robinets-soupape-pointeau": {
@@ -538,7 +541,8 @@
           "robinetterie-petrole-forgee-moulee": "Forged and cast valves for hydrocarbons, gas and severe service — API, ANSI and high PN ratings.",
           "tuyauteries": "Carbon, stainless and 3PE coated steel tubes for water, oil and gas, from DN6 to DN1000.",
           "accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
-          "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process."
+          "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process.",
+          "raccords-et-fittings": "EN 10242 malleable iron threaded fittings, BSPT, galvanized or black, for branches and line joints."
         }
       },
       "industrie-agro-alimentaire": {
@@ -626,8 +630,9 @@
         "familySummaries": {
           "tuyauteries": "Steel tubes for fire mains, manifolds and sprinkler or hose branches.",
           "accessoires": "Flanges, fittings and accessories for fire networks, manifolds and sprinkler or hose branches.",
-          "vannes-operucle-guillotine": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
-          "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points."
+          "vannes": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
+          "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points.",
+          "raccords-et-fittings": "Threaded elbows, tees, sockets and unions for sprinkler networks and fire branches."
         }
       }
     }

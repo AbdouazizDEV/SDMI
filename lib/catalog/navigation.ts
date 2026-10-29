@@ -21,7 +21,7 @@ async function fetchCatalogNavigation() {
 
 const getCatalogNavigationCached = unstable_cache(
   fetchCatalogNavigation,
-  ["sdmi-catalog-navigation-v1"],
+  ["sdmi-catalog-navigation-v3"],
   { revalidate: 600 },
 );
 
