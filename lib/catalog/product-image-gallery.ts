@@ -46,6 +46,21 @@ export const productImageGalleries: Record<string, string[]> = {
     "/images/catalog/fittings/union-330-a.png",
     "/images/catalog/fittings/union-330-b.png",
   ],
+  "tubes-carbone-ronds-a53-a106-grb": [
+    "/images/catalog/piping/carbon/tube-a53-a.png",
+    "/images/catalog/piping/carbon/tube-a53-b.png",
+  ],
+  "tubes-carbone-galvanises-profils-creux": [
+    "/images/catalog/piping/carbon/tube-galva-a.png",
+    "/images/catalog/piping/carbon/tube-galva-b.png",
+  ],
+  "tubes-carbone-etires-froid-din2391": [
+    "/images/catalog/piping/carbon/tube-din2391-a.png",
+    "/images/catalog/piping/carbon/tube-din2391-b.png",
+  ],
+  "tubes-carbone-ligne-api5l-a53-a106": [
+    "/images/catalog/piping/carbon/tube-ligne-api5l.png",
+  ],
 };
 
 export function getProductImageGallery(slug: string): string[] {
