@@ -108,6 +108,11 @@
             "label": "Water — oil — gas",
             "title": "Critical fluids for energy and water–oil–gas networks",
             "description": "High-pressure valves, flanges and accessories for hydrocarbons, gas, industrial water and onshore / offshore projects."
+          },
+          "mining": {
+            "label": "Mining industry",
+            "title": "The mining industry",
+            "description": "Valves, piping and fittings for mines, quarries and mineral processing: abrasion, slurry and pressure, with stock in Dakar."
           }
         }
       },

@@ -16,7 +16,7 @@ export const heroCarouselSlides: HeroCarouselSlide[] = [
   },
   {
     id: "eau-petrole-gaz",
-    imagePath: "/images/hero/énergie_et_le_réseau_Eau_Pétrole_Gaz.jpeg",
+    imagePath: "/images/Gemini_Generated_Image_lg3auilg3auilg3a.jpeg",
     labelKey: "oilGas",
   },
   {
@@ -24,6 +24,11 @@ export const heroCarouselSlides: HeroCarouselSlide[] = [
     imagePath:
       "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
     labelKey: "agro",
+  },
+  {
+    id: "industrie-miniere",
+    imagePath: "/images/Gemini_Generated_Image_7uyvsj7uyvsj7uyv.jpeg",
+    labelKey: "mining",
   },
 ];
 

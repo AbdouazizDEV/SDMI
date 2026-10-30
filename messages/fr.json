@@ -108,6 +108,11 @@
             "label": "Eau — pétrole — gaz",
             "title": "Fluides critiques pour l'énergie et le réseau Eau-Pétrole-Gaz",
             "description": "Robinetterie haute pression, brides et accessoires pour hydrocarbures, gaz, eau industrielle et projets onshore / offshore."
+          },
+          "mining": {
+            "label": "Industrie minière",
+            "title": "L'industrie minière",
+            "description": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai : abrasion, boues et pression, avec stock à Dakar."
           }
         }
       },
