@@ -9,6 +9,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
   brides: "/images/Brides.jpeg",
   "raccords-et-fittings": "/images/Raccords-et-fittings.jpeg",
   vannes: "/images/Gemini_Generated_Image_nis23fnis23fnis2.jpeg",
+  "etancheite-statique": "/images/joints-en-fibres-elastomeres.jpg",
   "robinets-soupape-pointeau":
     "/images/Robinets_à_soupape_robinets_à_pointeau.jpeg",
   "robinets-tournant-spherique-acier-inox":
@@ -105,6 +106,10 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "raccords-inox": "/images/catalog/taxonomy/raccords-inox.jpg",
   "manchons-compensateurs-elastomere":
     "/images/catalog/taxonomy/manchons-compensateurs-elastomere.jpg",
+  "joints-en-fibres-elastomeres": "/images/joints-en-fibres-elastomeres.jpg",
+  "joints-en-graphite": "/images/joints-en-graphite.jpg",
+  "joints-metalliques": "/images/joints-metalliques.jpg",
+  "tresses-rubans-etancheite": "/images/tresses-rubans-etancheite.jpg",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {

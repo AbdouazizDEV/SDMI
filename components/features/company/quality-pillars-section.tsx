@@ -1,15 +1,15 @@
 import { getTranslations } from "next-intl/server";
-import { FlaskConicalIcon, ShieldCheckIcon, WrenchIcon } from "lucide-react";
+import { HeadsetIcon, ShieldCheckIcon, TruckIcon } from "lucide-react";
 
 import { SectionHeading } from "@/components/features/home/section-heading";
 import { SectionShell } from "@/components/patterns/section-shell";
 
-const pillarKeys = ["traceability", "testing", "engineering"] as const;
+const pillarKeys = ["traceability", "delivery", "customer"] as const;
 
 const pillarIcons = {
   traceability: ShieldCheckIcon,
-  testing: FlaskConicalIcon,
-  engineering: WrenchIcon,
+  delivery: TruckIcon,
+  customer: HeadsetIcon,
 } as const;
 
 type QualityPillarsSectionProps = {

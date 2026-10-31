@@ -197,22 +197,22 @@
             "2": "ATEX certificates on request"
           }
         },
-        "testing": {
-          "title": "Testing & controls",
-          "description": "Test benches before commissioning.",
+        "delivery": {
+          "title": "Logistics",
+          "description": "A fast and free delivery service. A performant logistics with:",
           "items": {
-            "0": "Hydro test 1.5 × PN",
-            "1": "Seat leakage check",
-            "2": "Safety valve setting"
+            "0": "A service rate of 98 %",
+            "1": "A large storage capacity",
+            "2": " of shipments ensuring deliveries in 24/24h."
           }
         },
-        "engineering": {
-          "title": "Fluids engineering desk",
-          "description": "Sizing and actuation for your projects.",
+        "customer": {
+          "title": "Client relations",
+          "description": "A dedicated contact for quotes, order follow-up and technical questions. ",
           "items": {
-            "0": "Pressure drop & Kv/Cv sizing",
-            "1": "Pneumatic / electric actuators",
-            "2": "On-site assistance"
+            "0": "Responsive pricing and tender responses",
+            "1": "Post-sales support (SAV)",
+            "2": "Commitment and listening"
           }
         }
       }
@@ -250,7 +250,7 @@
       "viewAll": "Browse full catalog"
     },
     "subfamilies": {
-      "title": "Our ranges",
+      "title": "Static sealing",
       "description": "Browse the SDMI catalog by family and subfamily — Dakar depot availability.",
       "readMore": "Read more",
       "viewFamily": "View family",
@@ -370,6 +370,9 @@
       },
       "vannes-sphere-laiton-fonte-pvc": {
         "body": "Brass, cast iron and PVC ball valves for building services, water networks, light industry and utilities: lockable models, 3-way, tapping and threaded or flanged connections."
+      },
+      "etancheite-statique": {
+        "body": "Static sealing gaskets and elements for flanges and assemblies: elastomer fiber, graphite, metallic gaskets, PTFE, mica, elastomers, O-rings, quad-lobe seals, sleeves and packings. Quotation and cut-to-drawing at the SDMI counter in Dakar."
       }
     },
     "familySkeletonHint": "This family is being structured in the SDMI catalog. Our team can already guide you on equivalent ranges and in-stock alternatives.",
