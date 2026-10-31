@@ -10,9 +10,14 @@ import { cn } from "@/lib/utils";
 type CatalogSearchBarProps = {
   className?: string;
   inputId?: string;
+  resultsLayout?: "overlay" | "inline";
 };
 
-function CatalogSearchBarInner({ className, inputId }: CatalogSearchBarProps) {
+function CatalogSearchBarInner({
+  className,
+  inputId,
+  resultsLayout = "overlay",
+}: CatalogSearchBarProps) {
   const t = useTranslations("Layout");
   const [focused, setFocused] = useState(false);
   const searchInputId = inputId ?? "catalog-header-search";
@@ -40,24 +45,24 @@ function CatalogSearchBarInner({ className, inputId }: CatalogSearchBarProps) {
         }
       }}
     >
-      <div className="relative flex min-h-11 items-stretch">
-        <div className="relative min-w-0 flex-1">
-          <HeaderSearch
-            inputId={searchInputId}
-            className="max-w-none"
-            variant="embedded"
-            onSubmitSearch={() => setFocused(false)}
-          />
-        </div>
-
-        <button
-          type="button"
-          onClick={triggerSearch}
-          className="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-r-sm px-5 text-xs font-bold tracking-wider uppercase transition-colors"
-        >
-          <SearchIcon aria-hidden className="size-4" />
-          <span className="hidden sm:inline">{t("searchSubmitButton")}</span>
-        </button>
+      <div className="relative min-h-11">
+        <HeaderSearch
+          inputId={searchInputId}
+          className="max-w-none"
+          variant="embedded"
+          resultsLayout={resultsLayout}
+          onSubmitSearch={() => setFocused(false)}
+          trailing={
+            <button
+              type="button"
+              onClick={triggerSearch}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 inline-flex h-11 shrink-0 items-center justify-center gap-2 rounded-r-sm px-5 text-xs font-bold tracking-wider uppercase transition-colors"
+            >
+              <SearchIcon aria-hidden className="size-4" />
+              <span className="hidden sm:inline">{t("searchSubmitButton")}</span>
+            </button>
+          }
+        />
       </div>
     </div>
   );

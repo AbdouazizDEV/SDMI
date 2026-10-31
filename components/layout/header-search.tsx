@@ -29,6 +29,9 @@ type HeaderSearchProps = {
   inputId?: string;
   autoFocus?: boolean;
   variant?: "default" | "embedded";
+  /** `inline` garde la liste dans le flux (panneau mobile). `overlay` la superpose au contenu. */
+  resultsLayout?: "overlay" | "inline";
+  trailing?: React.ReactNode;
   onSubmitSearch?: () => void;
 };
 
@@ -41,6 +44,8 @@ export function HeaderSearch({
   inputId: inputIdProp,
   autoFocus = false,
   variant = "default",
+  resultsLayout = "overlay",
+  trailing,
   onSubmitSearch,
 }: HeaderSearchProps) {
   const t = useTranslations("Layout");
@@ -61,6 +66,7 @@ export function HeaderSearch({
   const containerRef = useRef<HTMLDivElement>(null);
   const hasUserEditedRef = useRef(false);
   const syncingFromUrlRef = useRef(false);
+  const requestSeqRef = useRef(0);
   const onCatalog = isCatalogIndexPath(pathname);
 
   const refreshHistory = useCallback(() => {
@@ -74,8 +80,11 @@ export function HeaderSearch({
   useEffect(() => {
     if (!onCatalog) return;
     const urlQ = searchParams.get("q") ?? "";
-    syncingFromUrlRef.current = true;
-    setQuery((prev) => (prev === urlQ ? prev : urlQ));
+    setQuery((prev) => {
+      if (prev === urlQ || hasUserEditedRef.current) return prev;
+      syncingFromUrlRef.current = true;
+      return urlQ;
+    });
   }, [searchParams, onCatalog]);
 
   const syncCatalogUrl = useCallback(
@@ -97,6 +106,7 @@ export function HeaderSearch({
   const fetchResults = useCallback(
     async (value: string) => {
       const trimmed = value.trim();
+      const requestId = ++requestSeqRef.current;
       if (trimmed.length < 1) {
         setResults([]);
         setIsOpen(false);
@@ -110,12 +120,16 @@ export function HeaderSearch({
           locale,
         });
         const response = await fetch(`/api/catalog/search?${params.toString()}`);
-        const data = (await response.json()) as { results: SearchResult[] };
-        setResults(data.results);
+        const data = (await response.json()) as { results?: SearchResult[] };
+        if (requestId !== requestSeqRef.current) return;
+        const next = data.results ?? [];
+        setResults(next);
         setIsOpen(true);
-        setActiveIndex(data.results.length > 0 ? 0 : -1);
+        setActiveIndex(next.length > 0 ? 0 : -1);
       } finally {
-        setIsLoading(false);
+        if (requestId === requestSeqRef.current) {
+          setIsLoading(false);
+        }
       }
     },
     [locale],
@@ -205,7 +219,8 @@ export function HeaderSearch({
       <label htmlFor={inputId} className="sr-only">
         {t("searchLabel")}
       </label>
-      <div className="relative">
+      <div className="relative flex min-h-11 items-start">
+        <div className="relative min-w-0 flex-1">
         <SearchIcon
           aria-hidden
           className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
@@ -266,6 +281,8 @@ export function HeaderSearch({
             }
           }}
         />
+        </div>
+        {trailing}
       </div>
 
       {isOpen && hasQuery && (
@@ -273,7 +290,10 @@ export function HeaderSearch({
           id={listboxId}
           role="listbox"
           aria-label={t("searchLabel")}
-          className="border-border absolute z-50 mt-1 max-h-80 w-full overflow-y-auto rounded-sm border bg-popover py-1 shadow-md"
+          className={cn(
+            "border-border z-50 mt-2 max-h-80 w-full overflow-y-auto overscroll-contain rounded-sm border bg-popover py-1 text-popover-foreground shadow-md",
+            resultsLayout === "inline" ? "relative" : "absolute",
+          )}
         >
           {isLoading && (
             <li className="text-muted-foreground px-3 py-2 text-sm" role="status">
