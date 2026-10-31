@@ -7,6 +7,7 @@ import { SectionShell } from "@/components/patterns/section-shell";
 import { isCatalogFamilyBrowseable } from "@/lib/catalog/catalog-readiness";
 import { HomeSectionViewAllLink } from "@/components/features/home/home-section-view-all-link";
 import type { HomeFamilyCard } from "@/lib/home/get-home-page-data";
+import { HOME_SECTION_VISIBLE_CARDS } from "@/lib/home/home-section-limits";
 import { pickLocalized } from "@/lib/home/pick-localized";
 import type { SiteLocale } from "@/lib/site";
 
@@ -17,6 +18,8 @@ type HomeFamiliesSectionProps = {
 export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps) {
   const t = await getTranslations("Home");
   const locale = (await getLocale()) as SiteLocale;
+  const visibleFamilies = families.slice(0, HOME_SECTION_VISIBLE_CARDS);
+  const hasMore = families.length > HOME_SECTION_VISIBLE_CARDS;
 
   return (
     <SectionShell variant="default" labelledBy="home-families-heading">
@@ -27,7 +30,7 @@ export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps
         className="mb-10"
       />
       <ul className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-        {families.map((family) => {
+        {visibleFamilies.map((family) => {
           const title = pickLocalized(family.name, locale);
           const countLabel = t("families.referenceCount", {
             count: family.productCount,
@@ -59,7 +62,9 @@ export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps
           );
         })}
       </ul>
-      <HomeSectionViewAllLink href="/produits" label={t("families.viewAll")} />
+      {hasMore ? (
+        <HomeSectionViewAllLink href="/produits" label={t("families.viewAll")} />
+      ) : null}
     </SectionShell>
   );
 }

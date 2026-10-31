@@ -103,7 +103,6 @@ export async function SectorsLandingPage() {
   const t = await getTranslations("Sectors");
   const tHome = await getTranslations("Home");
   const locale = (await getLocale()) as SiteLocale;
-  const stats = t.raw("stats") as { label: string; value: string }[];
 
   const heroImage = getSectorImagePath("circuit-eau-petrole-gaz");
 
@@ -136,21 +135,6 @@ export async function SectorsLandingPage() {
         }
         className="space-y-14 lg:space-y-16"
       >
-        <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {stats.map((stat) => (
-            <li key={stat.label}>
-              <div className="sdmi-trust-tile h-full p-5 text-center">
-                <p className="font-heading text-cta text-xl font-bold md:text-2xl">
-                  {stat.value}
-                </p>
-                <p className="text-muted-foreground mt-1 text-xs font-medium tracking-wide uppercase">
-                  {stat.label}
-                </p>
-              </div>
-            </li>
-          ))}
-        </ul>
-
         <section aria-labelledby="sectors-grid-heading">
           <SectionHeading
             id="sectors-grid-heading"
