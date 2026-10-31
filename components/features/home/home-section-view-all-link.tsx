@@ -1,10 +1,11 @@
+import type { ComponentProps } from "react";
 import { ArrowRightIcon } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 type HomeSectionViewAllLinkProps = {
-  href: "/produits" | "/secteurs";
+  href: ComponentProps<typeof Link>["href"];
   label: string;
   className?: string;
 };
