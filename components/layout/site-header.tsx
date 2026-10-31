@@ -144,14 +144,17 @@ export function SiteHeader({ catalog }: SiteHeaderProps) {
       <Sheet open={searchOpen} onOpenChange={setSearchOpen}>
         <SheetContent
           side="top"
-          className="max-h-[85vh] overflow-y-auto"
+          className="max-h-[min(85dvh,100%)] overflow-y-auto overscroll-contain"
           closeLabel={t("closeMenu")}
         >
           <SheetHeader>
             <SheetTitle>{t("searchLabel")}</SheetTitle>
           </SheetHeader>
           <div className="px-4 pb-6">
-            <CatalogSearchBar inputId="mobile-catalog-search" />
+            <CatalogSearchBar
+              inputId="mobile-catalog-search"
+              resultsLayout="inline"
+            />
           </div>
         </SheetContent>
       </Sheet>
