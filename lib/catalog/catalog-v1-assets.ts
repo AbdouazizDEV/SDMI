@@ -5,7 +5,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
     "/images/Robinetterie_pétroleforgéemoulée.jpeg",
   tuyauteries:
     "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/famille.jpg",
-  accessoires: "/images/Tuyauterie_et_accessoires.jpeg",
+  accessoires: "/images/Gemini_Generated_Image_cknxcfcknxcfcknx.jpeg",
   brides: "/images/Brides.jpeg",
   "raccords-et-fittings": "/images/Raccords-et-fittings.jpeg",
   vannes: "/images/Gemini_Generated_Image_nis23fnis23fnis2.jpeg",
