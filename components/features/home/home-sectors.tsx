@@ -55,7 +55,7 @@ export async function HomeSectorsSection({ sectors }: HomeSectorsSectionProps) {
         description={t("sectors.description") || undefined}
         className="mb-10"
       />
-      <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <ul className="grid gap-6 sm:grid-cols-2">
         {visibleSectors.map((sector) => {
           const { title, description, eyebrow } = sectorCardCopy(
             sector.slug,
@@ -80,7 +80,7 @@ export async function HomeSectorsSection({ sectors }: HomeSectorsSectionProps) {
                     alt={title}
                     className="aspect-[16/10] min-h-[220px] w-full rounded-t-xl sm:min-h-[260px] lg:min-h-[300px]"
                     imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, 33vw"
+                    sizes="(max-width: 640px) 100vw, 50vw"
                   />
                 }
               />

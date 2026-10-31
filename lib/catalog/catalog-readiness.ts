@@ -88,6 +88,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "vannes-sphere-laiton-fonte-pvc",
   "tuyauteries",
   "accessoires",
+  "brides",
   "raccords-et-fittings",
 ]);
 

@@ -16,12 +16,13 @@ export const siteAssets = {
   },
   sectors: {
     "circuit-eau-petrole-gaz":
-      "/images/hero/énergie_et_le_réseau_Eau_Pétrole_Gaz.jpeg",
+      "/images/Gemini_Generated_Image_lg3auilg3auilg3a.jpeg",
     "robinetterie-industrielle": "/images/main-slider/2.jpg",
     "industrie-agro-alimentaire":
       "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
     "tuyauterie-materiels-incendie":
       "/images/hero/Protection_incendie_et_robinetterie_de_sécurité.jpeg",
+    "industrie-miniere": "/images/Gemini_Generated_Image_7uyvsj7uyvsj7uyv.jpeg",
   },
   families: {
     robinetterie: "/images/famille-robinetterie.jpg",

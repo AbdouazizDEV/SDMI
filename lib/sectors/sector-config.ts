@@ -12,7 +12,7 @@ export const sectorBlockKeys = [
 export type SectorBlockKey = (typeof sectorBlockKeys)[number];
 
 export const sectorBlockImages: Record<SectorBlockKey, string> = {
-  mines: siteAssets.sectors["robinetterie-industrielle"],
+  mines: siteAssets.sectors["industrie-miniere"],
   energy: siteAssets.sectors["circuit-eau-petrole-gaz"],
   agro: siteAssets.sectors["industrie-agro-alimentaire"],
   water: siteAssets.heroCarousel.eauTraitement,
@@ -25,6 +25,7 @@ export const sectorSlugToBlock: Record<string, SectorBlockKey> = {
   "robinetterie-industrielle": "mines",
   "industrie-agro-alimentaire": "agro",
   "tuyauterie-materiels-incendie": "fire",
+  "industrie-miniere": "mines",
 };
 
 /** Familles catalogue mises en avant par secteur. */
@@ -33,6 +34,7 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
     "robinetterie-petrole-forgee-moulee",
     "tuyauteries",
     "accessoires",
+    "brides",
     "robinets-tournant-spherique-acier-inox",
     "raccords-et-fittings",
   ],
@@ -46,9 +48,17 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
     "vannes-sphere-laiton-fonte-pvc",
     "robinets-tournant-spherique-acier-inox",
   ],
+  "industrie-miniere": [
+    "robinetterie-petrole-forgee-moulee",
+    "vannes",
+    "tuyauteries",
+    "brides",
+    "raccords-et-fittings",
+  ],
   "tuyauterie-materiels-incendie": [
     "tuyauteries",
     "accessoires",
+    "brides",
     "vannes",
     "robinetterie-petrole-forgee-moulee",
     "raccords-et-fittings",

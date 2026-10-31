@@ -4,7 +4,7 @@ import { getLocale, getTranslations } from "next-intl/server";
 import { CatalogBreadcrumbs } from "@/components/features/catalog/catalog-breadcrumbs";
 import { CatalogBrowseWorkspace } from "@/components/features/catalog/catalog-browse-workspace";
 import { CatalogSubfamilyEmpty } from "@/components/features/catalog/catalog-subfamily-empty";
-import { CatalogTaxonomyMedia } from "@/components/features/catalog/catalog-taxonomy-media";
+import { StorageMedia } from "@/components/features/home/storage-media";
 import { PageMain } from "@/components/layout/page-main";
 import { MediaLinkCard } from "@/components/patterns/media-link-card";
 import { PatternSectionHeading } from "@/components/patterns/section-heading";
@@ -150,11 +150,12 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
                     })}
                     footerLinkLabel={browseable ? t("viewProduct") : undefined}
                     media={
-                      <CatalogTaxonomyMedia
+                      <StorageMedia
                         storagePath={imagePath}
                         alt={title}
-                        variant="card"
-                        className="aspect-video w-full"
+                        className="aspect-[16/10] w-full"
+                        imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                     }
                   />

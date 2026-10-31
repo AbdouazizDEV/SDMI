@@ -158,7 +158,7 @@ export async function SectorsLandingPage() {
             description={t("gridDescription") || undefined}
             className="mb-8"
           />
-          <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-6 sm:grid-cols-2">
             {primarySectors.map(({ sector, slug }) => {
               const { title, description, eyebrow } = sectorGridCardCopy(
                 slug,
@@ -185,7 +185,7 @@ export async function SectorsLandingPage() {
                         alt={title}
                         className="aspect-[16/10] min-h-[200px] w-full rounded-t-xl sm:min-h-[240px]"
                         imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
-                        sizes="(max-width: 640px) 100vw, 33vw"
+                        sizes="(max-width: 640px) 100vw, 50vw"
                       />
                     }
                   />

@@ -47,6 +47,18 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
     );
   }
 
+  const movedFromAccessoires: Record<string, string> = {
+    "brides-en1092-acier-carbone": "brides",
+    "collets-forges": "brides",
+    "raccords-a-cames": "raccords-et-fittings",
+  };
+  const movedFamily = movedFromAccessoires[segments[1] ?? ""];
+  if (segments[0] === "accessoires" && movedFamily) {
+    redirect(
+      `/${siteLocale}/produits/${[movedFamily, ...segments.slice(1)].join("/")}`,
+    );
+  }
+
   if (segments[0] === "tuyauterie-et-accessoires") {
     const tubeSubfamilies = new Set([
       "tubes-acier-carbone",
