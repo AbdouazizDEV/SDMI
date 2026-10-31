@@ -177,6 +177,6 @@ async function buildHomePageDataUncached(): Promise<HomePageData> {
 
 export const getHomePageData = unstable_cache(
   buildHomePageDataUncached,
-  ["sdmi-home-page-data-v2"],
+  ["sdmi-home-page-data-v3"],
   { revalidate: 300 },
 );

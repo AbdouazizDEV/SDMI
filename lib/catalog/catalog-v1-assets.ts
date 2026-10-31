@@ -8,7 +8,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
   accessoires: "/images/Tuyauterie_et_accessoires.jpeg",
   brides: "/images/Brides.jpeg",
   "raccords-et-fittings": "/images/Raccords-et-fittings.jpeg",
-  vannes: "/images/Vannes.jpeg",
+  vannes: "/images/Gemini_Generated_Image_nis23fnis23fnis2.jpeg",
   "robinets-soupape-pointeau":
     "/images/Robinets_à_soupape_robinets_à_pointeau.jpeg",
   "robinets-tournant-spherique-acier-inox":
