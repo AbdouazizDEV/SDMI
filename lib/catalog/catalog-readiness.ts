@@ -77,6 +77,16 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "tes-et-croix-filetes",
   "manchons-et-mamelons-filetes",
   "bouchons-et-unions-filetes",
+  "elastomeres",
+  "joints-en-fibres-elastomeres",
+  "joints-en-graphite",
+  "manchettes-et-compensateurs",
+  "joints-mica",
+  "joints-metalliques",
+  "joints-ptfe",
+  "quadrilobes",
+  "joints-toriques",
+  "tresses-rubans-etancheite",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -90,6 +100,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "accessoires",
   "brides",
   "raccords-et-fittings",
+  "etancheite-statique",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {

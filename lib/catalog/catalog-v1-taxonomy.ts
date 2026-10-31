@@ -542,6 +542,58 @@ export const catalogV1Navigation: CatalogNavigation = {
         },
       ],
     },
+    {
+      slug: "etancheite-statique",
+      name: frEn("Étanchéité statique", "Static sealing"),
+      subfamilies: [
+        {
+          slug: "elastomeres",
+          name: frEn("Élastomères", "Elastomers"),
+        },
+        {
+          slug: "joints-en-fibres-elastomeres",
+          name: frEn("Fibre élastomère", "Elastomer fiber"),
+        },
+        {
+          slug: "joints-en-graphite",
+          name: frEn("Graphite", "Graphite"),
+        },
+        {
+          slug: "manchettes-et-compensateurs",
+          name: frEn(
+            "Manchettes et compensateurs",
+            "Sleeves and expansion joints",
+          ),
+        },
+        {
+          slug: "joints-mica",
+          name: frEn("Mica", "Mica"),
+        },
+        {
+          slug: "joints-metalliques",
+          name: frEn("Métalliques", "Metallic gaskets"),
+        },
+        {
+          slug: "joints-ptfe",
+          name: frEn("PTFE", "PTFE"),
+        },
+        {
+          slug: "quadrilobes",
+          name: frEn("Quadrilobes", "Quad-lobe seals"),
+        },
+        {
+          slug: "joints-toriques",
+          name: frEn("Toriques", "O-rings"),
+        },
+        {
+          slug: "tresses-rubans-etancheite",
+          name: frEn(
+            "Tresses et rubans d'étanchéité",
+            "Packings and sealing tapes",
+          ),
+        },
+      ],
+    },
   ],
   sectors: [
     {

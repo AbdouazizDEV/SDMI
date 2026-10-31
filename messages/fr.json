@@ -197,22 +197,22 @@
             "2": "Attestations ATEX sur demande"
           }
         },
-        "testing": {
-          "title": "Essais & contrôles",
-          "description": "Postes de test pour validation avant mise en service.",
+        "delivery": {
+          "title": "Logistique",
+          "description": "Un service de livraison rapide et gratuit.Une logistique performante avec :",
           "items": {
-            "0": "Test hydrostatique 1,5 × PN",
-            "1": "Contrôle étanchéité siège",
-            "2": "Tarage soupapes de sûreté"
+            "0": "Un taux de service de 98 %",
+            "1": "Une grande capacité de stockage",
+            "2": " des expéditions assurant des livraisons en 24/24h."
           }
         },
-        "engineering": {
-          "title": "Bureau d'études fluides",
-          "description": "Dimensionnement et motorisation pour vos installations.",
+        "customer": {
+          "title": "Relation client",
+          "description": "Un service client réactif » , soutenu par une culture de proximité et d'écoute",
           "items": {
-            "0": "Calcul pertes de charge & Kv/Cv",
-            "1": "Actionneurs pneumatiques / électriques",
-            "2": "Assistance sur site"
+            "0": "Réactivité et accessibilité",
+            "1": "Support après-vente (SAV)",
+            "2": "Engagement et écoute"
           }
         }
       }
@@ -250,7 +250,7 @@
       "viewAll": "Voir tout le catalogue"
     },
     "subfamilies": {
-      "title": "Nos gammes",
+      "title": "Étanchéité statique",
       "description": "Parcourez le catalogue SDMI par famille et sous-famille — disponibilité dépôt Dakar.",
       "readMore": "En savoir plus",
       "viewFamily": "Voir la famille",
@@ -370,6 +370,9 @@
       },
       "vannes-sphere-laiton-fonte-pvc": {
         "body": "Vannes à sphère laiton, fonte et PVC pour bâtiment, réseaux d’eau, industrie légère et collectifs : modèles cadenassables, 3 voies, puisage et raccordements taraudés ou à brides."
+      },
+      "etancheite-statique": {
+        "body": "Joints et éléments d’étanchéité statique pour brides et assemblages : fibres élastomères, graphite, joints métalliques, PTFE, mica, élastomères, toriques, quadrilobes, manchettes et tresses. Cotation et découpe sur plan au comptoir SDMI à Dakar."
       }
     },
     "familySkeletonHint": "Cette famille est en cours de structuration dans le catalogue SDMI. Notre équipe peut déjà vous orienter sur les gammes équivalentes et les alternatives en stock.",

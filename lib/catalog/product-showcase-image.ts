@@ -18,6 +18,10 @@ const subfamilyHeroFirst = new Set([
   "tes-et-croix-filetes",
   "manchons-et-mamelons-filetes",
   "bouchons-et-unions-filetes",
+  "joints-en-fibres-elastomeres",
+  "joints-en-graphite",
+  "joints-metalliques",
+  "tresses-rubans-etancheite",
 ]);
 
 /** Visuel sous-famille : 1er produit publié de la gamme, puis assets taxonomie / legacy (sans repli famille). */
