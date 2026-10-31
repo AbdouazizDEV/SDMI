@@ -129,13 +129,23 @@ async function buildHomeFamilies(): Promise<HomeFamilyCard[]> {
   const catalog = await getCatalogNavigation();
   const productCounts = await fetchProductCountsByFamily();
 
-  return catalog.families.map((family) => ({
+  const families = catalog.families.map((family) => ({
     slug: family.slug,
     name: family.name,
     description: null,
     imageStoragePath: familyImage(family.slug),
     productCount: productCounts.get(family.slug) ?? 0,
   }));
+
+  const firstSlug = "vannes";
+  const lastSlug = "robinetterie-petrole-forgee-moulee";
+  const first = families.filter((family) => family.slug === firstSlug);
+  const last = families.filter((family) => family.slug === lastSlug);
+  const middle = families.filter(
+    (family) => family.slug !== firstSlug && family.slug !== lastSlug,
+  );
+
+  return [...first, ...middle, ...last];
 }
 
 async function buildHomePageDataUncached(): Promise<HomePageData> {
@@ -167,6 +177,6 @@ async function buildHomePageDataUncached(): Promise<HomePageData> {
 
 export const getHomePageData = unstable_cache(
   buildHomePageDataUncached,
-  ["sdmi-home-page-data"],
+  ["sdmi-home-page-data-v2"],
   { revalidate: 300 },
 );
