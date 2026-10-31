@@ -121,49 +121,9 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
           description={t("description")}
           className="mb-6"
         />
-        <p className="text-primary mb-10 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1.5 text-sm font-semibold ring-1 ring-emerald-600/20">
+        <p className="text-primary mb-8 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1.5 text-sm font-semibold ring-1 ring-emerald-600/20">
           {t("stockBadge")}
         </p>
-
-        <section className="mb-12" aria-labelledby="catalog-families-heading">
-          <h2
-            id="catalog-families-heading"
-            className="font-heading text-primary sdmi-heading-accent mb-6 text-lg font-bold uppercase"
-          >
-            {t("familiesTitle")}
-          </h2>
-          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {navigation.families.map((family) => {
-              const title = pickLocalized(family.name, locale);
-              const imagePath = resolveProductShowcaseImage(undefined, family.slug);
-              const browseable = isCatalogFamilyBrowseable(family.slug);
-              const soonLabel = t("comingSoon");
-              return (
-                <li key={family.slug}>
-                  <MediaLinkCard
-                    href={browseable ? `/produits/${family.slug}` : undefined}
-                    disabled={!browseable}
-                    disabledHint={soonLabel}
-                    title={title}
-                    description={t("familyCardHint", {
-                      count: family.subfamilies.length,
-                    })}
-                    footerLinkLabel={browseable ? t("viewProduct") : undefined}
-                    media={
-                      <StorageMedia
-                        storagePath={imagePath}
-                        alt={title}
-                        className="aspect-[16/10] w-full"
-                        imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                      />
-                    }
-                  />
-                </li>
-              );
-            })}
-          </ul>
-        </section>
 
         {searchQuery ? (
           <p className="text-muted-foreground mb-4 text-sm">
@@ -205,6 +165,46 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
             {t("catalogSupportLink")}
           </Link>
         </p>
+
+        <section className="mt-16 border-t border-border/80 pt-12" aria-labelledby="catalog-families-heading">
+          <h2
+            id="catalog-families-heading"
+            className="font-heading text-primary sdmi-heading-accent mb-6 text-lg font-bold uppercase"
+          >
+            {t("familiesTitle")}
+          </h2>
+          <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {navigation.families.map((family) => {
+              const title = pickLocalized(family.name, locale);
+              const imagePath = resolveProductShowcaseImage(undefined, family.slug);
+              const browseable = isCatalogFamilyBrowseable(family.slug);
+              const soonLabel = t("comingSoon");
+              return (
+                <li key={family.slug}>
+                  <MediaLinkCard
+                    href={browseable ? `/produits/${family.slug}` : undefined}
+                    disabled={!browseable}
+                    disabledHint={soonLabel}
+                    title={title}
+                    description={t("familyCardHint", {
+                      count: family.subfamilies.length,
+                    })}
+                    footerLinkLabel={browseable ? t("viewProduct") : undefined}
+                    media={
+                      <StorageMedia
+                        storagePath={imagePath}
+                        alt={title}
+                        className="aspect-[16/10] w-full"
+                        imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    }
+                  />
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       </div>
     </PageMain>
   );
