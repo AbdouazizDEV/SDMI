@@ -1,7 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
 
 import { SectionHeading } from "@/components/features/home/section-heading";
-import { CatalogTaxonomyMedia } from "@/components/features/catalog/catalog-taxonomy-media";
+import { StorageMedia } from "@/components/features/home/storage-media";
 import { MediaLinkCard } from "@/components/patterns/media-link-card";
 import { SectionShell } from "@/components/patterns/section-shell";
 import { isCatalogFamilyBrowseable } from "@/lib/catalog/catalog-readiness";
@@ -48,11 +48,12 @@ export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps
                 title={title}
                 footerLinkLabel={browseable ? t("families.explore") : undefined}
                 media={
-                  <CatalogTaxonomyMedia
+                  <StorageMedia
                     storagePath={family.imageStoragePath}
                     alt={title}
-                    variant="card"
-                    className="min-h-[280px] sm:min-h-[320px] lg:min-h-[340px]"
+                    className="aspect-[16/10] w-full"
+                    imageClassName="object-cover object-center transition-transform duration-500 ease-out group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 25vw"
                   />
                 }
                 footer={<span className="font-medium">{countLabel}</span>}

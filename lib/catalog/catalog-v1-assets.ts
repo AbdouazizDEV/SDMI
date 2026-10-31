@@ -6,6 +6,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
   tuyauteries:
     "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/famille.jpg",
   accessoires: "/images/Tuyauterie_et_accessoires.jpeg",
+  brides: "/images/Brides.jpeg",
   "raccords-et-fittings": "/images/Raccords-et-fittings.jpeg",
   vannes: "/images/Vannes.jpeg",
   "robinets-soupape-pointeau":

@@ -1,6 +1,7 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
 const ACCESSORIES = "accessoires";
+const BRIDES = "brides";
 const TUBES = "tuyauteries";
 
 function frEn(fr: string, en: string) {
@@ -238,7 +239,7 @@ export const sdmiTubesAndFlangesRanges: CatalogRangeSeed[] = [
       documentCount: 4,
     },
   }),
-  base(ACCESSORIES, "brides-en1092-acier-carbone", {
+  base(BRIDES, "brides-en1092-acier-carbone", {
     reference: "BR-EN1092-C",
     slug: "brides-en1092-acier-carbone-pn10-pn40",
     name: frEn(

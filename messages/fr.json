@@ -234,6 +234,10 @@
         "industrie-agro-alimentaire": {
           "title": "Hygiène, inox et process pour l'agro-industrie (Agro-alimentaire)",
           "description": "Vannes, raccords et tuyauteries adaptés aux lignes de production alimentaire : conformité sanitaire, corrosion et maintenance simplifiée."
+        },
+        "industrie-miniere": {
+          "title": "L'industrie minière",
+          "description": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai : abrasion, boues et pression, avec stock à Dakar."
         }
       }
     },
@@ -349,8 +353,11 @@
       "accessoires": {
         "body": "Brides, raccords et accessoires pour réseaux de fluides : brides EN 1092 et ASME, raccords filetés, à souder et mécaniques, compensateurs et équipements de réseau eau. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles."
       },
+      "brides": {
+        "body": "Brides EN 1092 en acier carbone et collets forgés pour assemblages de tuyauterie : plates, pleines, à collerette, slip-on et taraudées, du PN10 au PN40."
+      },
       "raccords-et-fittings": {
-        "body": "Raccords filetés en fonte malléable EN 10242 : coudes, tés, croix, manchons, mamelons, bouchons et unions à siège plat. Filetage BSPT, NPT sur demande, finition galvanisée à chaud ou noire. Pression de service jusqu’à 34,5 bar selon le diamètre."
+        "body": "Raccords filetés en fonte malléable EN 10242 : coudes, tés, croix, manchons, mamelons, bouchons et unions à siège plat. Filetage BSPT, NPT sur demande, finition galvanisée à chaud ou noire. Pression de service jusqu’à 34,5 bar selon le diamètre. Raccords à cames aluminium, inox, laiton et polypropylène, avec joints EPDM, NBR et FKM."
       },
       "vannes": {
         "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
@@ -446,7 +453,7 @@
     "breadcrumbCurrent": "Secteurs d'activité",
     "eyebrow": "Industrie & fourniture générale",
     "title": "Présent sur les grands chantiers industriels sénégalais",
-    "description": "Protection incendie, fluides eau–pétrole–gaz et process agroalimentaire : robinetterie dimensionnée, stock à Dakar et fiches secteur détaillées pour vos projets.",
+    "description": "Protection incendie, fluides eau–pétrole–gaz, process agroalimentaire et industrie minière : robinetterie dimensionnée, stock à Dakar et fiches secteur détaillées pour vos projets.",
     "landingHeroAlt": "Réseaux industriels eau, pétrole et gaz — équipements SDMI",
     "stats": [
       { "label": "Disponibilité hub Dakar", "value": "Stock SDMI" },
@@ -454,7 +461,7 @@
       { "label": "Conformité pression", "value": "PN / ANSI" },
       { "label": "Bureau d'études", "value": "Support dédié" }
     ],
-    "gridTitle": "Nos trois pôles d'intervention",
+    "gridTitle": "Nos quatre pôles d'intervention",
     "gridDescription": "Les secteurs que nous mettons en avant sur l'accueil — mêmes visuels, mêmes équipes terrain et pages dédiées.",
     "secondaryTitle": "Robinetterie industrielle générale",
     "secondaryDescription": "Mines, cimenteries, phosphates et applications sévères — continuité de production et matériaux adaptés.",
@@ -473,9 +480,9 @@
     "whatsappCta": "WhatsApp bureau d'études",
     "blocks": {
       "mines": {
-        "eyebrow": "Extraction & minéraux",
-        "title": "Mines, phosphates & cimenteries",
-        "body": "Circuits abrasifs, acides et chocs thermiques — continuité de production sur concasseurs, fours et broyage.",
+        "eyebrow": "Industrie minière",
+        "title": "L'industrie minière",
+        "body": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai : abrasion, boues et pression, avec stock à Dakar.",
         "standards": "Alliages AISI 316Ti, fonte Ni-Hard, revêtements EPDM/NR."
       },
       "energy": {
@@ -546,6 +553,7 @@
           "robinetterie-petrole-forgee-moulee": "Vannes et robinets forgés/moulés pour hydrocarbures, gaz et services sévères — API, ANSI et PN élevés.",
           "tuyauteries": "Tubes acier carbone, inox et pré-enrobés 3PE pour réseaux eau, pétrole et gaz, du DN6 au DN1000.",
           "accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
+          "brides": "Brides EN 1092 acier carbone et collets forgés, du PN10 au PN40, pour assemblages de ligne.",
           "robinets-tournant-spherique-acier-inox": "Robinetterie inox pour isolement fiable, cycles fréquents et fluides critiques sur skids et process.",
           "raccords-et-fittings": "Raccords filetés fonte malléable EN 10242, BSPT, galvanisés ou noirs, pour dérivations et raccords de ligne."
         }
@@ -635,9 +643,56 @@
         "familySummaries": {
           "tuyauteries": "Tubes acier pour collecteurs et dérivations incendie, RIA et sprinkler.",
           "accessoires": "Brides, raccords et accessoires pour réseaux incendie, collecteurs et dérivations RIA/sprinkler.",
+          "brides": "Brides EN 1092 acier carbone et collets forgés pour collecteurs et dérivations incendie.",
           "vannes": "Vannes opercule et guillotine pour isolement de zones, grands DN et manœuvres fiables en cas d'urgence.",
           "robinetterie-petrole-forgee-moulee": "Robinetterie robuste pour manifolds, postes de pompage incendie et points sous pression élevée.",
           "raccords-et-fittings": "Coudes, tés, manchons et unions filetés pour réseaux sprinkler et dérivations incendie."
+        }
+      },
+      "industrie-miniere": {
+        "metaTitle": "Industrie minière — vannes, tuyauteries et raccords | SDMI Dakar",
+        "metaDescription": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai au Sénégal : abrasion, boues, pression et stock à Dakar.",
+        "eyebrow": "Industrie minière",
+        "title": "L'industrie minière",
+        "lead": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai : abrasion, boues et pression, avec stock à Dakar. SDMI équipe les circuits de pulpe, d'eau de procédé et d'air comprimé avec des références dimensionnées pour l'usure et la continuité de production.",
+        "standards": "API 600 / 6D, EN 1092, ASTM A106 / API 5L — revêtements anti-abrasion, fontes et aciers pour services sévères.",
+        "highlightsTitle": "Résistance & disponibilité chantier",
+        "highlights": [
+          { "label": "Services", "value": "Abrasion & boues" },
+          { "label": "Pression", "value": "PN / ANSI" },
+          { "label": "Hub logistique", "value": "Stock Dakar" },
+          { "label": "Urgence site", "value": "24–48 h" }
+        ],
+        "challengesTitle": "Enjeux & contraintes process",
+        "challenges": [
+          "Abrasion des pulpes, sables et minerais sur vannes, coudes et lignes de transfert.",
+          "Boues denses, colmatage et manœuvres fréquentes sur isolement et régulation.",
+          "Pression, chocs et corrosion sur eau de procédé, air et réactifs.",
+          "Continuité de production sur concassage, broyage, flottation et épaississage.",
+          "Délais courts pour arrêts programmés et remplacement à l'identique."
+        ],
+        "applicationsTitle": "Applications & sites types",
+        "applications": [
+          "Mines et carrières : transfert de pulpe, hydrocyclones et bassins.",
+          "Traitement du minerai : broyage, flottation, filtration et épaississeurs.",
+          "Phosphates, cimenteries et unités de préparation des matières.",
+          "Réseaux d'eau de procédé, d'air comprimé et de réactifs.",
+          "Maintenance, extensions de ligne et renouvellement de parc sous usure."
+        ],
+        "supplyTitle": "Ce que SDMI vous apporte",
+        "supplyItems": [
+          "Vannes à guillotine, opercule et papillon pour isolement en service abrasif.",
+          "Tubes acier carbone, brides et raccords pour lignes de pulpe et d'eau de procédé.",
+          "Raccords filetés et fittings pour dérivations, instrumentation et utilités.",
+          "Sélection selon fluide, DN/PN, température et nature de l'abrasif.",
+          "Cotation sur plans, nomenclatures et listes de remplacement, avec stock à Dakar."
+        ],
+        "familySummaries": {
+          "robinetterie-petrole-forgee-moulee": "Robinetterie forgée et moulée pour points sous pression, manifolds et services sévères de mine.",
+          "vannes": "Vannes à opercule et à guillotine pour isolement des pulpes, boues et grands diamètres.",
+          "tuyauteries": "Tubes acier carbone, soudés ou sans soudure, pour transfert de pulpe, eau de procédé et air.",
+          "brides": "Brides EN 1092 acier carbone et collets forgés pour assemblages de ligne démontables.",
+          "raccords-et-fittings": "Raccords filetés et raccords à cames pour dérivations, utilités et liaisons rapides."
         }
       }
     }

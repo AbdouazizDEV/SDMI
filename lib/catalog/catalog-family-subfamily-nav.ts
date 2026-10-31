@@ -24,7 +24,6 @@ const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
         "EN 1092, ASME, stainless and water network flanges",
       ),
       subfamilySlugs: [
-        "brides-en1092-acier-carbone",
         "brides-asme-b16-5-a105",
         "brides-inox-en1092-asme",
         "brides-acier-galvanise",
@@ -41,11 +40,10 @@ const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
     {
       id: "raccords-soudes-filetes",
       label: frEn(
-        "Raccords acier, inox, laiton, fonte et collets",
-        "Steel, stainless, brass, iron fittings & forged hubs",
+        "Raccords acier, inox, laiton et fonte",
+        "Steel, stainless, brass and iron fittings",
       ),
       subfamilySlugs: [
-        "collets-forges",
         "raccords-acier-a-souder",
         "raccords-inox",
         "raccords-laiton-a-visser",
@@ -58,10 +56,10 @@ const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
     {
       id: "raccords-rapides",
       label: frEn(
-        "Raccords rapides à cames et express",
-        "Camlock and express couplings",
+        "Raccords express et symétriques",
+        "Express and symmetric couplings",
       ),
-      subfamilySlugs: ["raccords-a-cames", "raccords-express", "raccords-symetriques"],
+      subfamilySlugs: ["raccords-express", "raccords-symetriques"],
     },
     {
       id: "compensateurs",

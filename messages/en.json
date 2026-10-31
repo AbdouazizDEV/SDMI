@@ -234,6 +234,10 @@
         "industrie-agro-alimentaire": {
           "title": "Hygiene, stainless and process for food industry",
           "description": "Valves, fittings and piping for food production lines: sanitary compliance, corrosion resistance and easier maintenance."
+        },
+        "industrie-miniere": {
+          "title": "The mining industry",
+          "description": "Valves, piping and fittings for mines, quarries and mineral processing: abrasion, slurry and pressure, with stock in Dakar."
         }
       }
     },
@@ -349,8 +353,11 @@
       "accessoires": {
         "body": "Flanges, fittings and accessories for fluid networks: EN 1092 and ASME flanges, threaded, welded and mechanical fittings, expansion joints and water-network equipment. Solutions for water, oil, gas and industrial utilities."
       },
+      "brides": {
+        "body": "EN 1092 carbon steel flanges and forged hubs for piping joints: plate, blank, weld-neck, slip-on and threaded, from PN10 to PN40."
+      },
       "raccords-et-fittings": {
-        "body": "EN 10242 malleable iron threaded fittings: elbows, tees, crosses, sockets, nipples, plugs and flat-seat unions. BSPT thread, NPT on request, hot-dip galvanized or black finish. Working pressure up to 34.5 bar depending on size."
+        "body": "EN 10242 malleable iron threaded fittings: elbows, tees, crosses, sockets, nipples, plugs and flat-seat unions. BSPT thread, NPT on request, hot-dip galvanized or black finish. Working pressure up to 34.5 bar depending on size. Aluminium, stainless, brass and polypropylene camlock couplings, with EPDM, NBR and FKM gaskets."
       },
       "vannes": {
         "body": "Gate and knife gate valves for isolation on water, process and heavy industry networks: monobloc, flanged, forged, resilient seated and unidirectional or bidirectional S-gate models."
@@ -446,7 +453,7 @@
     "breadcrumbCurrent": "Industry sectors",
     "eyebrow": "Industry & general supply",
     "title": "On major industrial sites across Senegal",
-    "description": "Fire protection, water–oil–gas fluids and food processing: sized valves, Dakar stock and detailed sector pages for your projects.",
+    "description": "Fire protection, water–oil–gas fluids, food processing and mining: sized valves, Dakar stock and detailed sector pages for your projects.",
     "landingHeroAlt": "Industrial water, oil and gas networks — SDMI equipment",
     "stats": [
       { "label": "Dakar hub availability", "value": "SDMI stock" },
@@ -454,7 +461,7 @@
       { "label": "Pressure compliance", "value": "PN / ANSI" },
       { "label": "Engineering desk", "value": "Dedicated support" }
     ],
-    "gridTitle": "Our three focus sectors",
+    "gridTitle": "Our four focus sectors",
     "gridDescription": "Featured on the homepage — same visuals, same field teams and dedicated detail pages.",
     "secondaryTitle": "General industrial valves",
     "secondaryDescription": "Mining, cement, phosphates and severe service — production uptime and matched materials.",
@@ -473,9 +480,9 @@
     "whatsappCta": "WhatsApp engineering",
     "blocks": {
       "mines": {
-        "eyebrow": "Mining & minerals",
-        "title": "Mines, phosphates & cement",
-        "body": "Abrasive slurry, acids and thermal shock — uptime for crushers, kilns and mills.",
+        "eyebrow": "Mining industry",
+        "title": "The mining industry",
+        "body": "Valves, piping and fittings for mines, quarries and mineral processing: abrasion, slurry and pressure, with stock in Dakar.",
         "standards": "AISI 316Ti alloys, Ni-Hard cast iron, EPDM/NR linings."
       },
       "energy": {
@@ -546,6 +553,7 @@
           "robinetterie-petrole-forgee-moulee": "Forged and cast valves for hydrocarbons, gas and severe service — API, ANSI and high PN ratings.",
           "tuyauteries": "Carbon, stainless and 3PE coated steel tubes for water, oil and gas, from DN6 to DN1000.",
           "accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
+          "brides": "EN 1092 carbon steel flanges and forged hubs, PN10 to PN40, for line joints.",
           "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process.",
           "raccords-et-fittings": "EN 10242 malleable iron threaded fittings, BSPT, galvanized or black, for branches and line joints."
         }
@@ -635,9 +643,56 @@
         "familySummaries": {
           "tuyauteries": "Steel tubes for fire mains, manifolds and sprinkler or hose branches.",
           "accessoires": "Flanges, fittings and accessories for fire networks, manifolds and sprinkler or hose branches.",
+          "brides": "EN 1092 carbon steel flanges and forged hubs for fire mains and branches.",
           "vannes": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
           "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points.",
           "raccords-et-fittings": "Threaded elbows, tees, sockets and unions for sprinkler networks and fire branches."
+        }
+      },
+      "industrie-miniere": {
+        "metaTitle": "Mining industry — valves, piping and fittings | SDMI Dakar",
+        "metaDescription": "Valves, piping and fittings for mines, quarries and mineral processing in Senegal: abrasion, slurry, pressure and stock in Dakar.",
+        "eyebrow": "Mining industry",
+        "title": "The mining industry",
+        "lead": "Valves, piping and fittings for mines, quarries and mineral processing: abrasion, slurry and pressure, with stock in Dakar. SDMI supplies slurry, process-water and compressed-air circuits with references sized for wear and production uptime.",
+        "standards": "API 600 / 6D, EN 1092, ASTM A106 / API 5L — abrasion-resistant linings, cast irons and steels for severe service.",
+        "highlightsTitle": "Durability & site availability",
+        "highlights": [
+          { "label": "Service", "value": "Abrasion & slurry" },
+          { "label": "Pressure", "value": "PN / ANSI" },
+          { "label": "Logistics hub", "value": "Dakar stock" },
+          { "label": "Urgent sites", "value": "24–48 h" }
+        ],
+        "challengesTitle": "Process challenges",
+        "challenges": [
+          "Abrasion from slurry, sand and ore on valves, elbows and transfer lines.",
+          "Dense slurry, clogging and frequent operation on isolation and control.",
+          "Pressure, shock and corrosion on process water, air and reagents.",
+          "Production uptime on crushing, grinding, flotation and thickening.",
+          "Short lead times for planned shutdowns and like-for-like replacement."
+        ],
+        "applicationsTitle": "Applications & typical sites",
+        "applications": [
+          "Mines and quarries: slurry transfer, hydrocyclones and ponds.",
+          "Mineral processing: grinding, flotation, filtration and thickeners.",
+          "Phosphates, cement plants and raw-material preparation units.",
+          "Process-water, compressed-air and reagent networks.",
+          "Maintenance, line extensions and replacement of worn equipment."
+        ],
+        "supplyTitle": "How SDMI supports your project",
+        "supplyItems": [
+          "Knife gate, gate and butterfly valves for isolation in abrasive service.",
+          "Carbon steel tubes, flanges and fittings for slurry and process-water lines.",
+          "Threaded fittings and couplings for branches, instrumentation and utilities.",
+          "Selection by fluid, DN/PN, temperature and the nature of the abrasive.",
+          "Quotes from drawings, BOMs and replacement lists, with stock in Dakar."
+        ],
+        "familySummaries": {
+          "robinetterie-petrole-forgee-moulee": "Forged and cast valves for high-pressure points, manifolds and severe mine service.",
+          "vannes": "Gate and knife gate valves for slurry isolation, sludge and large bore.",
+          "tuyauteries": "Welded or seamless carbon steel tubes for slurry, process water and air transfer.",
+          "brides": "EN 1092 carbon steel flanges and forged hubs for demountable line joints.",
+          "raccords-et-fittings": "Threaded fittings and camlock couplings for branches, utilities and quick connections."
         }
       }
     }

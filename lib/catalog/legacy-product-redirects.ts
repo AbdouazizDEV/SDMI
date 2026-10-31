@@ -18,10 +18,37 @@ const movedTubeSubfamilies = [
   "tubes-carbone-pre-enrobes-3pe",
 ] as const;
 
+const movedFlangeSubfamilies = [
+  "brides-en1092-acier-carbone",
+  "collets-forges",
+] as const;
+
 export function buildLegacyProductRedirects() {
   const rules: { source: string; destination: string; permanent: boolean }[] = [];
 
   for (const locale of ["fr", "en"] as const) {
+    for (const subfamily of movedFlangeSubfamilies) {
+      rules.push({
+        source: `/${locale}/produits/accessoires/${subfamily}`,
+        destination: `/${locale}/produits/brides/${subfamily}`,
+        permanent: true,
+      });
+      rules.push({
+        source: `/${locale}/produits/accessoires/${subfamily}/:path*`,
+        destination: `/${locale}/produits/brides/${subfamily}/:path*`,
+        permanent: true,
+      });
+    }
+    rules.push({
+      source: `/${locale}/produits/accessoires/raccords-a-cames`,
+      destination: `/${locale}/produits/raccords-et-fittings/raccords-a-cames`,
+      permanent: true,
+    });
+    rules.push({
+      source: `/${locale}/produits/accessoires/raccords-a-cames/:path*`,
+      destination: `/${locale}/produits/raccords-et-fittings/raccords-a-cames/:path*`,
+      permanent: true,
+    });
     for (const subfamily of movedTubeSubfamilies) {
       rules.push({
         source: `/${locale}/produits/tuyauterie-et-accessoires/${subfamily}`,

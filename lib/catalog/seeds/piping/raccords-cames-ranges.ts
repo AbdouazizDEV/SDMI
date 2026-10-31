@@ -1,6 +1,6 @@
 import type { CatalogRangeSeed } from "@/lib/catalog/range-product";
 
-const FAMILY = "accessoires";
+const FAMILY = "raccords-et-fittings";
 const SUB = "raccords-a-cames";
 
 function frEn(fr: string, en: string) { return { fr, en }; }

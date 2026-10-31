@@ -89,13 +89,6 @@ export const catalogV1Navigation: CatalogNavigation = {
       name: frEn("Accessoires", "Accessories"),
       subfamilies: [
         {
-          slug: "brides-en1092-acier-carbone",
-          name: frEn(
-            "Brides EN 1092 acier carbone",
-            "EN 1092 carbon steel flanges",
-          ),
-        },
-        {
           slug: "brides-asme-b16-5-a105",
           name: frEn(
             "Brides ASME B16.5 A105",
@@ -148,10 +141,6 @@ export const catalogV1Navigation: CatalogNavigation = {
           ),
         },
         {
-          slug: "collets-forges",
-          name: frEn("Collets forgés", "Forged fittings / hubs"),
-        },
-        {
           slug: "raccords-deca",
           name: frEn("Raccords DECA", "DECA couplings"),
         },
@@ -177,10 +166,6 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "raccords-laiton-a-visser",
           name: frEn("Raccords laiton à visser", "Threaded brass fittings"),
-        },
-        {
-          slug: "raccords-a-cames",
-          name: frEn("Raccords à cames", "Camlock couplings"),
         },
         {
           slug: "raccords-express",
@@ -247,6 +232,23 @@ export const catalogV1Navigation: CatalogNavigation = {
       ],
     },
     {
+      slug: "brides",
+      name: frEn("Brides", "Flanges"),
+      subfamilies: [
+        {
+          slug: "brides-en1092-acier-carbone",
+          name: frEn(
+            "Brides EN 1092 acier carbone",
+            "EN 1092 carbon steel flanges",
+          ),
+        },
+        {
+          slug: "collets-forges",
+          name: frEn("Collets forgés", "Forged fittings / hubs"),
+        },
+      ],
+    },
+    {
       slug: "raccords-et-fittings",
       name: frEn("Raccords et fittings", "Fittings"),
       subfamilies: [
@@ -271,6 +273,10 @@ export const catalogV1Navigation: CatalogNavigation = {
             "Bouchons et unions filetés",
             "Threaded plugs & unions",
           ),
+        },
+        {
+          slug: "raccords-a-cames",
+          name: frEn("Raccords à cames", "Camlock couplings"),
         },
       ],
     },
@@ -553,6 +559,10 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "tuyauterie-materiels-incendie",
       name: frEn("Tuyauterie et matériels incendie", "Piping & fire equipment"),
+    },
+    {
+      slug: "industrie-miniere",
+      name: frEn("Industrie minière", "Mining industry"),
     },
   ],
 };
