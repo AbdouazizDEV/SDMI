@@ -1,10 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
-import {
-  HomeClientsMarquee,
-  type HomeClientMarqueeLogo,
-} from "@/components/features/home/home-clients-marquee";
-import { SectionHeading } from "@/components/features/home/section-heading";
+import { ClientsTrustSection } from "@/components/features/company/clients-trust-section";
+import type { HomeClientMarqueeLogo } from "@/components/features/home/home-clients-marquee";
 import { legacyClientLogos } from "@/lib/images/legacy-client-logos";
 
 type ClientsMarqueeBandProps = {
@@ -23,23 +20,16 @@ export async function ClientsMarqueeBand({
   const logos: HomeClientMarqueeLogo[] = legacyClientLogos.map((client) => ({
     name: client.name,
     src: client.path,
+    width: client.width,
+    height: client.height,
   }));
 
   return (
-    <section
-      className="border-border/80 -mx-4 border-y bg-gradient-to-b from-muted/50 via-muted/30 to-background py-10 lg:-mx-6 lg:py-12"
-      aria-labelledby={showHeading ? "clients-marquee-heading" : undefined}
-    >
-      {showHeading ? (
-        <div className="mx-auto mb-6 max-w-7xl px-4 lg:mb-8 lg:px-6">
-          <SectionHeading
-            id="clients-marquee-heading"
-            title={t(titleKey)}
-            className="mb-0"
-          />
-        </div>
-      ) : null}
-      <HomeClientsMarquee logos={logos} durationSeconds={52} />
-    </section>
+    <ClientsTrustSection
+      logos={logos}
+      title={t(titleKey)}
+      headingId="clients-marquee-heading"
+      showHeading={showHeading}
+    />
   );
 }

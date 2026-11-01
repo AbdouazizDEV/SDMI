@@ -63,7 +63,10 @@ export async function HomeFamiliesSection({ families }: HomeFamiliesSectionProps
         })}
       </ul>
       {hasMore ? (
-        <HomeSectionViewAllLink href="/produits" label={t("families.viewAll")} />
+        <HomeSectionViewAllLink
+          href="/produits#catalog-families-heading"
+          label={t("families.viewAll")}
+        />
       ) : null}
     </SectionShell>
   );

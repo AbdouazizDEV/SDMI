@@ -1,11 +1,7 @@
 import { getTranslations } from "next-intl/server";
 
-import {
-  HomeClientsMarquee,
-  type HomeClientMarqueeLogo,
-} from "@/components/features/home/home-clients-marquee";
-import { SectionHeading } from "@/components/features/home/section-heading";
-import { SectionShell } from "@/components/patterns/section-shell";
+import { ClientsTrustSection } from "@/components/features/company/clients-trust-section";
+import type { HomeClientMarqueeLogo } from "@/components/features/home/home-clients-marquee";
 import type { HomeClientLogo } from "@/lib/home/get-home-page-data";
 import { getStoragePublicUrl } from "@/lib/storage/public-url";
 
@@ -27,7 +23,9 @@ export async function HomeClientsSection({
 
   const logos: HomeClientMarqueeLogo[] = clientLogos.flatMap((client) => {
     const src = resolveLogoSrc(client.logoStoragePath);
-    return src ? [{ name: client.name, src }] : [];
+    return src
+      ? [{ name: client.name, src, width: client.width, height: client.height }]
+      : [];
   });
 
   if (logos.length === 0) {
@@ -35,21 +33,10 @@ export async function HomeClientsSection({
   }
 
   return (
-    <SectionShell
-      variant="muted"
-      labelledBy="home-clients-heading"
-      innerClassName="max-w-none px-0 lg:px-0"
-    >
-      <div className="mx-auto max-w-7xl px-4 lg:px-6">
-        <SectionHeading
-          id="home-clients-heading"
-          title={t("clients.title")}
-          description={t("clients.description") || undefined}
-          className="mb-6 md:mb-8"
-        />
-      </div>
-
-      <HomeClientsMarquee logos={logos} durationSeconds={52} />
-    </SectionShell>
+    <ClientsTrustSection
+      logos={logos}
+      title={t("clients.title")}
+      headingId="home-clients-heading"
+    />
   );
 }
