@@ -90,6 +90,14 @@ function toggleValue(list: string[] | undefined, value: string): string[] {
   return [...set];
 }
 
+/** Un seul choix par groupe : recliquer sur la valeur active la retire. */
+function selectOne(list: string[] | undefined, value: string): string[] | undefined {
+  if (list?.length === 1 && list[0] === value) {
+    return undefined;
+  }
+  return [value];
+}
+
 function matchesFilterQuery(label: string, query: string) {
   const q = query.trim().toLowerCase();
   if (!q) return true;
@@ -124,15 +132,19 @@ function FilterSection({
 
 function CheckboxRow({
   id,
+  name,
   label,
   count,
   checked,
+  exclusive = false,
   onChange,
 }: {
   id: string;
+  name?: string;
   label: string;
   count: number;
   checked: boolean;
+  exclusive?: boolean;
   onChange: () => void;
 }) {
   return (
@@ -142,10 +154,23 @@ function CheckboxRow({
     >
       <input
         id={id}
-        type="checkbox"
+        name={name}
+        type={exclusive ? "radio" : "checkbox"}
         checked={checked}
-        onChange={onChange}
-        className="border-border text-primary size-4 rounded"
+        onClick={(event) => {
+          if (!exclusive) return;
+          // Un radio contrôlé ne déclenche pas `change` quand on passe
+          // d'une option à une autre : le clic porte le choix unique.
+          event.preventDefault();
+          onChange();
+        }}
+        onChange={() => {
+          if (!exclusive) onChange();
+        }}
+        className={cn(
+          "border-border text-primary size-4",
+          exclusive ? "rounded-full" : "rounded",
+        )}
       />
       <span className="flex-1 leading-snug">{label}</span>
       <span className="text-muted-foreground text-xs tabular-nums">({count})</span>
@@ -296,7 +321,7 @@ export function CatalogBrowseWorkspace({
       id: `sf-${slug}`,
       label,
       group: labels.filterDeviceFamily,
-      apply: () => update({ subfamilies: toggleValue(filters.subfamilies, slug) }),
+      apply: () => update({ subfamilies: selectOne(filters.subfamilies, slug) }),
     });
   }
   for (const [material] of Object.entries(materialCounts)) {
@@ -305,7 +330,7 @@ export function CatalogBrowseWorkspace({
       id: `mat-${material}`,
       label: material,
       group: labels.filterMaterial,
-      apply: () => update({ materials: toggleValue(filters.materials, material) }),
+      apply: () => update({ materials: selectOne(filters.materials, material) }),
     });
   }
   for (const [pn] of Object.entries(pnCounts)) {
@@ -323,7 +348,7 @@ export function CatalogBrowseWorkspace({
       id: `conn-${conn}`,
       label: labels.connections[conn] ?? conn,
       group: labels.filterConnection,
-      apply: () => update({ connections: toggleValue(filters.connections, conn) }),
+      apply: () => update({ connections: selectOne(filters.connections, conn) }),
     });
   }
   for (const sector of ["mines", "energy", "agro", "water", "fire"] as const) {
@@ -331,7 +356,7 @@ export function CatalogBrowseWorkspace({
       id: `sector-${sector}`,
       label: labels.sectors[sector],
       group: labels.filterSector,
-      apply: () => update({ sectors: toggleValue(filters.sectors, sector) }),
+      apply: () => update({ sectors: selectOne(filters.sectors, sector) }),
     });
   }
 
@@ -450,12 +475,14 @@ export function CatalogBrowseWorkspace({
                   <li key={slug}>
                     <CheckboxRow
                       id={`sf-${slug}`}
+                      name="filter-device-family"
+                      exclusive
                       label={subfamilyLabels[slug] ?? slug}
                       count={count}
                       checked={filters.subfamilies?.includes(slug) ?? false}
                       onChange={() =>
                         update({
-                          subfamilies: toggleValue(filters.subfamilies, slug),
+                          subfamilies: selectOne(filters.subfamilies, slug),
                         })
                       }
                     />
@@ -475,12 +502,14 @@ export function CatalogBrowseWorkspace({
                   <li key={material}>
                     <CheckboxRow
                       id={`mat-${material}`}
+                      name="filter-material"
+                      exclusive
                       label={material}
                       count={count}
                       checked={filters.materials?.includes(material) ?? false}
                       onChange={() =>
                         update({
-                          materials: toggleValue(filters.materials, material),
+                          materials: selectOne(filters.materials, material),
                         })
                       }
                     />
@@ -572,12 +601,14 @@ export function CatalogBrowseWorkspace({
                   <li key={conn}>
                     <CheckboxRow
                       id={`conn-${conn}`}
+                      name="filter-connection"
+                      exclusive
                       label={labels.connections[conn] ?? conn}
                       count={count}
                       checked={filters.connections?.includes(conn) ?? false}
                       onChange={() =>
                         update({
-                          connections: toggleValue(filters.connections, conn),
+                          connections: selectOne(filters.connections, conn),
                         })
                       }
                     />
@@ -619,11 +650,13 @@ export function CatalogBrowseWorkspace({
                 <li key={sector}>
                   <CheckboxRow
                     id={`sector-${sector}`}
+                    name="filter-sector"
+                    exclusive
                     label={labels.sectors[sector]}
                     count={products.filter((p) => p.sectorTags.includes(sector)).length}
                     checked={filters.sectors?.includes(sector) ?? false}
                     onChange={() =>
-                      update({ sectors: toggleValue(filters.sectors, sector) })
+                      update({ sectors: selectOne(filters.sectors, sector) })
                     }
                   />
                 </li>

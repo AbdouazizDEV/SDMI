@@ -293,11 +293,60 @@
     will-change: transform;
   }
 
+  @keyframes sdmi-clients-marquee-reverse {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+  .sdmi-clients-marquee-track-reverse {
+    animation-name: sdmi-clients-marquee-reverse;
+  }
+
+  .sdmi-clients-marquee-mask {
+    mask-image: linear-gradient(
+      to right,
+      transparent,
+      #000 7%,
+      #000 93%,
+      transparent
+    );
+  }
+
+  @keyframes sdmi-client-logo-float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-7px);
+    }
+  }
+
+  .sdmi-client-logo-float {
+    animation: sdmi-client-logo-float 5.6s ease-in-out infinite;
+  }
+
   .sdmi-clients-marquee:hover .sdmi-clients-marquee-track {
     animation-play-state: paused;
   }
 
   @media (prefers-reduced-motion: reduce) {
+    .sdmi-clients-backdrop-video {
+      display: none;
+    }
+
+    .sdmi-clients-marquee-mask {
+      mask-image: none;
+    }
+
+    .sdmi-client-logo-float {
+      animation: none;
+    }
+
     .sdmi-clients-marquee-track {
       animation: none;
       flex-wrap: wrap;

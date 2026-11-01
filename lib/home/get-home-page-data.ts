@@ -47,6 +47,8 @@ export type HomeDocumentationHighlight = {
 export type HomeClientLogo = {
   name: string;
   logoStoragePath: string;
+  width?: number;
+  height?: number;
 };
 
 export type HomeHero = {
@@ -171,12 +173,14 @@ async function buildHomePageDataUncached(): Promise<HomePageData> {
     clientLogos: legacyClientLogos.map((logo) => ({
       name: logo.name,
       logoStoragePath: logo.path,
+      width: logo.width,
+      height: logo.height,
     })),
   };
 }
 
 export const getHomePageData = unstable_cache(
   buildHomePageDataUncached,
-  ["sdmi-home-page-data-v4"],
+  ["sdmi-home-page-data-v6"],
   { revalidate: 300 },
 );

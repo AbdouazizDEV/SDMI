@@ -169,7 +169,7 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
         <section className="mt-16 border-t border-border/80 pt-12" aria-labelledby="catalog-families-heading">
           <h2
             id="catalog-families-heading"
-            className="font-heading text-primary sdmi-heading-accent mb-6 text-lg font-bold uppercase"
+            className="font-heading text-primary sdmi-heading-accent mb-6 scroll-mt-48 text-lg font-bold uppercase lg:scroll-mt-56"
           >
             {t("familiesTitle")}
           </h2>
