@@ -27,6 +27,14 @@ import { jcTrunnionBallValveRanges } from "@/lib/catalog/seeds/jc-trunnion-ball-
 import { brassPvcAllRanges } from "@/lib/catalog/seeds/brass-pvc";
 import { pipingAllRanges } from "@/lib/catalog/seeds/piping";
 import { threadedFittingRanges } from "@/lib/catalog/seeds/threaded-fitting-ranges";
+import { klingerFibreRanges } from "@/lib/catalog/seeds/klinger-fibre-ranges";
+import { elastomereRanges } from "@/lib/catalog/seeds/elastomere-ranges";
+import { graphiteRanges } from "@/lib/catalog/seeds/graphite-ranges";
+import { manchettesCompensateursRanges } from "@/lib/catalog/seeds/manchettes-compensateurs-ranges";
+import { micaRanges } from "@/lib/catalog/seeds/mica-ranges";
+import { tressesRubansRanges } from "@/lib/catalog/seeds/tresses-rubans-ranges";
+import { ptfeRanges } from "@/lib/catalog/seeds/ptfe-ranges";
+import { toriquesRanges } from "@/lib/catalog/seeds/toriques-ranges";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
@@ -55,6 +63,14 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...brassPvcAllRanges,
   ...pipingAllRanges,
   ...threadedFittingRanges,
+  ...klingerFibreRanges,
+  ...elastomereRanges,
+  ...graphiteRanges,
+  ...manchettesCompensateursRanges,
+  ...micaRanges,
+  ...tressesRubansRanges,
+  ...ptfeRanges,
+  ...toriquesRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {
