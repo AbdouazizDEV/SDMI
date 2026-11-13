@@ -82,9 +82,7 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "joints-en-graphite",
   "manchettes-et-compensateurs",
   "joints-mica",
-  "joints-metalliques",
   "joints-ptfe",
-  "quadrilobes",
   "joints-toriques",
   "tresses-rubans-etancheite",
 ]);

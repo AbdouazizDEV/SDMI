@@ -107,8 +107,12 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "manchons-compensateurs-elastomere":
     "/images/catalog/taxonomy/manchons-compensateurs-elastomere.jpg",
   "joints-en-fibres-elastomeres": "/images/joints-en-fibres-elastomeres.jpg",
+  elastomeres: "/images/elastomere.jpg",
   "joints-en-graphite": "/images/joints-en-graphite.jpg",
-  "joints-metalliques": "/images/joints-metalliques.jpg",
+  "manchettes-et-compensateurs": "/images/manchettes-et-compensateurs.jpg",
+  "joints-mica": "/images/joints-mica.jpg",
+  "joints-ptfe": "/images/joints-ptfe.jpg",
+  "joints-toriques": "/images/joints-toriques-et-bagues-anti-extrusion.jpg",
   "tresses-rubans-etancheite": "/images/tresses-rubans-etancheite.jpg",
 };
 

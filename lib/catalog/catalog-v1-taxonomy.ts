@@ -547,12 +547,12 @@ export const catalogV1Navigation: CatalogNavigation = {
       name: frEn("Étanchéité statique", "Static sealing"),
       subfamilies: [
         {
-          slug: "elastomeres",
-          name: frEn("Élastomères", "Elastomers"),
+          slug: "joints-en-fibres-elastomeres",
+          name: frEn("Fibre", "Fiber"),
         },
         {
-          slug: "joints-en-fibres-elastomeres",
-          name: frEn("Fibre élastomère", "Elastomer fiber"),
+          slug: "elastomeres",
+          name: frEn("Élastomère", "Elastomer"),
         },
         {
           slug: "joints-en-graphite",
@@ -570,16 +570,8 @@ export const catalogV1Navigation: CatalogNavigation = {
           name: frEn("Mica", "Mica"),
         },
         {
-          slug: "joints-metalliques",
-          name: frEn("Métalliques", "Metallic gaskets"),
-        },
-        {
           slug: "joints-ptfe",
           name: frEn("PTFE", "PTFE"),
-        },
-        {
-          slug: "quadrilobes",
-          name: frEn("Quadrilobes", "Quad-lobe seals"),
         },
         {
           slug: "joints-toriques",

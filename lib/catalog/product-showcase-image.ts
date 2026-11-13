@@ -4,6 +4,7 @@ import {
 } from "@/lib/catalog/catalog-v1-assets";
 import { getCatalogRangeImage } from "@/lib/catalog/catalog-range-images";
 import { findSeedBySlug, listSeedsForSubfamily } from "@/lib/catalog/catalog-seeds";
+import { getProductImageGallery } from "@/lib/catalog/product-image-gallery";
 import { getLegacySubfamilyImage } from "@/lib/images/legacy-subfamily-images";
 import { siteAssets } from "@/lib/images/site-assets";
 
@@ -19,8 +20,12 @@ const subfamilyHeroFirst = new Set([
   "manchons-et-mamelons-filetes",
   "bouchons-et-unions-filetes",
   "joints-en-fibres-elastomeres",
+  "elastomeres",
   "joints-en-graphite",
-  "joints-metalliques",
+  "manchettes-et-compensateurs",
+  "joints-mica",
+  "joints-ptfe",
+  "joints-toriques",
   "tresses-rubans-etancheite",
 ]);
 
@@ -52,12 +57,19 @@ export function resolveSubfamilyShowcaseImage(
   return getLegacySubfamilyImage(subfamilySlug);
 }
 
-/** Image vitrine : série / slug produit, sous-famille v1 / legacy, sinon famille. */
+/** Image vitrine : galerie produit, série / slug, sous-famille v1 / legacy, sinon famille. */
 export function resolveProductShowcaseImage(
   subfamilySlug?: string,
   familySlug?: string,
   context?: ProductShowcaseImageContext,
 ): string | null {
+  if (context?.productSlug) {
+    const galleryImage = getProductImageGallery(context.productSlug)[0];
+    if (galleryImage) {
+      return galleryImage;
+    }
+  }
+
   const reference =
     context?.reference ??
     (context?.productSlug ? findSeedBySlug(context.productSlug)?.reference : undefined);

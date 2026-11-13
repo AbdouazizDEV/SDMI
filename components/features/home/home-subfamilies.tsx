@@ -20,7 +20,7 @@ const STATIC_SEALING_FAMILY_SLUG = "etancheite-statique";
 const HOME_GAMME_SLUGS = [
   "joints-en-fibres-elastomeres",
   "joints-en-graphite",
-  "joints-metalliques",
+  "joints-ptfe",
   "tresses-rubans-etancheite",
 ] as const;
 
