@@ -143,13 +143,11 @@
       "filterCta": "Filter stock",
       "filterCtaDakar": "Filter Dakar stock",
       "catalogPdfCta": "Download PDF catalog",
+      "idleHint": "Pick a family and technical criteria — the Dakar catalog opens already filtered.",
+      "activeHint": "Selected filters will be applied directly on the Products page.",
+      "liveBadge": "Live catalog · Dakar",
       "familyOptions": {
-        "all": "All families",
-        "vannes-boisseau": "Ball valves",
-        "vannes-papillon": "Butterfly valves",
-        "clapets": "Check valves",
-        "filtration": "Industrial filtration",
-        "raccords": "Fittings & flanges"
+        "all": "All families"
       },
       "dnOptions": {
         "all": "All diameters",
@@ -171,7 +169,10 @@
         "inox304": "304 / 304L stainless",
         "fonte": "Cast / ductile iron",
         "acier": "Forged A105 / WCB",
-        "laiton": "Brass CW617N"
+        "laiton": "Brass CW617N",
+        "ptfe": "PTFE / ePTFE",
+        "elastomere": "Elastomers (EPDM, NBR…)",
+        "graphite": "Graphite"
       }
     },
     "featured": {

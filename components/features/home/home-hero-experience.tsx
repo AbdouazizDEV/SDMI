@@ -7,6 +7,7 @@ import {
   MapPinIcon,
   SlidersHorizontalIcon,
 } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 
 import { HomeHeroCarousel } from "@/components/features/home/home-hero-carousel";
@@ -44,6 +45,7 @@ export function HomeHeroExperience({
   slideContents,
   slides = heroCarouselSlides,
 }: HomeHeroExperienceProps) {
+  const tStock = useTranslations("Home.stockSelector");
   const [activeIndex, setActiveIndex] = useState(0);
   const [reduceMotion, setReduceMotion] = useState(false);
 
@@ -122,12 +124,19 @@ export function HomeHeroExperience({
           </div>
         </div>
 
-        <div className="relative z-[2] border-t border-white/10 bg-primary/95 backdrop-blur-sm">
+        <div className="relative z-[2] border-t border-white/10 bg-gradient-to-b from-primary/90 via-primary/95 to-[color-mix(in_srgb,var(--primary)_92%,black)] backdrop-blur-md">
           <div className="mx-auto max-w-7xl px-4 py-5 lg:px-6 lg:py-6">
-            <p className="text-cta mb-4 inline-flex items-center gap-2 text-xs font-bold tracking-widest uppercase lg:text-sm">
-              <SlidersHorizontalIcon aria-hidden className="size-4" />
-              {stockSelectorTitle}
-            </p>
+            <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+              <p className="text-cta inline-flex items-center gap-2 text-xs font-bold tracking-[0.16em] uppercase lg:text-sm">
+                <span className="bg-cta/15 ring-cta/25 inline-flex size-8 items-center justify-center rounded-sm ring-1">
+                  <SlidersHorizontalIcon aria-hidden className="size-4" />
+                </span>
+                {stockSelectorTitle}
+              </p>
+              <span className="text-primary-foreground/45 hidden text-[10px] font-semibold tracking-[0.18em] uppercase sm:inline">
+                {tStock("liveBadge")}
+              </span>
+            </div>
             <HomeStockSelectorPanel variant="heroFooter" />
           </div>
         </div>

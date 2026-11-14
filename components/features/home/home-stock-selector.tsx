@@ -1,23 +1,24 @@
 "use client";
 
-import { ChevronDownIcon } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { useRouter } from "@/i18n/navigation";
-import { useState } from "react";
+import {
+  ArrowRightIcon,
+  ChevronDownIcon,
+  PackageSearchIcon,
+} from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { useMemo, useState } from "react";
 
 import { buttonVariants } from "@/components/ui/button";
-import { Link } from "@/i18n/navigation";
-import { buildStockSelectorQueryString } from "@/lib/catalog/stock-selector-params";
+import { Link, useRouter } from "@/i18n/navigation";
+import {
+  buildStockSelectorQueryString,
+  getStockSelectorFamilyOptions,
+  stockSelectorDnKeys,
+  stockSelectorMaterialKeys,
+  stockSelectorPressureOptionKeys,
+} from "@/lib/catalog/stock-selector-params";
+import type { SiteLocale } from "@/lib/site";
 import { cn } from "@/lib/utils";
-
-const familyOptions = [
-  "all",
-  "vannes-boisseau",
-  "vannes-papillon",
-  "clapets",
-  "filtration",
-  "raccords",
-] as const;
 
 type HomeStockSelectorPanelProps = {
   variant?: "card" | "heroFooter";
@@ -27,11 +28,20 @@ export function HomeStockSelectorPanel({
   variant = "card",
 }: HomeStockSelectorPanelProps) {
   const t = useTranslations("Home.stockSelector");
+  const locale = useLocale() as SiteLocale;
   const router = useRouter();
   const [family, setFamily] = useState<string>("all");
   const [dn, setDn] = useState("all");
   const [pressure, setPressure] = useState("all");
   const [material, setMaterial] = useState("all");
+
+  const familyOptions = useMemo(
+    () => getStockSelectorFamilyOptions(locale),
+    [locale],
+  );
+
+  const hasActiveFilters =
+    family !== "all" || dn !== "all" || pressure !== "all" || material !== "all";
 
   function filterStock() {
     const query = buildStockSelectorQueryString({
@@ -53,10 +63,13 @@ export function HomeStockSelectorPanel({
         value={family}
         onChange={setFamily}
         hero={isHero}
-        options={familyOptions.map((value) => ({
-          value,
-          label: t(`familyOptions.${value}`),
-        }))}
+        options={[
+          { value: "all", label: t("familyOptions.all") },
+          ...familyOptions.map((option) => ({
+            value: option.slug,
+            label: option.label,
+          })),
+        ]}
       />
       <StockSelect
         id="stock-dn"
@@ -64,9 +77,10 @@ export function HomeStockSelectorPanel({
         value={dn}
         onChange={setDn}
         hero={isHero}
-        options={["all", "dn15-50", "dn65-150", "dn200-600", "dn600plus"].map(
-          (value) => ({ value, label: t(`dnOptions.${value}`) }),
-        )}
+        options={stockSelectorDnKeys.map((value) => ({
+          value,
+          label: t(`dnOptions.${value}`),
+        }))}
       />
       <StockSelect
         id="stock-pressure"
@@ -74,9 +88,10 @@ export function HomeStockSelectorPanel({
         value={pressure}
         onChange={setPressure}
         hero={isHero}
-        options={["all", "pn10-16", "pn25-40", "pn63plus", "class150"].map(
-          (value) => ({ value, label: t(`pressureOptions.${value}`) }),
-        )}
+        options={stockSelectorPressureOptionKeys.map((value) => ({
+          value,
+          label: t(`pressureOptions.${value}`),
+        }))}
       />
       <StockSelect
         id="stock-material"
@@ -84,47 +99,69 @@ export function HomeStockSelectorPanel({
         value={material}
         onChange={setMaterial}
         hero={isHero}
-        options={["all", "inox316", "inox304", "fonte", "acier", "laiton"].map(
-          (value) => ({ value, label: t(`materialOptions.${value}`) }),
-        )}
+        options={stockSelectorMaterialKeys.map((value) => ({
+          value,
+          label: t(`materialOptions.${value}`),
+        }))}
       />
     </>
   );
 
   if (isHero) {
     return (
-      <div className="grid gap-4 lg:grid-cols-[1fr_1fr_1fr_1fr_auto] lg:items-end">
-        {fields}
-        <button
-          type="button"
-          className={buttonVariants({
-            className:
-              "bg-cta text-cta-foreground hover:bg-cta/90 h-11 w-full rounded-sm px-4 text-xs font-bold uppercase tracking-wide lg:h-10 lg:min-w-[12rem]",
-          })}
-          onClick={filterStock}
-        >
-          {t("filterCtaDakar")}
-        </button>
+      <div className="space-y-4">
+        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-[minmax(0,1.35fr)_repeat(3,minmax(0,1fr))_auto] xl:items-end xl:gap-4">
+          {fields}
+          <button
+            type="button"
+            onClick={filterStock}
+            className={cn(
+              buttonVariants({
+                className:
+                  "bg-cta text-cta-foreground hover:bg-cta/90 group h-11 w-full rounded-sm px-5 text-xs font-bold tracking-wide uppercase shadow-[0_8px_24px_rgba(0,0,0,0.28)] transition-[transform,box-shadow,background-color] hover:-translate-y-0.5 hover:shadow-[0_12px_28px_rgba(0,0,0,0.35)] xl:min-w-[13.5rem]",
+              }),
+            )}
+          >
+            <span className="inline-flex items-center gap-2">
+              <PackageSearchIcon aria-hidden className="size-4 shrink-0" />
+              {t("filterCtaDakar")}
+              <ArrowRightIcon
+                aria-hidden
+                className="size-3.5 shrink-0 transition-transform group-hover:translate-x-0.5"
+              />
+            </span>
+          </button>
+        </div>
+        <p className="text-primary-foreground/65 text-[11px] leading-relaxed tracking-wide sm:text-xs">
+          {hasActiveFilters ? t("activeHint") : t("idleHint")}
+        </p>
       </div>
     );
   }
 
   return (
-    <div className="border-border rounded-sm border bg-card p-4 shadow-lg lg:p-6">
-      <p className="font-heading text-primary mb-4 text-lg font-bold uppercase">
+    <div className="border-border/80 from-card via-card to-muted/30 rounded-sm border bg-gradient-to-br p-5 shadow-lg lg:p-6">
+      <p className="font-heading text-primary mb-1 text-lg font-bold tracking-wide uppercase">
         {t("title")}
       </p>
+      <p className="text-muted-foreground mb-5 text-sm">{t("idleHint")}</p>
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">{fields}</div>
-      <div className="mt-4 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+      <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
         <button
           type="button"
           className={buttonVariants({
             className:
-              "bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-sm px-6 font-semibold uppercase",
+              "bg-cta text-cta-foreground hover:bg-cta/90 group h-11 rounded-sm px-6 font-semibold tracking-wide uppercase",
           })}
           onClick={filterStock}
         >
-          {t("filterCta")}
+          <span className="inline-flex items-center gap-2">
+            {t("filterCta")}
+            <ArrowRightIcon
+              aria-hidden
+              className="size-3.5 transition-transform group-hover:translate-x-0.5"
+            />
+          </span>
         </button>
         <Link
           href="/documentation"
@@ -160,14 +197,23 @@ type StockSelectProps = {
   hero?: boolean;
 };
 
-function StockSelect({ id, label, value, onChange, options, hero }: StockSelectProps) {
+function StockSelect({
+  id,
+  label,
+  value,
+  onChange,
+  options,
+  hero,
+}: StockSelectProps) {
+  const isActive = value !== "all";
+
   return (
     <div className="min-w-0">
       <label
         htmlFor={id}
         className={cn(
-          "mb-1 block text-xs font-semibold uppercase",
-          hero ? "text-primary-foreground/75" : "text-muted-foreground",
+          "mb-1.5 block text-[10px] font-bold tracking-[0.14em] uppercase sm:text-[11px]",
+          hero ? "text-primary-foreground/70" : "text-muted-foreground",
         )}
       >
         {label}
@@ -178,10 +224,18 @@ function StockSelect({ id, label, value, onChange, options, hero }: StockSelectP
           value={value}
           onChange={(event) => onChange(event.target.value)}
           className={cn(
-            "h-10 w-full appearance-none rounded-sm border px-3 pr-8 text-sm",
+            "h-11 w-full appearance-none rounded-sm border px-3 pr-9 text-sm outline-none transition-[border-color,box-shadow,background-color]",
+            "focus-visible:ring-cta/50 focus-visible:ring-2",
             hero
-              ? "border-white/20 bg-white text-foreground"
-              : "border-input bg-background",
+              ? cn(
+                  "border-white/15 bg-white/95 text-foreground shadow-[inset_0_1px_0_rgba(255,255,255,0.55)] backdrop-blur-sm",
+                  "hover:border-white/30 hover:bg-white",
+                  isActive && "border-cta/70 ring-cta/30 ring-1",
+                )
+              : cn(
+                  "border-input bg-background",
+                  isActive && "border-cta/50 ring-cta/20 ring-1",
+                ),
           )}
         >
           {options.map((option) => (
@@ -192,7 +246,10 @@ function StockSelect({ id, label, value, onChange, options, hero }: StockSelectP
         </select>
         <ChevronDownIcon
           aria-hidden
-          className="text-muted-foreground pointer-events-none absolute top-1/2 right-2 size-4 -translate-y-1/2"
+          className={cn(
+            "pointer-events-none absolute top-1/2 right-2.5 size-4 -translate-y-1/2",
+            hero ? "text-primary/55" : "text-muted-foreground",
+          )}
         />
       </div>
     </div>
