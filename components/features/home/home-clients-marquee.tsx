@@ -37,7 +37,7 @@ function LogoSlide({
       className={
         isRef
           ? "flex h-28 w-[min(260px,44vw)] shrink-0 items-center justify-center px-4 md:h-36 md:w-[min(320px,38vw)] md:px-6"
-          : "sdmi-client-logo-float flex h-32 shrink-0 items-stretch px-2 md:h-40 lg:h-44"
+          : "sdmi-client-logo-float flex h-24 shrink-0 items-stretch px-2.5 md:h-28 lg:h-32"
       }
       style={isRef ? undefined : { animationDelay: `${floatDelay}s` }}
     >
@@ -110,8 +110,8 @@ export function HomeClientsMarquee({
     <div
       className={
         fade === "mask"
-          ? "sdmi-clients-marquee sdmi-clients-marquee-mask relative overflow-hidden py-2 md:py-3"
-          : "sdmi-clients-marquee relative overflow-hidden py-2 md:py-4"
+          ? "sdmi-clients-marquee sdmi-clients-marquee-mask relative overflow-hidden py-3 md:py-4"
+          : "sdmi-clients-marquee relative overflow-hidden py-3 md:py-5"
       }
       style={style}
     >

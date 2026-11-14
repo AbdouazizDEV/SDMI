@@ -4,7 +4,7 @@ import { legacyClientLogos } from "@/lib/images/legacy-client-logos";
 import { getCatalogV1FamilyImage } from "@/lib/catalog/catalog-v1-assets";
 import { legacyCatalogNavigation } from "@/lib/images/legacy-catalog";
 import {
-  HOME_FEATURED_SECTOR_SLUGS,
+  HOME_SECTION_SECTOR_SLUGS,
   homeFeaturedSectorImages,
 } from "@/lib/home/home-featured-sectors";
 import { siteAssets } from "@/lib/images/site-assets";
@@ -71,7 +71,7 @@ function familyImage(slug: string): string | null {
 }
 
 function buildHomeSectors(): HomeSectorCard[] {
-  return HOME_FEATURED_SECTOR_SLUGS.flatMap((slug) => {
+  return HOME_SECTION_SECTOR_SLUGS.flatMap((slug) => {
     const sector = legacyCatalogNavigation.sectors.find((item) => item.slug === slug);
     if (!sector) {
       return [];
