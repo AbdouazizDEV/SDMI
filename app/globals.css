@@ -126,6 +126,28 @@
 }
 
 @layer components {
+  .sdmi-zoom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 9999px;
+    background: var(--cta);
+    border: 2px solid white;
+    box-shadow: 0 2px 8px rgba(27, 58, 87, 0.35);
+    cursor: pointer;
+  }
+
+  .sdmi-zoom-range::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 9999px;
+    background: var(--cta);
+    border: 2px solid white;
+    box-shadow: 0 2px 8px rgba(27, 58, 87, 0.35);
+    cursor: pointer;
+  }
+
   .sdmi-surface-card {
     @apply relative overflow-hidden rounded-xl border border-border/80 bg-card shadow-[0_8px_30px_-14px_rgba(27,58,87,0.2)] transition-[transform,box-shadow,border-color] duration-300 ease-out;
   }
