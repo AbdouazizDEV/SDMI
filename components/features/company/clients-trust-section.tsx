@@ -24,7 +24,7 @@ export function ClientsTrustSection({
 
   return (
     <section
-      className="relative isolate overflow-hidden bg-[#071422] py-16 lg:py-24"
+      className="relative isolate overflow-hidden bg-[#071422] py-20 lg:py-28"
       aria-labelledby={showHeading ? headingId : undefined}
       aria-label={showHeading ? undefined : title}
     >
@@ -40,7 +40,7 @@ export function ClientsTrustSection({
 
       <div className="relative z-10">
         {showHeading ? (
-          <div className="mx-auto mb-8 max-w-7xl px-4 lg:mb-10 lg:px-6">
+          <div className="mx-auto mb-10 max-w-7xl px-4 lg:mb-12 lg:px-6">
             <SectionHeading
               id={headingId}
               title={title}
@@ -50,7 +50,7 @@ export function ClientsTrustSection({
           </div>
         ) : null}
 
-        <div className="flex flex-col gap-4 md:gap-5">
+        <div className="flex flex-col gap-5 md:gap-7">
           <HomeClientsMarquee
             logos={topRow}
             durationSeconds={38}

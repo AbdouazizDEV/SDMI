@@ -1,4 +1,4 @@
-/** Secteurs mis en avant — mêmes quatre pôles et visuels que le hero. */
+/** Secteurs mis en avant — mêmes quatre pôles et visuels que le hero / `/secteurs`. */
 
 export const HOME_FEATURED_SECTOR_SLUGS = [
   "tuyauterie-materiels-incendie",
@@ -8,6 +8,12 @@ export const HOME_FEATURED_SECTOR_SLUGS = [
 ] as const;
 
 export type HomeFeaturedSectorSlug = (typeof HOME_FEATURED_SECTOR_SLUGS)[number];
+
+/** Secteurs affichés dans la section chantiers de la page d’accueil. */
+export const HOME_SECTION_SECTOR_SLUGS = [
+  "circuit-eau-petrole-gaz",
+  "industrie-miniere",
+] as const satisfies readonly HomeFeaturedSectorSlug[];
 
 /** Clés i18n `Home.hero.carousel.slides.{key}` — libellé court sur les cartes accueil. */
 export const homeFeaturedSectorSlideKeys: Record<

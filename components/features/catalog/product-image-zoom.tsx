@@ -31,7 +31,7 @@ export function ProductImageZoom({
 }: ProductImageZoomProps) {
   const stageRef = useRef<HTMLDivElement>(null);
   const [hovering, setHovering] = useState(false);
-  const [zoom, setZoom] = useState(55);
+  const [zoom, setZoom] = useState(40);
   const [origin, setOrigin] = useState({ x: 50, y: 50 });
   const [reduceMotion, setReduceMotion] = useState(false);
 
@@ -103,7 +103,7 @@ export function ProductImageZoom({
             storagePath={src}
             alt={alt}
             className="absolute inset-0 size-full"
-            imageClassName="object-cover"
+            imageClassName="object-contain object-center p-4 sm:p-6 lg:p-8"
             sizes="(max-width: 1024px) 100vw, 48vw"
             quality={100}
             priority={priority}
