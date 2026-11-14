@@ -407,6 +407,7 @@
     "viewProduct": "View",
     "productDetail": {
       "specsTitle": "Technical specifications",
+      "descriptionTitle": "Technical description",
       "ctaTitle": "Quote & documentation",
       "ctaHint": "Add the reference to your quote basket or send a detailed request — reply within one business day.",
       "rangeCtaHint": "Include DN, pressure class and end connection in your quote request — datasheets and certificates available on request.",
@@ -414,7 +415,9 @@
       "noImage": "Image coming soon",
       "photo": "Photo",
       "video360": "360° rotation",
-      "backToSubfamily": "← All references in {name}",
+      "zoomLabel": "Zoom",
+      "zoomHint": "Hover to zoom · scroll to adjust",
+      "backToSubfamily": "All references in {name}",
       "dragToRotate": "Drag to rotate 360°",
       "play360": "Play 360°",
       "pause360": "Pause 360°"

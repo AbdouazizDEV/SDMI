@@ -407,6 +407,7 @@
     "viewProduct": "Voir",
     "productDetail": {
       "specsTitle": "Caractéristiques techniques",
+      "descriptionTitle": "Description technique",
       "ctaTitle": "Cotation & documentation",
       "ctaHint": "Ajoutez la référence au panier devis ou envoyez une demande détaillée — réponse commerciale sous 24 h ouvrées.",
       "rangeCtaHint": "Indiquez DN, classe de pression et raccordement dans votre demande de devis — fiches techniques et certificats sur demande.",
@@ -414,7 +415,9 @@
       "noImage": "Image à venir",
       "photo": "Photo",
       "video360": "Rotation 360°",
-      "backToSubfamily": "← Toutes les références {name}",
+      "zoomLabel": "Zoom",
+      "zoomHint": "Survolez pour zoomer · molette pour ajuster",
+      "backToSubfamily": "Toutes les références {name}",
       "dragToRotate": "Glisser pour pivoter à 360°",
       "play360": "Lecture 360°",
       "pause360": "Pause 360°"
