@@ -22,10 +22,10 @@ export const homeFeaturedSectorSlideKeys: Record<
 
 export const homeFeaturedSectorImages: Record<HomeFeaturedSectorSlug, string> = {
   "tuyauterie-materiels-incendie":
-    "/images/hero/Protection_incendie_et_robinetterie_de_sécurité.jpeg",
+    "/images/Protection_incendie.jpeg",
   "circuit-eau-petrole-gaz":
     "/images/Gemini_Generated_Image_lg3auilg3auilg3a.jpeg",
   "industrie-agro-alimentaire":
-    "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
+    "/images/agrioAlimentaire.jpeg",
   "industrie-miniere": "/images/Gemini_Generated_Image_7uyvsj7uyvsj7uyv.jpeg",
 };

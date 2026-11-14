@@ -143,13 +143,11 @@
       "filterCta": "Filtrer le stock",
       "filterCtaDakar": "Filtrer le stock Dakar",
       "catalogPdfCta": "Télécharger le catalogue PDF",
+      "idleHint": "Choisissez une famille et des critères techniques — le catalogue Dakar s’ouvre déjà filtré.",
+      "activeHint": "Les filtres sélectionnés seront appliqués directement sur la page Produits.",
+      "liveBadge": "Catalogue live · Dakar",
       "familyOptions": {
-        "all": "Toutes familles",
-        "vannes-boisseau": "Vannes à boisseau sphérique",
-        "vannes-papillon": "Vannes papillon",
-        "clapets": "Clapets anti-retour",
-        "filtration": "Filtration industrielle",
-        "raccords": "Raccords & brides"
+        "all": "Toutes familles"
       },
       "dnOptions": {
         "all": "Tous diamètres",
@@ -171,7 +169,10 @@
         "inox304": "Inox 304 / 304L",
         "fonte": "Fonte GS / ductile",
         "acier": "Acier forgé A105 / WCB",
-        "laiton": "Laiton CW617N"
+        "laiton": "Laiton CW617N",
+        "ptfe": "PTFE / ePTFE",
+        "elastomere": "Élastomères (EPDM, NBR…)",
+        "graphite": "Graphite"
       }
     },
     "featured": {

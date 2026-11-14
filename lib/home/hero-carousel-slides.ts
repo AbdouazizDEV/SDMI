@@ -11,7 +11,7 @@ export const heroCarouselSlides: HeroCarouselSlide[] = [
   {
     id: "materiel-incendie",
     imagePath:
-      "/images/hero/Protection_incendie_et_robinetterie_de_sécurité.jpeg",
+      "/images/Protection_incendie.jpeg",
     labelKey: "fire",
   },
   {
@@ -22,7 +22,7 @@ export const heroCarouselSlides: HeroCarouselSlide[] = [
   {
     id: "agro-alimentaire",
     imagePath:
-      "/images/hero/inox_et_process_pour_l'agro-industrie_(Agro-alimentaire).jpeg",
+      "/images/agrioAlimentaire.jpeg",
     labelKey: "agro",
   },
   {
