@@ -27,6 +27,7 @@ import { jcTrunnionBallValveRanges } from "@/lib/catalog/seeds/jc-trunnion-ball-
 import { brassPvcAllRanges } from "@/lib/catalog/seeds/brass-pvc";
 import { pipingAllRanges } from "@/lib/catalog/seeds/piping";
 import { threadedFittingRanges } from "@/lib/catalog/seeds/threaded-fitting-ranges";
+import { protectionReseauxAllRanges } from "@/lib/catalog/seeds/protection-reseaux";
 import { klingerFibreRanges } from "@/lib/catalog/seeds/klinger-fibre-ranges";
 import { elastomereRanges } from "@/lib/catalog/seeds/elastomere-ranges";
 import { graphiteRanges } from "@/lib/catalog/seeds/graphite-ranges";
@@ -63,6 +64,7 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...brassPvcAllRanges,
   ...pipingAllRanges,
   ...threadedFittingRanges,
+  ...protectionReseauxAllRanges,
   ...klingerFibreRanges,
   ...elastomereRanges,
   ...graphiteRanges,

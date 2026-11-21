@@ -37,6 +37,7 @@ export const sectorSlugToFamilies: Record<string, string[]> = {
     "brides",
     "robinets-tournant-spherique-acier-inox",
     "raccords-et-fittings",
+    "protection-regulation-des-reseaux",
   ],
   "robinetterie-industrielle": [
     "robinetterie-petrole-forgee-moulee",

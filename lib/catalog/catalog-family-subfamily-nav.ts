@@ -31,35 +31,16 @@ const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
         "brides-plates",
         "brides-pleines",
         "brides-taraudees",
-        "brides-tournantes",
-        "brides-petrole-asme",
-        "kit-boulonnerie-equipements-brides",
         "brides-reseau-eau",
       ],
     },
     {
-      id: "raccords-soudes-filetes",
+      id: "raccords-specifiques",
       label: frEn(
-        "Raccords acier, inox, laiton et fonte",
-        "Steel, stainless, brass and iron fittings",
+        "Raccords DECA et polypropylène",
+        "DECA and polypropylene fittings",
       ),
-      subfamilySlugs: [
-        "raccords-acier-a-souder",
-        "raccords-inox",
-        "raccords-laiton-a-visser",
-        "raccords-fonte-malleable",
-        "raccords-polypropylene",
-        "mamelons-et-manchons-acier",
-        "raccords-deca",
-      ],
-    },
-    {
-      id: "raccords-rapides",
-      label: frEn(
-        "Raccords express et symétriques",
-        "Express and symmetric couplings",
-      ),
-      subfamilySlugs: ["raccords-express", "raccords-symetriques"],
+      subfamilySlugs: ["raccords-deca", "raccords-polypropylene"],
     },
     {
       id: "compensateurs",
@@ -77,14 +58,10 @@ const familySubfamilyNavGroups: Record<string, SubfamilyNavGroup[]> = {
     {
       id: "reseau-eau-accessoires",
       label: frEn(
-        "Adaptateurs, manchons et colliers réseau eau",
-        "Water network adapters, couplings and tap saddles",
+        "Adaptateurs et manchons réseau eau",
+        "Water network adapters and couplings",
       ),
-      subfamilySlugs: [
-        "adaptateurs-de-brides-eau",
-        "manchons-reseau-eau",
-        "colliers-de-prise-en-charge",
-      ],
+      subfamilySlugs: ["adaptateurs-de-brides-eau", "manchons-reseau-eau"],
     },
   ],
 };

@@ -359,10 +359,10 @@
         "body": "Brides, raccords et accessoires pour réseaux de fluides : brides EN 1092 et ASME, raccords filetés, à souder et mécaniques, compensateurs et équipements de réseau eau. Solutions pour l’eau, le pétrole, le gaz et les utilities industrielles."
       },
       "brides": {
-        "body": "Brides EN 1092 en acier carbone et collets forgés pour assemblages de tuyauterie : plates, pleines, à collerette, slip-on et taraudées, du PN10 au PN40."
+        "body": "Brides et collets pour assemblages de tuyauterie : collets, kits de boulonnerie, brides pétrole ASME et brides tournantes, complétés par les brides EN 1092 acier carbone."
       },
       "raccords-et-fittings": {
-        "body": "Raccords filetés en fonte malléable EN 10242 : coudes, tés, croix, manchons, mamelons, bouchons et unions à siège plat. Filetage BSPT, NPT sur demande, finition galvanisée à chaud ou noire. Pression de service jusqu’à 34,5 bar selon le diamètre. Raccords à cames aluminium, inox, laiton et polypropylène, avec joints EPDM, NBR et FKM."
+        "body": "Colliers de prise en charge, raccords acier à souder, symétriques, express et à cames, raccords laiton à visser, inox, mamelons et manchons acier, fonte malléable EN 10242 et filetés BSPT — pour dérivations, liaisons rapides et assemblages de tuyauterie."
       },
       "vannes": {
         "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
@@ -375,6 +375,9 @@
       },
       "vannes-sphere-laiton-fonte-pvc": {
         "body": "Vannes à sphère laiton, fonte et PVC pour bâtiment, réseaux d’eau, industrie légère et collectifs : modèles cadenassables, 3 voies, puisage et raccordements taraudés ou à brides."
+      },
+      "protection-regulation-des-reseaux": {
+        "body": "Protection et régulation des réseaux d’eau potable : vannes à sphère BALLSTOP avec clapet anti-retour, ventouses et régulation CSA, disconnecteurs antipollution SCUDO et clapets de retenue antipollution — ACS, NF et 4MS selon les gammes."
       },
       "etancheite-statique": {
         "body": "Joints et éléments d’étanchéité statique pour brides et assemblages : fibres, élastomères, graphite, PTFE, mica, toriques, manchettes et tresses. Cotation et découpe sur plan au comptoir SDMI à Dakar."
@@ -566,7 +569,8 @@
           "accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
           "brides": "Brides EN 1092 acier carbone et collets forgés, du PN10 au PN40, pour assemblages de ligne.",
           "robinets-tournant-spherique-acier-inox": "Robinetterie inox pour isolement fiable, cycles fréquents et fluides critiques sur skids et process.",
-          "raccords-et-fittings": "Raccords filetés fonte malléable EN 10242, BSPT, galvanisés ou noirs, pour dérivations et raccords de ligne."
+          "raccords-et-fittings": "Colliers, raccords à souder, symétriques, express, à cames, laiton, inox, fonte malléable et filetés pour dérivations et liaisons.",
+          "protection-regulation-des-reseaux": "BALLSTOP, ventouses CSA, disconnecteurs SCUDO et clapets antipollution pour la protection des réseaux d’eau potable."
         }
       },
       "industrie-agro-alimentaire": {
@@ -657,7 +661,7 @@
           "brides": "Brides EN 1092 acier carbone et collets forgés pour collecteurs et dérivations incendie.",
           "vannes": "Vannes opercule et guillotine pour isolement de zones, grands DN et manœuvres fiables en cas d'urgence.",
           "robinetterie-petrole-forgee-moulee": "Robinetterie robuste pour manifolds, postes de pompage incendie et points sous pression élevée.",
-          "raccords-et-fittings": "Coudes, tés, manchons et unions filetés pour réseaux sprinkler et dérivations incendie."
+          "raccords-et-fittings": "Raccords filetés, express, à cames et fonte malléable pour réseaux sprinkler et dérivations incendie."
         }
       },
       "industrie-miniere": {
@@ -703,7 +707,7 @@
           "vannes": "Vannes à opercule et à guillotine pour isolement des pulpes, boues et grands diamètres.",
           "tuyauteries": "Tubes acier carbone, soudés ou sans soudure, pour transfert de pulpe, eau de procédé et air.",
           "brides": "Brides EN 1092 acier carbone et collets forgés pour assemblages de ligne démontables.",
-          "raccords-et-fittings": "Raccords filetés et raccords à cames pour dérivations, utilités et liaisons rapides."
+          "raccords-et-fittings": "Colliers, raccords à souder, symétriques, express, à cames, laiton, inox, fonte malléable et filetés pour dérivations et liaisons rapides."
         }
       }
     }
