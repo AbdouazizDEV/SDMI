@@ -16,7 +16,7 @@ function isInternalAppLink(anchor: HTMLAnchorElement) {
   return href.startsWith("/") || href.startsWith(window.location.origin);
 }
 
-/** Barre fine dès le clic — feedback avant la fin du chargement RSC. */
+/** Barre fine dès le clic - feedback avant la fin du chargement RSC. */
 export function NavigationProgress() {
   const pathname = usePathname();
   const [active, setActive] = useState(false);

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Visuels — clapets pétrole forgé / moulé. Fusionne le manifeste. */
+/** Visuels - clapets pétrole forgé / moulé. Fusionne le manifeste. */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

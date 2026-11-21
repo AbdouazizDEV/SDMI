@@ -17,8 +17,8 @@ export const manchonsReseauEauRanges: CatalogRangeSeed[] = [
     slug: "serie-manchons-reseau-eau-2505-manchon-fonte-universel-large-plages-pour-tubes-rigides-acs",
     name: frEn("2505 - Manchon fonte universel large plages pour tubes rigides ACS", "2505 - Coupling cast iron universel large plages pour tubes rigides ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Fonte malléable", "Malleable cast iron"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -29,8 +29,8 @@ export const manchonsReseauEauRanges: CatalogRangeSeed[] = [
     slug: "serie-manchons-reseau-eau-2507-manchon-fonte-universel-verrouille-large-autobute-plages-acs",
     name: frEn("2507 - Manchon fonte universel verrouillé large autobuté plages ACS", "2507 - Coupling cast iron universel verrouillé large autobuté plages ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Fonte malléable", "Malleable cast iron"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -41,8 +41,8 @@ export const manchonsReseauEauRanges: CatalogRangeSeed[] = [
     slug: "serie-manchons-reseau-eau-2508-manchon-fonte-verrouille-autobute-pour-tubes-pvc-pe-acs",
     name: frEn("2508 - Manchon fonte verrouillé autobuté pour tubes PVC-PE ACS", "2508 - Coupling cast iron verrouillé autobuté pour tubes PVC-PE ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Fonte malléable", "Malleable cast iron"),
     connectionType: "compression", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -53,8 +53,8 @@ export const manchonsReseauEauRanges: CatalogRangeSeed[] = [
     slug: "serie-manchons-reseau-eau-98607-inserts-inox-304-pour-tubes-pehd",
     name: frEn("98607 - Inserts INOX 304 pour tubes PEHD", "98607 - Inserts stainless 304 pour tubes PEHD"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
     connectionType: "compression", standards: ["en10204"], sectorTags: ["water", "building", "industry"],

@@ -11,14 +11,14 @@ function slugFromReference(reference: string, suffix: string) {
   return `serie-${reference}-vanne-opercule-${suffix}`;
 }
 
-/** Premier lot — vannes à opercule pétrole forgé / moulé (gammes par série). */
+/** Premier lot - vannes à opercule pétrole forgé / moulé (gammes par série). */
 export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "111",
     slug: slugFromReference("111", "forge-class800-trim16-sw"),
     name: frEn(
-      "Vanne à opercule forgée Class 800 TRIM 16 — soudure SW",
-      "Forged gate valve Class 800 TRIM 16 — socket weld",
+      "Vanne à opercule forgée Class 800 TRIM 16 - soudure SW",
+      "Forged gate valve Class 800 TRIM 16 - socket weld",
     ),
     description: frEn(
       "Acier forgé, passage standard, chapeau boulonné. Applications hydrocarbures, vapeur et fluides sous pression selon classe.",
@@ -51,8 +51,8 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
     reference: "115",
     slug: slugFromReference("115", "forge-class800-trim16-npt"),
     name: frEn(
-      "Vanne à opercule forgée Class 800 TRIM 16 — NPT F/F",
-      "Forged gate valve Class 800 TRIM 16 — NPT F/F",
+      "Vanne à opercule forgée Class 800 TRIM 16 - NPT F/F",
+      "Forged gate valve Class 800 TRIM 16 - NPT F/F",
     ),
     description: frEn(
       "Corps forgé, raccordement femelle/femelle NPT, passage standard. Idéal réseaux petrochimie et maintenance.",
@@ -83,8 +83,8 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
     reference: "112",
     slug: slugFromReference("112", "forge-class800-trim8-sw"),
     name: frEn(
-      "Vanne à opercule forgée Class 800 TRIM 8 — soudure SW",
-      "Forged gate valve Class 800 TRIM 8 — socket weld",
+      "Vanne à opercule forgée Class 800 TRIM 8 - soudure SW",
+      "Forged gate valve Class 800 TRIM 8 - socket weld",
     ),
     description: frEn(
       "Trim 8 avec demi-stellite, chapeau boulonné, passage standard. Service sévère sur lignes process.",
@@ -112,7 +112,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "113",
     slug: slugFromReference("113", "forge-class800-trim8-npt"),
-    name: frEn("Vanne à opercule forgée Class 800 TRIM 8 — NPT F/F", "Forged gate valve Class 800 TRIM 8 — NPT F/F"),
+    name: frEn("Vanne à opercule forgée Class 800 TRIM 8 - NPT F/F", "Forged gate valve Class 800 TRIM 8 - NPT F/F"),
     description: frEn(
       "Série compacte TRIM 8, raccordement NPT, chapeau boulonné.",
       "Compact TRIM 8 series, NPT ends, bolted bonnet.",
@@ -131,7 +131,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "114",
     slug: slugFromReference("114", "forge-class800-trim8-bsp"),
-    name: frEn("Vanne à opercule forgée Class 800 TRIM 8 — BSP F/F", "Forged gate valve Class 800 TRIM 8 — BSP F/F"),
+    name: frEn("Vanne à opercule forgée Class 800 TRIM 8 - BSP F/F", "Forged gate valve Class 800 TRIM 8 - BSP F/F"),
     description: frEn(
       "Raccordement BSP femelle/femelle, même gamme TRIM 8 que la série NPT.",
       "BSP F/F connection, same TRIM 8 family as NPT series.",
@@ -151,8 +151,8 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
     reference: "117",
     slug: slugFromReference("117", "forge-class800-trim5-sw-soudé"),
     name: frEn(
-      "Vanne à opercule forgée Class 800 TRIM 5 — soudure SW (chapeau soudé)",
-      "Forged gate valve Class 800 TRIM 5 — SW (welded bonnet)",
+      "Vanne à opercule forgée Class 800 TRIM 5 - soudure SW (chapeau soudé)",
+      "Forged gate valve Class 800 TRIM 5 - SW (welded bonnet)",
     ),
     description: frEn(
       "Chapeau soudé, passage standard, pour installations nécessitant étanchéité renforcée.",
@@ -172,7 +172,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "116",
     slug: slugFromReference("116", "forge-class800-trim5-npt"),
-    name: frEn("Vanne à opercule forgée Class 800 TRIM 5 — NPT F/F", "Forged gate valve Class 800 TRIM 5 — NPT F/F"),
+    name: frEn("Vanne à opercule forgée Class 800 TRIM 5 - NPT F/F", "Forged gate valve Class 800 TRIM 5 - NPT F/F"),
     description: frEn(
       "Chapeau soudé, TRIM 5, raccordement NPT pour petites lignes process.",
       "Welded bonnet, TRIM 5, NPT for small process lines.",
@@ -191,10 +191,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "130",
     slug: slugFromReference("130", "forge-class150-rf-trim5"),
-    name: frEn("Vanne à opercule forgée Class 150 RF TRIM 5 — PN20", "Forged gate valve Class 150 RF TRIM 5 — PN20"),
+    name: frEn("Vanne à opercule forgée Class 150 RF TRIM 5 - PN20", "Forged gate valve Class 150 RF TRIM 5 - PN20"),
     description: frEn(
-      "Brides RF Class 150, passage standard, chapeau boulonné — réseaux pétrole modérés.",
-      "RF flanges Class 150, standard bore, bolted bonnet — moderate oil & gas networks.",
+      "Brides RF Class 150, passage standard, chapeau boulonné - réseaux pétrole modérés.",
+      "RF flanges Class 150, standard bore, bolted bonnet - moderate oil & gas networks.",
     ),
     dn: null,
     pn: "PN20",
@@ -210,7 +210,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "131",
     slug: slugFromReference("131", "forge-class300-rf-trim5"),
-    name: frEn("Vanne à opercule forgée Class 300 RF TRIM 5 — PN50", "Forged gate valve Class 300 RF TRIM 5 — PN50"),
+    name: frEn("Vanne à opercule forgée Class 300 RF TRIM 5 - PN50", "Forged gate valve Class 300 RF TRIM 5 - PN50"),
     description: frEn(
       "Brides RF Class 300 PN50, gamme haute pression pour lignes process industrielles.",
       "RF flanges Class 300 PN50, high-pressure range for industrial process lines.",
@@ -230,12 +230,12 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
     reference: "119",
     slug: slugFromReference("119", "forge-class800-trim12-sw-integral"),
     name: frEn(
-      "Vanne à opercule forgée Class 800 TRIM 12 — SW passage intégral",
-      "Forged gate valve Class 800 TRIM 12 — SW full bore",
+      "Vanne à opercule forgée Class 800 TRIM 12 - SW passage intégral",
+      "Forged gate valve Class 800 TRIM 12 - SW full bore",
     ),
     description: frEn(
-      "Acier A350 LF2, passage intégral, demi-stellite TRIM 12 — fluides cryogéniques / basse température.",
-      "A350 LF2 steel, full bore, TRIM 12 half stellite — cryogenic / low-temperature fluids.",
+      "Acier A350 LF2, passage intégral, demi-stellite TRIM 12 - fluides cryogéniques / basse température.",
+      "A350 LF2 steel, full bore, TRIM 12 half stellite - cryogenic / low-temperature fluids.",
     ),
     dn: null,
     pn: "Class 800",
@@ -251,7 +251,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "118",
     slug: slugFromReference("118", "forge-class800-trim12-npt"),
-    name: frEn("Vanne à opercule forgée Class 800 TRIM 12 — NPT passage intégral", "Forged gate valve Class 800 TRIM 12 — NPT full bore"),
+    name: frEn("Vanne à opercule forgée Class 800 TRIM 12 - NPT passage intégral", "Forged gate valve Class 800 TRIM 12 - NPT full bore"),
     description: frEn(
       "Passage intégral, NPT F/F, acier A350 LF2 pour services exigeants.",
       "Full bore, NPT F/F, A350 LF2 for demanding services.",
@@ -270,10 +270,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "121",
     slug: slugFromReference("121", "forge-class1500-trim12-sw"),
-    name: frEn("Vanne à opercule forgée Class 1500 TRIM 12 — SW", "Forged gate valve Class 1500 TRIM 12 — SW"),
+    name: frEn("Vanne à opercule forgée Class 1500 TRIM 12 - SW", "Forged gate valve Class 1500 TRIM 12 - SW"),
     description: frEn(
-      "Classe 1500, passage standard, soudure SW — hautes pressions process.",
-      "Class 1500, standard bore, socket weld — high-pressure process.",
+      "Classe 1500, passage standard, soudure SW - hautes pressions process.",
+      "Class 1500, standard bore, socket weld - high-pressure process.",
     ),
     dn: null,
     pn: "Class 1500",
@@ -289,7 +289,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "120",
     slug: slugFromReference("120", "forge-class1500-trim12-npt"),
-    name: frEn("Vanne à opercule forgée Class 1500 TRIM 12 — NPT", "Forged gate valve Class 1500 TRIM 12 — NPT"),
+    name: frEn("Vanne à opercule forgée Class 1500 TRIM 12 - NPT", "Forged gate valve Class 1500 TRIM 12 - NPT"),
     description: frEn(
       "Classe 1500, NPT F/F, TRIM 12 pour lignes haute pression.",
       "Class 1500, NPT F/F, TRIM 12 for high-pressure lines.",
@@ -308,10 +308,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "122",
     slug: slugFromReference("122", "forge-f11-class800-trim5-sw"),
-    name: frEn("Vanne à opercule forgée A182 F11 Class 800 TRIM 5 — SW", "Forged A182 F11 gate valve Class 800 TRIM 5 — SW"),
+    name: frEn("Vanne à opercule forgée A182 F11 Class 800 TRIM 5 - SW", "Forged A182 F11 gate valve Class 800 TRIM 5 - SW"),
     description: frEn(
-      "Acier allié F11, chapeau soudé, passage standard — températures élevées.",
-      "F11 alloy steel, welded bonnet, standard bore — elevated temperatures.",
+      "Acier allié F11, chapeau soudé, passage standard - températures élevées.",
+      "F11 alloy steel, welded bonnet, standard bore - elevated temperatures.",
     ),
     dn: null,
     pn: "Class 800",
@@ -327,7 +327,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "123",
     slug: slugFromReference("123", "forge-f11-class800-trim5-npt"),
-    name: frEn("Vanne à opercule forgée A182 F11 Class 800 TRIM 5 — NPT", "Forged A182 F11 gate valve Class 800 TRIM 5 — NPT"),
+    name: frEn("Vanne à opercule forgée A182 F11 Class 800 TRIM 5 - NPT", "Forged A182 F11 gate valve Class 800 TRIM 5 - NPT"),
     description: frEn(
       "Alliage F11, NPT F/F, chapeau soudé pour services chauds.",
       "F11 alloy, NPT F/F, welded bonnet for hot services.",
@@ -346,10 +346,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "152",
     slug: slugFromReference("152", "inox-forge-class800-trim12-sw"),
-    name: frEn("Vanne à opercule inox forgée F316 Class 800 TRIM 12 — SW", "Forged F316 gate valve Class 800 TRIM 12 — SW"),
+    name: frEn("Vanne à opercule inox forgée F316 Class 800 TRIM 12 - SW", "Forged F316 gate valve Class 800 TRIM 12 - SW"),
     description: frEn(
-      "Inox forgé F316, passage standard, soudure SW — corrosion et fluides agressifs.",
-      "Forged F316, standard bore, SW — corrosion and aggressive fluids.",
+      "Inox forgé F316, passage standard, soudure SW - corrosion et fluides agressifs.",
+      "Forged F316, standard bore, SW - corrosion and aggressive fluids.",
     ),
     dn: null,
     pn: "Class 800",
@@ -366,10 +366,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "153",
     slug: slugFromReference("153", "inox-forge-class800-trim12-npt"),
-    name: frEn("Vanne à opercule inox forgée F316 Class 800 TRIM 12 — NPT", "Forged F316 gate valve Class 800 TRIM 12 — NPT"),
+    name: frEn("Vanne à opercule inox forgée F316 Class 800 TRIM 12 - NPT", "Forged F316 gate valve Class 800 TRIM 12 - NPT"),
     description: frEn(
-      "Inox F316, NPT F/F, tige montante — gamme corrosion standard.",
-      "F316 stainless, NPT F/F, rising stem — standard corrosion range.",
+      "Inox F316, NPT F/F, tige montante - gamme corrosion standard.",
+      "F316 stainless, NPT F/F, rising stem - standard corrosion range.",
     ),
     dn: null,
     pn: "Class 800",
@@ -386,10 +386,10 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "145",
     slug: slugFromReference("145", "moulé-class150-trim5-integral"),
-    name: frEn("Vanne à opercule moulée Class 150 TRIM 5 — PN20 passage intégral", "Cast gate valve Class 150 TRIM 5 — PN20 full bore"),
+    name: frEn("Vanne à opercule moulée Class 150 TRIM 5 - PN20 passage intégral", "Cast gate valve Class 150 TRIM 5 - PN20 full bore"),
     description: frEn(
-      "Corps moulé, passage intégral, brides Class 150 — sécurité feu et réseaux pétrole.",
-      "Cast body, full bore, Class 150 flanges — fire-safe and oil networks.",
+      "Corps moulé, passage intégral, brides Class 150 - sécurité feu et réseaux pétrole.",
+      "Cast body, full bore, Class 150 flanges - fire-safe and oil networks.",
     ),
     dn: null,
     pn: "PN20",
@@ -405,7 +405,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "143",
     slug: slugFromReference("143", "moulé-class150-trim8-integral"),
-    name: frEn("Vanne à opercule moulée Class 150 TRIM 8 — PN20 passage intégral", "Cast gate valve Class 150 TRIM 8 — PN20 full bore"),
+    name: frEn("Vanne à opercule moulée Class 150 TRIM 8 - PN20 passage intégral", "Cast gate valve Class 150 TRIM 8 - PN20 full bore"),
     description: frEn(
       "Acier moulé TRIM 8, passage intégral, étanchéité renforcée sur siège.",
       "Cast steel TRIM 8, full bore, enhanced seat sealing.",
@@ -424,7 +424,7 @@ export const petroleumGateValveRanges: CatalogRangeSeed[] = [
   {
     reference: "144",
     slug: slugFromReference("144", "moulé-class300-trim8-integral"),
-    name: frEn("Vanne à opercule moulée Class 300 TRIM 8 — PN50 passage intégral", "Cast gate valve Class 300 TRIM 8 — PN50 full bore"),
+    name: frEn("Vanne à opercule moulée Class 300 TRIM 8 - PN50 passage intégral", "Cast gate valve Class 300 TRIM 8 - PN50 full bore"),
     description: frEn(
       "Classe 300 PN50, passage intégral pour sectionnement de réseaux sous pression.",
       "Class 300 PN50, full bore for pressurized network isolation.",

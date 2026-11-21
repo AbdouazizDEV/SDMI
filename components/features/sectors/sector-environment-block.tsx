@@ -18,7 +18,7 @@ type SectorEnvironmentBlockProps = {
   refsCta: string;
   quoteCta: string;
   whatsappCta: string;
-  /** Photo secteur (cover) — prioritaire sur le visuel block générique. */
+  /** Photo secteur (cover) - prioritaire sur le visuel block générique. */
   imagePath?: string | null;
   detailHref?: string;
   sectorDetailCta?: string;

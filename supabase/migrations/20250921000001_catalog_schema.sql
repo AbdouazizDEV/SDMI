@@ -1,4 +1,4 @@
--- SDMI — Schéma catalogue & devis
+-- SDMI - Schéma catalogue & devis
 -- Extensions
 create extension if not exists "pgcrypto";
 

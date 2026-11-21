@@ -19,7 +19,7 @@ type MediaLinkCardProps = {
   variant?: "default" | "modern";
 };
 
-/** Carte catalogue / secteur — présentation uniquement ; le parent fournit les médias (SRP + DIP). */
+/** Carte catalogue / secteur - présentation uniquement ; le parent fournit les médias (SRP + DIP). */
 export function MediaLinkCard({
   href,
   disabled = false,

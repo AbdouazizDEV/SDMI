@@ -8,7 +8,7 @@ type SectorDetailHeroMediaProps = {
   className?: string;
 };
 
-/** Visuel secteur — photos hero paysage en cover (pas object-contain catalogue). */
+/** Visuel secteur - photos hero paysage en cover (pas object-contain catalogue). */
 export function SectorDetailHeroMedia({
   imagePath,
   alt,

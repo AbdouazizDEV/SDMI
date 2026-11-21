@@ -76,7 +76,7 @@ const fpaNoteFr =
 const fpaNoteEn =
   "KLINGER® top-chem is now manufactured without fluorinated polymerisation aids (FPA), process substances in the PFAS family. The range is therefore FPA free. To date, KLINGER® is the only manufacturer to have evolved its production process in this way. No change to the technical characteristics of KLINGER® top-chem.";
 
-/** Joints PTFE — sous-famille PTFE. */
+/** Joints PTFE - sous-famille PTFE. */
 export const ptfeRanges: CatalogRangeSeed[] = [
   base({
     reference: "TOP-CHEM-3210",
@@ -180,7 +180,7 @@ export const ptfeRanges: CatalogRangeSeed[] = [
         "Ne pas utiliser pour des opérations de fabrication, de préparation, de traitement ou d'emballage des produits alimentaires, pharmaceutiques, cosmétiques ou dispositifs médicaux",
       ],
       applicationsEn: [
-        "All chemical fluids with pH 0–14, except molten or dissolved alkali metals and elemental fluorine",
+        "All chemical fluids with pH 0-14, except molten or dissolved alkali metals and elemental fluorine",
         "For industrial use only",
         "Do not use for manufacturing, preparing, processing or packaging food, pharmaceuticals, cosmetics or medical devices",
       ],

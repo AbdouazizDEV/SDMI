@@ -37,7 +37,7 @@ export function SiteUtilityBar({
         aria-hidden
       />
 
-      {/* Mobile — une seule rangée compacte */}
+      {/* Mobile - une seule rangée compacte */}
       <div className="mx-auto flex max-w-7xl items-center gap-2 px-3 py-1.5 sm:hidden">
         <div className="flex min-w-0 flex-1 items-center gap-2 overflow-x-auto text-[10px] leading-none tracking-wide whitespace-nowrap [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           <span className="inline-flex items-center gap-1">

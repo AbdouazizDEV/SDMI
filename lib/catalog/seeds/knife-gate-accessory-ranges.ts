@@ -13,8 +13,8 @@ export const knifeGateAccessoryRanges: CatalogRangeSeed[] = [
     reference: "98020",
     slug: "kit-98020-plaques-support-inox-guillotine",
     name: frEn(
-      "Kit plaques support inox avec visserie — vanne guillotine",
-      "Stainless support plate kit with screws — knife gate valve",
+      "Kit plaques support inox avec visserie - vanne guillotine",
+      "Stainless support plate kit with screws - knife gate valve",
     ),
     description: frEn(
       "Fixation et alignement des vannes guillotine sur réseau.",
@@ -33,8 +33,8 @@ export const knifeGateAccessoryRanges: CatalogRangeSeed[] = [
     reference: "KIT-GU-UNI",
     slug: "kit-joints-etancheite-guillotine-unidirectionnelle",
     name: frEn(
-      "Kit de joints d'étanchéité — guillotine unidirectionnelle",
-      "Sealing gasket kit — unidirectional knife gate",
+      "Kit de joints d'étanchéité - guillotine unidirectionnelle",
+      "Sealing gasket kit - unidirectional knife gate",
     ),
     description: frEn(
       "Consommables de maintenance pour gamme unidirectionnelle.",
@@ -53,8 +53,8 @@ export const knifeGateAccessoryRanges: CatalogRangeSeed[] = [
     reference: "KIT-GU-BI",
     slug: "kit-joints-etancheite-guillotine-bidirectionnelle",
     name: frEn(
-      "Kit de joints d'étanchéité — guillotine bidirectionnelle",
-      "Sealing gasket kit — bidirectional knife gate",
+      "Kit de joints d'étanchéité - guillotine bidirectionnelle",
+      "Sealing gasket kit - bidirectional knife gate",
     ),
     description: frEn(
       "Joints de rechange pour vannes bidirectionnelles S-GATE.",
@@ -73,8 +73,8 @@ export const knifeGateAccessoryRanges: CatalogRangeSeed[] = [
     reference: "KIT-GU-PT",
     slug: "kit-joints-nbr-guillotine-pelle-traversante",
     name: frEn(
-      "Kit de joints NBR — guillotine à pelle traversante",
-      "NBR gasket kit — through-blade knife gate",
+      "Kit de joints NBR - guillotine à pelle traversante",
+      "NBR gasket kit - through-blade knife gate",
     ),
     description: frEn(
       "Étanchéité NBR pour gamme à pelle traversante.",

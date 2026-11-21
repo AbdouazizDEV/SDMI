@@ -12,7 +12,7 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
   {
     reference: "430",
     slug: "serie-430-robinet-soupape-perfection-male-bsp",
-    name: frEn("Robinet à soupape perfection — mâle BSP", "Perfection pattern globe valve — male BSP"),
+    name: frEn("Robinet à soupape perfection - mâle BSP", "Perfection pattern globe valve - male BSP"),
     description: frEn("Pied de colonne, réseaux eau sanitaire.", "Column foot, domestic water networks."),
     dn: null,
     pn: null,
@@ -29,8 +29,8 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
     reference: "490",
     slug: "serie-490-robinet-pointeau-flotteur-pe-acs",
     name: frEn(
-      "Robinet à pointeau laiton — flotteur polyéthylène ACS",
-      "Brass needle valve — polyethylene float ACS",
+      "Robinet à pointeau laiton - flotteur polyéthylène ACS",
+      "Brass needle valve - polyethylene float ACS",
     ),
     description: frEn("Régulation niveau cuve, eau potable ACS.", "Tank level control, ACS potable water."),
     dn: null,
@@ -48,8 +48,8 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
     reference: "491",
     slug: "serie-491-robinet-pointeau-flotteur-cuivre-acs",
     name: frEn(
-      "Robinet à pointeau laiton — flotteur cuivre ACS",
-      "Brass needle valve — copper float ACS",
+      "Robinet à pointeau laiton - flotteur cuivre ACS",
+      "Brass needle valve - copper float ACS",
     ),
     description: frEn("Flotteur cuivre, même gamme ACS.", "Copper float, same ACS range."),
     dn: null,
@@ -83,8 +83,8 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
     reference: "494",
     slug: "serie-494-robinet-pointeau-flotteur-inox",
     name: frEn(
-      "Robinet à pointeau inox — flotteur inox",
-      "Stainless needle valve — stainless float",
+      "Robinet à pointeau inox - flotteur inox",
+      "Stainless needle valve - stainless float",
     ),
     description: frEn("Inox intégral, milieux agressifs.", "All-stainless, aggressive media."),
     dn: null,
@@ -102,8 +102,8 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
     reference: "980620",
     slug: "serie-980620-flotteur-seul-pe",
     name: frEn(
-      "Flotteur seul polyéthylène — robinet flotteur",
-      "Spare polyethylene float — float valve",
+      "Flotteur seul polyéthylène - robinet flotteur",
+      "Spare polyethylene float - float valve",
     ),
     description: frEn("Pièce de rechange gamme PE.", "PE range spare part."),
     dn: null,
@@ -118,7 +118,7 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
   {
     reference: "980630",
     slug: "serie-980630-flotteur-seul-cuivre",
-    name: frEn("Flotteur seul cuivre — robinet flotteur", "Spare copper float — float valve"),
+    name: frEn("Flotteur seul cuivre - robinet flotteur", "Spare copper float - float valve"),
     description: frEn("Rechange flotteur cuivre.", "Copper float replacement."),
     dn: null,
     pn: null,
@@ -132,7 +132,7 @@ export const columnFootFloatValveRanges: CatalogRangeSeed[] = [
   {
     reference: "980632",
     slug: "serie-980632-flotteur-seul-inox",
-    name: frEn("Flotteur seul inox — robinet flotteur inox", "Spare stainless float — SS float valve"),
+    name: frEn("Flotteur seul inox - robinet flotteur inox", "Spare stainless float - SS float valve"),
     description: frEn("Rechange flotteur inox.", "Stainless float replacement."),
     dn: null,
     pn: null,

@@ -1,4 +1,4 @@
-/** Diapositives hero — visuels par secteur d’activité */
+/** Diapositives hero - visuels par secteur d’activité */
 
 export type HeroCarouselSlide = {
   id: string;

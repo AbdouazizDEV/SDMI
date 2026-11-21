@@ -39,14 +39,14 @@ const fromPetroleum = petroleumGlobeBellowsRanges
   .filter((s) => SOUPAPE_FROM_PETROLEUM.has(s.reference))
   .map(remapFromPetroleum);
 
-/** Gammes hors pétrole — bronze, fonte, soufflet réseaux eau / chauffage. */
+/** Gammes hors pétrole - bronze, fonte, soufflet réseaux eau / chauffage. */
 const dedicated: CatalogRangeSeed[] = [
   base({
     reference: "451",
     slug: slug("451", "bronze-chapeau-union-metal"),
     name: frEn(
-      "Robinet à soupape bronze taraudé — chapeau union métal/métal",
-      "Threaded bronze globe valve — union bonnet metal/metal",
+      "Robinet à soupape bronze taraudé - chapeau union métal/métal",
+      "Threaded bronze globe valve - union bonnet metal/metal",
     ),
     description: frEn("Robinet à passage droit, eau et fluides neutres.", "Straight pattern, water and neutral fluids."),
     dn: null,
@@ -61,8 +61,8 @@ const dedicated: CatalogRangeSeed[] = [
     reference: "454",
     slug: slug("454", "bronze-chapeau-union-ptfe"),
     name: frEn(
-      "Robinet à soupape bronze taraudé — chapeau union PTFE",
-      "Threaded bronze globe valve — union bonnet PTFE",
+      "Robinet à soupape bronze taraudé - chapeau union PTFE",
+      "Threaded bronze globe valve - union bonnet PTFE",
     ),
     description: frEn("Siège PTFE, étanchéité renforcée.", "PTFE seat, enhanced sealing."),
     dn: null,
@@ -77,8 +77,8 @@ const dedicated: CatalogRangeSeed[] = [
     reference: "460",
     slug: slug("460", "bronze-chapeau-visse-metal"),
     name: frEn(
-      "Robinet à soupape bronze taraudé — chapeau vissé métal/métal",
-      "Threaded bronze globe — screwed bonnet metal/metal",
+      "Robinet à soupape bronze taraudé - chapeau vissé métal/métal",
+      "Threaded bronze globe - screwed bonnet metal/metal",
     ),
     description: frEn("Gamme bronze taraudée réseaux bâtiment.", "Threaded bronze range for building services."),
     dn: null,
@@ -93,8 +93,8 @@ const dedicated: CatalogRangeSeed[] = [
     reference: "462",
     slug: slug("462", "bronze-chapeau-visse-ptfe"),
     name: frEn(
-      "Robinet à soupape bronze taraudé — chapeau vissé siège PTFE",
-      "Threaded bronze globe — screwed bonnet PTFE seat",
+      "Robinet à soupape bronze taraudé - chapeau vissé siège PTFE",
+      "Threaded bronze globe - screwed bonnet PTFE seat",
     ),
     description: frEn("Siège PTFE, manœuvre volant.", "PTFE seat, handwheel operation."),
     dn: null,
@@ -121,7 +121,7 @@ const dedicated: CatalogRangeSeed[] = [
   base({
     reference: "472",
     slug: slug("472", "inox-soufflet-pn16-40"),
-    name: frEn("Robinet à soupape inox à soufflet — PN16/40", "Stainless bellows globe valve — PN16/40"),
+    name: frEn("Robinet à soupape inox à soufflet - PN16/40", "Stainless bellows globe valve - PN16/40"),
     description: frEn("Soufflet inox, fluides sensibles aux fuites.", "Stainless bellows, leak-sensitive fluids."),
     dn: null,
     pn: "PN40",
@@ -187,8 +187,8 @@ const dedicated: CatalogRangeSeed[] = [
     reference: "485",
     slug: slug("485", "inox-chapeau-visse-ff"),
     name: frEn(
-      "Robinet à soupape inox taraudé — chapeau vissé F/F",
-      "Threaded stainless globe — screwed bonnet F/F",
+      "Robinet à soupape inox taraudé - chapeau vissé F/F",
+      "Threaded stainless globe - screwed bonnet F/F",
     ),
     description: frEn("Inox, fluides corrosifs et process.", "Stainless, corrosive fluids and process."),
     dn: null,

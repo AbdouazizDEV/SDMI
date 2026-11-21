@@ -310,7 +310,7 @@ export function CatalogBrowseWorkspace({
   if (filters.dnMin !== undefined || filters.dnMax !== undefined) {
     activeTags.push({
       key: "dn-range",
-      label: `DN ${filters.dnMin ?? dnMinBound}–${filters.dnMax ?? dnMaxBound}`,
+      label: `DN ${filters.dnMin ?? dnMinBound}-${filters.dnMax ?? dnMaxBound}`,
       onRemove: () => update({ dnMin: undefined, dnMax: undefined }),
     });
   }
@@ -709,7 +709,7 @@ export function CatalogBrowseWorkspace({
 
   return (
     <div className="relative">
-      {/* Mobile — barre sticky : filtres + recherche + tri */}
+      {/* Mobile - barre sticky : filtres + recherche + tri */}
       <div className="border-border/80 bg-background/95 sticky top-[4.75rem] z-30 -mx-4 mb-4 border-b px-4 py-2.5 backdrop-blur-md lg:hidden">
         <div className="flex items-center gap-2">
           <button

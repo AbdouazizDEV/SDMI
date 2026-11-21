@@ -26,7 +26,7 @@ function base(
   };
 }
 
-/** Vannes à opercule — eau, assainissement, industrie (hors gamme pétrole). */
+/** Vannes à opercule - eau, assainissement, industrie (hors gamme pétrole). */
 export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "141",
@@ -44,7 +44,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "147",
     slug: slug("147", "acier-brides-pn16-din-long"),
-    name: frEn("Vanne à opercule acier PN16 DIN — face longue", "Steel gate valve PN16 DIN — long face"),
+    name: frEn("Vanne à opercule acier PN16 DIN - face longue", "Steel gate valve PN16 DIN - long face"),
     description: frEn("DIN F7, tige montante, eau et fluides neutres.", "DIN F7, rising stem, water and neutral fluids."),
     dn: null,
     pn: "PN16",
@@ -57,7 +57,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "148",
     slug: slug("148", "inox-brides-pn16-din-court"),
-    name: frEn("Vanne à opercule inox PN16 DIN — face courte", "Stainless gate valve PN16 DIN — short face"),
+    name: frEn("Vanne à opercule inox PN16 DIN - face courte", "Stainless gate valve PN16 DIN - short face"),
     description: frEn("Inox, TRIM 10, agro et eau potable process.", "Stainless, TRIM 10, food and potable water process."),
     dn: null,
     pn: "PN16",
@@ -70,7 +70,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "149",
     slug: slug("149", "acier-class300-trim5"),
-    name: frEn("Vanne à opercule acier Class 300 TRIM 5 — PN50", "Steel gate valve Class 300 TRIM 5 — PN50"),
+    name: frEn("Vanne à opercule acier Class 300 TRIM 5 - PN50", "Steel gate valve Class 300 TRIM 5 - PN50"),
     description: frEn("Brides RF haute pression, sectionnement réseau.", "RF flanges, high-pressure isolation."),
     dn: null,
     pn: "PN50",
@@ -83,7 +83,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "143",
     slug: slug("143", "acier-class150-trim8-pn20"),
-    name: frEn("Vanne à opercule acier à brides Class 150 TRIM 8 — PN20", "Steel gate valve RF Class 150 TRIM 8 — PN20"),
+    name: frEn("Vanne à opercule acier à brides Class 150 TRIM 8 - PN20", "Steel gate valve RF Class 150 TRIM 8 - PN20"),
     description: frEn("Acier moulé, sectionnement réseaux industriels et eau.", "Cast steel, isolation on industrial and water networks."),
     dn: null,
     pn: "PN20",
@@ -96,7 +96,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "144",
     slug: slug("144", "acier-class300-trim8-pn50"),
-    name: frEn("Vanne à opercule acier à brides Class 300 TRIM 8 — PN50", "Steel gate valve RF Class 300 TRIM 8 — PN50"),
+    name: frEn("Vanne à opercule acier à brides Class 300 TRIM 8 - PN50", "Steel gate valve RF Class 300 TRIM 8 - PN50"),
     description: frEn("Haute pression, acier moulé à passage standard.", "High pressure cast steel, standard bore."),
     dn: null,
     pn: "PN50",
@@ -109,7 +109,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_ACIER_INOX, {
     reference: "145",
     slug: slug("145", "acier-class150-trim5-pn20"),
-    name: frEn("Vanne à opercule acier à brides Class 150 TRIM 5 — PN20", "Steel gate valve RF Class 150 TRIM 5 — PN20"),
+    name: frEn("Vanne à opercule acier à brides Class 150 TRIM 5 - PN20", "Steel gate valve RF Class 150 TRIM 5 - PN20"),
     description: frEn("TRIM 5, acier moulé pour fluides sous pression.", "TRIM 5 cast steel for pressurized fluids."),
     dn: null,
     pn: "PN20",
@@ -122,7 +122,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_FONTE, {
     reference: "150",
     slug: slug("150", "fonte-din-f4-pn10"),
-    name: frEn("Vanne à opercule fonte DIN 3202 F4 — PN10", "Cast iron gate valve DIN 3202 F4 — PN10"),
+    name: frEn("Vanne à opercule fonte DIN 3202 F4 - PN10", "Cast iron gate valve DIN 3202 F4 - PN10"),
     description: frEn("Fonte, siège laiton, réseaux eau et assainissement.", "Cast iron, brass seat, water and wastewater."),
     dn: null,
     pn: "PN10",
@@ -135,7 +135,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_FONTE, {
     reference: "156",
     slug: slug("156", "fonte-gs-pn16-tige-montante"),
-    name: frEn("Vanne à opercule fonte GS PN16 — tige montante", "GS cast iron gate PN16 — rising stem"),
+    name: frEn("Vanne à opercule fonte GS PN16 - tige montante", "GS cast iron gate PN16 - rising stem"),
     description: frEn("DIN 3202 F4, manœuvre volant, eau froide/chaude.", "DIN 3202 F4, handwheel, cold/hot water."),
     dn: null,
     pn: "PN16",
@@ -148,7 +148,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_FONTE, {
     reference: "158",
     slug: slug("158", "fonte-nf-siege-inox-pn10-16"),
-    name: frEn("Vanne à opercule fonte NF — siège inox PN10/16", "Cast gate NF — stainless seat PN10/16"),
+    name: frEn("Vanne à opercule fonte NF - siège inox PN10/16", "Cast gate NF - stainless seat PN10/16"),
     description: frEn("Siège inox, eau potable et réseaux publics.", "Stainless seat, potable water and utilities."),
     dn: null,
     pn: "PN16",
@@ -174,7 +174,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "180",
     slug: slug("180", "o-gate-fonte-epdm-iso-pn16"),
-    name: frEn("Vanne à opercule caoutchouc EPDM ISO PN16 — O-GATE", "Rubber seated EPDM ISO gate PN16 — O-GATE"),
+    name: frEn("Vanne à opercule caoutchouc EPDM ISO PN16 - O-GATE", "Rubber seated EPDM ISO gate PN16 - O-GATE"),
     description: frEn("Siège EPDM, fermeture horaire, eau et irrigation.", "EPDM seat, clockwise closing, water and irrigation."),
     dn: null,
     pn: "PN16",
@@ -187,7 +187,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "181",
     slug: slug("181", "caoutchouc-pn10-16-fsh-din-court"),
-    name: frEn("Vanne à opercule caoutchouc PN10/16 FSH — DIN court", "Rubber seated gate PN10/16 FSH — short DIN"),
+    name: frEn("Vanne à opercule caoutchouc PN10/16 FSH - DIN court", "Rubber seated gate PN10/16 FSH - short DIN"),
     description: frEn("Opercule caoutchouc, étanchéité renforcée réseaux eau.", "Resilient wedge, enhanced sealing on water networks."),
     dn: null,
     pn: "PN16",
@@ -213,7 +213,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "184",
     slug: slug("184", "caoutchouc-din-long-f5"),
-    name: frEn("Vanne à opercule caoutchouc PN10/16 — DIN long F5", "Rubber gate PN10/16 — long DIN F5"),
+    name: frEn("Vanne à opercule caoutchouc PN10/16 - DIN long F5", "Rubber gate PN10/16 - long DIN F5"),
     description: frEn("Face longue F5, même gamme caoutchouc que série courte.", "Long face F5, same rubber wedge family as short pattern."),
     dn: null,
     pn: "PN16",
@@ -226,7 +226,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "186",
     slug: slug("186", "caoutchouc-nf-elea-fsh-axe-nu"),
-    name: frEn("Vanne à opercule caoutchouc NF Elea FSH — axe nu", "Rubber gate NF Elea FSH — bare stem"),
+    name: frEn("Vanne à opercule caoutchouc NF Elea FSH - axe nu", "Rubber gate NF Elea FSH - bare stem"),
     description: frEn("Actuation nu (fiche ou volant client), réseaux EN.", "Bare stem for extension actuator, EN networks."),
     dn: null,
     pn: "PN16",
@@ -239,7 +239,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "187",
     slug: slug("187", "caoutchouc-nf-elea-fah-axe-nu"),
-    name: frEn("Vanne à opercule caoutchouc NF Elea FAH — axe nu", "Rubber gate NF Elea FAH — bare stem"),
+    name: frEn("Vanne à opercule caoutchouc NF Elea FAH - axe nu", "Rubber gate NF Elea FAH - bare stem"),
     description: frEn("Variante FAH, même usage réseaux eau potable.", "FAH variant, same potable water application."),
     dn: null,
     pn: "PN16",
@@ -252,7 +252,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "185",
     slug: slug("185", "caoutchouc-fsh-din-long-f5-acs"),
-    name: frEn("Vanne à opercule caoutchouc PN10/16 FSH — DIN long 3202-F5 ACS", "Rubber gate PN10/16 FSH — long DIN 3202-F5 ACS"),
+    name: frEn("Vanne à opercule caoutchouc PN10/16 FSH - DIN long 3202-F5 ACS", "Rubber gate PN10/16 FSH - long DIN 3202-F5 ACS"),
     description: frEn("Face longue F5, conformité ACS réseaux eau potable.", "Long face F5, ACS potable water networks."),
     dn: null,
     pn: "PN16",
@@ -265,7 +265,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "188",
     slug: slug("188", "caoutchouc-nf-elea-fsh-din-long-f5-acs-carre"),
-    name: frEn("Vanne à opercule caoutchouc NF Elea FSH — DIN long F5 ACS à carré", "Rubber gate NF Elea FSH — long F5 ACS square"),
+    name: frEn("Vanne à opercule caoutchouc NF Elea FSH - DIN long F5 ACS à carré", "Rubber gate NF Elea FSH - long F5 ACS square"),
     description: frEn("Manœuvre à carré, réseaux EN eau potable.", "Square drive, EN potable water networks."),
     dn: null,
     pn: "PN16",
@@ -278,7 +278,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "189",
     slug: slug("189", "caoutchouc-nf-elea-fah-din-long-f5-acs-carre"),
-    name: frEn("Vanne à opercule caoutchouc NF Elea FAH — DIN long F5 ACS à carré", "Rubber gate NF Elea FAH — long F5 ACS square"),
+    name: frEn("Vanne à opercule caoutchouc NF Elea FAH - DIN long F5 ACS à carré", "Rubber gate NF Elea FAH - long F5 ACS square"),
     description: frEn("Variante FAH à carré, même gamme Elea ACS.", "FAH square variant, Elea ACS range."),
     dn: null,
     pn: "PN16",
@@ -291,7 +291,7 @@ export const industrialGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_O_GATE, {
     reference: "191",
     slug: slug("191", "caoutchouc-fah-epdm-acs-din-court-f4"),
-    name: frEn("Vanne à opercule caoutchouc PN16 FAH EPDM ACS — DIN court 3202-F4", "Rubber gate PN16 FAH EPDM ACS — short DIN 3202-F4"),
+    name: frEn("Vanne à opercule caoutchouc PN16 FAH EPDM ACS - DIN court 3202-F4", "Rubber gate PN16 FAH EPDM ACS - short DIN 3202-F4"),
     description: frEn("Opercule EPDM ACS, face courte F4.", "EPDM ACS wedge, short face F4."),
     dn: null,
     pn: "PN16",

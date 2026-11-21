@@ -10,7 +10,7 @@ function ShimmerBlock({ className }: { className?: string }) {
   return <div className={cn("sdmi-shimmer rounded-sm", className)} aria-hidden />;
 }
 
-/** Skeleton de chargement SDMI — page générique ou catalogue. */
+/** Skeleton de chargement SDMI - page générique ou catalogue. */
 export function SdmiPageLoader({
   variant = "page",
   className,

@@ -77,7 +77,7 @@ const cellularIntroFr =
 const cellularIntroEn =
   "Cellular rubbers are supplied as sheets or strips, in various thicknesses, with or without adhesive. Cutting workshops (waterjet, cutter, laser) can produce any geometry in small or large quantities from drawings or specifications.\n\nThese materials contain myriads of fully closed, independent nitrogen-filled cells. Their sealed and elastic cellular structure delivers outstanding properties.";
 
-/** Caoutchoucs / élastomères cellulaires — sous-famille Élastomère. */
+/** Caoutchoucs / élastomères cellulaires - sous-famille Élastomère. */
 export const elastomereRanges: CatalogRangeSeed[] = [
   base({
     reference: "MS-7250",
@@ -858,7 +858,7 @@ export const elastomereRanges: CatalogRangeSeed[] = [
     slug: "sbr-toile-1-2-plis-na-101t",
     name: frEn(
       "SBR Toilé 1 et 2 plis NA 101T",
-      "Cloth-inserted SBR 1–2 plies NA 101T",
+      "Cloth-inserted SBR 1-2 plies NA 101T",
     ),
     description: buildDescription({
       bulletsFr: [

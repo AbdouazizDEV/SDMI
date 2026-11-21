@@ -1,4 +1,4 @@
-/** Sous-familles avec fiches / gammes publiées — une entrée par livraison progressive. */
+/** Sous-familles avec fiches / gammes publiées - une entrée par livraison progressive. */
 const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "vannes-operucle-petrole-forge-moule",
   "robinets-petrole-soufflet-soupapes-forge-moule",
@@ -114,5 +114,5 @@ export function isCatalogFamilyBrowseable(familySlug: string): boolean {
   return BROWSEABLE_FAMILY_SLUGS.has(familySlug);
 }
 
-/** Prochain lot catalogue v1 — opercule monobloc (non encore publié). */
+/** Prochain lot catalogue v1 - opercule monobloc (non encore publié). */
 export const nextCatalogSubfamilySlug = "vannes-opercule-monobloc-fermeture-rapide";

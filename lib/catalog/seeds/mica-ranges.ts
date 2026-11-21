@@ -76,7 +76,7 @@ const noteFr =
 const noteEn =
   "Important: contact our teams according to your operating conditions.";
 
-/** Joints mica — sous-famille Mica. */
+/** Joints mica - sous-famille Mica. */
 export const micaRanges: CatalogRangeSeed[] = [
   base({
     reference: "MILAM-PSS",

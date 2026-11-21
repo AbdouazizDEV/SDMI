@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Visuels — robinets à pointeau pétrole forgé / inox. Fusionne le manifeste existant. */
+/** Visuels - robinets à pointeau pétrole forgé / inox. Fusionne le manifeste existant. */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

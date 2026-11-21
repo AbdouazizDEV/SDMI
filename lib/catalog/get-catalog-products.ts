@@ -281,7 +281,7 @@ export function enrichProductFacets(product: CatalogProductListItem): CatalogPro
   };
 }
 
-/** Catalogue browse — fusion seeds + demo, mémoïsée une fois (données code). */
+/** Catalogue browse - fusion seeds + demo, mémoïsée une fois (données code). */
 let cachedMergedProducts: CatalogProductFacets[] | null = null;
 
 export function listAllDemoOrMergedProducts(): CatalogProductFacets[] {

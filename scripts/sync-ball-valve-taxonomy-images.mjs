@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Visuels taxonomie — tournant sphérique acier/inox (famille + sous-familles livrées). */
+/** Visuels taxonomie - tournant sphérique acier/inox (famille + sous-familles livrées). */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

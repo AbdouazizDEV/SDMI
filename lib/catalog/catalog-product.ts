@@ -17,7 +17,7 @@ export type CatalogProductListItem = {
   subfamilySlug: string;
   /** Gamme configurable (série) ou référence SKU. */
   listingKind?: ProductListingKind;
-  /** Cotation selon DN, classe et plan — typique des gammes. */
+  /** Cotation selon DN, classe et plan - typique des gammes. */
   quoteOnConfiguration?: boolean;
   technicalSpecs?: CatalogTechnicalSpecs;
   /** Séquence d'images pour le visualiseur 360° (chemins). */

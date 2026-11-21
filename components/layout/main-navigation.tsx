@@ -96,7 +96,7 @@ function useFinePointerHover() {
   return canHover;
 }
 
-/** Position verticale du panneau — pré-calculée pour ouverture immédiate au survol. */
+/** Position verticale du panneau - pré-calculée pour ouverture immédiate au survol. */
 function useMegaMenuTop(active: boolean) {
   const [topPx, setTopPx] = useState(0);
 

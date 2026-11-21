@@ -7,8 +7,8 @@ export const siteConfig = {
   defaultLocale: "fr" as const,
   contact: {
     hours: {
-      weekdays: "Lun–Ven 08h–18h",
-      saturday: "Sam 08h30–13h",
+      weekdays: "Lun-Ven 08h-18h",
+      saturday: "Sam 08h30-13h",
     },
     depotShort: "Dakar, Sénégal",
     phones: [

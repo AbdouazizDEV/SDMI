@@ -194,8 +194,8 @@ function emitSeedFile(lot, items) {
     lines.push(`    slug: "${esc(it.productSlug)}",`);
     lines.push(`    name: frEn("${esc(it.title)}", "${esc(it.enTitle)}"),`);
     lines.push(`    description: frEn(`);
-    lines.push(`      "Gamme vannes à sphère — catalogue SDMI.",`);
-    lines.push(`      "Ball valve range — SDMI catalog.",`);
+    lines.push(`      "Gamme vannes à sphère - catalogue SDMI.",`);
+    lines.push(`      "Ball valve range - SDMI catalog.",`);
     lines.push(`    ),`);
     lines.push(`    dn: null, pn: "${esc(it.pn)}", material: frEn("${esc(mat.fr)}", "${esc(mat.en)}"),`);
     lines.push(

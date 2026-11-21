@@ -333,8 +333,8 @@ function emitSeedFile(lot, items) {
     lines.push(`    slug: "${esc(it.productSlug)}",`);
     lines.push(`    name: frEn("${esc(it.title)}", "${esc(it.enTitle)}"),`);
     lines.push(`    description: frEn(`);
-    lines.push(`      "Gamme tuyauterie et accessoires — catalogue SDMI.",`);
-    lines.push(`      "Piping & accessories range — SDMI catalog.",`);
+    lines.push(`      "Gamme tuyauterie et accessoires - catalogue SDMI.",`);
+    lines.push(`      "Piping & accessories range - SDMI catalog.",`);
     lines.push(`    ),`);
     lines.push(`    dn: null, pn: ${pn}, material: frEn("${esc(mat.fr)}", "${esc(mat.en)}"),`);
     lines.push(

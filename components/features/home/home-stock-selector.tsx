@@ -177,7 +177,7 @@ export function HomeStockSelectorPanel({
   );
 }
 
-/** @deprecated Utiliser le panneau intégré au hero — conservé si réutilisation isolée. */
+/** @deprecated Utiliser le panneau intégré au hero - conservé si réutilisation isolée. */
 export function HomeStockSelectorSection() {
   return (
     <div className="relative z-10 mx-auto max-w-7xl px-4 lg:px-6">

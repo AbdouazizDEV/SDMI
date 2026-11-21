@@ -1,4 +1,4 @@
--- SDMI — Contenu page d'accueil (données éditoriales / médias)
+-- SDMI - Contenu page d'accueil (données éditoriales / médias)
 
 alter table public.application_sectors
   add column if not exists image_storage_path text,

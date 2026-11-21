@@ -9,7 +9,7 @@ type CatalogTaxonomyMediaProps = {
   className?: string;
 };
 
-/** Visuel famille / sous-famille — conteneur dimensionné pour éviter les images invisibles (fill). */
+/** Visuel famille / sous-famille - conteneur dimensionné pour éviter les images invisibles (fill). */
 export function CatalogTaxonomyMedia({
   storagePath,
   alt,
