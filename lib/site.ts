@@ -18,9 +18,9 @@ export const siteConfig = {
         display: "+221 33 824 83 73",
       },
     ],
-    email: "smdi@sdmi.sn",
+    email: "sdmi@sdmi.sn",
     whatsapp: {
-      href: "https://wa.me/221338248373",
+      href: "https://wa.me/221776087545",
       display: "+221 33 824 83 73",
     },
     address: {
