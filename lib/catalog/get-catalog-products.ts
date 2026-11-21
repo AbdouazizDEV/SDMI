@@ -1,3 +1,5 @@
+import { unstable_cache } from "next/cache";
+
 import {
   catalogProductHref,
   formatPn,
@@ -82,13 +84,13 @@ function demoProductsForSubfamily(
   return mergeWithSeeds(familySlug, subfamilySlug, demo);
 }
 
-export async function listProductsForSubfamily(
+async function fetchProductsForSubfamilyFromDb(
   familySlug: string,
   subfamilySlug: string,
-): Promise<CatalogProductListItem[]> {
+): Promise<CatalogProductListItem[] | null> {
   const supabase = createSupabaseServerClient();
   if (!supabase) {
-    return demoProductsForSubfamily(familySlug, subfamilySlug);
+    return null;
   }
 
   const { data: subfamilyRow, error: subError } = await supabase
@@ -99,7 +101,7 @@ export async function listProductsForSubfamily(
     .maybeSingle();
 
   if (subError || !subfamilyRow) {
-    return demoProductsForSubfamily(familySlug, subfamilySlug);
+    return null;
   }
 
   const { data: rows, error } = await supabase
@@ -112,10 +114,10 @@ export async function listProductsForSubfamily(
     .order("sort_order");
 
   if (error || !rows?.length) {
-    return demoProductsForSubfamily(familySlug, subfamilySlug);
+    return null;
   }
 
-  const fromDb = rows.map((row) => {
+  return rows.map((row) => {
     const bodyMaterial = row.body_material as { name: unknown } | null;
     const materialName = bodyMaterial ? parseLocalized(bodyMaterial.name) : null;
 
@@ -133,21 +135,11 @@ export async function listProductsForSubfamily(
       listingKind: "sku" as const,
     };
   });
-
-  return mergeWithSeeds(familySlug, subfamilySlug, fromDb);
 }
 
-export async function getProductBySlug(slug: string): Promise<CatalogProductListItem | null> {
-  const seed = findSeedBySlug(slug);
-  if (seed) {
-    return seedToListItem(seed);
-  }
-
-  const fromDemo = allDemoCatalogProducts.find((product) => product.slug === slug);
-  if (fromDemo) {
-    return demoToListItem(fromDemo);
-  }
-
+async function fetchProductBySlugFromDb(
+  slug: string,
+): Promise<CatalogProductListItem | null> {
   const supabase = createSupabaseServerClient();
   if (!supabase) {
     return null;
@@ -201,6 +193,46 @@ export async function getProductBySlug(slug: string): Promise<CatalogProductList
   };
 }
 
+const getCachedSubfamilyProducts = unstable_cache(
+  async (familySlug: string, subfamilySlug: string) =>
+    fetchProductsForSubfamilyFromDb(familySlug, subfamilySlug),
+  ["sdmi-catalog-subfamily-products-v1"],
+  { revalidate: 300 },
+);
+
+const getCachedProductBySlug = unstable_cache(
+  async (slug: string) => fetchProductBySlugFromDb(slug),
+  ["sdmi-catalog-product-by-slug-v1"],
+  { revalidate: 300 },
+);
+
+export async function listProductsForSubfamily(
+  familySlug: string,
+  subfamilySlug: string,
+): Promise<CatalogProductListItem[]> {
+  const fromDb = await getCachedSubfamilyProducts(familySlug, subfamilySlug);
+
+  if (!fromDb) {
+    return demoProductsForSubfamily(familySlug, subfamilySlug);
+  }
+
+  return mergeWithSeeds(familySlug, subfamilySlug, fromDb);
+}
+
+export async function getProductBySlug(slug: string): Promise<CatalogProductListItem | null> {
+  const seed = findSeedBySlug(slug);
+  if (seed) {
+    return seedToListItem(seed);
+  }
+
+  const fromDemo = allDemoCatalogProducts.find((product) => product.slug === slug);
+  if (fromDemo) {
+    return demoToListItem(fromDemo);
+  }
+
+  return getCachedProductBySlug(slug);
+}
+
 export function filterCatalogProducts(
   products: CatalogProductListItem[],
   filters: { dn?: number; pn?: string; material?: string },
@@ -249,7 +281,14 @@ export function enrichProductFacets(product: CatalogProductListItem): CatalogPro
   };
 }
 
+/** Catalogue browse — fusion seeds + demo, mémoïsée une fois (données code). */
+let cachedMergedProducts: CatalogProductFacets[] | null = null;
+
 export function listAllDemoOrMergedProducts(): CatalogProductFacets[] {
+  if (cachedMergedProducts) {
+    return cachedMergedProducts;
+  }
+
   const seedFacets = listAllSeedFacets();
   const seedSlugs = new Set(seedFacets.map((product) => product.slug));
   const demoFacets = allDemoCatalogProducts
@@ -262,7 +301,8 @@ export function listAllDemoOrMergedProducts(): CatalogProductFacets[] {
       stockUnits: product.stockUnits ?? 0,
       certified31: product.certified31 ?? false,
     }));
-  return [...seedFacets, ...demoFacets];
+  cachedMergedProducts = [...seedFacets, ...demoFacets];
+  return cachedMergedProducts;
 }
 
 export function toBrowseProductCard(

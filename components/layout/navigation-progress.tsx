@@ -3,6 +3,8 @@
 import { usePathname } from "@/i18n/navigation";
 import { useEffect, useState } from "react";
 
+import { cn } from "@/lib/utils";
+
 function isInternalAppLink(anchor: HTMLAnchorElement) {
   const href = anchor.getAttribute("href");
   if (!href || href.startsWith("#") || anchor.target === "_blank") {
@@ -44,7 +46,8 @@ export function NavigationProgress() {
         return;
       }
       const nextPath = href.replace(window.location.origin, "");
-      if (nextPath === pathname || nextPath === `${pathname}/`) {
+      const pathOnly = nextPath.split("?")[0]?.split("#")[0] ?? nextPath;
+      if (pathOnly === pathname || pathOnly === `${pathname}/`) {
         return;
       }
       setActive(true);
@@ -54,17 +57,18 @@ export function NavigationProgress() {
     return () => document.removeEventListener("click", onClick, true);
   }, [pathname]);
 
-  if (!active) {
-    return null;
-  }
-
   return (
     <div
-      className="pointer-events-none fixed inset-x-0 top-0 z-[100] h-0.5 overflow-hidden bg-primary-foreground/10"
+      className={cn(
+        "pointer-events-none fixed inset-x-0 top-0 z-[100] h-[3px] overflow-hidden bg-primary/15",
+        "transition-opacity duration-300",
+        active ? "opacity-100" : "opacity-0",
+      )}
       role="progressbar"
       aria-label="Chargement"
+      aria-hidden={!active}
     >
-      <div className="bg-cta sdmi-nav-progress h-full w-1/3" />
+      <div className="from-cta/25 via-cta to-cta/25 sdmi-nav-progress absolute inset-y-0 w-1/3 bg-gradient-to-r" />
     </div>
   );
 }

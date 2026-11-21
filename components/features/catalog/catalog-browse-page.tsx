@@ -41,6 +41,10 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
 
   const labels = {
     filtersTitle: t("filtersTitle"),
+    openFilters: t("openFilters"),
+    viewFilteredResults: t("viewFilteredResults"),
+    closeFilters: t("closeFilters"),
+    resultsRangeShort: t("resultsRangeShort"),
     filterSearchPlaceholder: t("filterSearchPlaceholder"),
     filterSearchNoResults: t("filterSearchNoResults"),
     clearAll: t("filterClearAll"),
@@ -111,17 +115,17 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
         </div>
       </div>
 
-      <div className="mx-auto max-w-7xl px-4 py-10 lg:px-6 lg:py-12">
-        <p className="text-cta mb-2 text-xs font-bold tracking-widest uppercase">
+      <div className="mx-auto max-w-7xl px-4 py-5 sm:py-10 lg:px-6 lg:py-12">
+        <p className="text-cta mb-1.5 text-[10px] font-bold tracking-widest uppercase sm:mb-2 sm:text-xs">
           {t("eyebrow")}
         </p>
         <PatternSectionHeading
           id="catalog-heading"
           title={t("title")}
           description={t("description")}
-          className="mb-6"
+          className="mb-3 sm:mb-6 [&_p]:line-clamp-2 sm:[&_p]:line-clamp-none"
         />
-        <p className="text-primary mb-8 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1.5 text-sm font-semibold ring-1 ring-emerald-600/20">
+        <p className="text-primary mb-5 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-2.5 py-1 text-xs font-semibold ring-1 ring-emerald-600/20 sm:mb-8 sm:px-3 sm:py-1.5 sm:text-sm">
           {t("stockBadge")}
         </p>
 
@@ -134,7 +138,7 @@ export async function CatalogBrowsePage({ searchQuery }: CatalogBrowsePageProps)
         <section aria-labelledby="catalog-references-heading">
           <h2
             id="catalog-references-heading"
-            className="font-heading text-primary sdmi-heading-accent mb-4 text-lg font-bold uppercase"
+            className="font-heading text-primary sdmi-heading-accent mb-3 text-base font-bold uppercase sm:mb-4 sm:text-lg"
           >
             {t("referencesTitle")}
           </h2>

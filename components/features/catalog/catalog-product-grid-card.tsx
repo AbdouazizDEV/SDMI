@@ -6,6 +6,7 @@ import { AddToQuoteButton } from "@/components/features/quote/add-to-quote-butto
 import { StorageMedia } from "@/components/features/home/storage-media";
 import { Link } from "@/i18n/navigation";
 import type { LocalizedText } from "@/types/localized";
+import { cn } from "@/lib/utils";
 
 export type CatalogBrowseProductDto = {
   id: string | null;
@@ -64,20 +65,20 @@ export function CatalogProductGridCard({
 
   return (
     <article className="sdmi-surface-card sdmi-surface-card-accent flex h-full flex-col overflow-hidden bg-card">
-      <div className="border-border/60 flex items-start justify-between gap-2 border-b px-4 py-3">
-        <span className="text-muted-foreground font-mono text-[11px] font-semibold tracking-wide uppercase">
+      <div className="border-border/60 flex items-start justify-between gap-1.5 border-b px-2.5 py-2 sm:gap-2 sm:px-4 sm:py-3">
+        <span className="text-muted-foreground truncate font-mono text-[10px] font-semibold tracking-wide uppercase sm:text-[11px]">
           {product.reference}
         </span>
         {isRange ? (
-          <span className="bg-primary/10 text-primary rounded-full px-2.5 py-0.5 text-[10px] font-bold tracking-wide uppercase ring-1 ring-primary/15">
+          <span className="bg-primary/10 text-primary shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-bold tracking-wide uppercase ring-1 ring-primary/15 sm:px-2.5 sm:text-[10px]">
             {rangeBadge}
           </span>
         ) : product.certified31 ? (
-          <span className="rounded-full bg-emerald-500/15 px-2.5 py-0.5 text-[10px] font-bold tracking-wide text-emerald-800 uppercase ring-1 ring-emerald-600/25">
+          <span className="shrink-0 rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[9px] font-bold tracking-wide text-emerald-800 uppercase ring-1 ring-emerald-600/25 sm:px-2.5 sm:text-[10px]">
             {certifiedBadge}
           </span>
         ) : (
-          <span className="bg-muted text-muted-foreground rounded-full px-2.5 py-0.5 text-[10px] font-bold tracking-wide uppercase">
+          <span className="bg-muted text-muted-foreground shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-bold tracking-wide uppercase sm:px-2.5 sm:text-[10px]">
             Stock
           </span>
         )}
@@ -85,31 +86,34 @@ export function CatalogProductGridCard({
 
       <Link
         href={product.href}
-        className="relative block aspect-4/3 bg-gradient-to-br from-slate-50 via-white to-primary/5"
+        className={cn(
+          "relative block bg-gradient-to-br from-slate-50 via-white to-primary/5",
+          "aspect-square sm:aspect-4/3",
+        )}
       >
         {imagePath ? (
           <StorageMedia
             storagePath={imagePath}
             alt={product.title}
             className="absolute inset-0 size-full"
-            imageClassName="object-contain p-6"
-            sizes="(max-width: 640px) 100vw, 25vw"
+            imageClassName="object-contain p-3 sm:p-6"
+            sizes="(max-width: 640px) 50vw, 25vw"
           />
         ) : null}
       </Link>
 
-      <div className="flex flex-1 flex-col p-4 md:p-5">
+      <div className="flex flex-1 flex-col p-2.5 sm:p-4 md:p-5">
         <Link
           href={product.href}
-          className="font-heading text-primary hover:text-cta line-clamp-2 text-sm leading-snug font-bold tracking-tight uppercase transition-colors md:text-base"
+          className="font-heading text-primary hover:text-cta line-clamp-2 text-[11px] leading-snug font-bold tracking-tight uppercase transition-colors sm:text-sm md:text-base"
         >
           {product.title}
         </Link>
-        <p className="text-muted-foreground mt-2 line-clamp-2 text-xs leading-relaxed md:text-sm">
+        <p className="text-muted-foreground mt-1.5 hidden line-clamp-2 text-xs leading-relaxed sm:mt-2 sm:block md:text-sm">
           {product.descriptionText}
         </p>
 
-        <dl className="mt-4 grid grid-cols-3 gap-2 rounded-lg bg-muted/40 p-2.5 text-center text-[10px] md:text-xs">
+        <dl className="mt-2.5 grid grid-cols-3 gap-1 rounded-md bg-muted/40 p-1.5 text-center text-[9px] sm:mt-4 sm:gap-2 sm:rounded-lg sm:p-2.5 sm:text-[10px] md:text-xs">
           <div>
             <dt className="text-muted-foreground font-bold uppercase">{specDnLabel}</dt>
             <dd className="text-foreground mt-0.5 font-semibold">
@@ -132,7 +136,7 @@ export function CatalogProductGridCard({
           </div>
         </dl>
 
-        <div className="mt-3 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div className="mt-2 hidden flex-wrap items-center justify-between gap-2 text-xs sm:mt-3 sm:flex">
           {isRange || product.quoteOnConfiguration ? (
             <p className="text-primary font-medium">{quoteOnConfigurationLabel}</p>
           ) : (
@@ -162,7 +166,7 @@ export function CatalogProductGridCard({
           name={product.name}
           size="default"
           label={quoteCta}
-          className="bg-cta text-cta-foreground hover:bg-cta/90 border-cta mt-4 h-11 w-full rounded-sm font-bold tracking-wide uppercase"
+          className="bg-cta text-cta-foreground hover:bg-cta/90 border-cta mt-2.5 h-10 w-full rounded-sm text-[10px] font-bold tracking-wide uppercase sm:mt-4 sm:h-11 sm:text-xs"
         />
       </div>
     </article>

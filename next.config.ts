@@ -53,6 +53,10 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   experimental: {
     optimizePackageImports: ["lucide-react"],
+    staleTimes: {
+      dynamic: 60,
+      static: 300,
+    },
   },
   images: {
     qualities: [75, 100],

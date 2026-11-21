@@ -208,6 +208,59 @@
     animation: sdmi-nav-progress 0.85s ease-in-out infinite;
   }
 
+  @keyframes sdmi-shimmer {
+    from {
+      background-position: 120% 0;
+    }
+    to {
+      background-position: -40% 0;
+    }
+  }
+
+  .sdmi-shimmer {
+    background-image: linear-gradient(
+      105deg,
+      color-mix(in srgb, var(--muted) 88%, white) 0%,
+      color-mix(in srgb, var(--muted) 88%, white) 38%,
+      color-mix(in srgb, var(--primary) 10%, white) 50%,
+      color-mix(in srgb, var(--muted) 88%, white) 62%,
+      color-mix(in srgb, var(--muted) 88%, white) 100%
+    );
+    background-size: 220% 100%;
+    animation: sdmi-shimmer 1.35s ease-in-out infinite;
+  }
+
+  @keyframes sdmi-loader-bar {
+    from {
+      transform: scaleX(0.12);
+      opacity: 0.75;
+    }
+    50% {
+      transform: scaleX(0.72);
+      opacity: 1;
+    }
+    to {
+      transform: scaleX(0.28);
+      opacity: 0.85;
+    }
+  }
+
+  .sdmi-loader-bar {
+    animation: sdmi-loader-bar 1.1s ease-in-out infinite;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sdmi-shimmer,
+    .sdmi-loader-bar {
+      animation: none;
+    }
+
+    .sdmi-shimmer {
+      background-image: none;
+      background-color: color-mix(in srgb, var(--muted) 90%, white);
+    }
+  }
+
   @keyframes sdmi-hero-ken-burns {
     from {
       transform: scale(1);
