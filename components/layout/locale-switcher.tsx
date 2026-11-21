@@ -22,32 +22,29 @@ export function LocaleSwitcher({
   if (variant === "topBar") {
     return (
       <div
-        className={cn("inline-flex items-center gap-1 font-medium", className)}
+        className={cn(
+          "inline-flex items-center rounded-sm border border-primary-foreground/20 bg-primary-foreground/5 p-0.5 font-semibold",
+          className,
+        )}
         role="group"
         aria-label={t("languageSwitcher")}
       >
-        {siteConfig.locales.map((loc, index) => (
-          <span key={loc} className="inline-flex items-center gap-1">
-            {index > 0 ? (
-              <span className="text-primary-foreground/40" aria-hidden>
-                |
-              </span>
-            ) : null}
-            <Link
-              href={pathname}
-              locale={loc}
-              title={loc === "fr" ? t("localeFr") : t("localeEn")}
-              aria-current={locale === loc ? "page" : undefined}
-              className={cn(
-                "uppercase transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cta",
-                locale === loc
-                  ? "text-cta"
-                  : "text-primary-foreground/80 hover:text-primary-foreground",
-              )}
-            >
-              {loc}
-            </Link>
-          </span>
+        {siteConfig.locales.map((loc) => (
+          <Link
+            key={loc}
+            href={pathname}
+            locale={loc}
+            title={loc === "fr" ? t("localeFr") : t("localeEn")}
+            aria-current={locale === loc ? "page" : undefined}
+            className={cn(
+              "rounded-[3px] px-1.5 py-0.5 uppercase transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cta",
+              locale === loc
+                ? "bg-cta text-cta-foreground"
+                : "text-primary-foreground/70 hover:text-primary-foreground",
+            )}
+          >
+            {loc}
+          </Link>
         ))}
       </div>
     );
