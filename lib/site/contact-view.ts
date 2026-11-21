@@ -26,9 +26,9 @@ export function getEmailChannel(): ContactEmailChannel {
 }
 
 export function getAddressSingleLine(): ContactAddressView {
-  const { line1, city, line2 } = siteConfig.contact.address;
+  const { line1, line2, city } = siteConfig.contact.address;
   return {
-    singleLine: `${line1}, ${city}, ${line2}`,
+    singleLine: [line1, line2, city].filter(Boolean).join(", "),
   };
 }
 

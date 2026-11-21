@@ -72,9 +72,9 @@
       "legalNotice": "Legal notice",
       "privacy": "Privacy policy",
       "terms": "Terms & conditions",
-      "addressLine1": "Bopp rue 2 x Casamance",
-      "addressLine2": "BP 3134 RP",
-      "addressCity": "Dakar, Senegal",
+      "addressLine1": "Centre Bopp, rue 2 x Casamance",
+      "addressLine2": "Dakar 11000",
+      "addressCity": "Senegal",
       "hoursTitle": "Opening hours",
       "hoursWeek": "",
       "hoursSaturday": "",
@@ -90,7 +90,7 @@
   },
   "Home": {
     "hero": {
-      "location": "Dakar, Senegal - Bopp rue 2 x Casamance",
+      "location": "Centre Bopp, rue 2 x Casamance, Dakar 11000",
       "certificationBadge": "DIN / ANSI / ISO approved distributor",
       "carousel": {
         "slides": {
@@ -806,8 +806,8 @@
       }
     ],
     "mapTitle": "Getting here",
-    "mapDescription": "SDMI counter and depot at Bopp rue 2 x Casamance - truck access by appointment for bulk collections.",
-    "mapIframeTitle": "Google Maps - SDMI Bopp, Dakar",
+    "mapDescription": "SDMI counter and depot - Centre Bopp, rue 2 x Casamance, Dakar 11000 - truck access by appointment for bulk collections.",
+    "mapIframeTitle": "Google Maps - SDMI Centre Bopp, Dakar 11000",
     "directionsCta": "Google Maps directions",
     "formTitle": "Commercial request",
     "formHint": "Send BOMs, DN/PN specs or quantity schedules for a structured quote.",
@@ -919,14 +919,14 @@
       "breadcrumbCurrent": "Legal notice",
       "title": "Legal notice",
       "description": "SDMI legal information - Dakar, Senegal.",
-      "body": "Senegalese industrial equipment distributor (SDMI) - Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Senegal. Phone +221 33 824 83 73 - smdi@sdmi.sn."
+      "body": "Senegalese industrial equipment distributor (SDMI) - Centre Bopp, rue 2 x Casamance, Dakar 11000, Senegal. Phone +221 33 824 83 73 - sdmi@sdmi.sn."
     },
     "privacy": {
       "breadcrumbHome": "Home",
       "breadcrumbCurrent": "Privacy policy",
       "title": "Privacy policy",
       "description": "Personal data protection.",
-      "body": "SDMI processes your contact data only to respond to commercial and technical requests. Contact smdi@sdmi.sn to exercise your rights."
+      "body": "SDMI processes your contact data only to respond to commercial and technical requests. Contact sdmi@sdmi.sn to exercise your rights."
     },
     "terms": {
       "breadcrumbHome": "Home",
