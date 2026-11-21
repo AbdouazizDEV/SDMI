@@ -33,11 +33,11 @@ type ProductsPageProps = {
 
 export default async function ProductsCatchAllPage({ params, searchParams }: ProductsPageProps) {
   const { locale, segments = [] } = await params;
-  const filters = await searchParams;
   setRequestLocale(locale);
   const siteLocale = locale as SiteLocale;
 
   if (segments.length === 0) {
+    const filters = await searchParams;
     return <CatalogBrowsePage searchQuery={filters.q} />;
   }
 
@@ -129,6 +129,7 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
   }
 
   if (segments.length === 2) {
+    const filters = await searchParams;
     const resolved = await resolveCatalogPath(segments);
     if (!resolved || resolved.kind !== "subfamily") {
       notFound();

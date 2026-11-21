@@ -120,6 +120,12 @@ export function findSeedBySlug(slug: string): CatalogRangeSeed | undefined {
   return ALL_SEEDS.find((seed) => seed.slug === slug);
 }
 
+/** Facettes seeds — construit une seule fois (données immuables en code). */
+let cachedSeedFacets: CatalogProductFacets[] | null = null;
+
 export function listAllSeedFacets(): CatalogProductFacets[] {
-  return ALL_SEEDS.map(seedToFacets);
+  if (!cachedSeedFacets) {
+    cachedSeedFacets = ALL_SEEDS.map(seedToFacets);
+  }
+  return cachedSeedFacets;
 }

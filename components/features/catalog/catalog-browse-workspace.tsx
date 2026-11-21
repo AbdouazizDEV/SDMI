@@ -15,6 +15,13 @@ import {
   CatalogProductGridCard,
   type CatalogBrowseProductDto,
 } from "@/components/features/catalog/catalog-product-grid-card";
+import {
+  Sheet,
+  SheetContent,
+  SheetFooter,
+  SheetHeader,
+  SheetTitle,
+} from "@/components/ui/sheet";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import {
   countBy,
@@ -32,6 +39,10 @@ import { cn } from "@/lib/utils";
 
 export type CatalogBrowseLabels = {
   filtersTitle: string;
+  openFilters: string;
+  viewFilteredResults: string;
+  closeFilters: string;
+  resultsRangeShort: string;
   filterSearchPlaceholder: string;
   filterSearchNoResults: string;
   clearAll: string;
@@ -150,7 +161,7 @@ function CheckboxRow({
   return (
     <label
       htmlFor={id}
-      className="hover:bg-muted/50 flex cursor-pointer items-center gap-2 rounded-md px-1 py-1.5 text-sm"
+      className="hover:bg-muted/50 flex min-h-11 cursor-pointer items-center gap-2.5 rounded-md px-1.5 py-2 text-sm"
     >
       <input
         id={id}
@@ -190,6 +201,7 @@ export function CatalogBrowseWorkspace({
   const searchParams = useSearchParams();
   const [, startTransition] = useTransition();
   const [view, setView] = useState<"grid" | "list">("grid");
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [filterQuery, setFilterQuery] = useState("");
   const [filterSuggestOpen, setFilterSuggestOpen] = useState(false);
   const [catalogQ, setCatalogQ] = useState("");
@@ -381,17 +393,22 @@ export function CatalogBrowseWorkspace({
     matchesFilterQuery(labels.sectors[sector], filterQuery),
   );
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[minmax(260px,300px)_1fr] lg:gap-10">
-      <aside
-        className="sdmi-surface-card sdmi-surface-card-accent border-border/80 h-fit bg-card/95 p-5 lg:sticky lg:top-36"
-        aria-labelledby="catalog-advanced-filters"
-      >
+  function renderFiltersPanel({
+    idPrefix,
+    headingId,
+    dense = false,
+  }: {
+    idPrefix: string;
+    headingId: string;
+    dense?: boolean;
+  }) {
+    return (
+      <>
         <div className="mb-4 flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <SlidersHorizontalIcon aria-hidden className="text-cta size-4" />
             <h2
-              id="catalog-advanced-filters"
+              id={headingId}
               className="font-heading text-primary text-sm font-bold tracking-wide uppercase"
             >
               {labels.filtersTitle}
@@ -401,7 +418,7 @@ export function CatalogBrowseWorkspace({
             <button
               type="button"
               onClick={() => pushFilters({ sort: filters.sort })}
-              className="text-cta text-[11px] font-bold tracking-wide uppercase hover:underline"
+              className="text-cta min-h-9 text-xs font-bold tracking-wide uppercase hover:underline"
             >
               {labels.clearAll}
             </button>
@@ -425,7 +442,7 @@ export function CatalogBrowseWorkspace({
               window.setTimeout(() => setFilterSuggestOpen(false), 150);
             }}
             placeholder={labels.filterSearchPlaceholder}
-            className="border-border focus:ring-primary/30 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
+            className="border-border focus:ring-primary/30 h-11 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
             aria-autocomplete="list"
             aria-expanded={filterSuggestOpen && suggestMatches.length > 0}
           />
@@ -440,10 +457,10 @@ export function CatalogBrowseWorkspace({
                 </li>
               ) : (
                 suggestMatches.map((option) => (
-                  <li key={option.id} role="option">
+                  <li key={`${idPrefix}-${option.id}`} role="option">
                     <button
                       type="button"
-                      className="hover:bg-muted flex w-full flex-col items-start gap-0.5 px-3 py-2 text-left text-sm"
+                      className="hover:bg-muted flex min-h-11 w-full flex-col items-start justify-center gap-0.5 px-3 py-2 text-left text-sm"
                       onMouseDown={(e) => e.preventDefault()}
                       onClick={() => {
                         option.apply();
@@ -463,9 +480,10 @@ export function CatalogBrowseWorkspace({
           ) : null}
         </div>
 
-        <div className="max-h-[70vh] space-y-1 overflow-y-auto pr-1">
+        <div className={cn("space-y-1 pr-1", dense ? "pb-2" : "max-h-[70vh] overflow-y-auto")}>
           <FilterSection
             title={labels.filterDeviceFamily}
+            defaultOpen={!dense}
             hidden={hasQuery && subfamilyEntries.length === 0}
           >
             <ul className="space-y-0.5">
@@ -474,8 +492,8 @@ export function CatalogBrowseWorkspace({
                 .map(([slug, count]) => (
                   <li key={slug}>
                     <CheckboxRow
-                      id={`sf-${slug}`}
-                      name="filter-device-family"
+                      id={`${idPrefix}-sf-${slug}`}
+                      name={`${idPrefix}-filter-device-family`}
                       exclusive
                       label={subfamilyLabels[slug] ?? slug}
                       count={count}
@@ -493,6 +511,7 @@ export function CatalogBrowseWorkspace({
 
           <FilterSection
             title={labels.filterMaterial}
+            defaultOpen={!dense}
             hidden={hasQuery && materialEntries.length === 0}
           >
             <ul className="space-y-0.5">
@@ -501,8 +520,8 @@ export function CatalogBrowseWorkspace({
                 .map(([material, count]) => (
                   <li key={material}>
                     <CheckboxRow
-                      id={`mat-${material}`}
-                      name="filter-material"
+                      id={`${idPrefix}-mat-${material}`}
+                      name={`${idPrefix}-filter-material`}
                       exclusive
                       label={material}
                       count={count}
@@ -518,7 +537,7 @@ export function CatalogBrowseWorkspace({
             </ul>
           </FilterSection>
 
-          <FilterSection title={labels.filterDn} hidden={hasQuery}>
+          <FilterSection title={labels.filterDn} defaultOpen={!dense} hidden={hasQuery}>
             <div className="space-y-3 px-1">
               <div className="flex gap-2">
                 <label className="flex-1 text-xs">
@@ -531,7 +550,7 @@ export function CatalogBrowseWorkspace({
                     onChange={(e) =>
                       update({ dnMin: Number.parseInt(e.target.value, 10) })
                     }
-                    className="border-border mt-1 w-full rounded-md border px-2 py-1.5 text-sm"
+                    className="border-border mt-1 h-11 w-full rounded-md border px-2 text-sm"
                   />
                 </label>
                 <label className="flex-1 text-xs">
@@ -544,7 +563,7 @@ export function CatalogBrowseWorkspace({
                     onChange={(e) =>
                       update({ dnMax: Number.parseInt(e.target.value, 10) })
                     }
-                    className="border-border mt-1 w-full rounded-md border px-2 py-1.5 text-sm"
+                    className="border-border mt-1 h-11 w-full rounded-md border px-2 text-sm"
                   />
                 </label>
               </div>
@@ -563,31 +582,29 @@ export function CatalogBrowseWorkspace({
 
           <FilterSection
             title={labels.filterPn}
+            defaultOpen={false}
             hidden={hasQuery && pnEntries.length === 0}
           >
             <ul className="flex flex-wrap gap-2">
               {pnEntries.map(([pn, count]) => {
-                  const active = filters.pn?.includes(pn) ?? false;
-                  return (
-                    <li key={pn}>
-                      <button
-                        type="button"
-                        onClick={() =>
-                          update({ pn: toggleValue(filters.pn, pn) })
-                        }
-                        className={cn(
-                          "rounded-full px-3 py-1 text-xs font-semibold transition-colors",
-                          active
-                            ? "bg-primary text-primary-foreground"
-                            : "border-border border bg-white hover:bg-muted/50",
-                        )}
-                      >
-                        {pn}{" "}
-                        <span className="opacity-70">({count})</span>
-                      </button>
-                    </li>
-                  );
-                })}
+                const active = filters.pn?.includes(pn) ?? false;
+                return (
+                  <li key={pn}>
+                    <button
+                      type="button"
+                      onClick={() => update({ pn: toggleValue(filters.pn, pn) })}
+                      className={cn(
+                        "min-h-9 rounded-full px-3 py-2 text-xs font-semibold transition-colors",
+                        active
+                          ? "bg-primary text-primary-foreground"
+                          : "border-border border bg-white hover:bg-muted/50",
+                      )}
+                    >
+                      {pn} <span className="opacity-70">({count})</span>
+                    </button>
+                  </li>
+                );
+              })}
             </ul>
           </FilterSection>
 
@@ -598,22 +615,22 @@ export function CatalogBrowseWorkspace({
           >
             <ul className="space-y-0.5">
               {connectionEntries.map(([conn, count]) => (
-                  <li key={conn}>
-                    <CheckboxRow
-                      id={`conn-${conn}`}
-                      name="filter-connection"
-                      exclusive
-                      label={labels.connections[conn] ?? conn}
-                      count={count}
-                      checked={filters.connections?.includes(conn) ?? false}
-                      onChange={() =>
-                        update({
-                          connections: selectOne(filters.connections, conn),
-                        })
-                      }
-                    />
-                  </li>
-                ))}
+                <li key={conn}>
+                  <CheckboxRow
+                    id={`${idPrefix}-conn-${conn}`}
+                    name={`${idPrefix}-filter-connection`}
+                    exclusive
+                    label={labels.connections[conn] ?? conn}
+                    count={count}
+                    checked={filters.connections?.includes(conn) ?? false}
+                    onChange={() =>
+                      update({
+                        connections: selectOne(filters.connections, conn),
+                      })
+                    }
+                  />
+                </li>
+              ))}
             </ul>
           </FilterSection>
 
@@ -627,7 +644,7 @@ export function CatalogBrowseWorkspace({
                       update({ standards: toggleValue(filters.standards, std) })
                     }
                     className={cn(
-                      "rounded-md px-2.5 py-1 text-[11px] font-semibold",
+                      "min-h-9 rounded-md px-3 py-2 text-xs font-semibold",
                       filters.standards?.includes(std)
                         ? "bg-primary text-primary-foreground"
                         : "border-border border",
@@ -649,8 +666,8 @@ export function CatalogBrowseWorkspace({
               {sectorEntries.map((sector) => (
                 <li key={sector}>
                   <CheckboxRow
-                    id={`sector-${sector}`}
-                    name="filter-sector"
+                    id={`${idPrefix}-sector-${sector}`}
+                    name={`${idPrefix}-filter-sector`}
                     exclusive
                     label={labels.sectors[sector]}
                     count={products.filter((p) => p.sectorTags.includes(sector)).length}
@@ -665,151 +682,288 @@ export function CatalogBrowseWorkspace({
           </FilterSection>
         </div>
 
-        <div className="border-border/70 mt-5 border-t pt-4">
+        <div className={cn("border-border/70 border-t pt-4", dense ? "mt-4" : "mt-5")}>
           <p className="font-heading text-primary text-xs font-bold uppercase">
             {labels.filtersHelpTitle}
           </p>
           <p className="text-muted-foreground mt-2 text-xs leading-relaxed">
             {labels.filtersHelpText}
           </p>
-          <a href={labels.phoneHref} className="text-primary mt-2 block text-sm font-semibold">
+          <a href={labels.phoneHref} className="text-primary mt-2 block min-h-11 py-2 text-sm font-semibold">
             {labels.phone}
           </a>
           <Link
             href="/devis"
-            className="bg-primary text-primary-foreground hover:bg-primary/90 mt-3 flex h-10 w-full items-center justify-center rounded-sm text-xs font-bold tracking-wide uppercase"
+            className="bg-primary text-primary-foreground hover:bg-primary/90 mt-1 hidden h-11 w-full items-center justify-center rounded-sm text-xs font-bold tracking-wide uppercase lg:flex"
           >
             {labels.quoteHelpCta}
           </Link>
         </div>
-      </aside>
+      </>
+    );
+  }
 
-      <div className="min-w-0" id="catalog-live-results">
-        <div className="relative mb-4">
-          <label htmlFor="catalog-live-search" className="sr-only">
-            {labels.liveSearchLabel}
-          </label>
-          <SearchIcon
-            aria-hidden
-            className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
-          />
-          <input
-            id="catalog-live-search"
-            type="search"
-            value={catalogQ}
-            onChange={(e) => {
-              catalogQFromUrlRef.current = false;
-              setCatalogQ(e.target.value);
-            }}
-            placeholder={labels.liveSearchPlaceholder}
-            className="border-border focus:ring-primary/30 h-11 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
-            autoComplete="off"
-          />
+  const resultsLabel = labels.resultsRangeShort
+    .replace("{count}", String(visibleCards.length))
+    .replace("{total}", String(products.length));
+
+  return (
+    <div className="relative">
+      {/* Mobile — barre sticky : filtres + recherche + tri */}
+      <div className="border-border/80 bg-background/95 sticky top-[4.75rem] z-30 -mx-4 mb-4 border-b px-4 py-2.5 backdrop-blur-md lg:hidden">
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setFiltersOpen(true)}
+            className="border-border bg-card relative inline-flex h-11 shrink-0 items-center gap-2 rounded-md border px-3 text-xs font-bold tracking-wide uppercase"
+          >
+            <SlidersHorizontalIcon aria-hidden className="text-cta size-4" />
+            {labels.openFilters}
+            {activeTags.length > 0 ? (
+              <span className="bg-cta text-cta-foreground inline-flex min-w-5 items-center justify-center rounded-full px-1.5 py-0.5 text-[10px] font-bold tabular-nums">
+                {activeTags.length}
+              </span>
+            ) : null}
+          </button>
+          <div className="relative min-w-0 flex-1">
+            <label htmlFor="catalog-live-search-mobile" className="sr-only">
+              {labels.liveSearchLabel}
+            </label>
+            <SearchIcon
+              aria-hidden
+              className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
+            />
+            <input
+              id="catalog-live-search-mobile"
+              type="search"
+              value={catalogQ}
+              onChange={(e) => {
+                catalogQFromUrlRef.current = false;
+                setCatalogQ(e.target.value);
+              }}
+              placeholder={labels.liveSearchPlaceholder}
+              className="border-border focus:ring-primary/30 h-11 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
+              autoComplete="off"
+            />
+          </div>
         </div>
-
+        <div className="mt-2 flex items-center justify-between gap-2">
+          <p className="text-muted-foreground text-xs tabular-nums">{resultsLabel}</p>
+          <label className="text-muted-foreground flex min-w-0 items-center gap-1.5 text-xs">
+            <span className="sr-only sm:not-sr-only">{labels.sortBy}</span>
+            <select
+              value={sortValue}
+              onChange={(e) =>
+                update({
+                  sort: e.target.value as CatalogBrowseFilters["sort"],
+                })
+              }
+              className="border-border h-9 max-w-[11rem] rounded-md border bg-background px-2 text-xs font-medium"
+            >
+              <option value="relevance">{labels.sortRelevance}</option>
+              <option value="dn-asc">{labels.sortDnAsc}</option>
+              <option value="dn-desc">{labels.sortDnDesc}</option>
+              <option value="ref-asc">{labels.sortRefAsc}</option>
+            </select>
+          </label>
+        </div>
         {activeTags.length > 0 ? (
-          <div className="border-border/60 mb-4 flex flex-wrap items-center gap-2 rounded-lg border bg-card/80 px-3 py-2">
-            <span className="text-muted-foreground text-xs font-bold uppercase">
-              {labels.activeFilters}
-            </span>
+          <div className="mt-2 flex gap-2 overflow-x-auto pb-0.5 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {activeTags.map((tag) => (
               <button
                 key={tag.key}
                 type="button"
                 onClick={tag.onRemove}
-                className="bg-muted inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium"
+                className="bg-muted inline-flex h-8 shrink-0 items-center gap-1.5 rounded-full px-3 text-xs font-medium"
               >
                 {tag.label}
-                <XIcon aria-hidden className="size-3" />
+                <XIcon aria-hidden className="size-3.5" />
               </button>
             ))}
             <button
               type="button"
               onClick={() => pushFilters({ sort: filters.sort })}
-              className="text-primary ml-auto text-xs font-semibold hover:underline"
+              className="text-primary h-8 shrink-0 px-1 text-xs font-semibold"
             >
               {labels.resetFilters}
             </button>
           </div>
         ) : null}
+      </div>
 
-        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
-          <p className="text-muted-foreground text-sm">
-            {labels.resultsRange
-              .replace("{from}", visibleCards.length ? "1" : "0")
-              .replace("{to}", String(visibleCards.length))
-              .replace("{total}", String(products.length))}
-          </p>
-          <div className="flex items-center gap-2">
-            <label className="text-muted-foreground flex items-center gap-2 text-xs">
-              {labels.sortBy}
-              <select
-                value={sortValue}
-                onChange={(e) =>
-                  update({
-                    sort: e.target.value as CatalogBrowseFilters["sort"],
-                  })
-                }
-                className="border-border rounded-md border bg-background px-2 py-1.5 text-xs font-medium"
-              >
-                <option value="relevance">{labels.sortRelevance}</option>
-                <option value="dn-asc">{labels.sortDnAsc}</option>
-                <option value="dn-desc">{labels.sortDnDesc}</option>
-                <option value="ref-asc">{labels.sortRefAsc}</option>
-              </select>
+      <div className="grid gap-8 lg:grid-cols-[minmax(260px,300px)_1fr] lg:gap-10">
+        <aside
+          className="sdmi-surface-card sdmi-surface-card-accent border-border/80 hidden h-fit bg-card/95 p-5 lg:sticky lg:top-36 lg:block"
+          aria-labelledby="catalog-advanced-filters"
+        >
+          {renderFiltersPanel({
+            idPrefix: "desk",
+            headingId: "catalog-advanced-filters",
+          })}
+        </aside>
+
+        <div className="min-w-0" id="catalog-live-results">
+          <div className="relative mb-4 hidden lg:block">
+            <label htmlFor="catalog-live-search" className="sr-only">
+              {labels.liveSearchLabel}
             </label>
-            <div className="border-border flex rounded-md border p-0.5">
+            <SearchIcon
+              aria-hidden
+              className="text-muted-foreground pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2"
+            />
+            <input
+              id="catalog-live-search"
+              type="search"
+              value={catalogQ}
+              onChange={(e) => {
+                catalogQFromUrlRef.current = false;
+                setCatalogQ(e.target.value);
+              }}
+              placeholder={labels.liveSearchPlaceholder}
+              className="border-border focus:ring-primary/30 h-11 w-full rounded-md border bg-background py-2 pr-3 pl-9 text-sm outline-none focus:ring-2"
+              autoComplete="off"
+            />
+          </div>
+
+          {activeTags.length > 0 ? (
+            <div className="border-border/60 mb-4 hidden flex-wrap items-center gap-2 rounded-lg border bg-card/80 px-3 py-2 lg:flex">
+              <span className="text-muted-foreground text-xs font-bold uppercase">
+                {labels.activeFilters}
+              </span>
+              {activeTags.map((tag) => (
+                <button
+                  key={tag.key}
+                  type="button"
+                  onClick={tag.onRemove}
+                  className="bg-muted inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-medium"
+                >
+                  {tag.label}
+                  <XIcon aria-hidden className="size-3" />
+                </button>
+              ))}
               <button
                 type="button"
-                aria-pressed={view === "grid"}
-                onClick={() => setView("grid")}
-                className={cn(
-                  "rounded p-1.5",
-                  view === "grid" ? "bg-primary text-primary-foreground" : "",
-                )}
+                onClick={() => pushFilters({ sort: filters.sort })}
+                className="text-primary ml-auto text-xs font-semibold hover:underline"
               >
-                <LayoutGridIcon aria-hidden className="size-4" />
-              </button>
-              <button
-                type="button"
-                aria-pressed={view === "list"}
-                onClick={() => setView("list")}
-                className={cn(
-                  "rounded p-1.5",
-                  view === "list" ? "bg-primary text-primary-foreground" : "",
-                )}
-              >
-                <ListIcon aria-hidden className="size-4" />
+                {labels.resetFilters}
               </button>
             </div>
-          </div>
-        </div>
+          ) : null}
 
-        <ul
-          className={cn(
-            "grid gap-5",
-            view === "grid" ? "sm:grid-cols-2 xl:grid-cols-3" : "grid-cols-1",
-          )}
-        >
-          {visibleCards.map((product) => (
-            <li key={product.slug}>
-              <CatalogProductGridCard
-                product={product}
-                specDnLabel={labels.specDn}
-                specPnLabel={labels.specPn}
-                specMaterialLabel={labels.specMaterial}
-                stockInStockLabel={labels.stockInStock}
-                certifiedBadge={labels.certifiedBadge}
-                pdfLabel={labels.pdfLabel}
-                quoteCta={labels.quoteProductCta}
-                rangeBadge={labels.rangeBadge}
-                dnOnConfiguration={labels.dnOnConfiguration}
-                quoteOnConfigurationLabel={labels.quoteOnConfigurationLabel}
-              />
-            </li>
-          ))}
-        </ul>
+          <div className="mb-4 hidden flex-wrap items-center justify-between gap-3 lg:flex">
+            <p className="text-muted-foreground text-sm">
+              {labels.resultsRange
+                .replace("{from}", visibleCards.length ? "1" : "0")
+                .replace("{to}", String(visibleCards.length))
+                .replace("{total}", String(products.length))}
+            </p>
+            <div className="flex items-center gap-2">
+              <label className="text-muted-foreground flex items-center gap-2 text-xs">
+                {labels.sortBy}
+                <select
+                  value={sortValue}
+                  onChange={(e) =>
+                    update({
+                      sort: e.target.value as CatalogBrowseFilters["sort"],
+                    })
+                  }
+                  className="border-border rounded-md border bg-background px-2 py-1.5 text-xs font-medium"
+                >
+                  <option value="relevance">{labels.sortRelevance}</option>
+                  <option value="dn-asc">{labels.sortDnAsc}</option>
+                  <option value="dn-desc">{labels.sortDnDesc}</option>
+                  <option value="ref-asc">{labels.sortRefAsc}</option>
+                </select>
+              </label>
+              <div className="border-border flex rounded-md border p-0.5">
+                <button
+                  type="button"
+                  aria-pressed={view === "grid"}
+                  onClick={() => setView("grid")}
+                  className={cn(
+                    "inline-flex size-10 items-center justify-center rounded",
+                    view === "grid" ? "bg-primary text-primary-foreground" : "",
+                  )}
+                >
+                  <LayoutGridIcon aria-hidden className="size-4" />
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={view === "list"}
+                  onClick={() => setView("list")}
+                  className={cn(
+                    "inline-flex size-10 items-center justify-center rounded",
+                    view === "list" ? "bg-primary text-primary-foreground" : "",
+                  )}
+                >
+                  <ListIcon aria-hidden className="size-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <ul
+            className={cn(
+              "grid gap-3 sm:gap-5",
+              view === "grid"
+                ? "grid-cols-2 xl:grid-cols-3"
+                : "grid-cols-1",
+            )}
+          >
+            {visibleCards.map((product) => (
+              <li key={product.slug}>
+                <CatalogProductGridCard
+                  product={product}
+                  specDnLabel={labels.specDn}
+                  specPnLabel={labels.specPn}
+                  specMaterialLabel={labels.specMaterial}
+                  stockInStockLabel={labels.stockInStock}
+                  certifiedBadge={labels.certifiedBadge}
+                  pdfLabel={labels.pdfLabel}
+                  quoteCta={labels.quoteProductCta}
+                  rangeBadge={labels.rangeBadge}
+                  dnOnConfiguration={labels.dnOnConfiguration}
+                  quoteOnConfigurationLabel={labels.quoteOnConfigurationLabel}
+                />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
+
+      <Sheet open={filtersOpen} onOpenChange={setFiltersOpen}>
+        <SheetContent
+          side="bottom"
+          closeLabel={labels.closeFilters}
+          className="data-[side=bottom]:h-[min(92dvh,44rem)] max-h-[92dvh] gap-0 overflow-hidden rounded-t-2xl p-0 sm:max-w-none"
+        >
+          <SheetHeader className="border-border/70 border-b px-4 py-3">
+            <SheetTitle className="font-heading text-primary text-sm font-bold tracking-wide uppercase">
+              {labels.filtersTitle}
+            </SheetTitle>
+          </SheetHeader>
+          <div className="min-h-0 flex-1 overflow-y-auto px-4 py-3">
+            {renderFiltersPanel({
+              idPrefix: "mob",
+              headingId: "catalog-mobile-filters",
+              dense: true,
+            })}
+          </div>
+          <SheetFooter className="border-border/70 border-t bg-card/95 p-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+            <button
+              type="button"
+              onClick={() => setFiltersOpen(false)}
+              className="bg-cta text-cta-foreground hover:bg-cta/90 flex h-12 w-full items-center justify-center rounded-sm text-sm font-bold tracking-wide uppercase"
+            >
+              {labels.viewFilteredResults.replace(
+                "{count}",
+                String(visibleCards.length),
+              )}
+            </button>
+          </SheetFooter>
+        </SheetContent>
+      </Sheet>
     </div>
   );
 }
