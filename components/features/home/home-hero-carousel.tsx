@@ -51,7 +51,7 @@ export function HomeHeroCarousel({
               priority={index === 0}
               sizes="100vw"
               className={cn(
-                "object-cover object-center",
+                "object-cover object-[center_32%] sm:object-[center_40%] md:object-center",
                 isActive && !reduceMotion && "sdmi-hero-media",
               )}
             />

@@ -210,10 +210,19 @@
 
   @keyframes sdmi-hero-ken-burns {
     from {
-      transform: scale(1.04);
+      transform: scale(1);
     }
     to {
-      transform: scale(1.1);
+      transform: scale(1.08);
+    }
+  }
+
+  @keyframes sdmi-hero-ken-burns-mobile {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.02);
     }
   }
 
@@ -238,7 +247,13 @@
   }
 
   .sdmi-hero-media {
-    animation: sdmi-hero-ken-burns 22s ease-out forwards;
+    animation: sdmi-hero-ken-burns-mobile 22s ease-out forwards;
+  }
+
+  @media (min-width: 768px) {
+    .sdmi-hero-media {
+      animation-name: sdmi-hero-ken-burns;
+    }
   }
 
   .sdmi-hero-enter {
