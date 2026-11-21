@@ -359,10 +359,10 @@
         "body": "Flanges, fittings and accessories for fluid networks: EN 1092 and ASME flanges, threaded, welded and mechanical fittings, expansion joints and water-network equipment. Solutions for water, oil, gas and industrial utilities."
       },
       "brides": {
-        "body": "EN 1092 carbon steel flanges and forged hubs for piping joints: plate, blank, weld-neck, slip-on and threaded, from PN10 to PN40."
+        "body": "Flanges and collars for piping assemblies: stub ends, bolting kits, ASME oil & gas flanges and loose flanges, plus EN 1092 carbon steel flanges."
       },
       "raccords-et-fittings": {
-        "body": "EN 10242 malleable iron threaded fittings: elbows, tees, crosses, sockets, nipples, plugs and flat-seat unions. BSPT thread, NPT on request, hot-dip galvanized or black finish. Working pressure up to 34.5 bar depending on size. Aluminium, stainless, brass and polypropylene camlock couplings, with EPDM, NBR and FKM gaskets."
+        "body": "Tap saddles, welded steel fittings, symmetric, express and camlock couplings, threaded brass, stainless, steel nipples & sockets, malleable iron EN 10242 and BSPT threaded fittings — for branches, quick connections and piping assemblies."
       },
       "vannes": {
         "body": "Gate and knife gate valves for isolation on water, process and heavy industry networks: monobloc, flanged, forged, resilient seated and unidirectional or bidirectional S-gate models."
@@ -375,6 +375,9 @@
       },
       "vannes-sphere-laiton-fonte-pvc": {
         "body": "Brass, cast iron and PVC ball valves for building services, water networks, light industry and utilities: lockable models, 3-way, tapping and threaded or flanged connections."
+      },
+      "protection-regulation-des-reseaux": {
+        "body": "Potable water network protection and regulation: BALLSTOP ball valves with check valve, CSA air valves and regulators, SCUDO anti-pollution backflow preventers and anti-pollution check valves — ACS, NF and 4MS depending on the range."
       },
       "etancheite-statique": {
         "body": "Static sealing gaskets and elements for flanges and assemblies: fiber, elastomers, graphite, PTFE, mica, O-rings, sleeves and packings. Quotation and cut-to-drawing at the SDMI counter in Dakar."
@@ -566,7 +569,8 @@
           "accessoires": "Flanges, fittings, expansion joints and accessories for water, oil and gas from DN15 to large bore.",
           "brides": "EN 1092 carbon steel flanges and forged hubs, PN10 to PN40, for line joints.",
           "robinets-tournant-spherique-acier-inox": "Stainless ball valves for reliable isolation, frequent cycling and critical fluids on skids and process.",
-          "raccords-et-fittings": "EN 10242 malleable iron threaded fittings, BSPT, galvanized or black, for branches and line joints."
+          "raccords-et-fittings": "Tap saddles, welded, symmetric, express, camlock, brass, stainless, malleable iron and threaded fittings for branches and joints.",
+          "protection-regulation-des-reseaux": "BALLSTOP, CSA air valves, SCUDO backflow preventers and anti-pollution check valves for potable water network protection."
         }
       },
       "industrie-agro-alimentaire": {
@@ -657,7 +661,7 @@
           "brides": "EN 1092 carbon steel flanges and forged hubs for fire mains and branches.",
           "vannes": "Gate and knife gate valves for zone isolation, large DN and dependable emergency operation.",
           "robinetterie-petrole-forgee-moulee": "Heavy-duty valves for manifolds, fire pump skids and high-pressure points.",
-          "raccords-et-fittings": "Threaded elbows, tees, sockets and unions for sprinkler networks and fire branches."
+          "raccords-et-fittings": "Threaded, express, camlock and malleable iron fittings for sprinkler networks and fire branches."
         }
       },
       "industrie-miniere": {
@@ -703,7 +707,7 @@
           "vannes": "Gate and knife gate valves for slurry isolation, sludge and large bore.",
           "tuyauteries": "Welded or seamless carbon steel tubes for slurry, process water and air transfer.",
           "brides": "EN 1092 carbon steel flanges and forged hubs for demountable line joints.",
-          "raccords-et-fittings": "Threaded fittings and camlock couplings for branches, utilities and quick connections."
+          "raccords-et-fittings": "Tap saddles, welded, symmetric, express, camlock, brass, stainless, malleable iron and threaded fittings for branches and quick connections."
         }
       }
     }

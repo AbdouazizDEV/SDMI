@@ -1,0 +1,224 @@
+[
+  {
+    "reference": "324",
+    "pathKey": "324-vanne-a-sphere-avec-clapet-antipollution-scudoball-acs",
+    "productSlug": "serie-324-vanne-a-sphere-avec-clapet-antipollution-scudoball-acs",
+    "imageDir": "ballstop"
+  },
+  {
+    "reference": "324250",
+    "pathKey": "324250-clapet-anti-retour-antipollution-ea-avec-vanne-incorporee",
+    "productSlug": "serie-324250-clapet-anti-retour-antipollution-ea-avec-vanne-incorporee",
+    "imageDir": "ballstop"
+  },
+  {
+    "reference": "3110",
+    "pathKey": "3110-ventouse-csa-simple-fonction-reseau-d-eau-potable",
+    "productSlug": "serie-3110-ventouse-csa-simple-fonction-reseau-d-eau-potable",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3130",
+    "pathKey": "3130-ventouse-automatique-3-fonctions-composite-immergeable-avec-ou-sans-vanne",
+    "productSlug": "serie-3130-ventouse-automatique-3-fonctions-composite-immergeable-avec-ou-sans-vanne",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3130",
+    "pathKey": "3130-ventouse-csa-triple-fonction-reseau-d-eau-potable-plastique",
+    "productSlug": "serie-3130-ventouse-csa-triple-fonction-reseau-d-eau-potable-plastique",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3131",
+    "pathKey": "3131-ventouse-csa-triple-fonction-fonte-fox-rfp-eau-potable-anti-belier",
+    "productSlug": "serie-3131-ventouse-csa-triple-fonction-fonte-fox-rfp-eau-potable-anti-belier",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3132",
+    "pathKey": "3132-ventouse-csa-triple-fonction-reseau-d-eau-potable-passage-reduit",
+    "productSlug": "serie-3132-ventouse-csa-triple-fonction-reseau-d-eau-potable-passage-reduit",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3160",
+    "pathKey": "3160-ventouse-csa-quadruple-fonction-reseau-d-eau-usee-4f",
+    "productSlug": "serie-3160-ventouse-csa-quadruple-fonction-reseau-d-eau-usee-4f",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3165",
+    "pathKey": "3165-ventouse-csa-quadruple-fonction-reseau-d-eau-usee-a-bride-pn10-16-ou-pn25",
+    "productSlug": "serie-3165-ventouse-csa-quadruple-fonction-reseau-d-eau-usee-a-bride-pn10-16-ou-pn25",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3180",
+    "pathKey": "3180-soupape-antibelier-vrca-decharge-verticale-a-bride-pn10-16-ou-pn25",
+    "productSlug": "serie-3180-soupape-antibelier-vrca-decharge-verticale-a-bride-pn10-16-ou-pn25",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "3185",
+    "pathKey": "3185-soupape-antibelier-gemina-a-sortie-canalisee-a-bride-pn10-16-ou-pn25",
+    "productSlug": "serie-3185-soupape-antibelier-gemina-a-sortie-canalisee-a-bride-pn10-16-ou-pn25",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "495",
+    "pathKey": "495-stabilisateur-reducteur-de-pression-aval",
+    "productSlug": "serie-495-stabilisateur-reducteur-de-pression-aval",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "496",
+    "pathKey": "496-vanne-de-regulation-csa-a-membrane-maintien-de-pression-amont",
+    "productSlug": "serie-496-vanne-de-regulation-csa-a-membrane-maintien-de-pression-amont",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "497",
+    "pathKey": "497-vanne-de-regulation-pression-aval-xlc410-xlc410-pn16",
+    "productSlug": "serie-497-vanne-de-regulation-pression-aval-xlc410-xlc410-pn16",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "497alt",
+    "pathKey": "497alt-vanne-de-regulation-altimetrique-passage-integral-ou-reduit-pn10-16",
+    "productSlug": "serie-497alt-vanne-de-regulation-altimetrique-passage-integral-ou-reduit-pn10-16",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "497deb",
+    "pathKey": "497deb-vanne-regulation-de-debit-passage-integral-ou-reduit-xlc430-330-pn10-16",
+    "productSlug": "serie-497deb-vanne-regulation-de-debit-passage-integral-ou-reduit-xlc430-330-pn10-16",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "497dec",
+    "pathKey": "497dec-vanne-regulation-decharge-de-pression-passage-integral-ou-reduit-xlc",
+    "productSlug": "serie-497dec-vanne-regulation-decharge-de-pression-passage-integral-ou-reduit-xlc",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "498",
+    "pathKey": "498-vanne-de-maintien-pression-amont-csa-xlc420s-xlc320s",
+    "productSlug": "serie-498-vanne-de-maintien-pression-amont-csa-xlc420s-xlc320s",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "499",
+    "pathKey": "499-vanne-de-reduction-aval-maintien-amont-xlc412-xlc312",
+    "productSlug": "serie-499-vanne-de-reduction-aval-maintien-amont-xlc412-xlc312",
+    "imageDir": "ventouses"
+  },
+  {
+    "reference": "920",
+    "pathKey": "920-mallette-de-controle-pour-disconnecteur-controlableba-raccords-dn1-2pouces-3-4pouces",
+    "productSlug": "serie-920-mallette-de-controle-pour-disconnecteur-controlableba-raccords-dn1-2pouces-3-4pouces",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "931",
+    "pathKey": "931-disconnecteur-scudo-antipollution-controlable-ba575-fonte-pn10",
+    "productSlug": "serie-931-disconnecteur-scudo-antipollution-controlable-ba575-fonte-pn10",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "940",
+    "pathKey": "940-disconnecteur-scudo-antipollution-non-controlable-ca573-horizontal-4ms",
+    "productSlug": "serie-940-disconnecteur-scudo-antipollution-non-controlable-ca573-horizontal-4ms",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "950",
+    "pathKey": "950-disconnecteur-scudo-ba574-antipollution-controlable-horizontal",
+    "productSlug": "serie-950-disconnecteur-scudo-ba574-antipollution-controlable-horizontal",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "9501",
+    "pathKey": "9501-kit-disconnecteur-scudo-antipollution-controlable-horizontal",
+    "productSlug": "serie-9501-kit-disconnecteur-scudo-antipollution-controlable-horizontal",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "955",
+    "pathKey": "955-disconnecteur-antipollution-ba-580-horizontal-vertical-4ms",
+    "productSlug": "serie-955-disconnecteur-antipollution-ba-580-horizontal-vertical-4ms",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "95501",
+    "pathKey": "95501-kit-monte-nf-disconnecteur-antipollution-ba580",
+    "productSlug": "serie-95501-kit-monte-nf-disconnecteur-antipollution-ba580",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "960",
+    "pathKey": "960-groupe-de-remplissage-auto-avec-disconnecteur-ba",
+    "productSlug": "serie-960-groupe-de-remplissage-auto-avec-disconnecteur-ba",
+    "imageDir": "scudo"
+  },
+  {
+    "reference": "1308",
+    "pathKey": "1308-purge-laiton-brosse-avec-bouchon-imperdable-1-4pouces",
+    "productSlug": "serie-1308-purge-laiton-brosse-avec-bouchon-imperdable-1-4pouces",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "340",
+    "pathKey": "340-clapet-antipollution-ea3046-nf-acs-femelle-male-purges-polyamide",
+    "productSlug": "serie-340-clapet-antipollution-ea3046-nf-acs-femelle-male-purges-polyamide",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "341",
+    "pathKey": "341-clapet-antipollution-ea3045-nf-acs-femelle-purges-polyamide",
+    "productSlug": "serie-341-clapet-antipollution-ea3045-nf-acs-femelle-purges-polyamide",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "342",
+    "pathKey": "342-clapet-antipollution-ea3046-nf-acs-femelle-male-court-laiton",
+    "productSlug": "serie-342-clapet-antipollution-ea3046-nf-acs-femelle-male-court-laiton",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "343",
+    "pathKey": "343-clapet-antipollution-ea3046-nf-acs-femelle-male-bouchons-laiton",
+    "productSlug": "serie-343-clapet-antipollution-ea3046-nf-acs-femelle-male-bouchons-laiton",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "344",
+    "pathKey": "344-clapet-antipollution-ea3045-nf-acs-femelle-bouchons-laiton",
+    "productSlug": "serie-344-clapet-antipollution-ea3045-nf-acs-femelle-bouchons-laiton",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "345",
+    "pathKey": "345-clapet-antipollution-ea3046-nf-acs-equerre-femelle-male",
+    "productSlug": "serie-345-clapet-antipollution-ea3046-nf-acs-equerre-femelle-male",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "346",
+    "pathKey": "346-clapet-antipollution-ea-577-fonte-a-brides-acs-nf",
+    "productSlug": "serie-346-clapet-antipollution-ea-577-fonte-a-brides-acs-nf",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "348",
+    "pathKey": "348-clapet-antipollution-ea3046-nf-acs-femelle-male-purge-imperdable",
+    "productSlug": "serie-348-clapet-antipollution-ea3046-nf-acs-femelle-male-purge-imperdable",
+    "imageDir": "clapets-retenue"
+  },
+  {
+    "reference": "98000",
+    "pathKey": "98000-bouchon-pour-clapet-antipollution-nf-type-ea3046",
+    "productSlug": "serie-98000-bouchon-pour-clapet-antipollution-nf-type-ea3046",
+    "imageDir": "clapets-retenue"
+  }
+]

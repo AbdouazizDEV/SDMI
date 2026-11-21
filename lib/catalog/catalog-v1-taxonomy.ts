@@ -126,65 +126,12 @@ export const catalogV1Navigation: CatalogNavigation = {
           name: frEn("Brides taraudées", "Threaded flanges"),
         },
         {
-          slug: "brides-tournantes",
-          name: frEn("Brides tournantes", "Loose / rotating flanges"),
-        },
-        {
-          slug: "brides-petrole-asme",
-          name: frEn("Brides pétrole ASME", "ASME oil & gas flanges"),
-        },
-        {
-          slug: "kit-boulonnerie-equipements-brides",
-          name: frEn(
-            "Kit boulonnerie et équipements brides",
-            "Flange bolting kits & accessories",
-          ),
-        },
-        {
           slug: "raccords-deca",
           name: frEn("Raccords DECA", "DECA couplings"),
         },
         {
           slug: "raccords-polypropylene",
           name: frEn("Raccords polypropylène", "Polypropylene fittings"),
-        },
-        {
-          slug: "raccords-fonte-malleable",
-          name: frEn("Raccords fonte malléable", "Malleable iron fittings"),
-        },
-        {
-          slug: "mamelons-et-manchons-acier",
-          name: frEn(
-            "Mamelons et manchons acier",
-            "Steel nipples & couplings",
-          ),
-        },
-        {
-          slug: "raccords-inox",
-          name: frEn("Raccords inox", "Stainless steel fittings"),
-        },
-        {
-          slug: "raccords-laiton-a-visser",
-          name: frEn("Raccords laiton à visser", "Threaded brass fittings"),
-        },
-        {
-          slug: "raccords-express",
-          name: frEn("Raccords express", "Express couplings"),
-        },
-        {
-          slug: "raccords-symetriques",
-          name: frEn("Raccords symétriques", "Symmetric couplings"),
-        },
-        {
-          slug: "raccords-acier-a-souder",
-          name: frEn("Raccords acier à souder", "Welded steel fittings"),
-        },
-        {
-          slug: "colliers-de-prise-en-charge",
-          name: frEn(
-            "Colliers de prise en charge",
-            "Tap saddles & repair clamps",
-          ),
         },
         {
           slug: "adaptateurs-de-brides-eau",
@@ -233,8 +180,27 @@ export const catalogV1Navigation: CatalogNavigation = {
     },
     {
       slug: "brides",
-      name: frEn("Brides", "Flanges"),
+      name: frEn("Brides et collets", "Flanges & collars"),
       subfamilies: [
+        {
+          slug: "collets-forges",
+          name: frEn("Collets", "Collars / stub ends"),
+        },
+        {
+          slug: "kit-boulonnerie-equipements-brides",
+          name: frEn(
+            "Kit boulonnerie et équipements brides",
+            "Flange bolting kits & accessories",
+          ),
+        },
+        {
+          slug: "brides-petrole-asme",
+          name: frEn("Brides pétrole", "Oil & gas flanges"),
+        },
+        {
+          slug: "brides-tournantes",
+          name: frEn("Brides tournantes", "Loose / rotating flanges"),
+        },
         {
           slug: "brides-en1092-acier-carbone",
           name: frEn(
@@ -242,16 +208,57 @@ export const catalogV1Navigation: CatalogNavigation = {
             "EN 1092 carbon steel flanges",
           ),
         },
-        {
-          slug: "collets-forges",
-          name: frEn("Collets forgés", "Forged fittings / hubs"),
-        },
       ],
     },
     {
       slug: "raccords-et-fittings",
-      name: frEn("Raccords et fittings", "Fittings"),
+      name: frEn(
+        "Raccords et colliers de prise en charge",
+        "Fittings & tap saddles",
+      ),
       subfamilies: [
+        {
+          slug: "colliers-de-prise-en-charge",
+          name: frEn(
+            "Colliers de prise en charge",
+            "Tap saddles & repair clamps",
+          ),
+        },
+        {
+          slug: "raccords-acier-a-souder",
+          name: frEn("Raccords acier à souder", "Welded steel fittings"),
+        },
+        {
+          slug: "raccords-symetriques",
+          name: frEn("Raccords symétriques", "Symmetric couplings"),
+        },
+        {
+          slug: "raccords-express",
+          name: frEn("Raccords express", "Express couplings"),
+        },
+        {
+          slug: "raccords-a-cames",
+          name: frEn("Raccords à cames", "Camlock couplings"),
+        },
+        {
+          slug: "raccords-laiton-a-visser",
+          name: frEn("Raccords laiton à visser", "Threaded brass fittings"),
+        },
+        {
+          slug: "raccords-inox",
+          name: frEn("Raccords inox", "Stainless steel fittings"),
+        },
+        {
+          slug: "mamelons-et-manchons-acier",
+          name: frEn(
+            "Mamelons et manchons acier",
+            "Steel nipples & couplings",
+          ),
+        },
+        {
+          slug: "raccords-fonte-malleable",
+          name: frEn("Raccords fonte malléable", "Malleable iron fittings"),
+        },
         {
           slug: "coudes-filetes",
           name: frEn("Coudes filetés", "Threaded elbows"),
@@ -273,10 +280,6 @@ export const catalogV1Navigation: CatalogNavigation = {
             "Bouchons et unions filetés",
             "Threaded plugs & unions",
           ),
-        },
-        {
-          slug: "raccords-a-cames",
-          name: frEn("Raccords à cames", "Camlock couplings"),
         },
       ],
     },
@@ -538,6 +541,40 @@ export const catalogV1Navigation: CatalogNavigation = {
           name: frEn(
             "Vannes à sphère à brides Laiton – Fonte",
             "Flanged brass & cast iron ball valves",
+          ),
+        },
+      ],
+    },
+    {
+      slug: "protection-regulation-des-reseaux",
+      name: frEn(
+        "Protection régulation des réseaux",
+        "Network protection & regulation",
+      ),
+      subfamilies: [
+        {
+          slug: "vannes-a-sphere-avec-clapet-anti-retour-ballstop",
+          name: frEn(
+            "Vannes à sphère avec clapet anti-retour BALLSTOP",
+            "BALLSTOP ball valves with check valve",
+          ),
+        },
+        {
+          slug: "ventouses-et-regulation",
+          name: frEn("Ventouses et régulation", "Air valves & regulation"),
+        },
+        {
+          slug: "disconnecteur-antipollution-scudo",
+          name: frEn(
+            "Disconnecteur antipollution SCUDO",
+            "SCUDO anti-pollution backflow preventers",
+          ),
+        },
+        {
+          slug: "clapets-de-retenue-antipollution",
+          name: frEn(
+            "Clapets de retenue antipollution",
+            "Anti-pollution check valves",
           ),
         },
       ],

@@ -8,7 +8,7 @@ const legacyFamilySlugRedirects: Record<string, string> = {
   "filtres-et-clapets": "vannes",
   "vannes-operucle-guillotine": "vannes",
   "mesures-et-comptage": "robinets-tournant-spherique-acier-inox",
-  raccords: "accessoires",
+  raccords: "raccords-et-fittings",
 };
 
 /** Redirections permanentes depuis l’ancien site `/nos-produits/{famille}/{sous-famille}`. */
@@ -21,6 +21,18 @@ const movedTubeSubfamilies = [
 const movedFlangeSubfamilies = [
   "brides-en1092-acier-carbone",
   "collets-forges",
+] as const;
+
+const movedFittingsSubfamilies = [
+  "raccords-a-cames",
+  "colliers-de-prise-en-charge",
+  "raccords-acier-a-souder",
+  "raccords-symetriques",
+  "raccords-express",
+  "raccords-laiton-a-visser",
+  "raccords-inox",
+  "mamelons-et-manchons-acier",
+  "raccords-fonte-malleable",
 ] as const;
 
 export function buildLegacyProductRedirects() {
@@ -39,16 +51,18 @@ export function buildLegacyProductRedirects() {
         permanent: true,
       });
     }
-    rules.push({
-      source: `/${locale}/produits/accessoires/raccords-a-cames`,
-      destination: `/${locale}/produits/raccords-et-fittings/raccords-a-cames`,
-      permanent: true,
-    });
-    rules.push({
-      source: `/${locale}/produits/accessoires/raccords-a-cames/:path*`,
-      destination: `/${locale}/produits/raccords-et-fittings/raccords-a-cames/:path*`,
-      permanent: true,
-    });
+    for (const subfamily of movedFittingsSubfamilies) {
+      rules.push({
+        source: `/${locale}/produits/accessoires/${subfamily}`,
+        destination: `/${locale}/produits/raccords-et-fittings/${subfamily}`,
+        permanent: true,
+      });
+      rules.push({
+        source: `/${locale}/produits/accessoires/${subfamily}/:path*`,
+        destination: `/${locale}/produits/raccords-et-fittings/${subfamily}/:path*`,
+        permanent: true,
+      });
+    }
     for (const subfamily of movedTubeSubfamilies) {
       rules.push({
         source: `/${locale}/produits/tuyauterie-et-accessoires/${subfamily}`,

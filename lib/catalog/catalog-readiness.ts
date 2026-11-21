@@ -77,6 +77,10 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "tes-et-croix-filetes",
   "manchons-et-mamelons-filetes",
   "bouchons-et-unions-filetes",
+  "vannes-a-sphere-avec-clapet-anti-retour-ballstop",
+  "ventouses-et-regulation",
+  "disconnecteur-antipollution-scudo",
+  "clapets-de-retenue-antipollution",
   "elastomeres",
   "joints-en-fibres-elastomeres",
   "joints-en-graphite",
@@ -98,6 +102,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "accessoires",
   "brides",
   "raccords-et-fittings",
+  "protection-regulation-des-reseaux",
   "etancheite-statique",
 ]);
 

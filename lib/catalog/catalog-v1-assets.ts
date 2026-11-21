@@ -16,6 +16,8 @@ export const catalogV1FamilyImages: Record<string, string> = {
     "/images/Robinets_à_tournant_sphérique_acier_inox.jpeg",
   "vannes-sphere-laiton-fonte-pvc":
     "/images/Vannes_à_sphère_laiton_fonte_PVC.jpeg",
+  "protection-regulation-des-reseaux":
+    "/images/catalog/taxonomy/protection-regulation-des-reseaux.jpg",
 };
 
 export const catalogV1SubfamilyImages: Record<string, string> = {
@@ -91,6 +93,14 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "vannes-sphere-pvc-u": "/images/catalog/taxonomy/vannes-sphere-pvc-u.jpg",
   "vannes-sphere-a-brides-laiton-fonte":
     "/images/catalog/taxonomy/vannes-sphere-a-brides-laiton-fonte.jpg",
+  "vannes-a-sphere-avec-clapet-anti-retour-ballstop":
+    "/images/catalog/taxonomy/vannes-a-sphere-avec-clapet-anti-retour-ballstop.jpg",
+  "ventouses-et-regulation":
+    "/images/catalog/taxonomy/ventouses-et-regulation.jpg",
+  "disconnecteur-antipollution-scudo":
+    "/images/catalog/taxonomy/disconnecteur-antipollution-scudo.jpg",
+  "clapets-de-retenue-antipollution":
+    "/images/catalog/taxonomy/clapets-de-retenue-antipollution.jpg",
   "tubes-acier-carbone":
     "https://res.cloudinary.com/dao8m0if6/image/upload/sdmi/catalog/tuyauteries/tubes-acier-carbone-api5l.jpg",
   "tubes-acier-soudes":

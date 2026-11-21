@@ -50,7 +50,18 @@ export default async function ProductsCatchAllPage({ params, searchParams }: Pro
   const movedFromAccessoires: Record<string, string> = {
     "brides-en1092-acier-carbone": "brides",
     "collets-forges": "brides",
+    "brides-tournantes": "brides",
+    "brides-petrole-asme": "brides",
+    "kit-boulonnerie-equipements-brides": "brides",
     "raccords-a-cames": "raccords-et-fittings",
+    "colliers-de-prise-en-charge": "raccords-et-fittings",
+    "raccords-acier-a-souder": "raccords-et-fittings",
+    "raccords-symetriques": "raccords-et-fittings",
+    "raccords-express": "raccords-et-fittings",
+    "raccords-laiton-a-visser": "raccords-et-fittings",
+    "raccords-inox": "raccords-et-fittings",
+    "mamelons-et-manchons-acier": "raccords-et-fittings",
+    "raccords-fonte-malleable": "raccords-et-fittings",
   };
   const movedFamily = movedFromAccessoires[segments[1] ?? ""];
   if (segments[0] === "accessoires" && movedFamily) {
