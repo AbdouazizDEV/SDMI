@@ -72,9 +72,9 @@
       "legalNotice": "Mentions légales",
       "privacy": "Politique de confidentialité",
       "terms": "Conditions générales de vente",
-      "addressLine1": "Bopp rue 2 x Casamance",
-      "addressLine2": "BP 3134 RP",
-      "addressCity": "Dakar, Sénégal",
+      "addressLine1": "Centre Bopp, rue 2 x Casamance",
+      "addressLine2": "Dakar 11000",
+      "addressCity": "Sénégal",
       "hoursTitle": "Horaires",
       "hoursWeek": "",
       "hoursSaturday": "",
@@ -90,7 +90,7 @@
   },
   "Home": {
     "hero": {
-      "location": "Dakar, Sénégal - Bopp rue 2 x Casamance",
+      "location": "Centre Bopp, rue 2 x Casamance, Dakar 11000",
       "certificationBadge": "Distributeur agréé DIN / ANSI / ISO",
       "carousel": {
         "slides": {
@@ -806,8 +806,8 @@
       }
     ],
     "mapTitle": "Plan d'accès",
-    "mapDescription": "Comptoir et dépôt SDMI à Bopp rue 2 x Casamance - accès camion possible sur rendez-vous pour enlèvements volumineux.",
-    "mapIframeTitle": "Carte Google Maps - SDMI Bopp, Dakar",
+    "mapDescription": "Comptoir et dépôt SDMI - Centre Bopp, rue 2 x Casamance, Dakar 11000 - accès camion possible sur rendez-vous pour enlèvements volumineux.",
+    "mapIframeTitle": "Carte Google Maps - SDMI Centre Bopp, Dakar 11000",
     "directionsCta": "Itinéraire Google Maps",
     "formTitle": "Demande commerciale",
     "formHint": "Transmettez nomenclatures, DN/PN ou bordereaux pour une cotation structurée.",
@@ -919,14 +919,14 @@
       "breadcrumbCurrent": "Mentions légales",
       "title": "Mentions légales",
       "description": "Informations légales SDMI - Dakar, Sénégal.",
-      "body": "Sénégalaise de distribution de matériels industriels (SDMI) - Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Sénégal. Tél. +221 33 824 83 73 - smdi@sdmi.sn."
+      "body": "Sénégalaise de distribution de matériels industriels (SDMI) - Centre Bopp, rue 2 x Casamance, Dakar 11000, Sénégal. Tél. +221 33 824 83 73 - sdmi@sdmi.sn."
     },
     "privacy": {
       "breadcrumbHome": "Accueil",
       "breadcrumbCurrent": "Politique de confidentialité",
       "title": "Politique de confidentialité",
       "description": "Protection des données personnelles.",
-      "body": "SDMI traite vos données de contact uniquement pour répondre à vos demandes commerciales et techniques. Vous pouvez exercer vos droits en écrivant à smdi@sdmi.sn."
+      "body": "SDMI traite vos données de contact uniquement pour répondre à vos demandes commerciales et techniques. Vous pouvez exercer vos droits en écrivant à sdmi@sdmi.sn."
     },
     "terms": {
       "breadcrumbHome": "Accueil",

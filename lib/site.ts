@@ -10,7 +10,7 @@ export const siteConfig = {
       weekdays: "Lun-Ven 08h-18h",
       saturday: "Sam 08h30-13h",
     },
-    depotShort: "Dakar, Sénégal",
+    depotShort: "Dakar 11000",
     phones: [
       {
         id: "main",
@@ -24,9 +24,9 @@ export const siteConfig = {
       display: "+221 33 824 83 73",
     },
     address: {
-      line1: "Bopp rue 2 x Casamance",
-      line2: "BP 3134 RP",
-      city: "Dakar, Sénégal",
+      line1: "Centre Bopp, rue 2 x Casamance",
+      line2: "Dakar 11000",
+      city: "Sénégal",
     },
   },
 } as const;
