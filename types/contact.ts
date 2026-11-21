@@ -1,4 +1,4 @@
-/** Contrats de présentation contact — séparés de la config site (ISP). */
+/** Contrats de présentation contact - séparés de la config site (ISP). */
 
 export type ContactPhoneChannel = {
   kind: "phone";

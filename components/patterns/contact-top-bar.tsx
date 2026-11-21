@@ -16,7 +16,7 @@ export type ContactTopBarProps = {
   className?: string;
 };
 
-/** Barre contact haute — une seule responsabilité : afficher adresse + canaux (SRP). */
+/** Barre contact haute - une seule responsabilité : afficher adresse + canaux (SRP). */
 export function ContactTopBar({
   address,
   phone,

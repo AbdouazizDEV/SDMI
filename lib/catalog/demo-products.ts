@@ -17,7 +17,7 @@ export type DemoCatalogProduct = {
   certified31?: boolean;
 };
 
-/** Références demo retirées — import catalogue via Supabase / scripts à venir. */
+/** Références demo retirées - import catalogue via Supabase / scripts à venir. */
 export const demoCatalogProducts: DemoCatalogProduct[] = [];
 
 export const allDemoCatalogProducts: DemoCatalogProduct[] = [];

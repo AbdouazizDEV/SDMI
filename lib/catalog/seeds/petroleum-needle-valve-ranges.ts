@@ -11,14 +11,14 @@ function slug(ref: string, suffix: string) {
   return `serie-${ref}-robinet-pointeau-${suffix}`;
 }
 
-/** Robinets à pointeau pétrole forgé / inox — gammes par série. */
+/** Robinets à pointeau pétrole forgé / inox - gammes par série. */
 export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "483",
     slug: slug("483", "forge-atex-bsp"),
     name: frEn(
-      "Robinet à pointeau acier forgé ATEX — BSP F/F",
-      "Forged steel ATEX needle valve — BSP F/F",
+      "Robinet à pointeau acier forgé ATEX - BSP F/F",
+      "Forged steel ATEX needle valve - BSP F/F",
     ),
     description: frEn(
       "Prélèvement et isolement sur lignes hydrocarbures, version ATEX.",
@@ -46,7 +46,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "484",
     slug: slug("484", "forge-atex-npt"),
-    name: frEn("Robinet à pointeau acier forgé ATEX — NPT F/F", "Forged steel ATEX needle valve — NPT F/F"),
+    name: frEn("Robinet à pointeau acier forgé ATEX - NPT F/F", "Forged steel ATEX needle valve - NPT F/F"),
     description: frEn(
       "Même gamme ATEX, raccordement NPT pour instrumentation process.",
       "Same ATEX range, NPT for process instrumentation.",
@@ -72,7 +72,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "486",
     slug: slug("486", "forge-atex-sw"),
-    name: frEn("Robinet à pointeau acier forgé ATEX — soudure SW", "Forged steel ATEX needle valve — socket weld"),
+    name: frEn("Robinet à pointeau acier forgé ATEX - soudure SW", "Forged steel ATEX needle valve - socket weld"),
     description: frEn(
       "Soudure socket, haute pression, prélèvement sécurisé.",
       "Socket weld, high pressure, secure sampling.",
@@ -99,7 +99,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "489",
     slug: slug("489", "forge-bsp"),
-    name: frEn("Robinet à pointeau acier forgé — BSP F/F", "Forged steel needle valve — BSP F/F"),
+    name: frEn("Robinet à pointeau acier forgé - BSP F/F", "Forged steel needle valve - BSP F/F"),
     description: frEn(
       "Version standard (non ATEX), BSP, réseaux pétrole et maintenance.",
       "Standard (non-ATEX) BSP for oil networks and maintenance.",
@@ -124,7 +124,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "481",
     slug: slug("481", "inox-bsp"),
-    name: frEn("Robinet à pointeau inox — BSP F/F", "Stainless needle valve — BSP F/F"),
+    name: frEn("Robinet à pointeau inox - BSP F/F", "Stainless needle valve - BSP F/F"),
     description: frEn(
       "Inox pour fluides corrosifs et prélèvements agro / pétrochimie.",
       "Stainless for corrosive fluids and petrochemical sampling.",
@@ -148,7 +148,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "487",
     slug: slug("487", "inox-npt"),
-    name: frEn("Robinet à pointeau inox — NPT F/F", "Stainless needle valve — NPT F/F"),
+    name: frEn("Robinet à pointeau inox - NPT F/F", "Stainless needle valve - NPT F/F"),
     description: frEn(
       "NPT F/F, gamme inox haute pression pour instrumentation.",
       "NPT F/F, high-pressure stainless instrumentation range.",
@@ -168,7 +168,7 @@ export const petroleumNeedleValveRanges: CatalogRangeSeed[] = [
   {
     reference: "488",
     slug: slug("488", "inox-bsp-mf"),
-    name: frEn("Robinet à pointeau inox — BSP M/F", "Stainless needle valve — BSP M/F"),
+    name: frEn("Robinet à pointeau inox - BSP M/F", "Stainless needle valve - BSP M/F"),
     description: frEn(
       "Raccordement mâle/femelle BSP, montage flexible sur lignes process.",
       "BSP M/F connection, flexible mounting on process lines.",

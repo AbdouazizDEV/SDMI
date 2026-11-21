@@ -50,7 +50,7 @@ export function ProductMediaCarousel({
           <ProductImageZoom
             key={currentImage}
             src={currentImage}
-            alt={images.length > 1 ? `${alt} — ${imageIndex + 1}` : alt}
+            alt={images.length > 1 ? `${alt} - ${imageIndex + 1}` : alt}
             priority={imageIndex === 0}
             zoomLabel={labels.zoomLabel}
             zoomHint={labels.zoomHint}

@@ -11,18 +11,18 @@ function slug(ref: string, suffix: string) {
   return `serie-${ref}-clapet-petrole-${suffix}`;
 }
 
-/** Clapets pétrole forgé / moulé — gammes par série. */
+/** Clapets pétrole forgé / moulé - gammes par série. */
 export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "312",
     slug: slug("312", "piston-ressort-sw"),
     name: frEn(
-      "Clapet anti-retour à piston avec ressort — SW",
-      "Piston check valve with spring — socket weld",
+      "Clapet anti-retour à piston avec ressort - SW",
+      "Piston check valve with spring - socket weld",
     ),
     description: frEn(
-      "Acier, ressort intégré, soudure socket — lignes hydrocarbures.",
-      "Steel, spring-loaded, socket weld — hydrocarbon lines.",
+      "Acier, ressort intégré, soudure socket - lignes hydrocarbures.",
+      "Steel, spring-loaded, socket weld - hydrocarbon lines.",
     ),
     dn: null,
     pn: "Class 800",
@@ -39,7 +39,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "313",
     slug: slug("313", "piston-ressort-npt"),
-    name: frEn("Clapet anti-retour à piston avec ressort — NPT", "Piston check valve with spring — NPT"),
+    name: frEn("Clapet anti-retour à piston avec ressort - NPT", "Piston check valve with spring - NPT"),
     description: frEn("Raccordement NPT, même principe piston/ressort.", "NPT ends, same piston/spring design."),
     dn: null,
     pn: "Class 800",
@@ -56,7 +56,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "314",
     slug: slug("314", "piston-ressort-bsp"),
-    name: frEn("Clapet anti-retour à piston avec ressort — BSP", "Piston check valve with spring — BSP"),
+    name: frEn("Clapet anti-retour à piston avec ressort - BSP", "Piston check valve with spring - BSP"),
     description: frEn("BSP taraudé, anti-retour compact en ligne.", "Threaded BSP, compact in-line check."),
     dn: null,
     pn: "Class 800",
@@ -72,7 +72,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "318",
     slug: slug("318", "forge-bille-ressort-sw"),
-    name: frEn("Clapet anti-retour acier forgé à bille — SW", "Forged steel ball check valve — SW"),
+    name: frEn("Clapet anti-retour acier forgé à bille - SW", "Forged steel ball check valve - SW"),
     description: frEn(
       "Corps forgé, clapet à bille et ressort, haute étanchéité.",
       "Forged body, ball and spring check, high sealing integrity.",
@@ -92,7 +92,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "319",
     slug: slug("319", "forge-bille-ressort-npt"),
-    name: frEn("Clapet anti-retour acier forgé à bille — NPT", "Forged steel ball check valve — NPT"),
+    name: frEn("Clapet anti-retour acier forgé à bille - NPT", "Forged steel ball check valve - NPT"),
     description: frEn("Gamme bille forgée, NPT F/F.", "Forged ball check range, NPT F/F."),
     dn: null,
     pn: "Class 800",
@@ -109,7 +109,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "358",
     slug: slug("358", "inox-forge-bille-sw"),
-    name: frEn("Clapet anti-retour inox forgé à bille — SW", "Forged stainless ball check valve — SW"),
+    name: frEn("Clapet anti-retour inox forgé à bille - SW", "Forged stainless ball check valve - SW"),
     description: frEn("Inox forgé, fluides corrosifs et process pétrochimie.", "Forged stainless, corrosive and petrochemical service."),
     dn: null,
     pn: "Class 800",
@@ -126,7 +126,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "359",
     slug: slug("359", "inox-forge-bille-npt"),
-    name: frEn("Clapet anti-retour inox forgé à bille — NPT", "Forged stainless ball check valve — NPT"),
+    name: frEn("Clapet anti-retour inox forgé à bille - NPT", "Forged stainless ball check valve - NPT"),
     description: frEn("F316, NPT, anti-retour haute pression.", "F316, NPT, high-pressure check."),
     dn: null,
     pn: "Class 800",
@@ -143,10 +143,10 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "373",
     slug: slug("373", "battant-brides-class150"),
-    name: frEn("Clapet simple battant acier — brides Class 150", "Swing check valve steel — Class 150 RF"),
+    name: frEn("Clapet simple battant acier - brides Class 150", "Swing check valve steel - Class 150 RF"),
     description: frEn(
-      "Clapet à battant, corps acier, brides RF — réseaux pétrole.",
-      "Swing check, steel body, RF flanges — oil networks.",
+      "Clapet à battant, corps acier, brides RF - réseaux pétrole.",
+      "Swing check, steel body, RF flanges - oil networks.",
     ),
     dn: null,
     pn: "PN20",
@@ -162,7 +162,7 @@ export const petroleumCheckValveRanges: CatalogRangeSeed[] = [
   {
     reference: "374",
     slug: slug("374", "battant-brides-class300"),
-    name: frEn("Clapet simple battant acier — brides Class 300", "Swing check valve steel — Class 300 RF"),
+    name: frEn("Clapet simple battant acier - brides Class 300", "Swing check valve steel - Class 300 RF"),
     description: frEn("Class 300 PN50, anti-retour sur lignes sous pression.", "Class 300 PN50, check on pressurized lines."),
     dn: null,
     pn: "PN50",

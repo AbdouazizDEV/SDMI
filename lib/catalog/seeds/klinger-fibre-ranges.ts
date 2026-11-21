@@ -58,7 +58,7 @@ function buildDescription(input: {
   );
 }
 
-/** Joints fibre KLINGER — sous-famille Fibre. */
+/** Joints fibre KLINGER - sous-famille Fibre. */
 export const klingerFibreRanges: CatalogRangeSeed[] = [
   base({
     reference: "TOP-GRAPH-2000",

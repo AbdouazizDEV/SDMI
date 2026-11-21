@@ -80,7 +80,7 @@ export const legacyClientLogos = [
     height: 472,
   },
   {
-    name: "SAR — Société Africaine de Raffinage",
+    name: "SAR - Société Africaine de Raffinage",
     path: "/images/clients/filled/sar.jpg",
     width: 2462,
     height: 1368,

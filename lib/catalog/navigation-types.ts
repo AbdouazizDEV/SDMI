@@ -1,6 +1,6 @@
 import type { LocalizedText } from "../../types/localized";
 
-/** Types navigation catalogue — fichier sans dépendance runtime (next.config, redirects). */
+/** Types navigation catalogue - fichier sans dépendance runtime (next.config, redirects). */
 export type CatalogNavFamily = {
   slug: string;
   name: LocalizedText;

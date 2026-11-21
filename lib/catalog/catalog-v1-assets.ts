@@ -1,4 +1,4 @@
-/** Visuels catalogue v1 — placeholders jusqu’aux assets SDMI / fabricants. */
+/** Visuels catalogue v1 - placeholders jusqu’aux assets SDMI / fabricants. */
 
 export const catalogV1FamilyImages: Record<string, string> = {
   "robinetterie-petrole-forgee-moulee":

@@ -17,8 +17,8 @@ export const adaptateursBridesEauRanges: CatalogRangeSeed[] = [
     slug: "serie-adaptateurs-de-brides-eau-2501-adaptateur-de-bride-large-plages-avec-talon-d-appui-acs",
     name: frEn("2501 - Adaptateur de bride large plages avec talon d&#039;appui ACS", "2501 - Adaptateur de Flange large plages avec talon d&#039;appui ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Acier", "Steel"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -29,8 +29,8 @@ export const adaptateursBridesEauRanges: CatalogRangeSeed[] = [
     slug: "serie-adaptateurs-de-brides-eau-2503-adaptateur-a-bride-verrouille-pour-tubes-pvc-pe-acs",
     name: frEn("2503 - Adaptateur à bride verrouillé pour tubes PVC/PE ACS", "2503 - Adaptateur à Flange verrouillé pour tubes PVC/PE ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Acier", "Steel"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -41,8 +41,8 @@ export const adaptateursBridesEauRanges: CatalogRangeSeed[] = [
     slug: "serie-adaptateurs-de-brides-eau-2509-adaptateur-de-bride-verrouille-large-plages-acs",
     name: frEn("2509 - Adaptateur de bride verrouillé large plages ACS", "2509 - Adaptateur de Flange verrouillé large plages ACS"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Acier", "Steel"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -53,8 +53,8 @@ export const adaptateursBridesEauRanges: CatalogRangeSeed[] = [
     slug: "serie-adaptateurs-de-brides-eau-98607-inserts-inox-304-pour-tubes-pehd",
     name: frEn("98607 - Inserts INOX 304 pour tubes PEHD", "98607 - Inserts stainless 304 pour tubes PEHD"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Acier inoxydable", "Stainless steel"),
     connectionType: "compression", standards: ["en10204"], sectorTags: ["water", "building", "industry"],

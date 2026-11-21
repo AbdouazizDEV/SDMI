@@ -4,7 +4,7 @@ import type { QuoteLineUnit } from "@/lib/supabase/types";
 export const QUOTE_CART_STORAGE_KEY = "sdmi-quote-cart-v1";
 
 export type QuoteCartItem = {
-  /** Identifiant interne (UUID Supabase ou slug démo) — jamais affiché tel quel. */
+  /** Identifiant interne (UUID Supabase ou slug démo) - jamais affiché tel quel. */
   productKey: string;
   productId: string | null;
   slug: string;

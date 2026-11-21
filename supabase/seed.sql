@@ -1,4 +1,4 @@
--- SDMI — Données de développement (catalogue robinetterie)
+-- SDMI - Données de développement (catalogue robinetterie)
 -- Exécution : supabase db reset (local) ou psql après migrations
 
 -- ---------------------------------------------------------------------------

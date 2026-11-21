@@ -30,14 +30,14 @@ const baseEnergy = {
   technicalSpecs: { documentCount: 4 },
 };
 
-/** Robinets pétrole à soufflet et à soupapes forgé / moulé — gammes par série. */
+/** Robinets pétrole à soufflet et à soupapes forgé / moulé - gammes par série. */
 export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "402",
     slug: slug("402", "soufflet-forge-sw"),
     name: frEn(
-      "Robinet à soupape à soufflet forgé — soudure SW",
-      "Forged bellows-sealed globe valve — socket weld",
+      "Robinet à soupape à soufflet forgé - soudure SW",
+      "Forged bellows-sealed globe valve - socket weld",
     ),
     description: frEn(
       "Étanchéité par soufflet, acier forgé, idéal fluides toxiques ou fugitifs.",
@@ -61,7 +61,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "403",
     slug: slug("403", "soufflet-forge-npt"),
-    name: frEn("Robinet à soupape à soufflet forgé — NPT F/F", "Forged bellows globe valve — NPT F/F"),
+    name: frEn("Robinet à soupape à soufflet forgé - NPT F/F", "Forged bellows globe valve - NPT F/F"),
     description: frEn("Soufflet métallique, raccordement NPT, réseaux process compacts.", "Metal bellows, NPT ends, compact process lines."),
     dn: null,
     pn: "Class 800",
@@ -78,7 +78,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "404",
     slug: slug("404", "soufflet-forge-bsp"),
-    name: frEn("Robinet à soupape à soufflet forgé — BSP F/F", "Forged bellows globe valve — BSP F/F"),
+    name: frEn("Robinet à soupape à soufflet forgé - BSP F/F", "Forged bellows globe valve - BSP F/F"),
     description: frEn("Même gamme soufflet, raccordement BSP femelle/femelle.", "Same bellows range, BSP F/F connection."),
     dn: null,
     pn: "Class 800",
@@ -90,7 +90,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "405",
     slug: slug("405", "forge-class1500-trim5-sw"),
-    name: frEn("Robinet à soupape forgé Class 1500 TRIM 5 — SW", "Forged globe valve Class 1500 TRIM 5 — SW"),
+    name: frEn("Robinet à soupape forgé Class 1500 TRIM 5 - SW", "Forged globe valve Class 1500 TRIM 5 - SW"),
     description: frEn("Haute pression, chapeau boulonné, passage standard.", "High pressure, bolted bonnet, standard bore."),
     dn: null,
     pn: "Class 1500",
@@ -102,7 +102,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "406",
     slug: slug("406", "forge-f22-class1500-trim5-sw"),
-    name: frEn("Robinet à soupape forgé A182 F22 Class 1500 TRIM 5 — SW", "Forged F22 globe valve Class 1500 TRIM 5 — SW"),
+    name: frEn("Robinet à soupape forgé A182 F22 Class 1500 TRIM 5 - SW", "Forged F22 globe valve Class 1500 TRIM 5 - SW"),
     description: frEn("Alliage F22 pour services à température élevée.", "F22 alloy for elevated temperature service."),
     dn: null,
     pn: "Class 1500",
@@ -114,7 +114,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "412",
     slug: slug("412", "forge-class800-trim8-sw"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 — SW", "Forged globe valve Class 800 TRIM 8 — SW"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 - SW", "Forged globe valve Class 800 TRIM 8 - SW"),
     description: frEn("Gamme process standard, demi-stellite TRIM 8.", "Standard process range, TRIM 8 half stellite."),
     dn: null,
     pn: "Class 800",
@@ -126,7 +126,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "413",
     slug: slug("413", "forge-class800-trim8-npt"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 — NPT", "Forged globe valve Class 800 TRIM 8 — NPT"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 - NPT", "Forged globe valve Class 800 TRIM 8 - NPT"),
     description: frEn("TRIM 8, raccordement NPT F/F.", "TRIM 8, NPT F/F ends."),
     dn: null,
     pn: "Class 800",
@@ -138,7 +138,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "414",
     slug: slug("414", "forge-class800-trim8-bsp"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 — BSP", "Forged globe valve Class 800 TRIM 8 — BSP"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 8 - BSP", "Forged globe valve Class 800 TRIM 8 - BSP"),
     description: frEn("TRIM 8, raccordement BSP F/F.", "TRIM 8, BSP F/F ends."),
     dn: null,
     pn: "Class 800",
@@ -150,7 +150,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "416",
     slug: slug("416", "forge-class800-trim5-npt"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 5 — NPT", "Forged globe valve Class 800 TRIM 5 — NPT"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 5 - NPT", "Forged globe valve Class 800 TRIM 5 - NPT"),
     description: frEn("Chapeau boulonné, TRIM 5, NPT.", "Bolted bonnet, TRIM 5, NPT."),
     dn: null,
     pn: "Class 800",
@@ -162,7 +162,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "417",
     slug: slug("417", "forge-class800-trim5-sw"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 5 — SW", "Forged globe valve Class 800 TRIM 5 — SW"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 5 - SW", "Forged globe valve Class 800 TRIM 5 - SW"),
     description: frEn("TRIM 5, soudure socket, passage standard.", "TRIM 5, socket weld, standard bore."),
     dn: null,
     pn: "Class 800",
@@ -174,7 +174,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "418",
     slug: slug("418", "forge-class800-trim12-npt"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 12 — NPT", "Forged globe valve Class 800 TRIM 12 — NPT"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 12 - NPT", "Forged globe valve Class 800 TRIM 12 - NPT"),
     description: frEn("A350 LF2, TRIM 12, services basse température.", "A350 LF2, TRIM 12, low-temperature service."),
     dn: null,
     pn: "Class 800",
@@ -186,7 +186,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "419",
     slug: slug("419", "forge-class800-trim12-sw"),
-    name: frEn("Robinet à soupape forgé Class 800 TRIM 12 — SW", "Forged globe valve Class 800 TRIM 12 — SW"),
+    name: frEn("Robinet à soupape forgé Class 800 TRIM 12 - SW", "Forged globe valve Class 800 TRIM 12 - SW"),
     description: frEn("LF2, TRIM 12, soudure SW.", "LF2, TRIM 12, socket weld."),
     dn: null,
     pn: "Class 800",
@@ -198,7 +198,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "420",
     slug: slug("420", "forge-class1500-trim12-npt"),
-    name: frEn("Robinet à soupape forgé Class 1500 TRIM 12 — NPT", "Forged globe valve Class 1500 TRIM 12 — NPT"),
+    name: frEn("Robinet à soupape forgé Class 1500 TRIM 12 - NPT", "Forged globe valve Class 1500 TRIM 12 - NPT"),
     description: frEn("Classe 1500, NPT, régulation et isolement process.", "Class 1500, NPT, process isolation and control."),
     dn: null,
     pn: "Class 1500",
@@ -210,7 +210,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "421",
     slug: slug("421", "forge-class1500-trim12-sw"),
-    name: frEn("Robinet à soupape forgé Class 1500 TRIM 12 — SW", "Forged globe valve Class 1500 TRIM 12 — SW"),
+    name: frEn("Robinet à soupape forgé Class 1500 TRIM 12 - SW", "Forged globe valve Class 1500 TRIM 12 - SW"),
     description: frEn("Classe 1500, SW, LF2.", "Class 1500, SW, LF2."),
     dn: null,
     pn: "Class 1500",
@@ -222,7 +222,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "422",
     slug: slug("422", "forge-lf2-class1500-trim16-npt"),
-    name: frEn("Robinet à soupape forgé A350 LF2 Class 1500 TRIM 16 — NPT", "Forged A350 LF2 globe Class 1500 TRIM 16 — NPT"),
+    name: frEn("Robinet à soupape forgé A350 LF2 Class 1500 TRIM 16 - NPT", "Forged A350 LF2 globe Class 1500 TRIM 16 - NPT"),
     description: frEn("TRIM 16, haute pression cryogénique / process.", "TRIM 16, high-pressure cryogenic / process."),
     dn: null,
     pn: "Class 1500",
@@ -234,7 +234,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "423",
     slug: slug("423", "forge-lf2-class1500-trim16-sw"),
-    name: frEn("Robinet à soupape forgé A350 LF2 Class 1500 TRIM 16 — SW", "Forged A350 LF2 globe Class 1500 TRIM 16 — SW"),
+    name: frEn("Robinet à soupape forgé A350 LF2 Class 1500 TRIM 16 - SW", "Forged A350 LF2 globe Class 1500 TRIM 16 - SW"),
     description: frEn("TRIM 16, SW, LF2.", "TRIM 16, SW, LF2."),
     dn: null,
     pn: "Class 1500",
@@ -246,7 +246,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "440",
     slug: slug("440", "forge-class150-rf-pn20"),
-    name: frEn("Robinet à soupape forgé Class 150 RF — PN20", "Forged globe valve Class 150 RF — PN20"),
+    name: frEn("Robinet à soupape forgé Class 150 RF - PN20", "Forged globe valve Class 150 RF - PN20"),
     description: frEn("Brides RF, régulation sur réseaux pétrole modérés.", "RF flanges, moderate oil & gas networks."),
     dn: null,
     pn: "PN20",
@@ -258,7 +258,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "441",
     slug: slug("441", "forge-class300-rf-pn50"),
-    name: frEn("Robinet à soupape forgé Class 300 RF — PN50", "Forged globe valve Class 300 RF — PN50"),
+    name: frEn("Robinet à soupape forgé Class 300 RF - PN50", "Forged globe valve Class 300 RF - PN50"),
     description: frEn("Brides RF Class 300, haute pression.", "RF flanges Class 300, high pressure."),
     dn: null,
     pn: "PN50",
@@ -270,7 +270,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "452",
     slug: slug("452", "inox-forge-class800-trim12-sw"),
-    name: frEn("Robinet à soupape inox forgé F316 Class 800 TRIM 12 — SW", "Forged F316 globe valve Class 800 TRIM 12 — SW"),
+    name: frEn("Robinet à soupape inox forgé F316 Class 800 TRIM 12 - SW", "Forged F316 globe valve Class 800 TRIM 12 - SW"),
     description: frEn("Inox F316, corrosion, soudure SW.", "F316 stainless, corrosion service, SW."),
     dn: null,
     pn: "Class 800",
@@ -283,7 +283,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "453",
     slug: slug("453", "inox-forge-class800-trim12-npt"),
-    name: frEn("Robinet à soupape inox forgé F316 Class 800 TRIM 12 — NPT", "Forged F316 globe valve Class 800 TRIM 12 — NPT"),
+    name: frEn("Robinet à soupape inox forgé F316 Class 800 TRIM 12 - NPT", "Forged F316 globe valve Class 800 TRIM 12 - NPT"),
     description: frEn("F316, NPT F/F, fluides agressifs.", "F316, NPT F/F, aggressive fluids."),
     dn: null,
     pn: "Class 800",
@@ -308,7 +308,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "444",
     slug: slug("444", "moule-class300-rf"),
-    name: frEn("Robinet à soupape moulé Class 300 RF — PN50", "Cast globe valve Class 300 RF — PN50"),
+    name: frEn("Robinet à soupape moulé Class 300 RF - PN50", "Cast globe valve Class 300 RF - PN50"),
     description: frEn("Moulé Class 300, passage standard.", "Cast Class 300, standard bore."),
     dn: null,
     pn: "PN50",
@@ -321,7 +321,7 @@ export const petroleumGlobeBellowsRanges: CatalogRangeSeed[] = [
   toSeed({
     reference: "471",
     slug: slug("471", "moule-brides-pn40"),
-    name: frEn("Robinet à soupape moulé à brides — PN40", "Cast flanged globe valve — PN40"),
+    name: frEn("Robinet à soupape moulé à brides - PN40", "Cast flanged globe valve - PN40"),
     description: frEn("Acier moulé, PN40, isolement et régulation.", "Cast steel, PN40, isolation and throttling."),
     dn: null,
     pn: "PN40",

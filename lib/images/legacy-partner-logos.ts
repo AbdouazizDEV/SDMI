@@ -1,4 +1,4 @@
-/** Logos « Nos références » (fabricants) — https://www.sdmi.sn/a-propos-de-nous */
+/** Logos « Nos références » (fabricants) - https://www.sdmi.sn/a-propos-de-nous */
 
 export const legacyPartnerLogos = [
   { name: "FGinox", path: "/images/partners/1.png" },

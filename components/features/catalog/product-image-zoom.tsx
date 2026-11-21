@@ -20,7 +20,7 @@ type ProductImageZoomProps = {
   className?: string;
 };
 
-/** Zoom 0–100 % au survol, ancré sur la position du curseur. */
+/** Zoom 0-100 % au survol, ancré sur la position du curseur. */
 export function ProductImageZoom({
   src,
   alt,

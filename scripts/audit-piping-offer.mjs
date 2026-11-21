@@ -27,7 +27,7 @@ const CHECKS = [
   { label: "Bride WN (collerette)", re: /collerette|weld neck|type-11|type 11/i },
   { label: "Bride slip-on / emmancher", re: /emmancher|slip.?on|type-12|type 12/i },
   { label: "Bride taraudée", re: /taraudee|taraude|type-13|type 13/i },
-  { label: "ASME / Class 150–300", re: /class150|class300|150#|300#|b16\.5/i },
+  { label: "ASME / Class 150-300", re: /class150|class300|150#|300#|b16\.5/i },
   { label: "Inox 304L / 316L", re: /304l|316l|inox/i },
   { label: "Galvanisé / zingué", re: /galvan|zingue/i },
 ];

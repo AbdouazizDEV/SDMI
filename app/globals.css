@@ -367,7 +367,7 @@
       );
   }
 
-  /** Bandeau logos clients — défilement continu gauche → droite */
+  /** Bandeau logos clients - défilement continu gauche → droite */
   @keyframes sdmi-clients-marquee {
     from {
       transform: translateX(-50%);

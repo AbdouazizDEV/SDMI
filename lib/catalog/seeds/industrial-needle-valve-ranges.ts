@@ -23,7 +23,7 @@ function remapFromPetroleum(seed: CatalogRangeSeed): CatalogRangeSeed {
   };
 }
 
-/** Robinets à pointeau — gammes industrielles (hors pétrole + reprise séries communes). */
+/** Robinets à pointeau - gammes industrielles (hors pétrole + reprise séries communes). */
 export const industrialNeedleValveRanges: CatalogRangeSeed[] = [
   ...petroleumNeedleValveRanges
     .filter((s) => FROM_PETROLEUM.has(s.reference))
@@ -32,8 +32,8 @@ export const industrialNeedleValveRanges: CatalogRangeSeed[] = [
     reference: "482",
     slug: "serie-482-robinet-pointeau-bronze-bsp-ff",
     name: frEn(
-      "Robinet à pointeau bronze — femelle/femelle BSP",
-      "Bronze needle valve — BSP F/F",
+      "Robinet à pointeau bronze - femelle/femelle BSP",
+      "Bronze needle valve - BSP F/F",
     ),
     description: frEn(
       "Prélèvement et réglage fin sur réseaux taraudés.",

@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "SDMI | Accueil",
-    "description": "Sénégalaise de distribution de matériels industriels — robinetterie, accessoires de tuyauterie, filtres, mesures et raccords à Dakar.",
+    "description": "Sénégalaise de distribution de matériels industriels - robinetterie, accessoires de tuyauterie, filtres, mesures et raccords à Dakar.",
     "siteName": "SDMI"
   },
   "Layout": {
@@ -11,7 +11,7 @@
       "emailLabel": "E-mail"
     },
     "skipToContent": "Aller au contenu",
-    "logoLabel": "SDMI — Accueil",
+    "logoLabel": "SDMI - Accueil",
     "logoTaglineLine1": "Sénégalaise de distribution",
     "logoTaglineLine2": "de matériels industriels",
     "searchLabel": "Rechercher dans le catalogue",
@@ -90,7 +90,7 @@
   },
   "Home": {
     "hero": {
-      "location": "Dakar, Sénégal — Bopp rue 2 x Casamance",
+      "location": "Dakar, Sénégal - Bopp rue 2 x Casamance",
       "certificationBadge": "Distributeur agréé DIN / ANSI / ISO",
       "carousel": {
         "slides": {
@@ -105,7 +105,7 @@
             "description": "Hydrants, vannes, collecteurs et accessoires pour réseaux sprinklers, stock industriel et mise en service rapide à Dakar."
           },
           "oilGas": {
-            "label": "Eau — pétrole — gaz",
+            "label": "Eau - pétrole - gaz",
             "title": "Fluides critiques pour l'énergie et le réseau Eau-Pétrole-Gaz",
             "description": "Robinetterie haute pression, brides et accessoires pour hydrocarbures, gaz, eau industrielle et projets onshore / offshore."
           },
@@ -123,7 +123,7 @@
     "trust": {
       "stockDakar": {
         "title": "Stock à Dakar",
-        "description": "Références prêtes à l'enlèvement — dépôt SDMI"
+        "description": "Références prêtes à l'enlèvement - dépôt SDMI"
       },
       "quote24h": {
         "title": "Devis sous 24 h",
@@ -143,7 +143,7 @@
       "filterCta": "Filtrer le stock",
       "filterCtaDakar": "Filtrer le stock Dakar",
       "catalogPdfCta": "Télécharger le catalogue PDF",
-      "idleHint": "Choisissez une famille et des critères techniques — le catalogue Dakar s’ouvre déjà filtré.",
+      "idleHint": "Choisissez une famille et des critères techniques - le catalogue Dakar s’ouvre déjà filtré.",
       "activeHint": "Les filtres sélectionnés seront appliqués directement sur la page Produits.",
       "liveBadge": "Catalogue live · Dakar",
       "familyOptions": {
@@ -151,9 +151,9 @@
       },
       "dnOptions": {
         "all": "Tous diamètres",
-        "dn15-50": "DN15 – DN50",
-        "dn65-150": "DN65 – DN150",
-        "dn200-600": "DN200 – DN600",
+        "dn15-50": "DN15 - DN50",
+        "dn65-150": "DN65 - DN150",
+        "dn200-600": "DN200 - DN600",
         "dn600plus": "DN600 +"
       },
       "pressureOptions": {
@@ -180,7 +180,7 @@
       "description": "Retrait au comptoir SDMI ou livraison sur le grand Dakar.",
       "pdfLabel": "PDF 3.1",
       "addToQuote": "Ajouter au devis",
-      "footnote": "Affichage d'une sélection prioritaire — voir le catalogue complet pour l'ensemble des gammes.",
+      "footnote": "Affichage d'une sélection prioritaire - voir le catalogue complet pour l'ensemble des gammes.",
       "viewAll": "Voir tout le catalogue",
       "viewProduct": "Voir"
     },
@@ -252,7 +252,7 @@
     },
     "subfamilies": {
       "title": "Étanchéité statique",
-      "description": "Parcourez le catalogue SDMI par famille et sous-famille — disponibilité dépôt Dakar.",
+      "description": "Parcourez le catalogue SDMI par famille et sous-famille - disponibilité dépôt Dakar.",
       "readMore": "En savoir plus",
       "viewFamily": "Voir la famille",
       "viewAll": "Toutes les gammes du catalogue",
@@ -277,7 +277,7 @@
     },
     "finalCta": {
       "title": "Besoin d'un devis express ou d'une réponse AO ?",
-      "description": "Transmettez bordereaux, schémas ou nomenclatures — réponse commerciale sous 24 h ouvrées.",
+      "description": "Transmettez bordereaux, schémas ou nomenclatures - réponse commerciale sous 24 h ouvrées.",
       "quoteCta": "Demander un devis",
       "whatsappCta": "WhatsApp Pro",
       "whatsappLabel": "Contacter SDMI sur WhatsApp"
@@ -287,9 +287,9 @@
     "breadcrumbLabel": "Fil d'Ariane",
     "breadcrumbHome": "Accueil",
     "breadcrumbCurrent": "Nos produits",
-    "eyebrow": "Cat. Fluid-01 — Normes DIN / EN / ANSI / API",
+    "eyebrow": "Cat. Fluid-01 - Normes DIN / EN / ANSI / API",
     "title": "Robinetterie industrielle",
-    "description": "Sectionnement, régulation et sécurité des fluides — disponibilité dépôt SDMI Dakar.",
+    "description": "Sectionnement, régulation et sécurité des fluides - disponibilité dépôt SDMI Dakar.",
     "stockBadge": "Disponibles en stock Dakar",
     "filtersTitle": "Filtres techniques",
     "openFilters": "Filtres",
@@ -305,7 +305,7 @@
     "filterSector": "Secteur cible",
     "filtersHelpTitle": "Besoin d'aide technique ?",
     "activeFiltersLabel": "Filtres actifs :",
-    "resultsRange": "Affichage de {from} – {to} sur {total} produits industriels",
+    "resultsRange": "Affichage de {from} - {to} sur {total} produits industriels",
     "liveSearchPlaceholder": "Recherche instantanée : référence, DN, PN, matière…",
     "liveSearchLabel": "Recherche catalogue",
     "sortBy": "Trier par",
@@ -338,7 +338,7 @@
       "water": "Eau & assainissement",
       "fire": "Incendie & sécurité"
     },
-    "filtersHint": "Filtres avancés (matière, PN, DN, secteur) — branchement catalogue Supabase à venir.",
+    "filtersHint": "Filtres avancés (matière, PN, DN, secteur) - branchement catalogue Supabase à venir.",
     "filtersBrowseHint": "Affinez votre recherche par famille ou ouvrez une sous-famille pour filtrer par DN, PN et matière.",
     "quoteHelpCta": "Besoin d'aide technique",
     "resultsCount": "{count, plural, one {# produit affiché} other {# produits affichés}}",
@@ -362,7 +362,7 @@
         "body": "Brides et collets pour assemblages de tuyauterie : collets, kits de boulonnerie, brides pétrole ASME et brides tournantes, complétés par les brides EN 1092 acier carbone."
       },
       "raccords-et-fittings": {
-        "body": "Colliers de prise en charge, raccords acier à souder, symétriques, express et à cames, raccords laiton à visser, inox, mamelons et manchons acier, fonte malléable EN 10242 et filetés BSPT — pour dérivations, liaisons rapides et assemblages de tuyauterie."
+        "body": "Colliers de prise en charge, raccords acier à souder, symétriques, express et à cames, raccords laiton à visser, inox, mamelons et manchons acier, fonte malléable EN 10242 et filetés BSPT - pour dérivations, liaisons rapides et assemblages de tuyauterie."
       },
       "vannes": {
         "body": "Vannes à opercule et vannes guillotine pour isolement et régulation sur réseaux eau, process et industrie lourde : monobloc, brides, forge, caoutchouc O et modèles S-gate unidirectionnels ou bidirectionnels."
@@ -377,7 +377,7 @@
         "body": "Vannes à sphère laiton, fonte et PVC pour bâtiment, réseaux d’eau, industrie légère et collectifs : modèles cadenassables, 3 voies, puisage et raccordements taraudés ou à brides."
       },
       "protection-regulation-des-reseaux": {
-        "body": "Protection et régulation des réseaux d’eau potable : vannes à sphère BALLSTOP avec clapet anti-retour, ventouses et régulation CSA, disconnecteurs antipollution SCUDO et clapets de retenue antipollution — ACS, NF et 4MS selon les gammes."
+        "body": "Protection et régulation des réseaux d’eau potable : vannes à sphère BALLSTOP avec clapet anti-retour, ventouses et régulation CSA, disconnecteurs antipollution SCUDO et clapets de retenue antipollution - ACS, NF et 4MS selon les gammes."
       },
       "etancheite-statique": {
         "body": "Joints et éléments d’étanchéité statique pour brides et assemblages : fibres, élastomères, graphite, PTFE, mica, toriques, manchettes et tresses. Cotation et découpe sur plan au comptoir SDMI à Dakar."
@@ -416,9 +416,9 @@
       "specsTitle": "Caractéristiques techniques",
       "descriptionTitle": "Description technique",
       "ctaTitle": "Cotation & documentation",
-      "ctaHint": "Ajoutez la référence au panier devis ou envoyez une demande détaillée — réponse commerciale sous 24 h ouvrées.",
-      "rangeCtaHint": "Indiquez DN, classe de pression et raccordement dans votre demande de devis — fiches techniques et certificats sur demande.",
-      "imageHint": "Visuel indicatif de gamme — fiche et certificats sur demande.",
+      "ctaHint": "Ajoutez la référence au panier devis ou envoyez une demande détaillée - réponse commerciale sous 24 h ouvrées.",
+      "rangeCtaHint": "Indiquez DN, classe de pression et raccordement dans votre demande de devis - fiches techniques et certificats sur demande.",
+      "imageHint": "Visuel indicatif de gamme - fiche et certificats sur demande.",
       "noImage": "Image à venir",
       "photo": "Photo",
       "video360": "Rotation 360°",
@@ -436,7 +436,7 @@
     "breadcrumbCurrent": "Demande de devis",
     "eyebrow": "Cotation industrielle",
     "title": "Demander un devis",
-    "description": "Transmission de votre nomenclature ou bordereau — réponse commerciale sous 24 h ouvrées.",
+    "description": "Transmission de votre nomenclature ou bordereau - réponse commerciale sous 24 h ouvrées.",
     "companyName": "Société",
     "contactName": "Nom du contact",
     "email": "E-mail professionnel",
@@ -467,27 +467,27 @@
     "breadcrumbCurrent": "Secteurs d'activité",
     "eyebrow": "Industrie & fourniture générale",
     "title": "Présent sur les grands chantiers industriels sénégalais",
-    "description": "Protection incendie, fluides eau–pétrole–gaz, process agroalimentaire et industrie minière : robinetterie dimensionnée, stock à Dakar et fiches secteur détaillées pour vos projets.",
-    "landingHeroAlt": "Réseaux industriels eau, pétrole et gaz — équipements SDMI",
+    "description": "Protection incendie, fluides eau-pétrole-gaz, process agroalimentaire et industrie minière : robinetterie dimensionnée, stock à Dakar et fiches secteur détaillées pour vos projets.",
+    "landingHeroAlt": "Réseaux industriels eau, pétrole et gaz - équipements SDMI",
     "stats": [
       { "label": "Disponibilité hub Dakar", "value": "Stock SDMI" },
-      { "label": "Délai urgent chantiers", "value": "24–48 h" },
+      { "label": "Délai urgent chantiers", "value": "24-48 h" },
       { "label": "Conformité pression", "value": "PN / ANSI" },
       { "label": "Bureau d'études", "value": "Support dédié" }
     ],
     "gridTitle": "Nos quatre pôles d'intervention",
-    "gridDescription": "Les secteurs que nous mettons en avant sur l'accueil — mêmes visuels, mêmes équipes terrain et pages dédiées.",
+    "gridDescription": "Les secteurs que nous mettons en avant sur l'accueil - mêmes visuels, mêmes équipes terrain et pages dédiées.",
     "secondaryTitle": "Robinetterie industrielle générale",
-    "secondaryDescription": "Mines, cimenteries, phosphates et applications sévères — continuité de production et matériaux adaptés.",
+    "secondaryDescription": "Mines, cimenteries, phosphates et applications sévères - continuité de production et matériaux adaptés.",
     "environmentsTitle": "Approfondir par secteur",
-    "environmentsDescription": "Contexte process, normes et familles produits — accédez à la fiche complète pour cotation DN/PN et stock Dakar.",
+    "environmentsDescription": "Contexte process, normes et familles produits - accédez à la fiche complète pour cotation DN/PN et stock Dakar.",
     "sectorDetailCta": "Voir la fiche secteur",
     "exploreSector": "Explorer",
     "backToSectors": "Tous les secteurs",
     "familiesTitle": "Familles produits associées",
     "exploreFamily": "Explorer la famille",
     "comingSoonFamily": "Bientôt disponible",
-    "detailCtaHint": "Cotation sur plan, DN/PN et alternatives stock Dakar — réponse sous 24 h ouvrées.",
+    "detailCtaHint": "Cotation sur plan, DN/PN et alternatives stock Dakar - réponse sous 24 h ouvrées.",
     "recommendedTitle": "Matériel & robinetterie préconisés",
     "refsCta": "Voir les références",
     "quoteCta": "Demander un devis",
@@ -502,7 +502,7 @@
       "energy": {
         "eyebrow": "Hydrocarbures & énergie",
         "title": "Pétrole, gaz & centrales thermiques",
-        "body": "Traçabilité pour installations gazières et IPP — résistance aux fluides agressifs et hautes pressions.",
+        "body": "Traçabilité pour installations gazières et IPP - résistance aux fluides agressifs et hautes pressions.",
         "standards": "Certificats EN 10204 3.1 et contrôles CND."
       },
       "agro": {
@@ -526,16 +526,16 @@
     },
     "pages": {
       "circuit-eau-petrole-gaz": {
-        "metaTitle": "Eau, pétrole & gaz — robinetterie industrielle | SDMI Dakar",
+        "metaTitle": "Eau, pétrole & gaz - robinetterie industrielle | SDMI Dakar",
         "metaDescription": "Vannes, brides et tuyauteries pour réseaux eau, hydrocarbures et gaz au Sénégal : stock Dakar, certificats 3.1, cotation DN/PN sous 24 h.",
-        "eyebrow": "Eau — pétrole — gaz",
+        "eyebrow": "Eau - pétrole - gaz",
         "title": "Fluides critiques pour l'énergie et le réseau Eau-Pétrole-Gaz",
         "lead": "SDMI équipe les réseaux de distribution d'eau, les dépôts pétroliers, les gazoductes et les centrales au Sénégal avec une robinetterie dimensionnée pour la pression, la corrosion et la continuité de service. Du comptoir de Bopp aux grands chantiers, nous sécurisons vos boucles de fluides avec des références traçables et un bureau d'études réactif.",
-        "standards": "API 6D / 600, ANSI B16.34, EN 1092 & EN 10204 type 3.1 — PN10 à PN100, Class 150 à 600.",
+        "standards": "API 6D / 600, ANSI B16.34, EN 1092 & EN 10204 type 3.1 - PN10 à PN100, Class 150 à 600.",
         "highlightsTitle": "Réactivité chantier & conformité",
         "highlights": [
           { "label": "Hub logistique", "value": "Stock Dakar" },
-          { "label": "Urgence site", "value": "24–48 h" },
+          { "label": "Urgence site", "value": "24-48 h" },
           { "label": "Pression & température", "value": "PN / ANSI" },
           { "label": "Traçabilité matière", "value": "Certificats 3.1" }
         ],
@@ -564,7 +564,7 @@
           "Cotation structurée sur bordereau, plans isométriques ou nomenclatures projet."
         ],
         "familySummaries": {
-          "robinetterie-petrole-forgee-moulee": "Vannes et robinets forgés/moulés pour hydrocarbures, gaz et services sévères — API, ANSI et PN élevés.",
+          "robinetterie-petrole-forgee-moulee": "Vannes et robinets forgés/moulés pour hydrocarbures, gaz et services sévères - API, ANSI et PN élevés.",
           "tuyauteries": "Tubes acier carbone, inox et pré-enrobés 3PE pour réseaux eau, pétrole et gaz, du DN6 au DN1000.",
           "accessoires": "Brides, raccords, compensateurs et accessoires pour réseaux eau, pétrole et gaz, du DN15 au grand diamètre.",
           "brides": "Brides EN 1092 acier carbone et collets forgés, du PN10 au PN40, pour assemblages de ligne.",
@@ -574,33 +574,33 @@
         }
       },
       "industrie-agro-alimentaire": {
-        "metaTitle": "Agro-industrie — inox & robinetterie process | SDMI Dakar",
+        "metaTitle": "Agro-industrie - inox & robinetterie process | SDMI Dakar",
         "metaDescription": "Vannes, robinets et tuyauteries inox pour lignes agroalimentaires au Sénégal : hygiène, CIP, conformité contact alimentaire, stock Dakar.",
         "eyebrow": "Secteur agro-alimentaire",
         "title": "Hygiène, inox et process pour l'agro-industrie (Agro-alimentaire)",
         "lead": "SDMI accompagne sucreries, brasseries, laiteries et unités de transformation au Sénégal avec une robinetterie pensée pour l'hygiène, le nettoyage en place (CIP/NEP) et la tenue en corrosion. Inox poli, étanchéité fiable et traçabilité matière : nous dimensionnons vos boucles de fluides alimentaires et process aux contraintes de production et d'audit qualité.",
-        "standards": "Inox AISI 304L / 316L, CE 1935/2004 (contact alimentaire), bonnes pratiques FDA — finitions sanitaires et joints adaptés CIP.",
+        "standards": "Inox AISI 304L / 316L, CE 1935/2004 (contact alimentaire), bonnes pratiques FDA - finitions sanitaires et joints adaptés CIP.",
         "highlightsTitle": "Hygiène & continuité de production",
         "highlights": [
           { "label": "Matières process", "value": "Inox 304L / 316L" },
           { "label": "Nettoyage en place", "value": "CIP / NEP" },
-          { "label": "Réactivité site", "value": "24–48 h" },
+          { "label": "Réactivité site", "value": "24-48 h" },
           { "label": "Traçabilité", "value": "Certificats 3.1" }
         ],
         "challengesTitle": "Enjeux & contraintes agroalimentaires",
         "challenges": [
           "Contact alimentaire, migration et conformité réglementaire (UE / audits internes).",
           "Cycles CIP/NEP agressifs : chocs thermiques, acides/bases et wear des joints.",
-          "Risque de contamination croisée — zones stériles, isolement et dead legs à maîtriser.",
+          "Risque de contamination croisée - zones stériles, isolement et dead legs à maîtriser.",
           "Corrosion sous produits sucrés, brasse et solutions de nettoyage concentrées.",
           "Maintenance planifiée sur lignes continues : remplacement rapide à l'identique."
         ],
         "applicationsTitle": "Applications & filières",
         "applications": [
           "Lignes de transfert, dosage et isolement sur sucreries et sites sucre.",
-          "Brasseries, boissons gazeuses et jus — boucles froides/chaudes et pasteurisation.",
-          "Laiteries, fromageries et produits laitiers — hygiène et inox poli.",
-          "Huileries, minoteries et transformation céréalière — vannes et raccords process.",
+          "Brasseries, boissons gazeuses et jus - boucles froides/chaudes et pasteurisation.",
+          "Laiteries, fromageries et produits laitiers - hygiène et inox poli.",
+          "Huileries, minoteries et transformation céréalière - vannes et raccords process.",
           "Skids de filtration, by-pass échantillonnage et purge sur unités de conditionnement."
         ],
         "supplyTitle": "Ce que SDMI vous apporte",
@@ -623,11 +623,11 @@
         "eyebrow": "Matériel et incendie",
         "title": "Protection incendie et robinetterie de sécurité",
         "lead": "SDMI fournit la robinetterie et la tuyauterie qui sécurisent vos réseaux incendie sur sites industriels, dépôts et bâtiments tertiaires au Sénégal. Sprinklers, postes RIA, vannes d'alarme et accessoires de mise en eau : nous dimensionnons vos boucles selon les pressions disponibles, les schémas d'implantation et les exigences de vos bureaux de contrôle et assureurs.",
-        "standards": "Schémas type NFPA / APSAD, homologations FM & UL sur références dédiées — vannes listées incendie, PN adaptés réseaux eau incendie.",
+        "standards": "Schémas type NFPA / APSAD, homologations FM & UL sur références dédiées - vannes listées incendie, PN adaptés réseaux eau incendie.",
         "highlightsTitle": "Sécurité & réactivité chantier",
         "highlights": [
           { "label": "Réseaux incendie", "value": "Sprinkler & RIA" },
-          { "label": "Urgence site", "value": "24–48 h" },
+          { "label": "Urgence site", "value": "24-48 h" },
           { "label": "Isolement & alarme", "value": "Vannes dédiées" },
           { "label": "Stock & traçabilité", "value": "Dakar / 3.1" }
         ],
@@ -641,7 +641,7 @@
         ],
         "applicationsTitle": "Applications & installations",
         "applications": [
-          "Réseaux sprinklers automatiques — entrepôts, industrie et grandes surfaces.",
+          "Réseaux sprinklers automatiques - entrepôts, industrie et grandes surfaces.",
           "Robinets d'incendie armés (RIA), colonnes sèches/humides et bouches incendie.",
           "Postes déluge, zones ATEX et protection équipements critiques (transformateurs, stocks).",
           "Dépôts hydrocarbures, terminaux logistiques et sites à risques industriels.",
@@ -665,18 +665,18 @@
         }
       },
       "industrie-miniere": {
-        "metaTitle": "Industrie minière — vannes, tuyauteries et raccords | SDMI Dakar",
+        "metaTitle": "Industrie minière - vannes, tuyauteries et raccords | SDMI Dakar",
         "metaDescription": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai au Sénégal : abrasion, boues, pression et stock à Dakar.",
         "eyebrow": "Industrie minière",
         "title": "L'industrie minière",
         "lead": "Vannes, tuyauteries et raccords pour mines, carrières et traitement du minerai : abrasion, boues et pression, avec stock à Dakar. SDMI équipe les circuits de pulpe, d'eau de procédé et d'air comprimé avec des références dimensionnées pour l'usure et la continuité de production.",
-        "standards": "API 600 / 6D, EN 1092, ASTM A106 / API 5L — revêtements anti-abrasion, fontes et aciers pour services sévères.",
+        "standards": "API 600 / 6D, EN 1092, ASTM A106 / API 5L - revêtements anti-abrasion, fontes et aciers pour services sévères.",
         "highlightsTitle": "Résistance & disponibilité chantier",
         "highlights": [
           { "label": "Services", "value": "Abrasion & boues" },
           { "label": "Pression", "value": "PN / ANSI" },
           { "label": "Hub logistique", "value": "Stock Dakar" },
-          { "label": "Urgence site", "value": "24–48 h" }
+          { "label": "Urgence site", "value": "24-48 h" }
         ],
         "challengesTitle": "Enjeux & contraintes process",
         "challenges": [
@@ -717,10 +717,10 @@
     "breadcrumbCurrent": "A propos de nous",
     "eyebrow": "Entreprise",
     "title": "A propos de SDMI",
-    "description": "Sénégalaise de distribution de matériels industriels — robinetterie, tuyauterie et équipements process à Dakar depuis plus de 15 ans.",
-    "heroImageAlt": "Dépôt et équipe SDMI — distribution industrielle à Dakar",
+    "description": "Sénégalaise de distribution de matériels industriels - robinetterie, tuyauterie et équipements process à Dakar depuis plus de 15 ans.",
+    "heroImageAlt": "Dépôt et équipe SDMI - distribution industrielle à Dakar",
     "body": "SDMI accompagne les industriels sénégalais et de la sous-région avec une offre complète en robinetterie, tuyauterie, filtration, mesure et raccords, sélectionnée auprès de fabricants certifiés.",
-    "bodySecondary": "Notre comptoir de Bopp centralise stock, conseil technique et logistique pour vos chantiers : incendie, fluides eau–pétrole–gaz, agroalimentaire et robinetterie industrielle générale.",
+    "bodySecondary": "Notre comptoir de Bopp centralise stock, conseil technique et logistique pour vos chantiers : incendie, fluides eau-pétrole-gaz, agroalimentaire et robinetterie industrielle générale.",
     "partnersTitle": "Ils nous ont fait confiance",
     "missionTitle": "Notre engagement terrain",
     "stats": [
@@ -742,7 +742,7 @@
       "2": "Marques reconnues pétrole, agro et utilities"
     },
     "expertiseTitle": "Notre savoir-faire distribution",
-    "expertiseDescription": "De la cotation à la mise à disposition sur site — une équipe orientée chantier et process.",
+    "expertiseDescription": "De la cotation à la mise à disposition sur site - une équipe orientée chantier et process.",
     "expertise": [
       {
         "title": "Stock & comptoir pro",
@@ -761,7 +761,7 @@
     "scopeDescription": "Nous intervenons sur les grands axes industriels du Sénégal et accompagnons les projets neufs comme la maintenance.",
     "scopeItems": [
       "Protection incendie, sprinklers, RIA et robinetterie de sécurité.",
-      "Réseaux eau, pétrole, gaz et utilities — fluides sous pression.",
+      "Réseaux eau, pétrole, gaz et utilities - fluides sous pression.",
       "Agroalimentaire, sucre, boissons : inox, hygiène et CIP.",
       "Mines, cimenteries, phosphates et robinetterie industrielle sévère.",
       "Appels d'offres, EPC, MCO et renouvellement de parc installé."
@@ -775,7 +775,7 @@
       "Partenariat durable avec industriels sénégalais et sous-région."
     ],
     "ctaTitle": "Parler à un interlocuteur SDMI",
-    "ctaDescription": "Devis, visite comptoir ou question technique — notre équipe à Bopp vous répond.",
+    "ctaDescription": "Devis, visite comptoir ou question technique - notre équipe à Bopp vous répond.",
     "ctaContact": "Contact & plan d'accès",
     "ctaCatalog": "Parcourir le catalogue",
     "referencesTitle": "Nos références"
@@ -806,8 +806,8 @@
       }
     ],
     "mapTitle": "Plan d'accès",
-    "mapDescription": "Comptoir et dépôt SDMI à Bopp rue 2 x Casamance — accès camion possible sur rendez-vous pour enlèvements volumineux.",
-    "mapIframeTitle": "Carte Google Maps — SDMI Bopp, Dakar",
+    "mapDescription": "Comptoir et dépôt SDMI à Bopp rue 2 x Casamance - accès camion possible sur rendez-vous pour enlèvements volumineux.",
+    "mapIframeTitle": "Carte Google Maps - SDMI Bopp, Dakar",
     "directionsCta": "Itinéraire Google Maps",
     "formTitle": "Demande commerciale",
     "formHint": "Transmettez nomenclatures, DN/PN ou bordereaux pour une cotation structurée.",
@@ -832,7 +832,7 @@
       "breadcrumbHome": "Accueil",
       "breadcrumbCurrent": "Demande de devis",
       "title": "Demander un devis",
-      "description": "Cotation robinetterie et matériel industriel — réponse sous 24 h.",
+      "description": "Cotation robinetterie et matériel industriel - réponse sous 24 h.",
       "body": "Formulaire de demande de devis en cours de déploiement. En attendant, contactez-nous par téléphone, e-mail ou WhatsApp avec votre nomenclature ou bordereau quantitatif."
     },
     "certifications": {
@@ -910,16 +910,16 @@
         }
       },
       "applyTitle": "Candidature spontanée",
-      "applyDescription": "Envoyez CV et lettre de motivation — nous étudions chaque profil correspondant à nos métiers.",
+      "applyDescription": "Envoyez CV et lettre de motivation - nous étudions chaque profil correspondant à nos métiers.",
       "applyCta": "Envoyer un e-mail",
-      "applyEmailSubject": "Candidature SDMI — Robinetterie industrielle"
+      "applyEmailSubject": "Candidature SDMI - Robinetterie industrielle"
     },
     "legalNotice": {
       "breadcrumbHome": "Accueil",
       "breadcrumbCurrent": "Mentions légales",
       "title": "Mentions légales",
-      "description": "Informations légales SDMI — Dakar, Sénégal.",
-      "body": "Sénégalaise de distribution de matériels industriels (SDMI) — Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Sénégal. Tél. +221 33 824 83 73 — smdi@sdmi.sn."
+      "description": "Informations légales SDMI - Dakar, Sénégal.",
+      "body": "Sénégalaise de distribution de matériels industriels (SDMI) - Bopp rue 2 x Casamance, BP 3134 RP, Dakar, Sénégal. Tél. +221 33 824 83 73 - smdi@sdmi.sn."
     },
     "privacy": {
       "breadcrumbHome": "Accueil",

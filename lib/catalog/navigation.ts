@@ -25,7 +25,7 @@ const getCatalogNavigationCached = unstable_cache(
   { revalidate: 600 },
 );
 
-/** Catalogue — taxonomie v1 (pages produits). */
+/** Catalogue - taxonomie v1 (pages produits). */
 export const getCatalogNavigation = cache(getCatalogNavigationCached);
 
 export function pickCatalogLabel(

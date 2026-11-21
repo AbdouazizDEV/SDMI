@@ -1,4 +1,4 @@
-/** Secteurs mis en avant — mêmes quatre pôles et visuels que le hero / `/secteurs`. */
+/** Secteurs mis en avant - mêmes quatre pôles et visuels que le hero / `/secteurs`. */
 
 export const HOME_FEATURED_SECTOR_SLUGS = [
   "tuyauterie-materiels-incendie",
@@ -15,7 +15,7 @@ export const HOME_SECTION_SECTOR_SLUGS = [
   "industrie-miniere",
 ] as const satisfies readonly HomeFeaturedSectorSlug[];
 
-/** Clés i18n `Home.hero.carousel.slides.{key}` — libellé court sur les cartes accueil. */
+/** Clés i18n `Home.hero.carousel.slides.{key}` - libellé court sur les cartes accueil. */
 export const homeFeaturedSectorSlideKeys: Record<
   HomeFeaturedSectorSlug,
   "fire" | "oilGas" | "agro" | "mining"

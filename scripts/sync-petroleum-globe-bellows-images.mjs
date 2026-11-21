@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Visuels gammes — robinets soupape / soufflet pétrole forgé–moulé.
+ * Visuels gammes - robinets soupape / soufflet pétrole forgé-moulé.
  * Fusionne le manifeste existant (opercule). Usage: node scripts/sync-petroleum-globe-bellows-images.mjs
  */
 import fs from "node:fs";

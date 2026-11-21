@@ -1,4 +1,4 @@
-/** Liens de navigation principale — contrat stable pour le layout (ISP). */
+/** Liens de navigation principale - contrat stable pour le layout (ISP). */
 
 export type SiteNavLinkKey =
   | "home"

@@ -34,7 +34,7 @@ const specs = {
   documentCount: 2,
 } as const;
 
-/** Gammes filetées EN 10242 — fiches SDMI, sans visuel ni texte fournisseur. */
+/** Gammes filetées EN 10242 - fiches SDMI, sans visuel ni texte fournisseur. */
 export const threadedFittingRanges: CatalogRangeSeed[] = [
   base(COUDES, {
     reference: "TF-120",

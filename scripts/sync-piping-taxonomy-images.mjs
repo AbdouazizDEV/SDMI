@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Visuels taxonomie — tuyauterie et accessoires. */
+/** Visuels taxonomie - tuyauterie et accessoires. */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

@@ -16,7 +16,7 @@ const variantClass: Record<NonNullable<SectionShellProps["variant"]>, string> = 
   band: "bg-muted border-border border-t py-12 lg:py-16",
 };
 
-/** Enveloppe de section réutilisable — extension par variant sans modifier les sections (OCP). */
+/** Enveloppe de section réutilisable - extension par variant sans modifier les sections (OCP). */
 export function SectionShell({
   children,
   labelledBy,

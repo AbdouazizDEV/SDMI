@@ -121,17 +121,17 @@ export function CatalogProductGridCard({
                 ? `DN${product.dn}`
                 : isRange
                   ? dnOnConfiguration
-                  : "—"}
+                  : "-"}
             </dd>
           </div>
           <div>
             <dt className="text-muted-foreground font-bold uppercase">{specPnLabel}</dt>
-            <dd className="text-foreground mt-0.5 font-semibold">{product.pn ?? "—"}</dd>
+            <dd className="text-foreground mt-0.5 font-semibold">{product.pn ?? "-"}</dd>
           </div>
           <div>
             <dt className="text-muted-foreground font-bold uppercase">{specMaterialLabel}</dt>
             <dd className="text-foreground mt-0.5 truncate font-semibold">
-              {product.materialLabel ?? "—"}
+              {product.materialLabel ?? "-"}
             </dd>
           </div>
         </dl>

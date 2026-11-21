@@ -17,8 +17,8 @@ export const raccordsLaitonVisserRanges: CatalogRangeSeed[] = [
     slug: "serie-raccords-laiton-a-visser-embout-laiton-cw617n-cannele-femelle-bsp-ref-2800",
     name: frEn("Embout laiton CW617N cannelé femelle BSP Ref.2800", "Embout brass CW617N cannelé femelle BSP Ref.2800"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Laiton", "Brass"),
     connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "building", "industry"],
@@ -29,8 +29,8 @@ export const raccordsLaitonVisserRanges: CatalogRangeSeed[] = [
     slug: "serie-raccords-laiton-a-visser-embout-laiton-cw617n-cannele-male-bsp-ref-2820",
     name: frEn("Embout laiton CW617N cannelé mâle BSP Ref.2820", "Embout brass CW617N cannelé mâle BSP Ref.2820"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Laiton", "Brass"),
     connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "building", "industry"],

@@ -21,7 +21,7 @@ function toIndustrialForged(seed: CatalogRangeSeed): CatalogRangeSeed {
   };
 }
 
-/** Gammes opercule forgé — même séries que le rayon industriel Sferaco, fiches SDMI dédiées. */
+/** Gammes opercule forgé - même séries que le rayon industriel Sferaco, fiches SDMI dédiées. */
 export const industrialForgedGateValveRanges: CatalogRangeSeed[] =
   petroleumGateValveRanges
     .filter((seed) => FORGED_SERIES.has(seed.reference))

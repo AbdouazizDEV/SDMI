@@ -172,9 +172,9 @@ function emitSeedFile(lot, items) {
     lines.push(`    name: frEn("${esc(it.title)}", "${esc(it.enTitle)}"),`);
     lines.push(`    description: frEn(`);
     lines.push(
-      `      "Gamme protection et régulation des réseaux — catalogue SDMI.",`,
+      `      "Gamme protection et régulation des réseaux - catalogue SDMI.",`,
     );
-    lines.push(`      "Network protection & regulation range — SDMI catalog.",`);
+    lines.push(`      "Network protection & regulation range - SDMI catalog.",`);
     lines.push(`    ),`);
     lines.push(
       `    dn: null, pn: ${pnLit}, material: frEn("${esc(mat.fr)}", "${esc(mat.en)}"),`,

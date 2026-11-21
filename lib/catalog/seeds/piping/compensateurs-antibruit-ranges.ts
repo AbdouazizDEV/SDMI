@@ -17,8 +17,8 @@ export const compensateursAntibruitRanges: CatalogRangeSeed[] = [
     slug: "serie-manchons-compensateurs-antibruit-1509-manchon-antibruit-epdm-a-inserts-taraudes-acier-pn10",
     name: frEn("1509 - Manchon antibruit EPDM à inserts taraudés acier PN10", "1509 - Coupling antibruit EPDM à inserts taraudés steel PN10"),
     description: frEn(
-      "Gamme tuyauterie et accessoires — catalogue SDMI.",
-      "Piping & accessories range — SDMI catalog.",
+      "Gamme tuyauterie et accessoires - catalogue SDMI.",
+      "Piping & accessories range - SDMI catalog.",
     ),
     dn: null, pn: "PN10", material: frEn("Élastomère", "Elastomer"),
     connectionType: "flanged-rf", standards: ["en10204"], sectorTags: ["water", "building", "industry"],

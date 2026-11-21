@@ -31,7 +31,7 @@ export function SiteHeader({ catalog }: SiteHeaderProps) {
 
   return (
     <header className="bg-card">
-      {/* Desktop — logo, recherche, contact rapide */}
+      {/* Desktop - logo, recherche, contact rapide */}
       <div className="hidden border-b border-border lg:block">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3 lg:gap-6 lg:px-6">
           <SiteLogo
@@ -86,7 +86,7 @@ export function SiteHeader({ catalog }: SiteHeaderProps) {
         </Button>
       </div>
 
-      {/* Navigation — mega-menu + nouvelles entrées + devis */}
+      {/* Navigation - mega-menu + nouvelles entrées + devis */}
       <div className="bg-primary hidden lg:block">
         <div className="mx-auto flex max-w-7xl items-stretch gap-3 px-4 lg:px-6">
           <div className="flex shrink-0 items-center gap-2 py-2">

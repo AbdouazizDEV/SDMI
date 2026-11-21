@@ -76,7 +76,7 @@ const noteFr =
 const noteEn =
   "Important: contact our teams according to your operating conditions.";
 
-/** Joints graphite — sous-famille Graphite. */
+/** Joints graphite - sous-famille Graphite. */
 export const graphiteRanges: CatalogRangeSeed[] = [
   base({
     reference: "PSM-AS",
@@ -417,7 +417,7 @@ export const graphiteRanges: CatalogRangeSeed[] = [
         "Température min : -200 °C",
         "Température max : +550 °C",
         "Pression : 200 bar",
-        "Compressibilité : 30 – 50 %",
+        "Compressibilité : 30 - 50 %",
         noteFr,
       ],
       specsEn: [
@@ -425,7 +425,7 @@ export const graphiteRanges: CatalogRangeSeed[] = [
         "Min temperature: -200 °C",
         "Max temperature: +550 °C",
         "Pressure: 200 bar",
-        "Compressibility: 30 – 50%",
+        "Compressibility: 30 - 50%",
         noteEn,
       ],
     }),

@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Visuels taxonomie — famille et sous-familles soupape / pointeau.
+ * Visuels taxonomie - famille et sous-familles soupape / pointeau.
  * Reprise d’un produit emblématique par sous-famille (cache Sferaco).
  */
 import fs from "node:fs";

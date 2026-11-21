@@ -25,14 +25,14 @@ function base(
   };
 }
 
-/** Vannes à guillotine S-GATE — eaux usées, pâte, fluides chargés. */
+/** Vannes à guillotine S-GATE - eaux usées, pâte, fluides chargés. */
 export const knifeGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_UNI, {
     reference: "170",
     slug: slug("170", "uni-fonte-nbr"),
     name: frEn(
-      "Vanne à guillotine unidirectionnelle fonte — siège NBR",
-      "Unidirectional knife gate — cast iron, NBR seat",
+      "Vanne à guillotine unidirectionnelle fonte - siège NBR",
+      "Unidirectional knife gate - cast iron, NBR seat",
     ),
     description: frEn(
       "Pelle caoutchouc, fluides chargés et eaux usées.",
@@ -49,7 +49,7 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_UNI, {
     reference: "171",
     slug: slug("171", "uni-fonte-epdm"),
-    name: frEn("Vanne à guillotine unidirectionnelle fonte — siège EPDM", "Unidirectional knife gate — cast iron, EPDM seat"),
+    name: frEn("Vanne à guillotine unidirectionnelle fonte - siège EPDM", "Unidirectional knife gate - cast iron, EPDM seat"),
     description: frEn("Siège EPDM, même gamme unidirectionnelle.", "EPDM seat, same unidirectional range."),
     dn: null,
     pn: "PN10",
@@ -62,7 +62,7 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_UNI, {
     reference: "172",
     slug: slug("172", "uni-inox-epdm"),
-    name: frEn("Vanne à guillotine unidirectionnelle inox — siège EPDM", "Unidirectional knife gate — stainless, EPDM seat"),
+    name: frEn("Vanne à guillotine unidirectionnelle inox - siège EPDM", "Unidirectional knife gate - stainless, EPDM seat"),
     description: frEn("Corps inox, milieux corrosifs et boues.", "Stainless body, corrosive media and sludge."),
     dn: null,
     pn: "PN10",
@@ -76,8 +76,8 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
     reference: "173",
     slug: slug("173", "uni-inox-siege-metal-non-etanche"),
     name: frEn(
-      "Vanne à guillotine unidirectionnelle inox — siège métal non étanche",
-      "Unidirectional knife gate — stainless, metal seat (non tight)",
+      "Vanne à guillotine unidirectionnelle inox - siège métal non étanche",
+      "Unidirectional knife gate - stainless, metal seat (non tight)",
     ),
     description: frEn(
       "Siège métal/métal, applications boues et fluides abrasifs.",
@@ -95,8 +95,8 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
     reference: "176",
     slug: slug("176", "uni-fonte-siege-metal-metal"),
     name: frEn(
-      "Vanne à guillotine unidirectionnelle fonte — siège métal/métal",
-      "Unidirectional knife gate — cast iron, metal/metal seat",
+      "Vanne à guillotine unidirectionnelle fonte - siège métal/métal",
+      "Unidirectional knife gate - cast iron, metal/metal seat",
     ),
     description: frEn(
       "Pelle métal, service eaux usées à forte abrasion.",
@@ -113,7 +113,7 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_BI, {
     reference: "177",
     slug: slug("177", "bi-fonte-epdm"),
-    name: frEn("Vanne à guillotine bidirectionnelle fonte — siège EPDM", "Bidirectional knife gate — cast iron, EPDM seat"),
+    name: frEn("Vanne à guillotine bidirectionnelle fonte - siège EPDM", "Bidirectional knife gate - cast iron, EPDM seat"),
     description: frEn(
       "Bidirectionnelle, passage plein, réseaux chargés.",
       "Bidirectional, full port, loaded line service.",
@@ -129,7 +129,7 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
   base(SUB_BI, {
     reference: "178",
     slug: slug("178", "bi-fonte-nbr"),
-    name: frEn("Vanne à guillotine bidirectionnelle fonte — siège NBR", "Bidirectional knife gate — cast iron, NBR seat"),
+    name: frEn("Vanne à guillotine bidirectionnelle fonte - siège NBR", "Bidirectional knife gate - cast iron, NBR seat"),
     description: frEn("NBR, bidirectionnelle pour eaux usées industrielles.", "NBR, bidirectional for industrial wastewater."),
     dn: null,
     pn: "PN10",
@@ -143,8 +143,8 @@ export const knifeGateValveRanges: CatalogRangeSeed[] = [
     reference: "179",
     slug: slug("179", "pelle-traversante-fonte-epdm"),
     name: frEn(
-      "Vanne à guillotine à pelle traversante fonte — siège EPDM",
-      "Through-blade knife gate — cast iron, EPDM seat",
+      "Vanne à guillotine à pelle traversante fonte - siège EPDM",
+      "Through-blade knife gate - cast iron, EPDM seat",
     ),
     description: frEn(
       "Pelle traversante, fluides chargés et isolation réseau.",

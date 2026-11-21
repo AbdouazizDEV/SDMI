@@ -157,8 +157,8 @@ async function buildHomePageDataUncached(): Promise<HomePageData> {
     hero: {
       imageStoragePath: siteAssets.hero,
       imageAlt: {
-        fr: "Sénégalaise de distribution de matériels industriels — robinetterie industrielle",
-        en: "Senegalese industrial equipment distributor — industrial valves",
+        fr: "Sénégalaise de distribution de matériels industriels - robinetterie industrielle",
+        en: "Senegalese industrial equipment distributor - industrial valves",
       },
     },
     trustIndicators: [

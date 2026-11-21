@@ -6,7 +6,7 @@ function frEn(fr: string, en: string): LocalizedText {
 }
 
 /**
- * Taxonomie livraison 1 — squelette catalogue SDMI.
+ * Taxonomie livraison 1 - squelette catalogue SDMI.
  * Référence structurelle : Sferaco (sans reprise de contenu propriétaire).
  */
 export const catalogV1Navigation: CatalogNavigation = {
@@ -14,42 +14,42 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "robinetterie-petrole-forgee-moulee",
       name: frEn(
-        "Robinetterie pétrole forgée – moulée",
+        "Robinetterie pétrole forgée - moulée",
         "Forged & cast petroleum valves",
       ),
       subfamilies: [
         {
           slug: "vannes-operucle-petrole-forge-moule",
           name: frEn(
-            "Vannes à opercule pétrole forgé – moulé",
+            "Vannes à opercule pétrole forgé - moulé",
             "Forged & cast petroleum gate valves",
           ),
         },
         {
           slug: "robinets-petrole-soufflet-soupapes-forge-moule",
           name: frEn(
-            "Robinets pétrole à soufflet et à soupapes forgé – moulé",
+            "Robinets pétrole à soufflet et à soupapes forgé - moulé",
             "Forged & cast petroleum bellows & globe valves",
           ),
         },
         {
           slug: "robinets-pointeau-petrole-forge-moule",
           name: frEn(
-            "Robinets à pointeau pétrole forgé – moulé",
+            "Robinets à pointeau pétrole forgé - moulé",
             "Forged & cast petroleum needle valves",
           ),
         },
         {
           slug: "filtres-petrole-forge-moule",
           name: frEn(
-            "Filtres pétrole forgé – moulé",
+            "Filtres pétrole forgé - moulé",
             "Forged & cast petroleum strainers",
           ),
         },
         {
           slug: "clapets-petrole-forge-moule",
           name: frEn(
-            "Clapets pétrole forgé – moulé",
+            "Clapets pétrole forgé - moulé",
             "Forged & cast petroleum check valves",
           ),
         },
@@ -290,8 +290,8 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "vannes-opercule-monobloc-fermeture-rapide",
           name: frEn(
-            "Vannes à opercule monobloc – vannes à fermeture rapide",
-            "Monobloc gate valves — quick closing",
+            "Vannes à opercule monobloc - vannes à fermeture rapide",
+            "Monobloc gate valves - quick closing",
           ),
         },
         {
@@ -304,7 +304,7 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "vannes-opercule-acier-inox-moule",
           name: frEn(
-            "Vannes à opercule acier moulé – inox moulé",
+            "Vannes à opercule acier moulé - inox moulé",
             "Cast steel & cast stainless gate valves",
           ),
         },
@@ -355,7 +355,7 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "robinets-soupape-pointeau",
       name: frEn(
-        "Robinets à soupape – robinets à pointeau",
+        "Robinets à soupape - robinets à pointeau",
         "Globe & needle valves",
       ),
       subfamilies: [
@@ -371,13 +371,13 @@ export const catalogV1Navigation: CatalogNavigation = {
           slug: "robinets-incendie-colonne-seche-prise-simple-ou-double",
           name: frEn(
             "Robinets incendie colonne sèche prise simple ou double",
-            "Dry riser fire valves — single or double outlet",
+            "Dry riser fire valves - single or double outlet",
           ),
         },
         {
           slug: "robinets-pied-de-colonne-perfection-a-flotteur",
           name: frEn(
-            "Robinets pied de colonne – Perfection – à flotteur",
+            "Robinets pied de colonne - Perfection - à flotteur",
             "Column foot, perfection & float valves",
           ),
         },
@@ -386,7 +386,7 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "robinets-tournant-spherique-acier-inox",
       name: frEn(
-        "Robinets à tournant sphérique acier – inox",
+        "Robinets à tournant sphérique acier - inox",
         "Steel & stainless ball valves",
       ),
       subfamilies: [
@@ -465,7 +465,7 @@ export const catalogV1Navigation: CatalogNavigation = {
     {
       slug: "vannes-sphere-laiton-fonte-pvc",
       name: frEn(
-        "Vannes à sphère laiton – fonte – PVC",
+        "Vannes à sphère laiton - fonte - PVC",
         "Brass, cast iron & PVC ball valves",
       ),
       subfamilies: [
@@ -500,15 +500,15 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "vannes-puisage-laiton-inox",
           name: frEn(
-            "Vannes de puisage Laiton – Inox",
+            "Vannes de puisage Laiton - Inox",
             "Brass & stainless draw-off valves",
           ),
         },
         {
           slug: "vannes-sphere-laiton-industrie-cadenassable-demultiplicateur",
           name: frEn(
-            "Vannes sphère Laiton industrie – Cadenassable – Démultiplicateur",
-            "Industrial brass ball valves — lockable, gear operator",
+            "Vannes sphère Laiton industrie - Cadenassable - Démultiplicateur",
+            "Industrial brass ball valves - lockable, gear operator",
           ),
         },
         {
@@ -521,7 +521,7 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "vannes-sphere-laiton-collecteurs-tetine",
           name: frEn(
-            "Vannes à sphère Laiton – Pour collecteurs – Avec tétine",
+            "Vannes à sphère Laiton - Pour collecteurs - Avec tétine",
             "Brass ball valves for manifolds with drain cock",
           ),
         },
@@ -539,7 +539,7 @@ export const catalogV1Navigation: CatalogNavigation = {
         {
           slug: "vannes-sphere-a-brides-laiton-fonte",
           name: frEn(
-            "Vannes à sphère à brides Laiton – Fonte",
+            "Vannes à sphère à brides Laiton - Fonte",
             "Flanged brass & cast iron ball valves",
           ),
         },

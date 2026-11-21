@@ -17,8 +17,8 @@ export const ballstopRanges: CatalogRangeSeed[] = [
     slug: "serie-324-vanne-a-sphere-avec-clapet-antipollution-scudoball-acs",
     name: frEn("324 - Vanne à sphère avec clapet antipollution Scudoball ACS", "324 - Ball valve avec Check valve anti-pollution Scudoball ACS"),
     description: frEn(
-      "Gamme protection et régulation des réseaux — catalogue SDMI.",
-      "Network protection & regulation range — SDMI catalog.",
+      "Gamme protection et régulation des réseaux - catalogue SDMI.",
+      "Network protection & regulation range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Laiton", "Brass"),
     connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "building"],
@@ -29,8 +29,8 @@ export const ballstopRanges: CatalogRangeSeed[] = [
     slug: "serie-324250-clapet-anti-retour-antipollution-ea-avec-vanne-incorporee",
     name: frEn("324250 - Clapet Anti retour Antipollution EA avec Vanne Incorporée", "324250 - Check valve Anti retour anti-pollution EA avec Vanne Incorporée"),
     description: frEn(
-      "Gamme protection et régulation des réseaux — catalogue SDMI.",
-      "Network protection & regulation range — SDMI catalog.",
+      "Gamme protection et régulation des réseaux - catalogue SDMI.",
+      "Network protection & regulation range - SDMI catalog.",
     ),
     dn: null, pn: null, material: frEn("Laiton", "Brass"),
     connectionType: "threaded", standards: ["en10204"], sectorTags: ["water", "building"],

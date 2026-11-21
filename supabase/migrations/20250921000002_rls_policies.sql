@@ -1,4 +1,4 @@
--- SDMI — Row Level Security
+-- SDMI - Row Level Security
 
 -- ---------------------------------------------------------------------------
 -- Helpers

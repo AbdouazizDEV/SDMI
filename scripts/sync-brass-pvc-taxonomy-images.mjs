@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-/** Visuels taxonomie — vannes à sphère laiton / fonte / PVC. */
+/** Visuels taxonomie - vannes à sphère laiton / fonte / PVC. */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";

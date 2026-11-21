@@ -12,7 +12,7 @@ export async function SiteTopBar() {
   return (
     <SiteUtilityBar
       hoursLabel={hours.weekdays}
-      locationLabel={`${depotShort} — ${address.line1}`}
+      locationLabel={`${depotShort} - ${address.line1}`}
       locationShortLabel={address.line1}
       phone={phone}
       phoneSrLabel={t("phoneLabel")}

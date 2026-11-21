@@ -1,4 +1,4 @@
-# Configuration Supabase locale — voir https://supabase.com/docs/guides/cli/config
+# Configuration Supabase locale - voir https://supabase.com/docs/guides/cli/config
 project_id = "sdmi-web"
 
 [db]
