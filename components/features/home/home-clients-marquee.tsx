@@ -18,6 +18,19 @@ type HomeClientsMarqueeProps = {
   fade?: "page" | "mask";
 };
 
+/** Répète la liste pour qu’un groupe dépasse largement la largeur d’écran. */
+function expandLogosForMarquee(
+  logos: HomeClientMarqueeLogo[],
+  minCount = 18,
+): HomeClientMarqueeLogo[] {
+  if (logos.length === 0) return logos;
+  const out: HomeClientMarqueeLogo[] = [];
+  while (out.length < minCount) {
+    out.push(...logos);
+  }
+  return out;
+}
+
 function LogoSlide({
   name,
   src,
@@ -37,7 +50,7 @@ function LogoSlide({
       className={
         isRef
           ? "flex h-28 w-[min(260px,44vw)] shrink-0 items-center justify-center px-4 md:h-36 md:w-[min(320px,38vw)] md:px-6"
-          : "sdmi-client-logo-float flex h-24 shrink-0 items-stretch px-2.5 md:h-28 lg:h-32"
+          : "sdmi-client-logo-float flex h-9 shrink-0 items-stretch md:h-10 lg:h-12"
       }
       style={isRef ? undefined : { animationDelay: `${floatDelay}s` }}
     >
@@ -45,23 +58,23 @@ function LogoSlide({
         className={
           isRef
             ? "flex size-full items-center justify-center rounded-2xl bg-white px-8 py-5 shadow-sm ring-1 ring-border/60"
-            : "relative h-full overflow-hidden rounded-2xl bg-white shadow-[0_18px_40px_-22px_rgba(0,0,0,0.75)] ring-1 ring-white/80 transition duration-500 ease-out hover:-translate-y-1 hover:scale-[1.03] hover:shadow-[0_24px_48px_-18px_rgba(0,0,0,0.55)]"
+            : "relative h-full overflow-hidden rounded-lg bg-white shadow-[0_10px_24px_-16px_rgba(0,0,0,0.7)] ring-1 ring-white/80 transition duration-500 ease-out hover:-translate-y-0.5 hover:scale-[1.03] hover:shadow-[0_14px_28px_-14px_rgba(0,0,0,0.5)]"
         }
         style={isRef || !ratio ? undefined : { aspectRatio: ratio }}
       >
         <Image
           src={src}
           alt={name}
-          {...(isRef
-            ? { width: 320, height: 120 }
-            : { fill: true })}
+          {...(isRef ? { width: 320, height: 120 } : { fill: true })}
           loading="lazy"
           className={
             isRef
               ? "max-h-14 w-auto max-w-full object-contain md:max-h-20 lg:max-h-24"
               : "object-cover"
           }
-          sizes={isRef ? "(max-width: 768px) 42vw, 280px" : "(max-width: 768px) 92vw, 900px"}
+          sizes={
+            isRef ? "(max-width: 768px) 42vw, 280px" : "(max-width: 768px) 40vw, 220px"
+          }
         />
       </div>
     </div>
@@ -79,12 +92,16 @@ function MarqueeGroup({
 }) {
   return (
     <ul
-      className="flex shrink-0 items-center"
+      className={
+        variant === "references"
+          ? "flex shrink-0 items-center"
+          : "flex shrink-0 items-center gap-5 pr-5 md:gap-7 md:pr-7 lg:gap-8 lg:pr-8"
+      }
       aria-hidden={ariaHidden || undefined}
     >
       {logos.map((logo, index) => (
-        <li key={`${logo.src}-${index}`}>
-          <LogoSlide {...logo} variant={variant} floatDelay={index * 0.35} />
+        <li key={`${logo.src}-${index}`} className="shrink-0">
+          <LogoSlide {...logo} variant={variant} floatDelay={(index % 8) * 0.35} />
         </li>
       ))}
     </ul>
@@ -101,6 +118,9 @@ export function HomeClientsMarquee({
   if (logos.length === 0) {
     return null;
   }
+
+  const sequence =
+    variant === "default" ? expandLogosForMarquee(logos) : logos;
 
   const style = {
     ["--sdmi-clients-marquee-duration" as string]: `${durationSeconds}s`,
@@ -135,8 +155,8 @@ export function HomeClientsMarquee({
             : "sdmi-clients-marquee-track flex w-max"
         }
       >
-        <MarqueeGroup logos={logos} variant={variant} />
-        <MarqueeGroup logos={logos} ariaHidden variant={variant} />
+        <MarqueeGroup logos={sequence} variant={variant} />
+        <MarqueeGroup logos={sequence} ariaHidden variant={variant} />
       </div>
 
       <ul className="sr-only">

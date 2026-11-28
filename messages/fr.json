@@ -80,6 +80,45 @@
       "hoursSaturday": "",
       "emailLabel": "E-mail",
       "copyright": "{year} © Tous droits réservés SDMI"
+    },
+    "offerShowcase": {
+      "fabLabel": "Nos gammes",
+      "openLabel": "Voir les gammes de produits SDMI",
+      "closeLabel": "Fermer le panneau des gammes",
+      "eyebrow": "Offre SDMI",
+      "title": "Ce que nous vendons",
+      "navLabel": "Gammes de produits",
+      "catalogCta": "Parcourir le catalogue",
+      "items": {
+        "robinetterie": {
+          "title": "Robinetterie",
+          "hint": "Vannes, robinets et organe de régulation des fluides."
+        },
+        "tuyauterie": {
+          "title": "Tuyauterie",
+          "hint": "Tubes, brides, raccords et accessoires de réseaux."
+        },
+        "visserie": {
+          "title": "Visserie",
+          "hint": "Boulonnerie et éléments de fixation industriels."
+        },
+        "quincaillerie": {
+          "title": "Quincaillerie",
+          "hint": "Fournitures et accessoires pour ateliers et chantiers."
+        },
+        "profiles": {
+          "title": "Profilés",
+          "hint": "Profilés et éléments de structure pour usages industriels."
+        },
+        "etancheite": {
+          "title": "Étanchéité",
+          "hint": "Joints, tresses, élastomères et solutions d’étanchéité."
+        },
+        "transmission": {
+          "title": "Transmission",
+          "hint": "Roulements, courroies, poulies, pignons et chaînes."
+        }
+      }
     }
   },
   "NotFound": {
@@ -313,9 +352,13 @@
     "sortDnAsc": "DN croissant",
     "sortDnDesc": "DN décroissant",
     "sortRefAsc": "Référence A→Z",
-    "stockInStock": "En stock Dakar ({count} unités)",
+    "stockInStock": "Stock · #count#",
     "certifiedBadge": "Certifié 3.1",
     "pdfDatasheet": "PDF (1,2 Mo)",
+    "cardSpecDn": "DN",
+    "cardSpecPn": "PN",
+    "cardSpecMaterial": "Matière",
+    "cardQuoteHint": "Sur configuration",
     "loadingCatalog": "Chargement du catalogue…",
     "catalogSupportLink": "Support technique & cotation sur plan →",
     "connections": {
@@ -381,6 +424,9 @@
       },
       "etancheite-statique": {
         "body": "Joints et éléments d’étanchéité statique pour brides et assemblages : fibres, élastomères, graphite, PTFE, mica, toriques, manchettes et tresses. Cotation et découpe sur plan au comptoir SDMI à Dakar."
+      },
+      "roulements": {
+        "body": "Gamme de roulements : roulements à billes, à rouleaux, accessoires, produits techniques et galets de piste. Cotation et disponibilité via le comptoir SDMI à Dakar."
       }
     },
     "familySkeletonHint": "Cette famille est en cours de structuration dans le catalogue SDMI. Notre équipe peut déjà vous orienter sur les gammes équivalentes et les alternatives en stock.",
@@ -388,6 +434,7 @@
     "referencesTitle": "Références catalogue",
     "subfamiliesTitle": "Sous-familles",
     "subfamilyDescription": "Références filtrables par DN, pression nominale et matière corps.",
+    "bearingsSubfamilyDescription": "Gammes de roulements avec description technique et visuel produit.",
     "emptySubfamily": "Aucune référence publiée pour cette sous-famille pour le moment. Notre équipe peut vous proposer une cotation sur plan ou une alternative en stock.",
     "emptySubfamilyTitle": "Catalogue en cours d'enrichissement",
     "emptySubfamilyQuoteCta": "Demander un devis",

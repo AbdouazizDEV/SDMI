@@ -367,13 +367,13 @@
       );
   }
 
-  /** Bandeau logos clients - défilement continu gauche → droite */
+  /** Bandeau logos clients - boucle sans trou (2 groupes identiques = -50%) */
   @keyframes sdmi-clients-marquee {
     from {
-      transform: translateX(-50%);
+      transform: translate3d(0, 0, 0);
     }
     to {
-      transform: translateX(0);
+      transform: translate3d(-50%, 0, 0);
     }
   }
 
@@ -381,19 +381,12 @@
     animation: sdmi-clients-marquee var(--sdmi-clients-marquee-duration, 48s)
       linear infinite;
     will-change: transform;
+    backface-visibility: hidden;
   }
 
-  @keyframes sdmi-clients-marquee-reverse {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
-  }
-
+  /** Sens opposé : même boucle, animation inversée */
   .sdmi-clients-marquee-track-reverse {
-    animation-name: sdmi-clients-marquee-reverse;
+    animation-direction: reverse;
   }
 
   .sdmi-clients-marquee-mask {
@@ -449,6 +442,65 @@
 
     .sdmi-clients-marquee-track > ul:last-child {
       display: none;
+    }
+  }
+
+  /** Tiroir flottant « Nos gammes » */
+  @keyframes sdmi-offer-fab-pulse {
+    0%,
+    100% {
+      opacity: 0.35;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.75;
+      transform: scale(1.35);
+    }
+  }
+
+  .sdmi-offer-fab-pulse {
+    animation: sdmi-offer-fab-pulse 2.4s ease-in-out infinite;
+  }
+
+  .sdmi-offer-drawer-grid {
+    background-image:
+      linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.06) 1px,
+        transparent 1px
+      ),
+      linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.06) 1px,
+        transparent 1px
+      );
+    background-size: 28px 28px;
+  }
+
+  @keyframes sdmi-offer-item-in {
+    from {
+      opacity: 0;
+      transform: translateX(1.25rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .sdmi-offer-drawer-item {
+    opacity: 0;
+    animation: sdmi-offer-item-in 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sdmi-offer-fab-pulse,
+    .sdmi-offer-drawer-item {
+      animation: none;
+    }
+
+    .sdmi-offer-drawer-item {
+      opacity: 1;
     }
   }
 }

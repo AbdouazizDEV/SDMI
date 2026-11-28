@@ -89,6 +89,11 @@ const BROWSEABLE_SUBFAMILY_SLUGS = new Set<string>([
   "joints-ptfe",
   "joints-toriques",
   "tresses-rubans-etancheite",
+  "ball-bearings",
+  "roller-bearings",
+  "bearings-accessories",
+  "engineered-products",
+  "track-rollers",
 ]);
 
 /** Familles dont la page catalogue est ouverte (au moins une sous-famille publiée). */
@@ -104,6 +109,7 @@ const BROWSEABLE_FAMILY_SLUGS = new Set<string>([
   "raccords-et-fittings",
   "protection-regulation-des-reseaux",
   "etancheite-statique",
+  "roulements",
 ]);
 
 export function isCatalogSubfamilyBrowseable(subfamilySlug: string): boolean {

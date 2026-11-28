@@ -1,7 +1,5 @@
 "use client";
 
-import { FileTextIcon } from "lucide-react";
-
 import { AddToQuoteButton } from "@/components/features/quote/add-to-quote-button";
 import { StorageMedia } from "@/components/features/home/storage-media";
 import { Link } from "@/i18n/navigation";
@@ -40,7 +38,6 @@ type CatalogProductGridCardProps = {
   specMaterialLabel: string;
   stockInStockLabel: string;
   certifiedBadge: string;
-  pdfLabel: string;
   quoteCta: string;
   rangeBadge: string;
   dnOnConfiguration: string;
@@ -54,13 +51,13 @@ export function CatalogProductGridCard({
   specMaterialLabel,
   stockInStockLabel,
   certifiedBadge,
-  pdfLabel,
   quoteCta,
   rangeBadge,
   dnOnConfiguration,
   quoteOnConfigurationLabel,
 }: CatalogProductGridCardProps) {
   const isRange = product.listingKind === "range";
+  const isBearing = product.familySlug === "roulements";
   const imagePath = product.imagePath;
 
   return (
@@ -69,19 +66,19 @@ export function CatalogProductGridCard({
         <span className="text-muted-foreground truncate font-mono text-[10px] font-semibold tracking-wide uppercase sm:text-[11px]">
           {product.reference}
         </span>
-        {isRange ? (
+        {!isBearing && isRange ? (
           <span className="bg-primary/10 text-primary shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-bold tracking-wide uppercase ring-1 ring-primary/15 sm:px-2.5 sm:text-[10px]">
             {rangeBadge}
           </span>
-        ) : product.certified31 ? (
+        ) : !isBearing && product.certified31 ? (
           <span className="shrink-0 rounded-full bg-emerald-500/15 px-1.5 py-0.5 text-[9px] font-bold tracking-wide text-emerald-800 uppercase ring-1 ring-emerald-600/25 sm:px-2.5 sm:text-[10px]">
             {certifiedBadge}
           </span>
-        ) : (
+        ) : !isBearing ? (
           <span className="bg-muted text-muted-foreground shrink-0 rounded-full px-1.5 py-0.5 text-[9px] font-bold tracking-wide uppercase sm:px-2.5 sm:text-[10px]">
             Stock
           </span>
-        )}
+        ) : null}
       </div>
 
       <Link
@@ -109,55 +106,66 @@ export function CatalogProductGridCard({
         >
           {product.title}
         </Link>
-        <p className="text-muted-foreground mt-1.5 hidden line-clamp-2 text-xs leading-relaxed sm:mt-2 sm:block md:text-sm">
-          {product.descriptionText}
-        </p>
 
-        <dl className="mt-2.5 grid grid-cols-3 gap-1 rounded-md bg-muted/40 p-1.5 text-center text-[9px] sm:mt-4 sm:gap-2 sm:rounded-lg sm:p-2.5 sm:text-[10px] md:text-xs">
-          <div>
-            <dt className="text-muted-foreground font-bold uppercase">{specDnLabel}</dt>
-            <dd className="text-foreground mt-0.5 font-semibold">
-              {product.dn
-                ? `DN${product.dn}`
-                : isRange
-                  ? dnOnConfiguration
-                  : "-"}
-            </dd>
-          </div>
-          <div>
-            <dt className="text-muted-foreground font-bold uppercase">{specPnLabel}</dt>
-            <dd className="text-foreground mt-0.5 font-semibold">{product.pn ?? "-"}</dd>
-          </div>
-          <div>
-            <dt className="text-muted-foreground font-bold uppercase">{specMaterialLabel}</dt>
-            <dd className="text-foreground mt-0.5 truncate font-semibold">
-              {product.materialLabel ?? "-"}
-            </dd>
-          </div>
-        </dl>
-
-        <div className="mt-2 hidden flex-wrap items-center justify-between gap-2 text-xs sm:mt-3 sm:flex">
-          {isRange || product.quoteOnConfiguration ? (
-            <p className="text-primary font-medium">{quoteOnConfigurationLabel}</p>
-          ) : (
-            <p className="text-foreground inline-flex items-center gap-1.5 font-medium">
-              <span
-                className="size-2 rounded-full bg-emerald-500 shadow-[0_0_0_2px] shadow-emerald-500/25"
-                aria-hidden
-              />
-              {stockInStockLabel.replace("{count}", String(product.stockUnits))}
+        {isBearing ? (
+          product.descriptionText ? (
+            <p className="text-muted-foreground mt-2 line-clamp-3 text-[11px] leading-relaxed sm:mt-3 sm:text-xs md:text-sm">
+              {product.descriptionText}
             </p>
-          )}
-          {product.documentCount > 0 ? (
-            <Link
-              href="/documentation"
-              className="text-primary hover:text-cta inline-flex items-center gap-1 font-semibold"
-            >
-              <FileTextIcon aria-hidden className="size-3.5" />
-              {pdfLabel}
-            </Link>
-          ) : null}
-        </div>
+          ) : null
+        ) : (
+          <>
+            <dl className="mt-2.5 grid grid-cols-3 gap-1 rounded-md bg-muted/40 p-1.5 text-center text-[9px] sm:mt-4 sm:gap-2 sm:rounded-lg sm:p-2.5 sm:text-[10px] md:text-xs">
+              <div>
+                <dt className="text-muted-foreground font-bold uppercase">
+                  {specDnLabel}
+                </dt>
+                <dd className="text-foreground mt-0.5 font-semibold">
+                  {product.dn
+                    ? `DN${product.dn}`
+                    : isRange
+                      ? dnOnConfiguration
+                      : "-"}
+                </dd>
+              </div>
+              <div>
+                <dt className="text-muted-foreground font-bold uppercase">
+                  {specPnLabel}
+                </dt>
+                <dd className="text-foreground mt-0.5 font-semibold">
+                  {product.pn ?? "-"}
+                </dd>
+              </div>
+              <div>
+                <dt className="text-muted-foreground font-bold uppercase">
+                  {specMaterialLabel}
+                </dt>
+                <dd className="text-foreground mt-0.5 truncate font-semibold">
+                  {product.materialLabel ?? "-"}
+                </dd>
+              </div>
+            </dl>
+
+            <div className="mt-2 hidden sm:mt-3 sm:block">
+              {isRange || product.quoteOnConfiguration ? (
+                <p className="text-primary truncate text-xs font-medium">
+                  {quoteOnConfigurationLabel}
+                </p>
+              ) : (
+                <p className="text-foreground inline-flex items-center gap-1.5 text-xs font-medium">
+                  <span
+                    className="size-2 shrink-0 rounded-full bg-emerald-500 shadow-[0_0_0_2px] shadow-emerald-500/25"
+                    aria-hidden
+                  />
+                  {stockInStockLabel.replace(
+                    "#count#",
+                    String(product.stockUnits),
+                  )}
+                </p>
+              )}
+            </div>
+          </>
+        )}
 
         <AddToQuoteButton
           productId={product.id}
@@ -166,7 +174,7 @@ export function CatalogProductGridCard({
           name={product.name}
           size="default"
           label={quoteCta}
-          className="bg-cta text-cta-foreground hover:bg-cta/90 border-cta mt-2.5 h-10 w-full rounded-sm text-[10px] font-bold tracking-wide uppercase sm:mt-4 sm:h-11 sm:text-xs"
+          className="bg-cta text-cta-foreground hover:bg-cta/90 border-cta mt-auto h-10 w-full rounded-sm text-[10px] font-bold tracking-wide uppercase sm:mt-4 sm:h-11 sm:text-xs"
         />
       </div>
     </article>

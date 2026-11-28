@@ -50,17 +50,17 @@ export function ClientsTrustSection({
           </div>
         ) : null}
 
-        <div className="flex flex-col gap-5 md:gap-7">
+        <div className="flex flex-col gap-6 md:gap-8">
           <HomeClientsMarquee
             logos={topRow}
-            durationSeconds={38}
+            durationSeconds={42}
             direction="forward"
             fade="mask"
           />
           {bottomRow.length > 0 ? (
             <HomeClientsMarquee
               logos={bottomRow}
-              durationSeconds={46}
+              durationSeconds={52}
               direction="reverse"
               fade="mask"
             />
