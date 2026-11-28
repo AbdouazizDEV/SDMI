@@ -450,5 +450,49 @@
     .sdmi-clients-marquee-track > ul:last-child {
       display: none;
     }
+
+    .admin-login-grid,
+    .admin-login-brand,
+    .admin-login-card {
+      animation: none !important;
+    }
+  }
+}
+
+/* Admin login */
+.admin-login-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at center, black 20%, transparent 75%);
+  animation: admin-login-grid-drift 28s linear infinite;
+}
+
+.admin-login-brand {
+  animation: admin-login-rise 0.7s ease-out both;
+}
+
+.admin-login-card {
+  animation: admin-login-rise 0.75s ease-out 0.08s both;
+}
+
+@keyframes admin-login-grid-drift {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 48px 48px;
+  }
+}
+
+@keyframes admin-login-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
