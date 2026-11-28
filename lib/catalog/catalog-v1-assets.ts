@@ -18,6 +18,7 @@ export const catalogV1FamilyImages: Record<string, string> = {
     "/images/Vannes_à_sphère_laiton_fonte_PVC.jpeg",
   "protection-regulation-des-reseaux":
     "/images/catalog/taxonomy/protection-regulation-des-reseaux.jpg",
+  roulements: "/images/catalog/roulements/taxonomy/roulements.png",
 };
 
 export const catalogV1SubfamilyImages: Record<string, string> = {
@@ -124,6 +125,13 @@ export const catalogV1SubfamilyImages: Record<string, string> = {
   "joints-ptfe": "/images/joints-ptfe.jpg",
   "joints-toriques": "/images/joints-toriques-et-bagues-anti-extrusion.jpg",
   "tresses-rubans-etancheite": "/images/tresses-rubans-etancheite.jpg",
+  "ball-bearings": "/images/catalog/roulements/taxonomy/ball-bearings.jpg",
+  "roller-bearings": "/images/catalog/roulements/taxonomy/roller-bearings.png",
+  "bearings-accessories":
+    "/images/catalog/roulements/taxonomy/bearings-accessories.png",
+  "engineered-products":
+    "/images/catalog/roulements/taxonomy/engineered-products.png",
+  "track-rollers": "/images/catalog/roulements/taxonomy/track-rollers.png",
 };
 
 export function getCatalogV1FamilyImage(slug: string): string | null {

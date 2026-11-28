@@ -623,6 +623,35 @@ export const catalogV1Navigation: CatalogNavigation = {
         },
       ],
     },
+    {
+      slug: "roulements",
+      name: frEn("Roulements", "Rolling bearings"),
+      subfamilies: [
+        {
+          slug: "ball-bearings",
+          name: frEn("Roulements à billes", "Ball bearings"),
+        },
+        {
+          slug: "roller-bearings",
+          name: frEn("Roulements à rouleaux", "Roller bearings"),
+        },
+        {
+          slug: "bearings-accessories",
+          name: frEn(
+            "Accessoires de roulements",
+            "Bearings accessories",
+          ),
+        },
+        {
+          slug: "engineered-products",
+          name: frEn("Produits techniques", "Engineered products"),
+        },
+        {
+          slug: "track-rollers",
+          name: frEn("Galets de piste", "Track rollers"),
+        },
+      ],
+    },
   ],
   sectors: [
     {

@@ -5,6 +5,7 @@ import { NavigationProgress } from "./navigation-progress";
 import { SiteFooter } from "./site-footer";
 import { SiteHeader } from "./site-header";
 import { SiteTopBar } from "./site-top-bar";
+import { OfferShowcaseDrawer } from "./offer-showcase-drawer";
 import { WhatsAppFloatingButton } from "./whatsapp-floating-button";
 
 type SiteShellProps = {
@@ -30,6 +31,7 @@ export function SiteShell({ children }: SiteShellProps) {
       </div>
       <SiteFooter catalog={catalog} />
       <MobileBottomBar />
+      <OfferShowcaseDrawer />
       <WhatsAppFloatingButton />
     </>
   );

@@ -58,6 +58,7 @@ export async function CatalogSubfamilyPage({
     .map((product) => toBrowseProductCard(product, locale));
 
   const hasActiveFilters = Boolean(active.dn || active.pn || active.material);
+  const isBearing = family.slug === "roulements";
 
   return (
     <PageMain>
@@ -88,12 +89,19 @@ export async function CatalogSubfamilyPage({
               {subName}
             </h1>
             <p className="text-muted-foreground mt-4 max-w-2xl text-base leading-relaxed">
-              {t("subfamilyDescription")}
+              {isBearing
+                ? t("bearingsSubfamilyDescription")
+                : t("subfamilyDescription")}
             </p>
-            <p className="text-primary mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1.5 text-sm font-semibold ring-1 ring-emerald-600/20">
-              <CheckCircle2Icon aria-hidden className="size-4 text-emerald-600" />
-              {t("stockBadge")}
-            </p>
+            {!isBearing ? (
+              <p className="text-primary mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3 py-1.5 text-sm font-semibold ring-1 ring-emerald-600/20">
+                <CheckCircle2Icon
+                  aria-hidden
+                  className="size-4 text-emerald-600"
+                />
+                {t("stockBadge")}
+              </p>
+            ) : null}
           </div>
 
           <div className="sdmi-surface-card sdmi-surface-card-accent w-full max-w-md overflow-hidden justify-self-center lg:max-w-none lg:justify-self-end">
@@ -109,24 +117,32 @@ export async function CatalogSubfamilyPage({
       </div>
 
       <div className="mx-auto max-w-7xl px-4 py-10 lg:px-6 lg:py-14">
-        <div className="grid gap-8 lg:grid-cols-[17rem_1fr] lg:gap-10">
-          <CatalogFiltersSidebar
-            locale={locale}
-            basePath={basePath}
-            products={allProducts}
-            active={{
-              dn: Number.isNaN(active.dn) ? undefined : active.dn,
-              pn: active.pn,
-              material: active.material,
-            }}
-          />
+        <div
+          className={
+            isBearing
+              ? "grid gap-8"
+              : "grid gap-8 lg:grid-cols-[17rem_1fr] lg:gap-10"
+          }
+        >
+          {!isBearing ? (
+            <CatalogFiltersSidebar
+              locale={locale}
+              basePath={basePath}
+              products={allProducts}
+              active={{
+                dn: Number.isNaN(active.dn) ? undefined : active.dn,
+                pn: active.pn,
+                material: active.material,
+              }}
+            />
+          ) : null}
 
           <div className="min-w-0">
             <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
               <p className="text-muted-foreground text-sm">
                 {t("resultsCount", { count: products.length })}
               </p>
-              {hasActiveFilters ? (
+              {!isBearing && hasActiveFilters ? (
                 <Link
                   href={basePath}
                   className="text-primary text-xs font-semibold hover:text-cta hover:underline"
@@ -139,7 +155,10 @@ export async function CatalogSubfamilyPage({
             {products.length === 0 ? (
               <CatalogSubfamilyEmpty />
             ) : (
-              <CatalogProductGridList products={productCards} labels={gridLabels} />
+              <CatalogProductGridList
+                products={productCards}
+                labels={gridLabels}
+              />
             )}
           </div>
         </div>

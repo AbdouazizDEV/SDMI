@@ -11,7 +11,6 @@ export type CatalogGridCardLabels = {
   specMaterial: string;
   stockInStock: string;
   certifiedBadge: string;
-  pdfLabel: string;
   quoteProductCta: string;
   rangeBadge: string;
   dnOnConfiguration: string;
@@ -40,7 +39,6 @@ export function CatalogProductGridList({
             specMaterialLabel={labels.specMaterial}
             stockInStockLabel={labels.stockInStock}
             certifiedBadge={labels.certifiedBadge}
-            pdfLabel={labels.pdfLabel}
             quoteCta={labels.quoteProductCta}
             rangeBadge={labels.rangeBadge}
             dnOnConfiguration={labels.dnOnConfiguration}

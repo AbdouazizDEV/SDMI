@@ -46,32 +46,35 @@ export async function CatalogProductPage({
         : [];
 
   const isRange = product.listingKind === "range";
+  const isBearing = product.familySlug === "roulements";
   const tech = product.technicalSpecs;
 
-  const specs = [
-    product.dn
-      ? { label: t("specDn"), value: `DN${product.dn}` }
-      : isRange
-        ? { label: t("specDn"), value: t("dnOnConfiguration") }
-        : null,
-    product.pn ? { label: t("specPn"), value: product.pn } : null,
-    tech?.pressureClass
-      ? { label: t("specPressureClass"), value: tech.pressureClass }
-      : null,
-    tech?.trim ? { label: t("specTrim"), value: tech.trim } : null,
-    tech?.connectionLabel
-      ? {
-          label: t("specConnection"),
-          value: pickLocalized(tech.connectionLabel, locale),
-        }
-      : null,
-    product.material
-      ? {
-          label: t("specMaterial"),
-          value: pickLocalized(product.material, locale),
-        }
-      : null,
-  ].filter(Boolean) as { label: string; value: string }[];
+  const specs = isBearing
+    ? []
+    : ([
+        product.dn
+          ? { label: t("specDn"), value: `DN${product.dn}` }
+          : isRange
+            ? { label: t("specDn"), value: t("dnOnConfiguration") }
+            : null,
+        product.pn ? { label: t("specPn"), value: product.pn } : null,
+        tech?.pressureClass
+          ? { label: t("specPressureClass"), value: tech.pressureClass }
+          : null,
+        tech?.trim ? { label: t("specTrim"), value: tech.trim } : null,
+        tech?.connectionLabel
+          ? {
+              label: t("specConnection"),
+              value: pickLocalized(tech.connectionLabel, locale),
+            }
+          : null,
+        product.material
+          ? {
+              label: t("specMaterial"),
+              value: pickLocalized(product.material, locale),
+            }
+          : null,
+      ].filter(Boolean) as { label: string; value: string }[]);
 
   return (
     <PageMain>
@@ -120,7 +123,7 @@ export async function CatalogProductPage({
 
           <div className="min-w-0">
             <div className="mb-5 flex flex-wrap items-center gap-2">
-              {isRange ? (
+              {!isBearing && isRange ? (
                 <span className="bg-primary/10 text-primary inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[11px] font-bold tracking-widest uppercase ring-1 ring-primary/15">
                   <SparklesIcon aria-hidden className="size-3.5" />
                   {t("rangeBadge")}
@@ -141,17 +144,17 @@ export async function CatalogProductPage({
               {name}
             </h1>
 
-            {isRange ? (
+            {!isBearing && isRange ? (
               <p className="text-primary mt-5 inline-flex items-center gap-2 rounded-full bg-primary/5 px-3.5 py-1.5 text-sm font-semibold ring-1 ring-primary/15">
                 <CheckCircle2Icon aria-hidden className="text-primary size-4" />
                 {t("quoteOnConfiguration")}
               </p>
-            ) : (
+            ) : !isBearing ? (
               <p className="mt-5 inline-flex items-center gap-2 rounded-full bg-emerald-500/10 px-3.5 py-1.5 text-sm font-semibold text-emerald-800 ring-1 ring-emerald-600/20">
                 <CheckCircle2Icon aria-hidden className="size-4 text-emerald-600" />
                 {t("stockBadge")}
               </p>
-            )}
+            ) : null}
 
             {description ? (
               <section className="border-border/70 mt-7 rounded-2xl border bg-gradient-to-br from-card via-card to-muted/25 p-5 shadow-[0_10px_36px_-22px_rgba(27,58,87,0.35)] md:p-6">

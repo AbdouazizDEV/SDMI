@@ -36,6 +36,7 @@ import { micaRanges } from "@/lib/catalog/seeds/mica-ranges";
 import { tressesRubansRanges } from "@/lib/catalog/seeds/tresses-rubans-ranges";
 import { ptfeRanges } from "@/lib/catalog/seeds/ptfe-ranges";
 import { toriquesRanges } from "@/lib/catalog/seeds/toriques-ranges";
+import { roulementsAllRanges } from "@/lib/catalog/seeds/roulements";
 
 const ALL_SEEDS: CatalogRangeSeed[] = [
   ...petroleumGateValveRanges,
@@ -73,6 +74,7 @@ const ALL_SEEDS: CatalogRangeSeed[] = [
   ...tressesRubansRanges,
   ...ptfeRanges,
   ...toriquesRanges,
+  ...roulementsAllRanges,
 ];
 
 export function seedToListItem(seed: CatalogRangeSeed): CatalogProductListItem {

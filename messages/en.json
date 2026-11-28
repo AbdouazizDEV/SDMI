@@ -80,6 +80,45 @@
       "hoursSaturday": "",
       "emailLabel": "Email",
       "copyright": "{year} © All rights reserved SDMI"
+    },
+    "offerShowcase": {
+      "fabLabel": "Our ranges",
+      "openLabel": "View SDMI product ranges",
+      "closeLabel": "Close product ranges panel",
+      "eyebrow": "SDMI offer",
+      "title": "What we sell",
+      "navLabel": "Product ranges",
+      "catalogCta": "Browse the catalog",
+      "items": {
+        "robinetterie": {
+          "title": "Valves",
+          "hint": "Valves, cocks and fluid-control equipment."
+        },
+        "tuyauterie": {
+          "title": "Piping",
+          "hint": "Pipes, flanges, fittings and network accessories."
+        },
+        "visserie": {
+          "title": "Fasteners",
+          "hint": "Bolting and industrial fastening components."
+        },
+        "quincaillerie": {
+          "title": "Hardware",
+          "hint": "Workshop and site hardware supplies."
+        },
+        "profiles": {
+          "title": "Profiles",
+          "hint": "Structural profiles for industrial applications."
+        },
+        "etancheite": {
+          "title": "Sealing",
+          "hint": "Gaskets, packings, elastomers and sealing solutions."
+        },
+        "transmission": {
+          "title": "Power transmission",
+          "hint": "Bearings, belts, pulleys, sprockets and chains."
+        }
+      }
     }
   },
   "NotFound": {
@@ -313,9 +352,13 @@
     "sortDnAsc": "DN ascending",
     "sortDnDesc": "DN descending",
     "sortRefAsc": "Reference A→Z",
-    "stockInStock": "In stock Dakar ({count} units)",
+    "stockInStock": "Stock · #count#",
     "certifiedBadge": "Certified 3.1",
     "pdfDatasheet": "PDF (1.2 MB)",
+    "cardSpecDn": "DN",
+    "cardSpecPn": "PN",
+    "cardSpecMaterial": "Material",
+    "cardQuoteHint": "On configuration",
     "loadingCatalog": "Loading catalog…",
     "catalogSupportLink": "Technical support & spec quoting →",
     "connections": {
@@ -381,6 +424,9 @@
       },
       "etancheite-statique": {
         "body": "Static sealing gaskets and elements for flanges and assemblies: fiber, elastomers, graphite, PTFE, mica, O-rings, sleeves and packings. Quotation and cut-to-drawing at the SDMI counter in Dakar."
+      },
+      "roulements": {
+        "body": "Rolling bearings range: ball bearings, roller bearings, accessories, engineered products and track rollers. Quotation and availability via the SDMI counter in Dakar."
       }
     },
     "familySkeletonHint": "This family is being structured in the SDMI catalog. Our team can already guide you on equivalent ranges and in-stock alternatives.",
@@ -388,6 +434,7 @@
     "referencesTitle": "Catalog references",
     "subfamiliesTitle": "Subfamilies",
     "subfamilyDescription": "References filterable by DN, nominal pressure and body material.",
+    "bearingsSubfamilyDescription": "Bearing ranges with technical description and product image.",
     "emptySubfamily": "No published references in this subfamily yet. Our team can quote from your spec or suggest an in-stock alternative.",
     "emptySubfamilyTitle": "Catalog being updated",
     "emptySubfamilyQuoteCta": "Request a quote",

@@ -6,15 +6,14 @@ type CatalogGridLabelTranslator = {
 
 export function buildCatalogGridCardLabels(t: CatalogGridLabelTranslator): CatalogGridCardLabels {
   return {
-    specDn: t("specDn"),
-    specPn: t("specPn"),
-    specMaterial: t("specMaterial"),
+    specDn: t("cardSpecDn"),
+    specPn: t("cardSpecPn"),
+    specMaterial: t("cardSpecMaterial"),
     stockInStock: t("stockInStock"),
     certifiedBadge: t("certifiedBadge"),
-    pdfLabel: t("pdfDatasheet"),
     quoteProductCta: t("quoteProductCta"),
     rangeBadge: t("rangeBadge"),
     dnOnConfiguration: t("dnOnConfiguration"),
-    quoteOnConfigurationLabel: t("quoteOnConfiguration"),
+    quoteOnConfigurationLabel: t("cardQuoteHint"),
   };
 }
